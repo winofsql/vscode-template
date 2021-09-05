@@ -6,6 +6,7 @@ Visual Studio Code 用テンプレート
     "editor.mouseWheelZoom": true,
     "editor.detectIndentation": false,
     "editor.renderWhitespace": "boundary",
+    "editor.fontSize": 16
     "files.autoSave": "afterDelay",
     "java.home": "c:\\java11",
     "workbench.colorTheme": "Default Light+",

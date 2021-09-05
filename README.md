@@ -1,5 +1,5 @@
 # vscode-template
-
+Visual Studio Code 用テンプレート
 ## settings.json( "C:\Users\ユーザ名\AppData\Roaming\Code\User\settings.json" )
 ```javascript
 {

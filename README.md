@@ -38,7 +38,8 @@ Visual Studio Code 用テンプレート
 | editor.detectIndentation | false | ファイルがファイルの内容に基づいて開かれる場合、#editor.tabSize# と #editor.insertSpaces# を自動的に検出するかどうかを制御します。 
 | editor.renderWhitespace | boundary | 単語間の単一スペース以外の空白文字を表示します。 
   
-  
+\
+\
   
 
 ## Extension Pack for Java

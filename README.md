@@ -40,7 +40,7 @@ Visual Studio Code 用テンプレート
   
 \
 \
-\
+
 ## Extension Pack for Java
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)
 ## Code Runner

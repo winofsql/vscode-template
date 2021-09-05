@@ -39,7 +39,7 @@ Visual Studio Code 用テンプレート
 | editor.renderWhitespace | boundary | 単語間の単一スペース以外の空白文字を表示します。 
   
 a\
-b\
+  
 
 ## Extension Pack for Java
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)

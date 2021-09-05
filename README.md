@@ -33,3 +33,5 @@
 
 ## Extension Pack for Java
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)
+## Code Runner
+![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)

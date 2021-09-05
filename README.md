@@ -1,6 +1,6 @@
 # vscode-template
 
-## settings.json
+## settings.json( "C:\Users\ユーザ名\AppData\Roaming\Code\User\settings.json" )
 ```javascript
 {
     "editor.mouseWheelZoom": true,

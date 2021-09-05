@@ -32,15 +32,10 @@ Visual Studio Code 用テンプレート
     "terminal.integrated.automationShell.windows": "C:\\WINDOWS\\system32\\cmd.exe"
 }
 ```
-| Command | Description |
-| --- | --- |
-| editor.mouseWheelZoom | Ctrl キーを押しながらマウス ホイールを使用してエディターのフォントをズームします。|
-| editor.detectIndentation | ファイルがファイルの内容に基づいて開かれる場合、#editor.tabSize# と #editor.insertSpaces# を自動的に検出するかどうかを制御します。 |
-
-| Command | Description |
-| --- | --- |
-| 内容セル  | 内容セル  |
-| 内容セル  | 内容セル  |
+| Keyword | | Description |
+| --- | --- | --- |
+| editor.mouseWheelZoom | true | Ctrl キーを押しながらマウス ホイールを使用してエディターのフォントをズームします。|
+| editor.detectIndentation | false | ファイルがファイルの内容に基づいて開かれる場合、#editor.tabSize# と #editor.insertSpaces# を自動的に検出するかどうかを制御します。 |
 
 ## Extension Pack for Java
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)

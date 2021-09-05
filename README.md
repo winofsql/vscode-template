@@ -33,7 +33,7 @@ Visual Studio Code 用テンプレート
 }
 ```
 | Keyword | | Description 
-| --- | --- | --- 
+| --- | --- | :---  
 | editor.mouseWheelZoom | true | Ctrl キーを押しながらマウス ホイールを使用してエディターのフォントをズームします。
 | editor.detectIndentation | false | ファイルがファイルの内容に基づいて開かれる場合、#editor.tabSize# と #editor.insertSpaces# を自動的に検出するかどうかを制御します。 
 | editor.renderWhitespace | boundary | 単語間の単一スペース以外の空白文字を表示します。 

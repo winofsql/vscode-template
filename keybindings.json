@@ -1,0 +1,39 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "ctrl+pausebreak",
+        "command": "extension.enableZenkaku"
+    },
+    {
+        "key": "shift+pausebreak",
+        "command": "extension.disableZenkaku"
+    },
+    {
+        "key": "ctrl+f1",
+        "command": "workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "ctrl+k f",
+        "command": "-workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "f5",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "f5",
+        "command": "mysql.runSQL",
+        "when": "editorLangId == 'sql'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-mysql.runSQL",
+        "when": "editorLangId == 'sql'"
+    }
+]

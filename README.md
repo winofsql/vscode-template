@@ -39,6 +39,7 @@ Visual Studio Code 用テンプレート
 | editor.renderWhitespace | boundary | 単語間の単一スペース以外の空白文字を表示します。 
   
 ## keybindings.json
+C:\Users\ユーザ名\AppData\Roaming\Code\User
 ```javascript
 [
     {

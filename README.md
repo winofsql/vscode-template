@@ -93,4 +93,4 @@ Visual Studio Code 用テンプレート
 ## Python
 ![image](https://user-images.githubusercontent.com/1501327/132113215-7c6ca944-66cb-4a01-9016-b13561e34d10.png)
 ## 全角表示
-![image](https://user-images.githubusercontent.com/1501327/132939755-9fe9bfeb-756d-4481-a01c-5f41b041c0f5.png)
+![image](https://user-images.githubusercontent.com/1501327/132939808-726ac268-17c2-47f5-a7cd-2339f662ceba.png)

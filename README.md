@@ -38,7 +38,49 @@ Visual Studio Code 用テンプレート
 | editor.detectIndentation | false | ファイルがファイルの内容に基づいて開かれる場合、#editor.tabSize# と #editor.insertSpaces# を自動的に検出するかどうかを制御します。 
 | editor.renderWhitespace | boundary | 単語間の単一スペース以外の空白文字を表示します。 
   
-　      
+## keybindings.json
+```javascript
+[
+    {
+        "key": "ctrl+pausebreak",
+        "command": "extension.enableZenkaku"
+    },
+    {
+        "key": "shift+pausebreak",
+        "command": "extension.disableZenkaku"
+    },
+    {
+        "key": "ctrl+f1",
+        "command": "workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "ctrl+k f",
+        "command": "-workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "f5",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "f5",
+        "command": "mysql.runSQL",
+        "when": "editorLangId == 'sql'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-mysql.runSQL",
+        "when": "editorLangId == 'sql'"
+    }
+]
+```
+
+
 　  
 
 ## Extension Pack for Java

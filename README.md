@@ -89,7 +89,21 @@ Visual Studio Code 用テンプレート
 ## dotnet C# ( Dotnet Core )
 ![image](https://user-images.githubusercontent.com/1501327/132970933-bedc9e7f-23b9-44ba-b5c5-aed6c418d794.png)
 1. dotnet new console
-2. code-runner
+```cs
+using System;
+
+namespace cs_core_0912
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
+3. code-runner
 ```javascript
     "code-runner.executorMap": {
         "csharp": "dotnet run"

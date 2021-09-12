@@ -83,8 +83,24 @@ keyboard json
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)
 ## Code Runner
 ![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)
+**▼ keybindings.json**
+```javascript
+    {
+        "key": "f5",
+        "command": "code-runner.run",
+        "when": "editorLangId != 'java'"
+    }
+```
 ## MySQL
 ![image](https://user-images.githubusercontent.com/1501327/132113188-f6e02a8e-4d19-49ba-96f9-8f01905e50b5.png)
+**▼ keybindings.json**
+```javascript
+    {
+        "key": "f5",
+        "command": "mysql.runSQL",
+        "when": "editorLangId == 'sql'"
+    }
+```
 ## Python
 ![image](https://user-images.githubusercontent.com/1501327/132113215-7c6ca944-66cb-4a01-9016-b13561e34d10.png)
 ## 全角表示

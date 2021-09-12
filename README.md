@@ -85,7 +85,7 @@ keyboard json
 ```
 java.project.sourcePaths
 ```
-![image](https://user-images.githubusercontent.com/1501327/133005512-42a7f24c-fdf9-4001-88c2-0bdf50385f93.png)
+![image](https://user-images.githubusercontent.com/1501327/133005637-f392d0ac-760e-4a50-956f-cf5cddebf2dd.png)
 
 ## Code Runner
 ![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)\

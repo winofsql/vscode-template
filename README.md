@@ -85,6 +85,8 @@ keyboard json
 ```
 java.project.sourcePaths
 ```
+![image](https://user-images.githubusercontent.com/1501327/133005512-42a7f24c-fdf9-4001-88c2-0bdf50385f93.png)
+
 ## Code Runner
 ![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)\
 **▼ keybindings.json**

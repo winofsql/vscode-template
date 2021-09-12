@@ -14,17 +14,9 @@
         "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
     },
     {
-        "key": "ctrl+k f",
-        "command": "-workbench.action.closeFolder",
-        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
-    },
-    {
         "key": "f5",
-        "command": "code-runner.run"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "-code-runner.run"
+        "command": "code-runner.run",
+        "when": "editorLangId != 'java'"
     },
     {
         "key": "f5",
@@ -32,8 +24,7 @@
         "when": "editorLangId == 'sql'"
     },
     {
-        "key": "ctrl+enter",
-        "command": "-mysql.runSQL",
-        "when": "editorLangId == 'sql'"
+        "key": "shift+alt+k",
+        "command": "workbench.action.openGlobalKeybindingsFile"
     }
 ]

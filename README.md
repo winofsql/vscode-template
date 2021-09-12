@@ -82,7 +82,7 @@ keyboard json
 ## Extension Pack for Java
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)
 ## Code Runner
-![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)
+![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)\
 **▼ keybindings.json**
 ```javascript
     {
@@ -92,7 +92,7 @@ keyboard json
     }
 ```
 ## MySQL
-![image](https://user-images.githubusercontent.com/1501327/132113188-f6e02a8e-4d19-49ba-96f9-8f01905e50b5.png)
+![image](https://user-images.githubusercontent.com/1501327/132113188-f6e02a8e-4d19-49ba-96f9-8f01905e50b5.png)\
 **▼ keybindings.json**
 ```javascript
     {

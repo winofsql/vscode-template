@@ -117,3 +117,6 @@ namespace cs_core_0912
     "code-runner.runInTerminal": true
 ```
 
+```javascript
+javascript:s=location.href;s=s.replace("en","ja");location.href=s;void(0);
+```

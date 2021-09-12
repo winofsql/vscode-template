@@ -119,5 +119,5 @@ namespace cs_core_0912
 
 ![image](https://user-images.githubusercontent.com/1501327/132984562-c7f8fd42-5e98-40bc-a78e-00d130387de3.png)
 ```javascript
-javascript:s=location.href;s=s.replace("en","ja");location.href=s;void(0);
+javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```

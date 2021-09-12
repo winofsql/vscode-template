@@ -41,6 +41,7 @@ Visual Studio Code 用テンプレート
 ## keybindings.json : C:\Users\\%username%\AppData\Roaming\Code\User
 
 ```javascript
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
 [
     {
         "key": "ctrl+pausebreak",
@@ -56,17 +57,9 @@ Visual Studio Code 用テンプレート
         "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
     },
     {
-        "key": "ctrl+k f",
-        "command": "-workbench.action.closeFolder",
-        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
-    },
-    {
         "key": "f5",
-        "command": "code-runner.run"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "-code-runner.run"
+        "command": "code-runner.run",
+        "when": "editorLangId != 'java'"
     },
     {
         "key": "f5",
@@ -74,9 +67,8 @@ Visual Studio Code 用テンプレート
         "when": "editorLangId == 'sql'"
     },
     {
-        "key": "ctrl+enter",
-        "command": "-mysql.runSQL",
-        "when": "editorLangId == 'sql'"
+        "key": "shift+alt+k",
+        "command": "workbench.action.openGlobalKeybindingsFile"
     }
 ]
 ```

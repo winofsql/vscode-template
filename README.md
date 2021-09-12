@@ -116,7 +116,7 @@ namespace cs_core_0912
 ```javascript
     "code-runner.runInTerminal": true
 ```
-
+## PHP ( @builtin の PHP Language Features を無効にする )
 ![image](https://user-images.githubusercontent.com/1501327/132984562-c7f8fd42-5e98-40bc-a78e-00d130387de3.png)
 ```javascript
 javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);

@@ -95,4 +95,8 @@ Visual Studio Code 用テンプレート
         "csharp": "dotnet run"
     }
 ```
+3. code-runner( .vscode )
+```javascript
+    "code-runner.runInTerminal": true
+```
 

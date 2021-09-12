@@ -1,6 +1,6 @@
 # vscode-template
 Visual Studio Code 用テンプレート
-## settings.json( "C:\Users\ユーザ名\AppData\Roaming\Code\User\settings.json" )
+## settings.json( "C:\Users\\%username\AppData\Roaming\Code\User\settings.json" )
 ```javascript
 {
     "editor.mouseWheelZoom": true,

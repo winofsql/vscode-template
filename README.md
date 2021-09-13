@@ -45,6 +45,9 @@ Visual Studio Code 用テンプレート
 | :--- | :---  
 | SHIFT + ALT + F | フォーマット
 | SHIFT + ALT + ドラッグ | 矩形選択
+| Alt + UpまたはAlt + Down | 選択単位で上下移動
+
+
 
 ## keybindings.json : C:\Users\\%username%\AppData\Roaming\Code\User
 ▼ 以下をコピーして、コマンドパレットに貼り付け => 【キーボードショートカットを開く】を選択して実行

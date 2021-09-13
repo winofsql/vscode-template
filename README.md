@@ -41,7 +41,7 @@ Visual Studio Code 用テンプレート
 | window.zoomLevel | 1 | 全体を少し拡大して見やすくします。 ( Chrome の 拡大・縮小と操作は同じ )
 
 ## キーボードショートカット
-| Keyword | Description 
+| 操作 | Description 
 | :--- | :---  
 | SHIFT + ALT + F | フォーマット
 | SHIFT + ALT + ドラッグ | 矩形選択

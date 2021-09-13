@@ -46,6 +46,7 @@ Visual Studio Code 用テンプレート
 | SHIFT + ALT + F | フォーマット
 | SHIFT + ALT + ドラッグ | 矩形選択
 | Alt + Up : Alt + Down | 選択単位で上下移動
+| CTRL + L | 現在行の選択
 
 
 

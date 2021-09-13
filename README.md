@@ -40,7 +40,7 @@ Visual Studio Code 用テンプレート
 | editor.renderWhitespace | boundary | 単語間の単一スペース以外の空白文字を表示します。 
 | window.zoomLevel | 1 | 全体を少し拡大して見やすくします。 ( Chrome の 拡大・縮小と操作は同じ )
 
-## キーボードショートカット
+## キーボードショートカット( 既定 )
 | 操作 | Description 
 | :--- | :---  
 | SHIFT + ALT + F | フォーマット
@@ -93,7 +93,12 @@ keyboard json
 ```
 **※ shift+alt+k で 【キーボードショートカットを開く】事になります**
 
-　  
+## キーボードショートカット( ユーザ )
+| 操作 | Description 
+| :--- | :---  
+| SHIFT + ALT + K | キーボードショートカットの変更を開く
+| CTRL + SHIFT + DEL | 選択単位で行末スペース削除
+  
 
 ## Extension Pack for Java
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)\

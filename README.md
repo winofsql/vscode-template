@@ -108,7 +108,7 @@ keyboard json
 ```
 java.project.sourcePaths
 ```
-**▼ ワークスペースの実フォルダをカレントにする**
+**▼ ワークスペースの実フォルダをカレントにする** ( "cwd": "${fileDirname}" )
 ```javascript
 {
     "version": "0.2.0",

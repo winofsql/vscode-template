@@ -104,9 +104,24 @@ keyboard json
 
 ## Extension Pack for Java
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)\
-**▼ 一つのフォルダに複数のフォルダ内でクラス作成する為のフォルダ追加設定**
+**▼ 一つのフォルダに複数のフォルダ内でクラス作成する為のフォルダ追加設定**\
 ```
 java.project.sourcePaths
+```
+**▼ ワークスペースの実フォルダをカレントにする**\
+```javascript
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": "",
+            "cwd": "${fileDirname}"
+        }
+    ]
+}
 ```
 ![image](https://user-images.githubusercontent.com/1501327/133005637-f392d0ac-760e-4a50-956f-cf5cddebf2dd.png)
 

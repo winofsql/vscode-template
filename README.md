@@ -43,6 +43,7 @@ Visual Studio Code 用テンプレート
 ## キーボードショートカット( 既定 )
 | 操作 | Description 
 | :--- | :---  
+| CTRL + SPACE | IntelliSense
 | SHIFT + ALT + F | フォーマット
 | SHIFT + ALT + ドラッグ | 矩形選択
 | Alt + Up : Alt + Down | 選択単位で上下移動

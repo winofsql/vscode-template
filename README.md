@@ -83,6 +83,11 @@ keyboard json
     {
         "key": "shift+alt+k",
         "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    {
+        "key": "ctrl+shift+delete",
+        "command": "editor.action.trimTrailingWhitespace",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
 ```

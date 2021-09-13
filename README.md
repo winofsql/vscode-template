@@ -39,7 +39,13 @@ Visual Studio Code 用テンプレート
 | editor.detectIndentation | false | ファイルがファイルの内容に基づいて開かれる場合、#editor.tabSize# と #editor.insertSpaces# を自動的に検出するかどうかを制御します。 
 | editor.renderWhitespace | boundary | 単語間の単一スペース以外の空白文字を表示します。 
 | window.zoomLevel | 1 | 全体を少し拡大して見やすくします。 ( Chrome の 拡大・縮小と操作は同じ )
-  
+
+## キーボードショートカット
+| Keyword | | Description 
+| :--- | :---  
+| SHIFT + ALT + F | フォーマット
+| SHIFT + ALT + ドラッグ | 矩形選択
+
 ## keybindings.json : C:\Users\\%username%\AppData\Roaming\Code\User
 ▼ 以下をコピーして、コマンドパレットに貼り付け => 【キーボードショートカットを開く】を選択して実行
 ```

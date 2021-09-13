@@ -115,9 +115,9 @@ java.project.sourcePaths
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Java Program",
+            "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "",
+            "mainClass": "${file}",
             "cwd": "${fileDirname}"
         }
     ]

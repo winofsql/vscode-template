@@ -199,4 +199,5 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 [VSCodeスニペット用コード作成ツール](https://migi.me/vsc_snippet/)
 
 
+## WEB
 [参考:コリス](https://coliss.com/articles/build-websites/operation/work/vs-code-dont-need-extensions.html)

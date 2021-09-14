@@ -195,7 +195,7 @@ namespace cs_core_0912
 javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```
 
-## Generate Snippet
+## Generate Snippet( クリップボードに作成 )
 ![image](https://user-images.githubusercontent.com/1501327/133237515-280ce839-c55b-4c30-aa16-6e984b1f8734.png)
 
 

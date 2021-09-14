@@ -200,4 +200,4 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 
 
 ## WEB
-[参考:コリス](https://coliss.com/articles/build-websites/operation/work/vs-code-dont-need-extensions.html)
+[参考:コリス:コードを書くのが楽になる！知っておくと便利なVS Codeの機能・設定のまとめ](https://coliss.com/articles/build-websites/operation/work/vs-code-dont-need-extensions.html)

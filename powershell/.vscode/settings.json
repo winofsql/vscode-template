@@ -1,10 +1,10 @@
 {
     "code-runner.showRunIconInEditorTitleMenu": true,
     "code-runner.runInTerminal": true,
-    "code-runner.fileDirectoryAsCwd": true,
     "code-runner.executorMap": {
         "powershell": "powershell -NoProfile -ExecutionPolicy Unrestricted -File"
     },
+    "code-runner.fileDirectoryAsCwd": true,
     "terminal.integrated.fontSize": 16,
     "files.encoding": "shiftjis"
 }

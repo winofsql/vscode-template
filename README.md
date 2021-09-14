@@ -195,8 +195,5 @@ namespace cs_core_0912
 javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```
 
-## Generate Snippet( クリップボードに作成 )
-![image](https://user-images.githubusercontent.com/1501327/133237515-280ce839-c55b-4c30-aa16-6e984b1f8734.png)
-
 
 [参考:コリス](https://coliss.com/articles/build-websites/operation/work/vs-code-dont-need-extensions.html)

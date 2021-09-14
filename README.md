@@ -195,5 +195,8 @@ namespace cs_core_0912
 javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```
 
+## WEB 上でスニペット作成
+[VSCodeスニペット用コード作成ツール](https://migi.me/vsc_snippet/)
+
 
 [参考:コリス](https://coliss.com/articles/build-websites/operation/work/vs-code-dont-need-extensions.html)

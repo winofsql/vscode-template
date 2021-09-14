@@ -6,6 +6,5 @@
     },
     "code-runner.fileDirectoryAsCwd": true,
     "terminal.integrated.fontSize": 16,
-    "files.encoding": "shiftjis",
-
+    "files.encoding": "shiftjis"
 }

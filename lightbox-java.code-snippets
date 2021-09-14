@@ -1,8 +1,8 @@
 {
-	"lightbox java": {
-		"scope": "java",
-		"prefix": "filein-csv",
-		"body": [
+    "lightbox java": {
+        "scope": "java",
+        "prefix": "filein-csv",
+        "body": [
             "String target = new File(\".\").getAbsoluteFile().getParent();",
             "target = String.format(\"%s\\\\\\\\syain.csv\", target);",
             "",
@@ -36,6 +36,6 @@
             "    e.printStackTrace();",
             "}"
         ],
-		"description": "filein"
-	}
+        "description": "filein"
+    }
 }

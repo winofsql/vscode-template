@@ -194,3 +194,5 @@ namespace cs_core_0912
 ```javascript
 javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```
+
+[参考:コリス](https://coliss.com/articles/build-websites/operation/work/vs-code-dont-need-extensions.html)

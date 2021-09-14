@@ -1,0 +1,48 @@
+{
+	// Place your java-0912 ワークスペース snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"lightbox java": {
+		"scope": "java",
+		"prefix": "filein-csv",
+		"body": [
+            "String target = new File(\".\").getAbsoluteFile().getParent();",
+            "target = String.format(\"%s\\\\\\\\syain.csv\", target);",
+            "",
+            "try {",
+            "    // 開く",
+            "    FileInputStream csv_file = new FileInputStream(target);",
+            "    InputStreamReader charset_stream = new InputStreamReader(csv_file, \"utf-8\");",
+            "    BufferedReader buffer = new BufferedReader(charset_stream);",
+            "",
+            "    String line_buffer;",
+            "",
+            "    while ( null != (line_buffer = buffer.readLine() ) ) {",
+            "",
+            "            adata = line_buffer.split(\",\");",
+            "            System.out.print( String.format( \"%s\", adata[0] ));",
+            "            int count = adata.length;",
+            "            for( int i = 1; i < count; i++) {",
+            "                String disp = String.format( \" , %s\", adata[i] );  ",
+            "                System.out.print( disp );",
+            "            }",
+            "            System.out.println( );",
+            "",
+            "    }",
+            "",
+            "    // 閉じる",
+            "    buffer.close();",
+            "    charset_stream.close();",
+            "    csv_file.close();",
+            "",
+            "} catch (Exception e) {",
+            "    e.printStackTrace();",
+            "}"
+        ],
+		"description": "filein"
+	}
+}

@@ -1,9 +1,9 @@
 {
     "code-runner.showRunIconInEditorTitleMenu": true,    
     "code-runner.runInTerminal": true,
-    "code-runner.fileDirectoryAsCwd": true,
     "code-runner.executorMap": {
         "php": "C:\\xampp\\php\\php.exe"
     },
+    "code-runner.fileDirectoryAsCwd": true,
     "terminal.integrated.fontSize": 16
 }

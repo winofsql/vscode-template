@@ -1,5 +1,6 @@
 {
     "map-foreach-getenv": {
+        "scope": "java",
         "prefix": "map-foreach-getenv",
         "body": [
             "Map<String, String> env = System.getenv();",
@@ -13,6 +14,7 @@
         "description": ""
     },
     "map-array-list-add-sort-getenv": {
+        "scope": "java",
         "prefix": "map-array-list-add-sort-getenv",
         "body": [
             "Map<String, String> env = System.getenv();",
@@ -45,6 +47,7 @@
         "description": ""
     },
     "map-array-list-getenv": {
+        "scope": "java",
         "prefix": "map-array-list-getenv",
         "body": [
             "Map<String, String> env = System.getenv();",
@@ -75,6 +78,7 @@
         "description": ""
     },
     "map-array-sort-getenv": {
+        "scope": "java",
         "prefix": "map-array-sort-getenv",
         "body": [
             "Map<String, String> env = System.getenv();",
@@ -104,6 +108,7 @@
         "description": ""
     },
     "map-it-getenv": {
+        "scope": "java",
         "prefix": "map-it-getenv",
         "body": [
             "Map<String, String> env = System.getenv();",

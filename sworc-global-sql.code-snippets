@@ -1,4 +1,30 @@
 {
+    "date-functions": {
+        "scope": "sql",
+        "prefix": "date-functions",
+        "body": [
+            "SELECT",
+            "    CURDATE() AS 今日",
+            "    ,NOW() AS 日付と時間",
+            "    ,DATE_FORMAT(CURDATE(),'%Y/%m/%d') AS フォーマット",
+            "    ,CURDATE() + INTERVAL 1 DAY AS 日数加算1",
+            "    ,DATE_ADD(CURDATE(),INTERVAL 1 DAY) AS 日数加算2",
+            "    ,DATE_ADD(CURDATE(),INTERVAL -1 MONTH) AS 月数加算",
+            "    ,DATE_ADD(CURDATE(),INTERVAL 1 YEAR) AS 年数加算",
+            "    ,TO_DAYS(CURDATE()) - TO_DAYS(CAST('2021/01/01' AS DATETIME)) AS 経過日数",
+            "    ,DATE_FORMAT(CURDATE(),'%d') AS 日",
+            "    ,DATE_FORMAT(CURDATE(),'%j') AS 年間通算日",
+            "    ,DAYOFYEAR(CURDATE()) AS 年間通算日",
+            "    ,DATE_FORMAT(NOW(),'%H') AS 時",
+            "    ,DATE_FORMAT(NOW(),'%i') AS 分",
+            "    ,DATE_FORMAT(NOW(),'%S') AS 秒",
+            "    ,DATE_FORMAT(CURDATE(),'%m') AS 月",
+            "    ,DATE_FORMAT(CURDATE(),'%w') AS 曜日",
+            "    ,DATE_FORMAT(CURDATE(),'%U') AS 週",
+            "    ,DATE_FORMAT(CURDATE(),'%Y') AS 年",
+        ],
+        "description": ""
+    },
     "null-else": {
         "scope": "sql",
         "prefix": "null-else",

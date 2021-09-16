@@ -92,6 +92,14 @@ keyboard json
         "key": "ctrl+shift+delete",
         "command": "editor.action.trimTrailingWhitespace",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+f7",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+f6",
+        "command": "editor.action.transformToLowercase"
     }
 ]
 ```
@@ -102,6 +110,9 @@ keyboard json
 | :--- | :---  
 | SHIFT + ALT + K | キーボードショートカットの変更を開く
 | CTRL + SHIFT + DEL | 選択単位で行末スペース削除
+| CTRL + SHIFT + DEL | 選択単位で行末スペース削除
+| CTRL + F7 | 大文字に変換
+| CTRL + F6 | 小文字に変換
   
 
 ## Extension Pack for Java

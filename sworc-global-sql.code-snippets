@@ -21,15 +21,15 @@
         ],
         "description": ""
     },
-	"select-left-outer": {
-		"scope": "sql",
-		"prefix": "select-left-outer-join",
-		"body": [
-			"SELECT * FROM $1",
-			"    LEFT OUTER JOIN $2",
-			"    ON $1.$3 = $2.$4",
-			";",
-		],
-		"description": ""
-	}
+    "select-left-outer": {
+        "scope": "sql",
+        "prefix": "select-left-outer-join",
+        "body": [
+            "SELECT * FROM $1",
+            "    LEFT OUTER JOIN $2",
+            "    ON $1.$3 = $2.$4",
+            ";",
+        ],
+        "description": ""
+    }
 }

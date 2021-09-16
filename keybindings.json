@@ -31,5 +31,13 @@
         "key": "ctrl+shift+delete",
         "command": "editor.action.trimTrailingWhitespace",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+f7",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+f6",
+        "command": "editor.action.transformToLowercase"
     }
 ]

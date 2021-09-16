@@ -1,4 +1,20 @@
 {
+    "section-input-text": {
+        "prefix": "section-input-text",
+        "body": [
+            "<span class=\"entry left\">$1</span>",
+            "<span class=\"entry right\">",
+            "    <input",
+            "        type=\"text\"",
+            "        name=\"$2\"",
+            "        id=\"$2\"",
+            "        maxlength=\"$3\"",
+            "        value=\"\">",
+            "</span>",
+            "",
+        ],
+        "description": ""
+    },
     "web-view-basic": {
         "prefix": "web-view-basic",
         "body": [

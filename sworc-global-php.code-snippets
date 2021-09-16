@@ -1,5 +1,6 @@
 {
     "section-input-text": {
+        "scope": "php",
         "prefix": "section-input-text",
         "body": [
             "<span class=\"entry left\">$1</span>",
@@ -16,6 +17,7 @@
         "description": ""
     },
     "web-view-basic": {
+        "scope": "php",
         "prefix": "web-view-basic",
         "body": [
             "<!DOCTYPE html>",
@@ -80,6 +82,7 @@
         "description": ""
     },
     "select-pdo": {
+        "scope": "php",
         "prefix": "select-pdo",
         "body": [
             "// ***********************************",

@@ -1,5 +1,22 @@
 {
+    "null-else": {
+        "scope": "sql",
+        "prefix": "null-else",
+        "body": [
+            "SELECT 氏名,",
+            "    給与 + IFNULL(手当,0) as 支給額",
+            "FROM 社員マスタ",
+            ";",
+            "SELECT 氏名,",
+            "    給与 + COALESCE(手当,0) as 支給額",
+            "FROM 社員マスタ",
+            ";",
+            "",
+        ],
+        "description": ""
+    },
     "select-into-file": {
+        "scope": "sql",
         "prefix": "select-into-file",
         "body": [
             "SELECT * INTO OUTFILE '/xampp/tmp/$1.csv'",
@@ -12,6 +29,7 @@
         "description": ""
     },
     "create-table-as": {
+        "scope": "sql",
         "prefix": "create-table-as",
         "body": [
             "CREATE TABLE $1",

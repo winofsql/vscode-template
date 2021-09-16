@@ -149,6 +149,17 @@ java.project.sourcePaths
         "when": "editorLangId != 'java'"
     }
 ```
+```javascript
+    "code-runner.executorMap": {
+        "javascript": "cscript //Nologo",
+        "php": "C:\\xampp\\php\\php.exe",
+        "python": "python -u",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Unrestricted -File",
+        "bat": "cmd /c",
+        "csharp": "dotnet run",
+        "vbscript": "cscript //Nologo"
+    }
+```
 ## MySQL
 ![image](https://user-images.githubusercontent.com/1501327/132113188-f6e02a8e-4d19-49ba-96f9-8f01905e50b5.png)\
 **▼ keybindings.json**

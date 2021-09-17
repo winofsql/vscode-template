@@ -162,7 +162,7 @@ java.project.sourcePaths
 ```
 ## MySQL
 ![image](https://user-images.githubusercontent.com/1501327/132113188-f6e02a8e-4d19-49ba-96f9-8f01905e50b5.png)\
-[MySQL 文字列関数](https://dev.mysql.com/doc/refman/5.6/ja/string-functions.html)
+[MySQL 文字列関数](https://dev.mysql.com/doc/refman/5.6/ja/string-functions.html)\
 **▼ keybindings.json**
 ```javascript
     {

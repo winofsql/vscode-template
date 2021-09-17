@@ -211,7 +211,15 @@ namespace cs_core_0912
 ```
 3. code-runner( .vscode )
 ```javascript
-    "code-runner.runInTerminal": true
+{
+    "code-runner.showRunIconInEditorTitleMenu": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.executorMap": {
+        "csharp": "dotnet run"
+    },
+    "terminal.integrated.fontSize": 16
+}
 ```
 ## PHP ( @builtin の PHP Language Features を無効にする )
 ![image](https://user-images.githubusercontent.com/1501327/132984562-c7f8fd42-5e98-40bc-a78e-00d130387de3.png)

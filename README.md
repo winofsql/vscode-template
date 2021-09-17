@@ -221,6 +221,11 @@ namespace cs_core_0912
     "terminal.integrated.fontSize": 16
 }
 ```
+4. nuget 対応
+```javascript
+dotnet add package System.Data.Odbc
+```
+
 ## PHP ( @builtin の PHP Language Features を無効にする )
 ![image](https://user-images.githubusercontent.com/1501327/132984562-c7f8fd42-5e98-40bc-a78e-00d130387de3.png)
 ```javascript

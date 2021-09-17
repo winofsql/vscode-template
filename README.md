@@ -110,7 +110,6 @@ keyboard json
 | :--- | :---  
 | SHIFT + ALT + K | キーボードショートカットの変更を開く
 | CTRL + SHIFT + DEL | 選択単位で行末スペース削除
-| CTRL + SHIFT + DEL | 選択単位で行末スペース削除
 | CTRL + F7 | 大文字に変換
 | CTRL + F6 | 小文字に変換
   

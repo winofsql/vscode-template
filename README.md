@@ -263,7 +263,38 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 
 ## 言語整形
 ![image](https://user-images.githubusercontent.com/1501327/133883987-bd34695a-1353-44ae-bd28-cc19e68eaf5a.png)
-
+```javascript
+    "prettier.enabledLanguageIds": [
+        "csharp",
+        "elm",
+        "flow",
+        "graphql",
+        "handlebars",
+        "html",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "less",
+        "markdown",
+        "mdx",
+        "php",
+        "postcss",
+        "ruby",
+        "scss",
+        "solidity",
+        "svelte",
+        "svg",
+        "typescript",
+        "typescriptreact",
+        "twig",
+        "vue",
+        "xml",
+        "yaml"
+    ]
+}
+```
 
 ## WEB 上でスニペット作成
 [VSCodeスニペット用コード作成ツール](https://migi.me/vsc_snippet/)

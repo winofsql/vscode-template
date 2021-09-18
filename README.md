@@ -121,7 +121,12 @@ keyboard json
     {
         "key": "ctrl+f6",
         "command": "editor.action.transformToLowercase"
-    }
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    }    
 ]
 ```
 **※ shift+alt+k で 【キーボードショートカットを開く】事になります**

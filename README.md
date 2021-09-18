@@ -42,6 +42,9 @@ Visual Studio Code 用テンプレート
     "[sql]": {
         "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
     "prettier.enabledLanguageIds": [
         "csharp",
         "css",

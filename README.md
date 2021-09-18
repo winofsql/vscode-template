@@ -126,7 +126,11 @@ keyboard json
         "key": "shift+alt+f",
         "command": "editor.action.formatSelection",
         "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
-    }    
+    },
+    {
+        "key": "shift+alt+pausebreak",
+        "command": "editor.action.format"
+    }
 ]
 ```
 **※ shift+alt+k で 【キーボードショートカットを開く】事になります**

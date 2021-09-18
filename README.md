@@ -131,11 +131,12 @@ keyboard json
     {
         "key": "shift+alt+f",
         "command": "editor.action.formatSelection",
-        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+        "when": "editorTextFocus"
     },
     {
         "key": "shift+alt+pausebreak",
-        "command": "editor.action.format"
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
     }
 ]
 ```

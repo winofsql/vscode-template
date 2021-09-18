@@ -304,7 +304,8 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```javascript
 "sql-formatter.uppercase": true
 ```
-  
+
+  \
 ## WEB 上でスニペット作成
 [VSCodeスニペット用コード作成ツール](https://migi.me/vsc_snippet/)
 

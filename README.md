@@ -64,7 +64,7 @@ Visual Studio Code 用テンプレート
 | 操作 | Description 
 | :--- | :---  
 | CTRL + SPACE | IntelliSense
-| SHIFT + ALT + F | フォーマット
+| SHIFT + ALT + F | フォーマット( keybindings.json で選択部分を対象に変更 )
 | SHIFT + ALT + ドラッグ | 矩形選択
 | Alt + Up : Alt + Down | 選択単位で上下移動( 1行の時は、カーソルを置いた行が対象 )
 | CTRL + L | 現在行の選択

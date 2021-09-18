@@ -1,6 +1,6 @@
 {
     "section-input-text": {
-        "scope": "php",
+        "scope": "php,html",
         "prefix": "section-input-text",
         "body": [
             "<span class=\"entry left\">$1</span>",
@@ -17,7 +17,7 @@
         "description": ""
     },
     "web-view-basic": {
-        "scope": "php",
+        "scope": "php,html",
         "prefix": "web-view-basic",
         "body": [
             "<!DOCTYPE html>",

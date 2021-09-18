@@ -257,6 +257,10 @@ dotnet add package System.Data.Odbc
 javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```
 
+## 言語整形
+![image](https://user-images.githubusercontent.com/1501327/133883987-bd34695a-1353-44ae-bd28-cc19e68eaf5a.png)
+
+
 ## WEB 上でスニペット作成
 [VSCodeスニペット用コード作成ツール](https://migi.me/vsc_snippet/)
 

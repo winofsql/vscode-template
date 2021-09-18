@@ -274,4 +274,7 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 [参考:コリス:2021年、VS Codeのおすすめ機能拡張のまとめ、HTMLやCSSやJavaScriptなどのコードを書く時に便利](https://coliss.com/articles/build-websites/operation/work/favorite-vscode-extensions-by-katherine.html)\
 [参考:ショートカット一覧](https://qiita.com/TakahiRoyte/items/cdab6fca64da386a690b)
 
+## VScode
+[Known language identifiers](https://code.visualstudio.com/docs/languages/identifiers#_known-language-identifiers)
+
 VSCode 内 ブラウザ : Browser Preview

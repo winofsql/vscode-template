@@ -36,6 +36,9 @@ Visual Studio Code 用テンプレート
     "[javascript]": {
         "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
     },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
     "prettier.enabledLanguageIds": [
         "csharp",
         "css",

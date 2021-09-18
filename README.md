@@ -279,4 +279,7 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 
 
 ## メモ
-VSCode 内 ブラウザ : Browser Preview
+VSCode 内 ブラウザ : Browser Preview\
+C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
+ 
+

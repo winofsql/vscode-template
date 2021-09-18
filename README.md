@@ -298,17 +298,13 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
     ]
 }
 ```
-  \
+\
 ![image](https://user-images.githubusercontent.com/1501327/133910806-a1440c0e-12d7-4c98-9aef-affe1702a601.png)\
 **MySQL のフォーマッタは日本語でバグがあります**
 ```javascript
 "sql-formatter.uppercase": true
 ```
 
-  
-  
-  
-  
 ## WEB 上でスニペット作成
 [VSCodeスニペット用コード作成ツール](https://migi.me/vsc_snippet/)
 

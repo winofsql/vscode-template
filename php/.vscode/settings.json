@@ -29,7 +29,7 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "terminal.integrated.fontSize": 16
 }

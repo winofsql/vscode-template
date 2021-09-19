@@ -21,7 +21,8 @@
             "source": "Git Bash"
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",    "[javascript]": {
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "[javascript]": {
         "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
     },
     "terminal.integrated.fontSize": 16,

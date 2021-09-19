@@ -5,6 +5,23 @@
         "php": "C:\\xampp\\php\\php.exe"
     },
     "code-runner.fileDirectoryAsCwd": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "C:\\WINDOWS\\system32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",    
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },    

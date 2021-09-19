@@ -48,17 +48,6 @@ Visual Studio Code 用テンプレート
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
     },
-    "prettier.enabledLanguageIds": [
-        "csharp",
-        "css",
-        "html",
-        "java",
-        "javascript",
-        "json",
-        "markdown",
-        "php",
-        "xml"
-    ],
     "window.zoomLevel": 1
 }
 ```

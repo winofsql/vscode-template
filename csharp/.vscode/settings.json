@@ -21,7 +21,7 @@
             "source": "Git Bash"
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",    
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "[csharp]": {
         "editor.defaultFormatter": "ms-dotnettools.csharp"
     },

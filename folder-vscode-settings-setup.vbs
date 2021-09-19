@@ -31,7 +31,7 @@ For Each f1 in sf
         objSrvHTTP.Send
         text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
     end if
-    if inStr( f1.name, "mshta" ) > 0 or inStr( f1.name, "hta" ) > 0 Then
+    if inStr( f1.name, "hta" ) > 0 Then
         Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/mshta/.vscode/settings.json", False )
         objSrvHTTP.Send
         text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )

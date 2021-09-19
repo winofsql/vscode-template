@@ -6,7 +6,7 @@
     },
     "code-runner.fileDirectoryAsCwd": true,
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "terminal.integrated.profiles.windows": {
         "PowerShell": {

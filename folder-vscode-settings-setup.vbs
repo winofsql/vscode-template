@@ -3,7 +3,15 @@ Set fso = CreateObject("Scripting.FileSystemObject")
 Set f = fso.GetFolder(".")
 Set sf = f.SubFolders
 Dim text
+
+Set lightbox = fso.OpenTextFile("lightbox.code-workspace", 2, True)
+lightbox.WriteLine("{")
+lightbox.WriteLine("     ""folders"": [")
+
+
 For Each f1 in sf
+    lightbox.WriteLine("        {")
+    lightbox.WriteLine("            ""path"": """ & Replace( f1.path, "\", "\\" ) & """" )
     text = ""
     if inStr( f1.name, "java" ) > 0 Then
         Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/java/.vscode/launch.json", False )
@@ -61,6 +69,11 @@ For Each f1 in sf
         objSrvHTTP.Send
         text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
     end if
+    if inStr( f1.name, "vbs" ) > 0 Then
+        Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/vbscript/.vscode/settings.json", False )
+        objSrvHTTP.Send
+        text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
+    end if
 
     if text <> "" then
         on error resume next
@@ -69,4 +82,10 @@ For Each f1 in sf
         Set wf = fso.OpenTextFile(f1.path & "\.vscode\settings.json", 2, True)
         wf.Write text
     end if
+
+    lightbox.WriteLine("        },")
+    
 Next
+
+lightbox.WriteLine("    ]")
+lightbox.WriteLine("}")

@@ -29,7 +29,7 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "terminal.integrated.fontSize": 16
 }

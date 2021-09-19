@@ -261,8 +261,6 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```
 
 ## 言語整形
-![image](https://user-images.githubusercontent.com/1501327/133936662-c6e97dd6-a96b-4784-b94a-bfb787ff0d09.png)
-
 ![image](https://user-images.githubusercontent.com/1501327/133910806-a1440c0e-12d7-4c98-9aef-affe1702a601.png)\
 **MySQL のフォーマッタは日本語でバグがあります**
 ```javascript

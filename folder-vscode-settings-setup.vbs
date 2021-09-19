@@ -5,6 +5,17 @@ Set sf = f.SubFolders
 Dim text
 For Each f1 in sf
     text = ""
+    if f1.name = "java" Then
+        Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/java/.vscode/launch.json", False )
+        objSrvHTTP.Send
+        text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
+        on error resume next
+        fso.CreateFolder(f1.path & "\.vscode")
+        on error goto 0
+        Set wf = fso.OpenTextFile(f1.path & "\.vscode\launch.json", 2, True)
+        wf.Write text
+        text = ""
+    end if
     if f1.name = "bat" Then
         Call objSrvHTTP.Open("GET", "https://raw.githubusercontent.com/winofsql/vscode-template/main/batchfile/.vscode/settings.json", False )
         objSrvHTTP.Send

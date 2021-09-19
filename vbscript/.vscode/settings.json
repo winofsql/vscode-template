@@ -1,0 +1,30 @@
+{
+    "code-runner.showRunIconInEditorTitleMenu": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "vbscript": "cscript //Nologo"
+    },
+    "code-runner.fileDirectoryAsCwd": true,
+    "[vbscript]": {
+        "editor.defaultFormatter": "Serpen.vbsvscode"
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "C:\\WINDOWS\\system32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",    
+    "terminal.integrated.fontSize": 16,
+    "files.encoding": "shiftjis"
+}

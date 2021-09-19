@@ -24,7 +24,7 @@
             "source": "Git Bash"
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",    
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.fontSize": 16,
     "files.encoding": "shiftjis"
 }

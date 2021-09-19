@@ -6,7 +6,7 @@
     },
     "code-runner.fileDirectoryAsCwd": true,
     "[javascript]": {
-        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "terminal.integrated.profiles.windows": {
         "PowerShell": {

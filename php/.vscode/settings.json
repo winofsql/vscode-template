@@ -8,5 +8,11 @@
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },    
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
     "terminal.integrated.fontSize": 16
 }

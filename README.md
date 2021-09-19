@@ -34,7 +34,7 @@ Visual Studio Code 用テンプレート
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"

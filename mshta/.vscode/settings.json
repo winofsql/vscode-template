@@ -10,5 +10,8 @@
         ".htm": "html",
         ".hta": "html"
     },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "terminal.integrated.fontSize": 16
 }

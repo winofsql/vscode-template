@@ -5,5 +5,8 @@
     "code-runner.executorMap": {
         "csharp": "dotnet run"
     },
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
     "terminal.integrated.fontSize": 16
 }

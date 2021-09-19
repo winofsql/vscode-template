@@ -5,6 +5,9 @@
         ".wsf": "cscript //Nologo"
     },
     "code-runner.fileDirectoryAsCwd": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
     "terminal.integrated.fontSize": 16,
     "files.encoding": "shiftjis"
 }

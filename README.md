@@ -45,6 +45,9 @@ Visual Studio Code 用テンプレート
     "[csharp]": {
         "editor.defaultFormatter": "ms-dotnettools.csharp"
     },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
     "prettier.enabledLanguageIds": [
         "csharp",
         "css",

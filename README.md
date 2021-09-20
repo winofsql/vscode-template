@@ -261,6 +261,8 @@ namespace cs_core_0912
 ```javascript
 dotnet add package System.Data.Odbc
 ```
+![image](https://user-images.githubusercontent.com/1501327/133971198-17dd8a9a-4101-44a5-a66f-1a70f5678030.png)
+
 
 ## PHP ( @builtin の PHP Language Features を無効にする )
 ![image](https://user-images.githubusercontent.com/1501327/132984562-c7f8fd42-5e98-40bc-a78e-00d130387de3.png)

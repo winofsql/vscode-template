@@ -133,11 +133,6 @@ keyboard json
         "command": "editor.action.transformToLowercase"
     },
     {
-        "key": "shift+alt+f",
-        "command": "editor.action.formatSelection",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "shift+alt+pausebreak",
         "command": "editor.action.format",
         "when": "editorTextFocus"

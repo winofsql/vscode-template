@@ -48,6 +48,18 @@ Visual Studio Code 用テンプレート
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
     },
+    "[csv]": {
+        "files.encoding": "shiftjis"
+    },
+    "[vbs]": {
+        "files.encoding": "shiftjis"
+    },
+    "[bat]": {
+        "files.encoding": "shiftjis"
+    },
+    "[powershell]": {
+        "files.encoding": "shiftjis"
+    },
     "window.zoomLevel": 1
 }
 ```

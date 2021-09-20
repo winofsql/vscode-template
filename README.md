@@ -29,7 +29,6 @@ Visual Studio Code 用テンプレート
         }
     },
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "terminal.integrated.automationShell.windows": "C:\\WINDOWS\\system32\\cmd.exe",
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },

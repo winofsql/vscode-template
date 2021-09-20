@@ -43,7 +43,7 @@ Visual Studio Code 用テンプレート
         "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },
     "[csharp]": {
-        "editor.defaultFormatter": "ms-dotnettools.csharp"
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
     },
     "[java]": {
         "editor.defaultFormatter": "redhat.java"

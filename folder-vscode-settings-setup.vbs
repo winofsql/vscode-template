@@ -34,7 +34,7 @@ For Each f1 in sf
         lightbox.WriteLine("            ""path"": """ & Replace( f1.path, "\", "\\" ) & """" )
         lightbox.WriteLine("        },")
     end if
-    if inStr( f1.name, "csharp" ) > 0 Then
+    if inStr( f1.name, "cs" ) > 0 Then
         Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/csharp/.vscode/settings.json", False )
         objSrvHTTP.Send
         text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )

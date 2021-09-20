@@ -38,7 +38,8 @@ Visual Studio Code 用テンプレート
     },
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
-    }
+    },
+    "sql-formatter.uppercase": true,
     "[sql]": {
         "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },

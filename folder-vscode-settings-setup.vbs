@@ -34,13 +34,18 @@ For Each f1 in sf
         objSrvHTTP.Send
         text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
     end if
-    if inStr( f1.name, "php" ) > 0 Then
-        Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/php/.vscode/settings.json", False )
+    if inStr( f1.name, "js" ) > 0 or inStr( f1.name, "javascript" ) > 0 or inStr( f1.name, "jscript" ) > 0 Then
+        Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/cscript-js/.vscode/settings.json", False )
         objSrvHTTP.Send
         text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
     end if
     if inStr( f1.name, "hta" ) > 0 Then
         Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/mshta/.vscode/settings.json", False )
+        objSrvHTTP.Send
+        text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
+    end if
+    if inStr( f1.name, "php" ) > 0 Then
+        Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/php/.vscode/settings.json", False )
         objSrvHTTP.Send
         text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
     end if
@@ -59,18 +64,13 @@ For Each f1 in sf
         objSrvHTTP.Send
         text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
     end if
-    if inStr( f1.name, "wsh" ) > 0 or inStr( f1.name, "wsf" ) > 0 Then
-        Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/wsh/.vscode/settings.json", False )
-        objSrvHTTP.Send
-        text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
-    end if
-    if inStr( f1.name, "js" ) > 0 or inStr( f1.name, "javascript" ) > 0 or inStr( f1.name, "jscript" ) > 0 Then
-        Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/cscript-js/.vscode/settings.json", False )
-        objSrvHTTP.Send
-        text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
-    end if
     if inStr( f1.name, "vbs" ) > 0 Then
         Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/vbscript/.vscode/settings.json", False )
+        objSrvHTTP.Send
+        text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
+    end if
+    if inStr( f1.name, "wsh" ) > 0 or inStr( f1.name, "wsf" ) > 0 Then
+        Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/wsh/.vscode/settings.json", False )
         objSrvHTTP.Send
         text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
     end if

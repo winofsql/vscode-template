@@ -16,7 +16,7 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "[csharp]": {
-        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },
 }

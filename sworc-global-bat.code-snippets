@@ -1,0 +1,17 @@
+{
+    "mysql-command": {
+        "prefix": "mysql-command",
+        "body": [
+            "mysql -u root",
+        ],
+        "description": ""
+    },
+    "mysql-backup": {
+        "scope": "bat",
+        "prefix": "mysql-backup",
+        "body": [
+            "mysqldump --host=localhost --user=root --password= lightbox > lightbox-bak.sql",
+        ],
+        "description": ""
+    }
+}

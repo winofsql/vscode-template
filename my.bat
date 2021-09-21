@@ -1,3 +1,4 @@
+REM \xampp\mysql\bin\my.bat
 setlocal
 
 set path=%path%;%~p0

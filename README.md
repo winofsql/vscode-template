@@ -206,6 +206,12 @@ java.project.sourcePaths
         "when": "editorLangId == 'sql'"
     }
 ```
+```javascript
+    "code-runner.executorMap": {
+        "sql": "\\xampp\\mysql\\bin\\my.bat"
+    }
+```
+
 ## Python
 ![image](https://user-images.githubusercontent.com/1501327/132113215-7c6ca944-66cb-4a01-9016-b13561e34d10.png)
 ## 全角表示

@@ -63,7 +63,7 @@ Visual Studio Code 用テンプレート
     "runTerminalCommand.commands": [
         {
             "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
-            "name": "Php Base",
+            "name": "php base",
             "auto": true
         }
     ],

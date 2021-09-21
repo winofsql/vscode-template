@@ -270,6 +270,10 @@ dotnet add package System.Text.Encoding.CodePages
 javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```
 
+## Excel 
+![image](https://user-images.githubusercontent.com/1501327/134126427-09e85fda-c4c0-4ea4-a5b7-c397931fb129.png)\
+**※ csv を言語として認識させる : Excel は .xlsx で表示可能**
+
 ## 言語整形
 ![image](https://user-images.githubusercontent.com/1501327/133910806-a1440c0e-12d7-4c98-9aef-affe1702a601.png)\
 **MySQL のフォーマッタは日本語でバグがあります**

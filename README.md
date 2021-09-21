@@ -294,6 +294,11 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 
 ![image](https://user-images.githubusercontent.com/1501327/134126076-fd99b6fe-9feb-495e-b4e0-0b2367268ecf.png)\
 **※ C# 用 : Microsoft のはうまく動かない**
+```javascript
+    "[csharp]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    }
+```
 
 ## VBScript( ツール作成用 )
 ![image](https://user-images.githubusercontent.com/1501327/134128422-db5fb3ec-5d2b-4909-b55e-cca924bd7e05.png)

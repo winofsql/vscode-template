@@ -1,4 +1,8 @@
 {
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "sql": "\\xampp\\mysql\\bin\\my.bat"
+    },
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",

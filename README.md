@@ -202,6 +202,18 @@ java.project.sourcePaths
         "vbscript": "cscript //Nologo"
     }
 ```
+## Run Terminal Command
+![image](https://user-images.githubusercontent.com/1501327/134173105-2c7ba14c-bc3a-49a4-a3ea-e882226d8dc1.png)
+```javascript
+    "runTerminalCommand.commands": [
+        {
+            "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
+            "name": "Php Base",
+            "auto": true
+        }
+    ]
+```
+
 ## MySQL
 ![image](https://user-images.githubusercontent.com/1501327/132113188-f6e02a8e-4d19-49ba-96f9-8f01905e50b5.png)\
 [MySQL 文字列関数](https://dev.mysql.com/doc/refman/5.6/ja/string-functions.html)\

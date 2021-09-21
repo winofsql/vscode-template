@@ -278,6 +278,9 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
     "[csv]": {
         "files.encoding": "shiftjis"
     }
+    "code-runner.executorMap": {
+        "csv": "\"C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE\""
+    }
 ```
 ![image](https://user-images.githubusercontent.com/1501327/134127183-7d62855d-ea54-4b31-a67f-1a63786ba297.png)\
 **※ csv を表形式で更新**

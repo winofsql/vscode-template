@@ -289,7 +289,9 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 
 ## VScode
 [Known language identifiers](https://code.visualstudio.com/docs/languages/identifiers#_known-language-identifiers)
-
+```
+Change Language Mode
+```
 
 ## メモ
 VSCode 内 ブラウザ : Browser Preview\

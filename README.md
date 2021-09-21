@@ -277,6 +277,9 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 "sql-formatter.uppercase": true
 ```
 
+![image](https://user-images.githubusercontent.com/1501327/134126076-fd99b6fe-9feb-495e-b4e0-0b2367268ecf.png)
+**C# 用 : Microsoft のはうまく動かない**
+
 ## WEB 上でスニペット作成
 [VSCodeスニペット用コード作成ツール](https://migi.me/vsc_snippet/)
 

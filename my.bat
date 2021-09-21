@@ -6,4 +6,4 @@ echo mysqldump --host=localhost --user=root --password= lightbox > lightbox-back
 
 cmd
 
-end local
+endlocal

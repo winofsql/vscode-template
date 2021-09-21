@@ -1,4 +1,32 @@
 {
+    "cmd-sample": {
+        "scope": "bat",
+        "prefix": "cmd-sample",
+        "body": [
+            "ipconfig /all",
+            "",
+            "net view .",
+            "",
+            "%windir%\\syswow64\\odbcad32.exe",
+            "",
+            "%windir%\\system32\\odbcad32.exe",
+            "",
+            "start shell:AppData",
+            "",
+            "start shell:sendto",
+            "",
+            "start C:\\Users\\sworc\\AppData\\Roaming\\Code\\User",
+            "",
+            "start %TEMP%",
+            "",
+            "REM https://docs.microsoft.com/ja-jp/windows/uwp/launch-resume/launch-settings-app",
+            "",
+            "start ms-settings:windowsupdate",
+            "",
+            "start ms-settings:taskbar",
+        ],
+        "description": ""
+    },
     "mysql-command": {
         "scope": "bat",
         "prefix": "mysql-command",

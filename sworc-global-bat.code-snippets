@@ -1,5 +1,6 @@
 {
     "mysql-command": {
+        "scope": "bat",
         "prefix": "mysql-command",
         "body": [
             "mysql -u root",

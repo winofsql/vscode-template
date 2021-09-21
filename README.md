@@ -279,6 +279,8 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
         "files.encoding": "shiftjis"
     }
 ```
+![image](https://user-images.githubusercontent.com/1501327/134127183-7d62855d-ea54-4b31-a67f-1a63786ba297.png)\
+**※ csv を表形式で更新**
 
 ## 言語整形
 ![image](https://user-images.githubusercontent.com/1501327/133910806-a1440c0e-12d7-4c98-9aef-affe1702a601.png)\

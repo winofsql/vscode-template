@@ -322,6 +322,9 @@ Change Language Mode
 
 ## メモ
 VSCode 内 ブラウザ : Browser Preview\
+![image](https://user-images.githubusercontent.com/1501327/134128673-5a9539b9-c517-45d3-846a-9bcada21a673.png)\
+
 C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
+![image](https://user-images.githubusercontent.com/1501327/134128726-8b31dcf6-9983-4f67-b7eb-b48d524378a2.png)\
  
 

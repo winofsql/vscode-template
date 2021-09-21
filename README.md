@@ -60,6 +60,13 @@ Visual Studio Code 用テンプレート
     "[powershell]": {
         "files.encoding": "shiftjis"
     },
+    "runTerminalCommand.commands": [
+        {
+            "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
+            "name": "Php Base",
+            "auto": true
+        }
+    ],
     "window.zoomLevel": 1
 }
 ```

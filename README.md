@@ -261,7 +261,8 @@ namespace cs_core_0912
 dotnet add package System.Data.Odbc
 dotnet add package System.Text.Encoding.CodePages
 ```
-![image](https://user-images.githubusercontent.com/1501327/133971198-17dd8a9a-4101-44a5-a66f-1a70f5678030.png)
+![image](https://user-images.githubusercontent.com/1501327/133971198-17dd8a9a-4101-44a5-a66f-1a70f5678030.png)\
+**※ C# の整形が動かない、この拡張も完全ではない**
 
 
 ## PHP ( @builtin の PHP Language Features を無効にする )

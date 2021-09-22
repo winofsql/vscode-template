@@ -211,6 +211,16 @@ java.project.sourcePaths
             "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
             "name": "Php Base",
             "auto": true
+        },
+        {
+            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
+            "name": "download-settings",
+            "auto": true
+        },
+        {
+            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+            "name": "workspace-build-download",
+            "auto": true
         }
     ]
 ```

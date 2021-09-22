@@ -6,7 +6,7 @@ Dim text
 
 Set lightbox = fso.OpenTextFile("lightbox.code-workspace", 2, True)
 lightbox.WriteLine("{")
-lightbox.WriteLine("     ""folders"": [")
+lightbox.WriteLine("    ""folders"": [")
 
 
 For Each f1 in sf

@@ -7,7 +7,7 @@ target_path = WshShell.ExpandEnvironmentStrings("%APPDATA%") & "\Code\User"
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/keybindings.json", False )
 objSrvHTTP.Send
 Stream.Open
-Stream.Type = 1 ' バイナリ
+Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile target_path & "\keybindings.json", 2
 Stream.Close
@@ -18,7 +18,7 @@ target_path = WshShell.ExpandEnvironmentStrings("%APPDATA%") & "\Code\User\snipp
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/sworc-global-java.code-snippets", False )
 objSrvHTTP.Send
 Stream.Open
-Stream.Type = 1 ' バイナリ
+Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile target_path & "\sworc-global-java.code-snippets", 2
 Stream.Close
@@ -26,7 +26,7 @@ Stream.Close
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/sworc-global-php.code-snippets", False )
 objSrvHTTP.Send
 Stream.Open
-Stream.Type = 1 ' バイナリ
+Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile target_path & "\sworc-global-php.code-snippets", 2
 Stream.Close
@@ -34,7 +34,7 @@ Stream.Close
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/sworc-global-bat.code-snippets", False )
 objSrvHTTP.Send
 Stream.Open
-Stream.Type = 1 ' バイナリ
+Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile target_path & "\sworc-global-bat.code-snippets", 2
 Stream.Close
@@ -42,7 +42,7 @@ Stream.Close
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/sworc-global-csharp.code-snippets", False )
 objSrvHTTP.Send
 Stream.Open
-Stream.Type = 1 ' バイナリ
+Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile target_path & "\sworc-global-csharp.code-snippets", 2
 Stream.Close
@@ -50,7 +50,7 @@ Stream.Close
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/sworc-global-csv.code-snippets", False )
 objSrvHTTP.Send
 Stream.Open
-Stream.Type = 1 ' バイナリ
+Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile target_path & "\sworc-global-csv.code-snippets", 2
 Stream.Close
@@ -58,7 +58,7 @@ Stream.Close
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/sworc-global-sql.code-snippets", False )
 objSrvHTTP.Send
 Stream.Open
-Stream.Type = 1 ' バイナリ
+Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile target_path & "\sworc-global-sql.code-snippets", 2
 Stream.Close

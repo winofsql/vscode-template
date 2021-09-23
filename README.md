@@ -23,6 +23,10 @@ Visual Studio Code 用テンプレート
         ".hta": "\\Windows\\SysWOW64\\mshta.exe",
         ".htm": "\\Windows\\SysWOW64\\mshta.exe"
     },
+    "files.associations": {
+        ".htm": "html",
+        ".hta": "html"
+    },
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.profiles.windows": {
         "PowerShell": {

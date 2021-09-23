@@ -11,6 +11,13 @@ Visual Studio Code 用テンプレート
     "java.home": "c:\\java11",
     "workbench.colorTheme": "Default Light+",
     "code-runner.showRunIconInEditorTitleMenu": false,
+    "code-runner.executorMap": {
+        "csv": "\"C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE\"",
+        "javascript": "cscript //Nologo",
+        "php": "\\xampp\\php\\php.exe",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "csharp": "dotnet run"
+    },
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.profiles.windows": {
         "PowerShell": {

@@ -18,6 +18,9 @@ Visual Studio Code 用テンプレート
         "powershell": "powershell -ExecutionPolicy ByPass -File",
         "csharp": "dotnet run"
     },
+    "code-runner.executorMapByFileExtension": {
+        ".wsf": "cscript //Nologo"
+    },
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.profiles.windows": {
         "PowerShell": {

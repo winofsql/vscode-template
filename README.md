@@ -19,7 +19,9 @@ Visual Studio Code 用テンプレート
         "csharp": "dotnet run"
     },
     "code-runner.executorMapByFileExtension": {
-        ".wsf": "cscript //Nologo"
+        ".wsf": "cscript //Nologo",
+        ".hta": "\\Windows\\SysWOW64\\mshta.exe",
+        ".htm": "\\Windows\\SysWOW64\\mshta.exe"
     },
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.profiles.windows": {

@@ -70,6 +70,30 @@ Visual Studio Code 用テンプレート
             "auto": true
         }
     ],
+    "runTerminalCommand.commands": [
+        {
+            "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
+            "name": "PHP MVC テンプレートファイル",
+            "auto": true
+        },
+        {
+            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
+            "name": "設定ファイルのダウンロード",
+            "auto": true,
+            "group": "設定"
+        },
+        {
+            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+            "name": "ワークスペース作成用スクリプトのダウンロード",
+            "auto": true,
+            "group": "設定"
+        },
+        {
+            "command": "\\xampp\\mysql\\bin\\my.bat",
+            "name": "MySQL Command Prompt",
+            "auto": true
+        }
+    ],
     "window.zoomLevel": 1
 }
 ```

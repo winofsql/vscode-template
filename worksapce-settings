@@ -1,0 +1,73 @@
+    "settings": {
+        "code-runner.runInTerminal": true,
+        "code-runner.fileDirectoryAsCwd": true,
+        "code-runner.executorMapByFileExtension": {
+            ".hta": "\\Windows\\SysWOW64\\mshta.exe",
+            ".htm": "\\Windows\\SysWOW64\\mshta.exe"
+        },
+        "code-runner.executorMap": {
+            "csv": "\"C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE\"",
+            "javascript": "cscript //Nologo",
+            "php": "\\xampp\\php\\php.exe",
+            "python": "python -u",
+            "powershell": "powershell -ExecutionPolicy ByPass -File",
+            "csharp": "dotnet run",
+            "vbscript": "cscript //Nologo"
+        },
+        "files.associations": {
+            ".htm": "html",
+            ".hta": "html"
+        },
+        "terminal.integrated.fontSize": 16,
+        "terminal.integrated.profiles.windows": {
+            "PowerShell": {
+                "source": "PowerShell",
+                "icon": "terminal-powershell"
+            },
+            "Command Prompt": {
+                "path": [
+                    "C:\\WINDOWS\\system32\\cmd.exe"
+                ],
+                "args": [],
+                "icon": "terminal-cmd"
+            },
+            "Git Bash": {
+                "source": "Git Bash"
+            }
+        },
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "[csv]": {
+            "files.encoding": "shiftjis"
+        },
+        "[vbs]": {
+            "files.encoding": "shiftjis"
+        },
+        "[bat]": {
+            "files.encoding": "shiftjis"
+        },
+        "[powershell]": {
+            "files.encoding": "shiftjis"
+        },
+        "[php]": {
+            "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "vscode.typescript-language-features"
+        },
+        "[html]": {
+            "editor.defaultFormatter": "vscode.html-language-features"
+        },
+        "sql-formatter.uppercase": true,
+        "[sql]": {
+            "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+        },
+        "[csharp]": {
+            "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+        },
+        "[java]": {
+            "editor.defaultFormatter": "redhat.java"
+        },
+        "[jsonc]": {
+            "editor.defaultFormatter": "vscode.json-language-features"
+        }
+    }

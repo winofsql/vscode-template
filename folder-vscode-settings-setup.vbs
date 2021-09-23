@@ -117,5 +117,12 @@ For Each f1 in sf
     
 Next
 
-lightbox.WriteLine("    ]")
+lightbox.WriteLine("    ],")
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings", False )
+objSrvHTTP.Send
+text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
+lightbox.WriteLine(text)
+
+
 lightbox.WriteLine("}")

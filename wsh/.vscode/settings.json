@@ -25,6 +25,5 @@
     "[javascript]": {
         "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
     },
-    "terminal.integrated.fontSize": 16,
-    "files.encoding": "shiftjis"
+    "terminal.integrated.fontSize": 16
 }

@@ -9,7 +9,6 @@ Visual Studio Code 用テンプレート
     "editor.fontSize": 16,
     "files.autoSave": "afterDelay",
     "java.home": "c:\\java11",
-    "workbench.colorTheme": "Default Light+",
     "code-runner.showRunIconInEditorTitleMenu": false,
     "code-runner.executorMap": {
         "csv": "\"C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE\"",

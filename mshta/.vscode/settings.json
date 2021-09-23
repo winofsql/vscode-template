@@ -2,8 +2,8 @@
     "code-runner.showRunIconInEditorTitleMenu": true, 
     "code-runner.runInTerminal": true, 
     "code-runner.executorMapByFileExtension": {
-        ".hta": "C:\\Windows\\SysWOW64\\mshta.exe",
-        ".htm": "C:\\Windows\\SysWOW64\\mshta.exe"
+        ".hta": "\\Windows\\SysWOW64\\mshta.exe",
+        ".htm": "\\Windows\\SysWOW64\\mshta.exe"
     },
     "code-runner.fileDirectoryAsCwd": true,
     "terminal.integrated.profiles.windows": {

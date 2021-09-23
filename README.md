@@ -416,7 +416,7 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ## WEB
 [参考:コリス:コードを書くのが楽になる！知っておくと便利なVS Codeの機能・設定のまとめ](https://coliss.com/articles/build-websites/operation/work/vs-code-dont-need-extensions.html)\
 [参考:コリス:2021年、VS Codeのおすすめ機能拡張のまとめ、HTMLやCSSやJavaScriptなどのコードを書く時に便利](https://coliss.com/articles/build-websites/operation/work/favorite-vscode-extensions-by-katherine.html)\
-[参考:ショートカット一覧](https://qiita.com/TakahiRoyte/items/cdab6fca64da386a690bq)\
+[参考:ショートカット一覧](https://qiita.com/TakahiRoyte/items/cdab6fca64da386a690b)\
 [ターミナルカラー](https://glitchbone.github.io/vscode-base16-term/#/)
 
 ## VScode

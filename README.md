@@ -48,6 +48,9 @@ Visual Studio Code 用テンプレート
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
     },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[csv]": {
         "files.encoding": "shiftjis"
     },

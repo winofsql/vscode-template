@@ -126,3 +126,39 @@ lightbox.WriteLine(text)
 
 
 lightbox.WriteLine("}")
+
+lightbox.close
+
+Set Stream1 = CreateObject("ADODB.Stream")
+Set Stream2 = CreateObject("ADODB.Stream")
+Set Stream3 = CreateObject("ADODB.Stream")
+
+Stream1.Open
+Stream1.Type = 2
+Stream1.Charset = "shift_jis"
+
+Stream1.LoadFromFile "lightbox.code-workspace"
+
+Stream2.Open
+Stream2.Type = 2
+Stream2.Charset = "utf-8"
+
+Stream1.CopyTo Stream2
+
+Stream1.Close
+
+Stream2.Position = 0
+Stream2.Type = 1
+
+Stream3.Open
+Stream3.Type = 1
+
+Stream2.Read(3)
+
+Stream2.CopyTo Stream3
+
+' UTF8N で保存
+Stream3.SaveToFile "lightbox.code-workspace", 2
+
+Stream3.Close
+Stream2.Close

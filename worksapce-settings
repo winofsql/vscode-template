@@ -69,7 +69,7 @@
         },
         "[jsonc]": {
             "editor.defaultFormatter": "vscode.json-language-features"
-        }
+        },
         "runTerminalCommand.commands": [
             {
                 "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",

@@ -33,5 +33,25 @@
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },    
-    "terminal.integrated.fontSize": 16
+    "terminal.integrated.fontSize": 16,
+    "runTerminalCommand.commands": [
+        {
+            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
+            "name": "設定ファイルのダウンロード",
+            "auto": true,
+            "group": "設定"
+        },
+        {
+            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+            "name": "ワークスペース作成用スクリプトのダウンロード",
+            "auto": true,
+            "group": "設定"
+        },
+        {
+            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/hta-js-ado-mysql-req/raw/main/hta-js-ado-mysql-req.htm && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/hta-js-ado-mysql-req/raw/main/hta.js",
+            "name": "HTA + MySQL",
+            "auto": true,
+            "group": "サンプル ダウンロード"
+        }
+    ]
 }

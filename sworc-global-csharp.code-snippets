@@ -84,6 +84,7 @@
         "description": ""
     },
     "array-sort-getenv": {
+        "scope": "csharp",
         "prefix": "array-sort-getenv",
         "body": [
             "IDictionary env = Environment.GetEnvironmentVariables();",

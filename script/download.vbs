@@ -8,7 +8,7 @@ filename = path(Ubound(path))
 Call objSrvHTTP.Open("GET", Wscript.Arguments(0), False )
 objSrvHTTP.Send
 Stream.Open
-Stream.Type = 1 ' ƒoƒCƒiƒŠ
+Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile filename, 2
 Stream.Close

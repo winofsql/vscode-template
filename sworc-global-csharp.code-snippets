@@ -83,9 +83,8 @@
         ],
         "description": ""
     },
-    "array-sort-for": {
-        "scope": "csharp",
-        "prefix": "array-sort-for",
+    "array-sort-getenv": {
+        "prefix": "array-sort-getenv",
         "body": [
             "IDictionary env = Environment.GetEnvironmentVariables();",
             "",
@@ -112,6 +111,13 @@
             "    Console.WriteLine(\\$\"{keys[i]} => {env[keys[i]]}\");",
             "}",
             "",
+            "// ****************************************",
+            "// foreach",
+            "// ****************************************",
+            "foreach (string key in keys)",
+            "{",
+            "    Console.WriteLine(\\$\"{key} => {env[key]}\");",
+            "}",
         ],
         "description": ""
     }

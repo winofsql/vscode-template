@@ -399,6 +399,10 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
     }
 ```
 
+## zip 内参照
+![image](https://user-images.githubusercontent.com/1501327/134774975-8d21386e-a972-48d5-828e-d9a3869ae266.png)
+
+
 ## VBScript( ツール作成用 )
 ![image](https://user-images.githubusercontent.com/1501327/134128422-db5fb3ec-5d2b-4909-b55e-cca924bd7e05.png)
 ```javascript

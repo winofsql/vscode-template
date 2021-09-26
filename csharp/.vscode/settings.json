@@ -26,6 +26,7 @@
         "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
     },
     "terminal.integrated.fontSize": 16,
+    "editor.renderWhitespace": "boundary",
     "runTerminalCommand.commands": [
         {
             "command": "dotnet new console",

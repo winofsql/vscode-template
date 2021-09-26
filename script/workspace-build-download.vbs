@@ -7,7 +7,7 @@ Set obj = obj.ParentFolder
   
 Dim target_path
 target_path = obj.Path
-Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/folder-vscode-settings-setup.vbs", False )
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/folder-vscode-settings-setup.vbs" & "?dummy=" & Timer, False )
 objSrvHTTP.Send
 Stream.Open
 Stream.Type = 1

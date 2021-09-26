@@ -111,7 +111,7 @@ Function GetSetting( url, target_path )
     path = Split(url,"/")
     filename = path(Ubound(path))
 
-    Call objSrvHTTP.Open("GET", url, False )
+	Call objSrvHTTP.Open("GET", url  & "?dummy=" & Timer, False )
     objSrvHTTP.Send
     Stream1.Open
     Stream1.Type = 1

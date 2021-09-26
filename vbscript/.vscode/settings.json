@@ -5,9 +5,6 @@
         "vbscript": "cscript //Nologo"
     },
     "code-runner.fileDirectoryAsCwd": true,
-    "[vbscript]": {
-        "editor.defaultFormatter": "Serpen.vbsvscode"
-    },
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",

@@ -64,4 +64,4 @@ Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile target_path & "\sworc-global-sql.code-snippets", 2
 Stream.Close
 
-MsgBox( "設定ファイルのダウンロードが終了しました" )
+MsgBox("設定ファイルのダウンロードが終了しました")

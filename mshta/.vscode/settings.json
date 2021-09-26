@@ -24,8 +24,8 @@
     },
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "files.associations": {
-        ".htm": "html",
-        ".hta": "html"
+        "*.htm": "html",
+        "*.hta": "html"
     },
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"

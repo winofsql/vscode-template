@@ -26,7 +26,7 @@
     },
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.fontSize": 16,
-    "files.encoding": "shiftjis",
     "editor.renderWhitespace": "boundary",
+    "files.encoding": "shiftjis",
     "terminal.integrated.defaultLocation": "editor"
 }

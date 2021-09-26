@@ -34,6 +34,7 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },    
     "terminal.integrated.fontSize": 16,
+    "editor.renderWhitespace": "boundary",
     "runTerminalCommand.commands": [
         {
             "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",

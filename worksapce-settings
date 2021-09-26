@@ -10,7 +10,7 @@
             "javascript": "cscript //Nologo",
             "php": "\\xampp\\php\\php.exe",
             "python": "python -u",
-            "powershell": "powershell -ExecutionPolicy ByPass -File",
+            "powershell": "powershell -NoProfile -ExecutionPolicy Unrestricted -File",
             "csharp": "dotnet run",
             "vbscript": "cscript //Nologo"
         },

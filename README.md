@@ -216,7 +216,8 @@ keyboard json
 | CTRL + F7 | 大文字に変換
 | CTRL + F6 | 小文字に変換
   
-
+\
+\
 ![image](https://user-images.githubusercontent.com/1501327/134832146-8ea73bef-56e1-44e5-be67-7015f36a860b.png)
 
 

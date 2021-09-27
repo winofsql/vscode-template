@@ -141,7 +141,6 @@ Visual Studio Code 用テンプレート
 | :--- | :---  
 | CTRL + SPACE | IntelliSense
 | SHIFT + ALT + F | フォーマット( ソース全体のフォーマット )
-| SHIFT + ALT + PAUSE | フォーマット( 選択部分のフォーマット )
 | SHIFT + ALT + ドラッグ | 矩形選択
 | Alt + Up : Alt + Down | 選択単位で上下移動( 1行の時は、カーソルを置いた行が対象 )
 | CTRL + L | 現在行の選択
@@ -212,6 +211,7 @@ keyboard json
 | 操作 | Description 
 | :--- | :---  
 | SHIFT + ALT + K | キーボードショートカットの変更を開く
+| SHIFT + ALT + PAUSE | フォーマット( 選択部分のフォーマット )
 | CTRL + SHIFT + DEL | 選択単位で行末スペース削除
 | CTRL + F7 | 大文字に変換
 | CTRL + F6 | 小文字に変換

@@ -217,6 +217,9 @@ keyboard json
 | CTRL + F6 | 小文字に変換
   
 
+![image](https://user-images.githubusercontent.com/1501327/134832146-8ea73bef-56e1-44e5-be67-7015f36a860b.png)
+
+
 ## Extension Pack for Java
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)\
 **▼ ブロジェクト リビルド**

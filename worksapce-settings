@@ -6,7 +6,7 @@
             ".htm": "\\Windows\\SysWOW64\\mshta.exe"
         },
         "code-runner.executorMap": {
-            "csv": "\"C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE\"",
+            "csv": "\"C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE\"",
             "javascript": "cscript //Nologo",
             "php": "\\xampp\\php\\php.exe",
             "python": "python -u",

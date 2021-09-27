@@ -44,5 +44,9 @@
         "key": "shift+alt+pausebreak",
         "command": "editor.action.formatSelection",
         "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+oem_3",
+        "command": "workbench.action.tasks.runTask"
     }
 ]

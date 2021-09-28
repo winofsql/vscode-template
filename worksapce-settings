@@ -116,6 +116,11 @@
                 "auto": true,
                 "group": "設定"
             },
+                "command": "mkdir java && mkdir php && mkdir cs && mkdir python && mkdir sql && mkdir bat",
+                "name": "簡易プロジェクトフォルダ作成",
+                "auto": true,
+                "group": "テスト"
+            },
             {
                 "command": "\\xampp\\mysql\\bin\\my.bat",
                 "name": "MySQL Command Prompt",

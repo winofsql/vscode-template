@@ -451,6 +451,7 @@ C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
 
 ## VS Code ドキュメント( Chrome の翻訳ツールを使う )
 [ZEN モード](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_zen-mode)\
+[Markdownプレビューを開く](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_open-markdown-preview)\
 [シンボルの名前を変更](https://code.visualstudio.com/docs/editor/refactoring#_rename-symbol)
 
 ## 関連ドキュメント( Chrome の翻訳ツールを使う )

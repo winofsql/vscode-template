@@ -13,7 +13,7 @@ For i=1 To Wscript.Arguments.Count-1
         on error resume next
         fc.Add( Replace( Wscript.Arguments(i), "\", "" ) )
         on error goto 0
-        curPath = Wscript.Arguments(i)
+        curPath = Replace( Wscript.Arguments(i), "\", "" )
     else
         if curPath = "" then
             Call objSrvHTTP.Open("GET", Wscript.Arguments(0) & "/" & Wscript.Arguments(i) & "?dummy=" & Timer, False )
@@ -24,12 +24,12 @@ For i=1 To Wscript.Arguments.Count-1
             Stream.SaveToFile Wscript.Arguments(i), 2
             Stream.Close
         else
-            Call objSrvHTTP.Open("GET", Wscript.Arguments(0) & "/" & Wscript.Arguments(i) & "?dummy=" & Timer, False )
+            Call objSrvHTTP.Open("GET", Wscript.Arguments(0) & "/" & curPath & "/" & Wscript.Arguments(i) & "?dummy=" & Timer, False )
             objSrvHTTP.Send
             Stream.Open
             Stream.Type = 1 '
             Stream.Write objSrvHTTP.responseBody
-            Stream.SaveToFile Replace( curPath, "\", "" ) & "\" & Wscript.Arguments(i), 2
+            Stream.SaveToFile curPath & "\" & Wscript.Arguments(i), 2
             Stream.Close
         end if
     end if

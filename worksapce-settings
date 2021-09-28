@@ -78,7 +78,7 @@
             },
             {
                 "command": "code {resource}",
-                "name": "VSCode で開く",
+                "name": "VSCode でフォルダを開く",
                 "auto": true
             },
             {

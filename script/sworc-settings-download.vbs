@@ -64,4 +64,14 @@ Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile target_path & "\sworc-global-sql.code-snippets", 2
 Stream.Close
 
-WScript.Echo "keybindings.json and snippets is downloaded"
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/my.bat" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+on error resume next
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile "\xampp\mysql\bin\my.bat", 2
+Stream.Close
+on error goto 0
+
+WScript.Echo "keybindings.json and snippets ( and my.bat ) is downloaded"

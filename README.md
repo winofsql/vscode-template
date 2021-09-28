@@ -446,6 +446,7 @@ C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
 ![image](https://user-images.githubusercontent.com/1501327/134128726-8b31dcf6-9983-4f67-b7eb-b48d524378a2.png)
  
  ## Google Chrome 翻訳連携
- ![image](https://user-images.githubusercontent.com/1501327/135040897-418ed8e7-4a92-41ed-94a8-1e6492063c4d.png)
+![image](https://user-images.githubusercontent.com/1501327/135040897-418ed8e7-4a92-41ed-94a8-1e6492063c4d.png)
+![image](https://user-images.githubusercontent.com/1501327/135041100-83017183-beb3-43ba-95d3-0fd1f1f96df4.png)
 
 

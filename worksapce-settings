@@ -93,6 +93,12 @@
                 "group": "Java Subject ダウンロード"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0909-java-hello-class/raw/main Hello.java LocalAction.java \\database MysqlAction.java",
+                "name": "0909 java-hello-class",
+                "auto": true,
+                "group": "Java Subject ダウンロード"
+            },
+            {
                 "command": "dotnet new console",
                 "name": "コンソールプロジェクト作成",
                 "auto": true,

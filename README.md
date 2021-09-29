@@ -415,7 +415,7 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
     }
 ```
 
-## zip 内参照
+## zip 内参照( arcanis.vscode-zipfs )
 ![image](https://user-images.githubusercontent.com/1501327/134774975-8d21386e-a972-48d5-828e-d9a3869ae266.png)
 
 

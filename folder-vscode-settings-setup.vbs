@@ -38,11 +38,11 @@ For Each f1 in sf
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/php/.vscode/settings.json", f1.path )
         WorkspacePath
     end if
-    if inStr( f1.name, "powershell" ) > 0 Then
+    if inStr( f1.name, "ps" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/powershell/.vscode/settings.json", f1.path )
         WorkspacePath
     end if
-    if inStr( f1.name, "python" ) > 0 Then
+    if inStr( f1.name, "py" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/python/.vscode/settings.json", f1.path )
         WorkspacePath
     end if

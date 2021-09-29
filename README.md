@@ -274,7 +274,7 @@ java.project.sourcePaths
         "vbscript": "cscript //Nologo"
     }
 ```
-## Run Terminal Command
+## Run Terminal Command ( adrianwilczynski.terminal-commands )
 ![image](https://user-images.githubusercontent.com/1501327/134173105-2c7ba14c-bc3a-49a4-a3ea-e882226d8dc1.png)\
 ![image](https://user-images.githubusercontent.com/1501327/134357892-2d8733c7-bf63-4266-9187-5343c9383e00.png)
 ```javascript

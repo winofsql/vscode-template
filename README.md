@@ -143,6 +143,7 @@ Visual Studio Code 用テンプレート
 | SHIFT + ALT + F | フォーマット( ソース全体のフォーマット )
 | SHIFT + ALT + ドラッグ | 矩形選択
 | Alt + Up : Alt + Down | 選択単位で上下移動( 1行の時は、カーソルを置いた行が対象 )
+| Alt + SHIFT + Up : Alt + SHIFT + Down | 選択単位でコピー( 1行の時は、カーソルを置いた行が対象 )
 | CTRL + L | 現在行の選択
 | CTRL + D | 同じ文字列を一括編集する為に一つづつ選択
 | CTRL + SHIFT + L | 同じ文字列を全て一括編集

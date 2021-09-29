@@ -456,6 +456,8 @@ C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
 ![image](https://user-images.githubusercontent.com/1501327/135040897-418ed8e7-4a92-41ed-94a8-1e6492063c4d.png)
 ![image](https://user-images.githubusercontent.com/1501327/135041100-83017183-beb3-43ba-95d3-0fd1f1f96df4.png)
 
+## [対話型プレイグラウンドの翻訳リポジトリ](https://github.com/satokaz/tips/blob/master/vscode/walkThrough/vs_code_editor_walkthrough.md)
+
 ## VS Code ドキュメント( Chrome の翻訳ツールを使う )
 [ZEN モード](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_zen-mode)\
 [Markdownプレビューを開く](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_open-markdown-preview)\

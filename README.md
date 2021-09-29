@@ -148,6 +148,7 @@ Visual Studio Code 用テンプレート
 | CTRL + SHIFT + L | 同じ文字列を全て一括編集
 | CTRL + ENTER | 下に行追加
 | CTRL + SHIFT + ENTER | 上に行追加
+| CTRL + SHIFT + v | マークダウンのプレビュー
 
 
 ## keybindings.json : C:\Users\\%username%\AppData\Roaming\Code\User

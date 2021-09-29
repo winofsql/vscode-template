@@ -329,6 +329,8 @@ java.project.sourcePaths
         "command": "extension.disableZenkaku"
     }
 ```
+**[非公式Pythonダウンロードリンク](https://pythonlinks.python.jp/ja/index.html)**
+
 ## dotnet C# ( Dotnet Core )
 ![image](https://user-images.githubusercontent.com/1501327/132970933-bedc9e7f-23b9-44ba-b5c5-aed6c418d794.png)
 1. dotnet new console

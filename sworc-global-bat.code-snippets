@@ -27,11 +27,28 @@
         ],
         "description": ""
     },
-    "mysql-command": {
+    "cmd-basic1": {
         "scope": "bat",
-        "prefix": "mysql-command",
+        "prefix": "ipconfig /all",
         "body": [
-            "mysql -u root",
+            "ipconfig /all",
+        ],
+        "description": ""
+    },
+    "cmd-basic2": {
+        "scope": "bat",
+        "prefix": "xcopy",
+        "body": [
+            "xcopy src-path dest-path\\ /D /E /C /S /Y",
+        ],
+        "description": ""
+    },
+    "cmd-basic3": {
+        "scope": "bat",
+        "prefix": "robocopy",
+        "body": [
+            "robocopy src-path dest-path /E /XO /NP /R:3 /W:3 /LOG:%TEMP%\\robo.log",
+            "notepad %TEMP%\\robo.log"
         ],
         "description": ""
     },

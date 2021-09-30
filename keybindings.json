@@ -46,7 +46,7 @@
         "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+alt+@",
+        "key": "shift+alt+oem_3",
         "command": "workbench.action.tasks.runTask"
     }
 ]

@@ -29,6 +29,16 @@
     "editor.renderWhitespace": "boundary",
     "runTerminalCommand.commands": [
         {
+            "command": "explorer {resource}",
+            "name": "選択したファイルを既定のアプリで開く",
+            "auto": true
+        },
+        {
+            "command": "code {resource}",
+            "name": "VSCode でフォルダを開く",
+            "auto": true
+        },
+        {
             "command": "dotnet new console",
             "name": "コンソールプロジェクト作成",
             "auto": true,
@@ -49,6 +59,12 @@
         {
             "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
             "name": "設定ファイルのダウンロード",
+            "auto": true,
+            "group": "設定"
+        },
+        {
+            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+            "name": "ワークスペース作成用スクリプトのダウンロード",
             "auto": true,
             "group": "設定"
         }

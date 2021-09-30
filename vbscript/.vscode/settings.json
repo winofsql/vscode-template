@@ -28,6 +28,12 @@
     "terminal.integrated.defaultLocation": "editor",
     "runTerminalCommand.commands": [
         {
+            "command": "cscript setup-vscode-user.vbs",
+            "name": "基本設定",
+            "auto": true,
+            "group": "設定"
+        },
+        {
             "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
             "name": "設定ファイルのダウンロード",
             "auto": true,
@@ -38,6 +44,16 @@
             "name": "ワークスペース作成用スクリプトのダウンロード",
             "auto": true,
             "group": "設定"
+        },
+        {
+            "command": "explorer {resource}",
+            "name": "選択したファイルを既定のアプリで開く",
+            "auto": true
+        },
+        {
+            "command": "code {resource}",
+            "name": "VSCode でフォルダを開く",
+            "auto": true
         }
     ]  
 }

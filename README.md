@@ -464,7 +464,8 @@ C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
 [シンボルの名前を変更](https://code.visualstudio.com/docs/editor/refactoring#_rename-symbol)\
 [差分の表示](https://code.visualstudio.com/docs/editor/versioncontrol#_viewing-diffs)
 
-## 関連ドキュメント( Chrome の翻訳ツールを使う )
+## Emmet関連ドキュメント
 [Emmet Syntax](https://docs.emmet.io/abbreviations/syntax/)\
-[Emmet チートシート](https://docs.emmet.io/cheat-sheet/)
+[Emmet チートシート](https://docs.emmet.io/cheat-sheet/)\
+[主な記述方法](https://blog.proglus.jp/4428/#i-2)
 

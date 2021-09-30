@@ -35,6 +35,16 @@
     "editor.renderWhitespace": "boundary",
     "runTerminalCommand.commands": [
         {
+            "command": "explorer {resource}",
+            "name": "選択したファイルを既定のアプリで開く",
+            "auto": true
+        },
+        {
+            "command": "code {resource}",
+            "name": "VSCode でフォルダを開く",
+            "auto": true
+        },
+        {
             "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
             "name": "PHP MVC テンプレートファイル",
             "auto": true

@@ -16,6 +16,7 @@ For Each f1 in sf
     text = ""
     if inStr( f1.name, "java" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/java/.vscode/launch.json", f1.path )
+        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/java/.vscode/settings.json", f1.path )
         WorkspacePath
     end if
     if inStr( f1.name, "bat" ) > 0 Then

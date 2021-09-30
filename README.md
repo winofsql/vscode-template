@@ -466,5 +466,5 @@ C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
 
 ## 関連ドキュメント( Chrome の翻訳ツールを使う )
 [Emmet Syntax](https://docs.emmet.io/abbreviations/syntax/)\
-[Emmet ートシート](https://docs.emmet.io/cheat-sheet/)
+[Emmet チートシート](https://docs.emmet.io/cheat-sheet/)
 

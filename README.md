@@ -465,6 +465,6 @@ C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
 [差分の表示](https://code.visualstudio.com/docs/editor/versioncontrol#_viewing-diffs)
 
 ## 関連ドキュメント( Chrome の翻訳ツールを使う )
-[Emmet Syntax](https://docs.emmet.io/abbreviations/syntax/)
+[Emmet Syntax](https://docs.emmet.io/abbreviations/syntax/)\
 [Emmet ートシート](https://docs.emmet.io/cheat-sheet/)
 

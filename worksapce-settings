@@ -143,8 +143,14 @@
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0929-python-basic/raw/main README.md sample01.py sample02.py sample03.py sample04.py sample05.py sample06.py sample07.py sample08.py sample09.py sample10.py sample11.py sample12.py sample13.py sample14.py sample15.py",
                 "name": "Python Basic 0929",
                 "auto": true,
-                "group": "サンプル ダウンロード"
+                "group": "Python subject ダウンロード"
             },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0930-python-basic/raw/main README.md flower01.jpg flower02.jpg flower03.jpg sample01.py sample02.py sample03.py sample04.py sample05.py sample06.py sample07.py sample08.py sample09.py sample10.py sample11.py sample12.py",
+                "name": "Python Basic 0929",
+                "auto": true,
+                "group": "Python subject ダウンロード"
+            },            
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/hta-js-ado-mysql-req/raw/main hta-js-ado-mysql-req.htm hta.js",
                 "name": "HTA + MySQL",

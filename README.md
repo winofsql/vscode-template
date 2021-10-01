@@ -452,7 +452,7 @@ VSCode 内 ブラウザ : Browser Preview\
 C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
 ![image](https://user-images.githubusercontent.com/1501327/134128726-8b31dcf6-9983-4f67-b7eb-b48d524378a2.png)
 
-バイナリダンプ\
+バイナリダンプ ( qiaojie.binary-viewer )\
 ![image](https://user-images.githubusercontent.com/1501327/135572507-123b2452-8950-4d11-927d-03fa3699fc68.png)
  
  ## Google Chrome 翻訳連携

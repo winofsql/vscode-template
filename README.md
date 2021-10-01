@@ -426,6 +426,9 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
     "material-icon-theme.opacity": 0.8,
     "material-icon-theme.showWelcomeMessage": false
 ```
+![image](https://user-images.githubusercontent.com/1501327/135634844-5848f069-7708-4a98-862a-c95523c46a63.png)
+
+
 
 ## VBScript( ツール作成用 )
 ![image](https://user-images.githubusercontent.com/1501327/134128422-db5fb3ec-5d2b-4909-b55e-cca924bd7e05.png)

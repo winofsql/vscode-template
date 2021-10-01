@@ -136,6 +136,12 @@
                 "group": "設定"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs",
+                "name": "XAMPP Alias 設定",
+                "auto": true,
+                "group": "設定"
+            },
+            {
                 "command": "mkdir ..\\java && mkdir ..\\php && mkdir ..\\cs && mkdir ..\\python && mkdir ..\\sql && mkdir ..\\bat",
                 "name": "簡易プロジェクトフォルダ作成",
                 "auto": true,

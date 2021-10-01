@@ -34,3 +34,12 @@ Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile path & "\workspace-build-download.vbs", 2
 Stream.Close
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/script/build-xampp-alias.vbs" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\build-xampp-alias.vbs", 2
+Stream.Close
+

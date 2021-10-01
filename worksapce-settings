@@ -84,7 +84,14 @@
             {
                 "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
                 "name": "PHP MVC テンプレートファイル",
-                "auto": true
+                "auto": true,
+                "group": "PHP サンプル ダウンロード"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-pdo-select-basic/raw/main README.md connect.php db-select-01-array.php db-select-02-heardoc.php setting.php",
+                "name": "PHP PDO SELECT サンプル",
+                "auto": true,
+                "group": "PHP サンプル ダウンロード"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0908-java-hello-class/raw/main HelloClass.java ConsoleFormat.java",

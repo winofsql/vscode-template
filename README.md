@@ -424,7 +424,7 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.color": "#bfc553",
     "material-icon-theme.opacity": 0.8,
-    "material-icon-theme.showWelcomeMessage": false,
+    "material-icon-theme.showWelcomeMessage": false
 ```
 
 ## VBScript( ツール作成用 )

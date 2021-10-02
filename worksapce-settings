@@ -182,6 +182,12 @@
                 "name": "VS Code テンプレート",
                 "auto": true,
                 "group": "ブックマーク"
+            },
+            {
+                "command": "start chrome http://localhost/",
+                "name": "localhost",
+                "auto": true,
+                "group": "ブックマーク"
             }
         ]
     }

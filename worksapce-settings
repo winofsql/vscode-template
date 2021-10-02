@@ -170,6 +170,18 @@
                 "name": "HTA + MySQL",
                 "auto": true,
                 "group": "サンプル ダウンロード"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/subject",
+                "name": "Subject ワークスペース用テンプレート",
+                "auto": true,
+                "group": "ブックマーク"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/vscode-template",
+                "name": "VS Code テンプレート",
+                "auto": true,
+                "group": "ブックマーク"
             }
         ]
     }

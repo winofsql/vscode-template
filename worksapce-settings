@@ -15,8 +15,9 @@
             "vbscript": "cscript //Nologo"
         },
         "files.associations": {
-            ".htm": "html",
-            ".hta": "html"
+            "*.htm": "html",
+            "*.hta": "html",
+            "*.xlsx": "excel"
         },
         "terminal.integrated.fontSize": 16,
         "terminal.integrated.profiles.windows": {

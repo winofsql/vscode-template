@@ -11,7 +11,7 @@ Visual Studio Code 用テンプレート
     "java.home": "c:\\java11",
     "code-runner.showRunIconInEditorTitleMenu": false,
     "code-runner.executorMap": {
-        "csv": "\"C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE\"",
+        "csv": "explorer",
         "javascript": "cscript //Nologo",
         "php": "\\xampp\\php\\php.exe",
         "powershell": "powershell -ExecutionPolicy ByPass -File",

@@ -14,7 +14,7 @@ Visual Studio Code 用テンプレート
         "csv": "explorer",
         "javascript": "cscript //Nologo",
         "php": "\\xampp\\php\\php.exe",
-        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Unrestricted -File",
         "csharp": "dotnet run"
     },
     "code-runner.executorMapByFileExtension": {

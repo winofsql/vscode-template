@@ -73,6 +73,12 @@
             "name": "ワークスペース作成用スクリプトのダウンロード",
             "auto": true,
             "group": "設定"
+        },
+        {
+            "command": "start chrome http://localhost/",
+            "name": "localhost",
+            "auto": true,
+            "group": "ブックマーク"
         }
     ]
 }

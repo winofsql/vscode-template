@@ -19,3 +19,14 @@ text = Replace(text, "CURPATH", path )
 
 lightbox.Write(text)
 lightbox.close
+
+Set lightbox = fso.OpenTextFile("\xampp\apache\conf\httpd.conf", 1)
+text = lightbox.ReadAll
+text = Replace(text, vbCrLf, vbLf)
+text = Replace(text, "Include ""conf/extra/httpd-lightbox.conf""" & vbLf ,"")
+text = Replace(text, "Include ""conf/extra/httpd-xampp.conf""" & vbLf ,"Include ""conf/extra/httpd-xampp.conf""" & vbLf & "Include ""conf/extra/httpd-lightbox.conf""" & vbCrLf )
+lightbox.close
+
+Set lightbox = fso.OpenTextFile("\xampp\apache\conf\httpd.conf", 2, True)
+lightbox.Write(text)
+lightbox.close

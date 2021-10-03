@@ -40,6 +40,11 @@
             "name": "ワークスペース作成用スクリプトのダウンロード",
             "auto": true,
             "group": "設定"
+        },
+        {
+            "command": "start chrome https://java-code.jp/",
+            "name": "Javaコード入門",
+            "auto": true
         }
     ]  
 }

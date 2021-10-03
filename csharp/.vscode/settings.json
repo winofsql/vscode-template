@@ -39,6 +39,11 @@
             "auto": true
         },
         {
+            "command": "start chrome https://www.tohoho-web.com/ex/c-sharp.html",
+            "name": "C#入門",
+            "auto": true
+        },
+        {
             "command": "dotnet new console",
             "name": "コンソールプロジェクト作成",
             "auto": true,

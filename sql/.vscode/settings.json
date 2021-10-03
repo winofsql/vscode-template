@@ -32,6 +32,11 @@
             "auto": true
         },
         {
+            "command": "start chrome https://dev.mysql.com/doc/refman/5.6/ja/sql-syntax-data-manipulation.html",
+            "name": "MySQL データ操作ステートメント",
+            "auto": true
+        },
+        {
             "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
             "name": "設定ファイルのダウンロード",
             "auto": true,

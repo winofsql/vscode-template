@@ -30,6 +30,11 @@
             "auto": true
         },
         {
+            "command": "start chrome https://java-code.jp/",
+            "name": "Javaコード入門",
+            "auto": true
+        },
+        {
             "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
             "name": "設定ファイルのダウンロード",
             "auto": true,
@@ -40,11 +45,6 @@
             "name": "ワークスペース作成用スクリプトのダウンロード",
             "auto": true,
             "group": "設定"
-        },
-        {
-            "command": "start chrome https://java-code.jp/",
-            "name": "Javaコード入門",
-            "auto": true
         }
     ]  
 }

@@ -114,6 +114,12 @@
                 "group": "C#"
             },
             {
+                "command": "dotnet new winforms",
+                "name": "Form プロジェクト作成",
+                "auto": true,
+                "group": "C#"
+            },
+            {
                 "command": "dotnet add package System.Data.Odbc",
                 "name": "System.Data.Odbc 追加",
                 "auto": true,

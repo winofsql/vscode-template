@@ -75,10 +75,9 @@
             "group": "設定"
         },
         {
-            "command": "start chrome http://localhost/",
+            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs",
             "name": "localhost",
-            "auto": true,
-            "group": "ブックマーク"
-        }
+            "auto": true
+        },
     ]
 }

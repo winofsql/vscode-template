@@ -37,6 +37,7 @@
             }
         },
         "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "csv-edit.fontSizeInPx": 14,
         "[csv]": {
             "files.encoding": "shiftjis"
         },

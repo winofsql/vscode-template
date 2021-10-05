@@ -59,7 +59,7 @@ For Each f1 in sf
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/wsh/.vscode/settings.json", f1.path )
         WorkspacePath
     end if
-    if f1.name = "zz-workspace" Then
+    if inStr( f1.name, "zz-" ) > 0 Then
         WorkspacePath
     end if
     

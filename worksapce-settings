@@ -197,12 +197,6 @@
                 "group": "ブックマーク"
             },
             {
-                "command": "start chrome http://localhost/",
-                "name": "localhost",
-                "auto": true,
-                "group": "ブックマーク"
-            },
-            {
                 "command": "start chrome https://java-code.jp/",
                 "name": "Javaコード入門",
                 "auto": true,

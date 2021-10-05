@@ -195,24 +195,6 @@
                 "name": "VS Code テンプレート",
                 "auto": true,
                 "group": "ブックマーク"
-            },
-            {
-                "command": "start chrome https://java-code.jp/",
-                "name": "Javaコード入門",
-                "auto": true,
-                "group": "言語ドキュメント"
-            },
-            {
-                "command": "start chrome https://www.tohoho-web.com/ex/c-sharp.html",
-                "name": "C#入門",
-                "auto": true,
-                "group": "言語ドキュメント"
-            },
-            {
-                "command": "start chrome https://dev.mysql.com/doc/refman/5.6/ja/sql-syntax-data-manipulation.html",
-                "name": "MySQL データ操作ステートメント",
-                "auto": true,
-                "group": "言語ドキュメント"
             }
         ]
     }

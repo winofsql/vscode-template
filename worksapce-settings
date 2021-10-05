@@ -156,7 +156,7 @@
                 "group": "テスト"
             },
             {
-                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2% && mkdir ..\\php-%date:~5,2%%date:~8,2% && mkdir ..\\cs-%date:~5,2%%date:~8,2% && mkdir ..\\python-%date:~5,2%%date:~8,2% && mkdir ..\\sql-%date:~5,2%%date:~8,2% && mkdir ..\\bat-%date:~5,2%%date:~8,2% && cd .. && cscript folder-vscode-settings-setup.vbs",
+                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2% && mkdir ..\\php-%date:~5,2%%date:~8,2% && mkdir ..\\cs-%date:~5,2%%date:~8,2% && mkdir ..\\python-%date:~5,2%%date:~8,2% && mkdir ..\\sql-%date:~5,2%%date:~8,2% && mkdir ..\\bat-%date:~5,2%%date:~8,2% && cd .. && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\folder-vscode-settings-setup.vbs",
                 "name": "簡易プロジェクトフォルダ作成",
                 "auto": true,
                 "group": "テスト"

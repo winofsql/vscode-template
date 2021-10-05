@@ -6,5 +6,5 @@ Set obj = obj.ParentFolder
 Dim target_path
 target_path = obj.Path
 WshShell.CurrentDirectory = target_path
-MsgBox(WshShell.CurrentDirectory)
+
 WshShell.Run("C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\folder-vscode-settings-setup.vbs")

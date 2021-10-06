@@ -1,4 +1,12 @@
 {
+    "Console.WriteLine": {
+        "scope": "csharp",
+        "prefix": "console-writeline",
+        "body": [
+            "Console.WriteLine(${TM_SELECTED_TEXT}$0);"
+        ],
+        "description": ""
+    },
     "file-text-input-all": {
         "scope": "csharp",
         "prefix": "file-text-input-all",

@@ -162,10 +162,16 @@
                 "group": "テスト"
             },
             {
+                "command": "start chrome http://localhost:8080/lightbox",
+                "name": "TOMCAT : localhost:8080",
+                "auto": true,
+                "group": "TOMCAT"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs",
                 "name": "TOMCAT PATH 作成",
                 "auto": true,
-                "group": "テスト"
+                "group": "TOMCAT"
             },
             {
                 "command": "\\xampp\\mysql\\bin\\my.bat",

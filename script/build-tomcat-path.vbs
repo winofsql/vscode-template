@@ -1,8 +1,49 @@
 Set objSrvHTTP = Wscript.CreateObject("Msxml2.ServerXMLHTTP")
+Set Stream = Wscript.CreateObject("ADODB.Stream")
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set WshShell = WScript.CreateObject("WScript.Shell")
 Dim path
 path = WshShell.CurrentDirectory
+Set f = fso.GetFolder(path)
+Set fc = f.SubFolders
+on error resume next
+fc.Add("WEB-INF")
+on error goto 0 
+Set f = fso.GetFolder(path & "\WEB-INF")
+Set fc = f.SubFolders
+on error resume next
+fc.Add("classes")
+on error goto 0 
+Set f = fso.GetFolder(path & "\WEB-INF\classes")
+Set fc = f.SubFolders
+on error resume next
+fc.Add("lightbox")
+on error goto 0 
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/sample.jsp" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\sample.jsp", 2
+Stream.Close
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/Sample1.java" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\WEB-INF\classes\lightbox\Sample1.java", 2
+Stream.Close
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/comp.bat" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\WEB-INF\classes\lightbox\comp.bat", 2
+Stream.Close
+
 Dim fname
 Dim work
 dim text

@@ -22,6 +22,8 @@
     "terminal.integrated.fontSize": 16,
     "editor.renderWhitespace": "boundary",
     "files.encoding": "shiftjis",
+    "csv-edit.fontSizeInPx": 14,
+    "csv-preview.formatValues": "never",
     "runTerminalCommand.commands": [
         {
             "command": "explorer {resource}",

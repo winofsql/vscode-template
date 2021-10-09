@@ -15,6 +15,7 @@
             "vbscript": "cscript //Nologo"
         },
         "files.associations": {
+            "*.jsp": "java",
             "*.htm": "html",
             "*.hta": "html",
             "*.xlsx": "excel"

@@ -35,6 +35,11 @@
     },    
     "terminal.integrated.fontSize": 16,
     "editor.renderWhitespace": "boundary",
+    "csv-edit.fontSizeInPx": 14,
+    "csv-preview.formatValues": "never",
+    "[csv]": {
+        "files.encoding": "shiftjis"
+    },
     "runTerminalCommand.commands": [
         {
             "command": "explorer {resource}",

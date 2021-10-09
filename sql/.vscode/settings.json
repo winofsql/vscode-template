@@ -20,6 +20,11 @@
     "[sql]": {
         "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },
+    "csv-edit.fontSizeInPx": 14,
+    "csv-preview.formatValues": "never",
+    "[csv]": {
+        "files.encoding": "shiftjis"
+    },
     "runTerminalCommand.commands": [
         {
             "command": "explorer {resource}",

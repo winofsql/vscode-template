@@ -20,6 +20,11 @@
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "editor.renderWhitespace": "boundary",
     "terminal.integrated.fontSize": 16,
+    "csv-edit.fontSizeInPx": 14,
+    "csv-preview.formatValues": "never",
+    "[csv]": {
+        "files.encoding": "shiftjis"
+    },
     "runTerminalCommand.commands": [
         {
             "command": "explorer {resource}",

@@ -13,6 +13,7 @@ Set f = fso.GetFolder(path & "\WEB-INF")
 Set fc = f.SubFolders
 on error resume next
 fc.Add("classes")
+fc.Add("lib")
 on error goto 0 
 Set f = fso.GetFolder(path & "\WEB-INF\classes")
 Set fc = f.SubFolders

@@ -45,4 +45,10 @@
         "command": "editor.action.formatSelection",
         "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
     }
+    {
+        "key": "ctrl+shift+numpad_divide",
+        "command": "workbench.action.splitEditorInGroup",
+        "when": "activeEditorCanSplitInGroup"
+    }
+    
 ]

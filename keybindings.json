@@ -54,5 +54,10 @@
         "key": "ctrl+shift+numpad_divide",
         "command": "workbench.action.joinEditorInGroup",
         "when": "sideBySideEditorActive"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "revealFileInOS",
+        "when": "!editorFocus"
     }
 ]

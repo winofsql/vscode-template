@@ -23,6 +23,14 @@ on error resume next
 fc.Add("lightbox")
 on error goto 0 
 
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/sworc-global-jsp.code-snippets" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\.vscode\sworc-global-jsp.code-snippets", 2
+Stream.Close
+
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/sample.jsp" & "?dummy=" & Timer, False )
 objSrvHTTP.Send
 Stream.Open

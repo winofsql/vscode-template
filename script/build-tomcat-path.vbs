@@ -8,6 +8,7 @@ Set f = fso.GetFolder(path)
 Set fc = f.SubFolders
 on error resume next
 fc.Add("WEB-INF")
+fc.Add("mvc-basic")
 on error goto 0 
 Set f = fso.GetFolder(path & "\WEB-INF")
 Set fc = f.SubFolders
@@ -44,6 +45,31 @@ Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile path & "\WEB-INF\classes\lightbox\comp.bat", 2
 Stream.Close
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/mvc-basic/control.jsp" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\mvc-basic\control.jsp", 2
+Stream.Close
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/mvc-basic/model.jsp" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\mvc-basic\control.jsp", 2
+Stream.Close
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/mvc-basic/view.html" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\mvc-basic\control.jsp", 2
+Stream.Close
+
 
 Dim fname
 Dim work

@@ -59,7 +59,7 @@ objSrvHTTP.Send
 Stream.Open
 Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
-Stream.SaveToFile path & "\mvc-basic\control.jsp", 2
+Stream.SaveToFile path & "\mvc-basic\model.jsp", 2
 Stream.Close
 
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/mvc-basic/view.html" & "?dummy=" & Timer, False )
@@ -67,7 +67,7 @@ objSrvHTTP.Send
 Stream.Open
 Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
-Stream.SaveToFile path & "\mvc-basic\control.jsp", 2
+Stream.SaveToFile path & "\mvc-basic\view.html", 2
 Stream.Close
 
 

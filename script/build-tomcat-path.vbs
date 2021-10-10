@@ -9,6 +9,7 @@ Set fc = f.SubFolders
 on error resume next
 fc.Add("WEB-INF")
 fc.Add("mvc-basic")
+fc.Add("mvc-db-select")
 on error goto 0 
 Set f = fso.GetFolder(path & "\WEB-INF")
 Set fc = f.SubFolders
@@ -68,6 +69,30 @@ Stream.Open
 Stream.Type = 1
 Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile path & "\mvc-basic\view.html", 2
+Stream.Close
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/mvc-db-select/control.jsp" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\mvc-db-select\control.jsp", 2
+Stream.Close
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/mvc-db-select/model.jsp" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\mvc-db-select\model.jsp", 2
+Stream.Close
+
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/tomcat/mvc-db-select/view.html" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\mvc-db-select\view.html", 2
 Stream.Close
 
 

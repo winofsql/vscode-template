@@ -1,4 +1,12 @@
 {
+    "string-format": {
+        "scope": "java",
+        "prefix": "string-format",
+        "body": [
+            "String.format(\"%s\",$1);",
+        ],
+        "description": ""
+    },
     "mysql-select": {
         "scope": "java",
         "prefix": "mysql-select",

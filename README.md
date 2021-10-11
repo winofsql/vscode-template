@@ -147,6 +147,7 @@ Visual Studio Code 用テンプレート
 | Alt + SHIFT + Down | 選択単位で上にコピー( 1行の時は、カーソルを置いた行が対象 )
 | CTRL + L | 現在行の選択
 | CTRL + D | 同じ文字列を一括編集する為に一つづつ選択
+| Ctrl + F2 | 同じ文字列を全て一括編集
 | CTRL + SHIFT + L | 同じ文字列を全て一括編集
 | CTRL + ENTER | 下に行追加
 | CTRL + SHIFT + ENTER | 上に行追加

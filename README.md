@@ -141,6 +141,7 @@ Visual Studio Code 用テンプレート
 | :--- | :---  
 | CTRL + SPACE | IntelliSense
 | SHIFT + ALT + F | フォーマット( ソース全体のフォーマット )
+| Shift + ALT + 0 | エディタ・垂直/水平 切り替え )
 | SHIFT + ALT + ドラッグ | 矩形選択
 | Alt + Up : Alt + Down | 選択単位で上下移動( 1行の時は、カーソルを置いた行が対象 )
 | Alt + SHIFT + Up | 選択単位で下にコピー( 1行の時は、カーソルを置いた行が対象 )

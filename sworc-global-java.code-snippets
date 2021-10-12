@@ -1,7 +1,23 @@
 {
-    "string-format": {
+    "array-new": {
         "scope": "java",
-        "prefix": "string-format",
+        "prefix": "array-new",
+        "body": [
+            "$1[] data = new $1[$2];",
+        ],
+        "description": ""
+    },
+    "array-list": {
+        "scope": "java",
+        "prefix": "array-list",
+        "body": [
+            "List<$1> list = new ArrayList<$1>();",
+        ],
+        "description": ""
+    },
+    "str-format": {
+        "scope": "java",
+        "prefix": "str-format",
         "body": [
             "String.format(\"%s\",str$1);",
         ],

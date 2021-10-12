@@ -3,7 +3,7 @@
         "scope": "java",
         "prefix": "string-format",
         "body": [
-            "String.format(\"%s\",$1);",
+            "String.format(\"%s\",str$1);",
         ],
         "description": ""
     },

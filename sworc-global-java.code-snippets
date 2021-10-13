@@ -1,4 +1,28 @@
 {
+    "sort-array": {
+        "scope": "java",
+        "prefix": "sort-array",
+        "body": [
+            "Arrays.sort(${1:array});",
+        ],
+        "description": ""
+    },
+    "sort-collection": {
+        "scope": "java",
+        "prefix": "sort-collection",
+        "body": [
+            "Collections.sort(${1:list});",
+        ],
+        "description": ""
+    },
+    "to-array": {
+        "scope": "java",
+        "prefix": "to-array",
+        "body": [
+            "$1[] array = ${2:collection}.toArray(new $1[0]);",
+        ],
+        "description": ""
+    },
     "array-new": {
         "scope": "java",
         "prefix": "array-new",
@@ -12,6 +36,14 @@
         "prefix": "array-list",
         "body": [
             "List<$1> list = new ArrayList<$1>();",
+        ],
+        "description": ""
+    },
+    "array-fixed-size-list": {
+        "scope": "java",
+        "prefix": "array-fixed-size-list",
+        "body": [
+            "List<$1> list = Arrays.asList($2);",
         ],
         "description": ""
     },

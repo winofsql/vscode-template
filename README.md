@@ -485,3 +485,5 @@ C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
 [Emmet チートシート](https://docs.emmet.io/cheat-sheet/)\
 [主な記述方法](https://blog.proglus.jp/4428/#i-2)
 
+[32ビット .accdb ドライバ](https://www.microsoft.com/ja-jp/download/details.aspx?id=13255)
+

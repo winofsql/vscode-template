@@ -25,6 +25,9 @@
     "[csv]": {
         "files.encoding": "shiftjis"
     },
+    "[plaintext]": {
+        "files.encoding": "shiftjis"
+    },
     "runTerminalCommand.commands": [
         {
             "command": "explorer {resource}",

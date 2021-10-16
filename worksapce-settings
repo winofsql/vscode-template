@@ -116,7 +116,7 @@
                 "group": "Java Subject ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-text-read-write/raw/main Main.java \\action AppWindow.java BaseWindow.java Check.java",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-text-read-write/raw/main Main.java README.md \\action AppWindow.java BaseWindow.java Check.java",
                 "name": "java-swing-text-read-write",
                 "auto": true,
                 "group": "Java Swing サンプル ダウンロード"

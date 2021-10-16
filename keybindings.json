@@ -59,5 +59,9 @@
         "key": "ctrl+shift+e",
         "command": "revealFileInOS",
         "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+f2",
+        "command": "workbench.action.closeAllEditors"
     }
 ]

@@ -98,6 +98,12 @@
                 "group": "PHP サンプル ダウンロード"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-class-list-array/raw/main Main.java Person.java README.md",
+                "name": "java-class-list-array",
+                "auto": true,
+                "group": "Java サンプル ダウンロード"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0908-java-hello-class/raw/main HelloClass.java ConsoleFormat.java",
                 "name": "0908 java-hello-class",
                 "auto": true,

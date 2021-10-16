@@ -15,8 +15,8 @@
             "vbscript": "cscript //Nologo"
         },
         "files.associations": {
-            "*.ujis-text": "tex",
-            "*.932-text": "csv",
+            "*.ujis": "tex",
+            "*.932": "csv",
             "*.jsp": "java",
             "*.htm": "html",
             "*.hta": "html",

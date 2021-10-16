@@ -15,7 +15,7 @@
             "vbscript": "cscript //Nologo"
         },
         "files.associations": {
-            "*.ujis": "tex",
+            "*.ujis": "perl",
             "*.932": "csv",
             "*.jsp": "java",
             "*.htm": "html",
@@ -42,8 +42,8 @@
         "terminal.integrated.defaultProfile.windows": "Command Prompt",
         "csv-edit.fontSizeInPx": 14,
         "csv-preview.formatValues": "never",
-        "[tex]": {
-            "files.encoding": "EUC-JP"
+        "[perl]": {
+            "files.encoding": "eucjp"
         },
         "[csv]": {
             "files.encoding": "shiftjis"

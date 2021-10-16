@@ -57,8 +57,7 @@
     },
     {
         "key": "ctrl+shift+e",
-        "command": "revealFileInOS",
-        "when": "!editorFocus"
+        "command": "revealFileInOS"
     },
     {
         "key": "ctrl+f2",

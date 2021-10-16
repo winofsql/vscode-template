@@ -127,6 +127,12 @@
                 "group": "Java Swing サンプル ダウンロード"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-jtable-csv-text/raw/main Main.java syain.csv",
+                "name": "java-swing-jtable-csv-text",
+                "auto": true,
+                "group": "Java Swing サンプル ダウンロード"
+            },
+            {
                 "command": "dotnet new console",
                 "name": "コンソールプロジェクト作成",
                 "auto": true,

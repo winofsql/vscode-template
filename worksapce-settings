@@ -170,7 +170,7 @@
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs",
-                "name": "DataGridvie で MySQL を読み込む為の Form の定義",
+                "name": "1) DataGridvie で MySQL を読み込む為の Form の定義",
                 "auto": true,
                 "group": "C#"
             },

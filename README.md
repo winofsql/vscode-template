@@ -286,7 +286,7 @@ java.project.sourcePaths
     ]
 ```
 
-## MySQL
+## MySQL ( cweijan.vscode-mysql-client2 )
 ![image](https://user-images.githubusercontent.com/1501327/132113188-f6e02a8e-4d19-49ba-96f9-8f01905e50b5.png)\
 [MySQL 文字列関数](https://dev.mysql.com/doc/refman/5.6/ja/string-functions.html)\
 **▼ keybindings.json**
@@ -303,7 +303,7 @@ java.project.sourcePaths
     }
 ```
 
-## Python
+## Python ( ms-python.python )
 ![image](https://user-images.githubusercontent.com/1501327/132113215-7c6ca944-66cb-4a01-9016-b13561e34d10.png)
 ## 全角表示
 ![image](https://user-images.githubusercontent.com/1501327/132939808-726ac268-17c2-47f5-a7cd-2339f662ceba.png)\
@@ -320,7 +320,7 @@ java.project.sourcePaths
 ```
 **[非公式Pythonダウンロードリンク](https://pythonlinks.python.jp/ja/index.html)**
 
-## dotnet C# ( Dotnet Core )
+## dotnet C# ( ms-dotnettools.csharp )
 ![image](https://user-images.githubusercontent.com/1501327/132970933-bedc9e7f-23b9-44ba-b5c5-aed6c418d794.png)
 1. dotnet new console
 ```cs

@@ -62,5 +62,13 @@
     {
         "key": "ctrl+f2",
         "command": "workbench.action.closeAllEditors"
+    },
+    {
+        "key": "ctrl+shift+numpad_subtract",
+        "command": "workbench.action.positionPanelRight"
+    },
+    {
+        "key": "ctrl+shift+numpad_add",
+        "command": "workbench.action.positionPanelBottom"
     }
 ]

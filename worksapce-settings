@@ -169,6 +169,12 @@
                 "group": "C#"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs",
+                "name": "DataGridvie で MySQL を読み込む為の Form の定義",
+                "auto": true,
+                "group": "C#"
+            },
+            {
                 "command": "dotnet add package System.Data.Odbc",
                 "name": "System.Data.Odbc 追加",
                 "auto": true,
@@ -177,12 +183,6 @@
             {
                 "command": "dotnet add package System.Text.Encoding.CodePages",
                 "name": "System.Text.Encoding.CodePages 追加",
-                "auto": true,
-                "group": "C#"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs",
-                "name": "DataGridvie で MySQL を読み込む為の Form の定義",
                 "auto": true,
                 "group": "C#"
             },

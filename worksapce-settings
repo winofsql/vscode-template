@@ -163,6 +163,12 @@
                 "group": "C#"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs",
+                "name": "1) MySQL を読み込む",
+                "auto": true,
+                "group": "C#"
+            },
+            {
                 "command": "dotnet new winforms",
                 "name": "Form プロジェクト作成",
                 "auto": true,

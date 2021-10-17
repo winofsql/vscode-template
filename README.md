@@ -410,7 +410,7 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ## zip 内参照( arcanis.vscode-zipfs )
 ![image](https://user-images.githubusercontent.com/1501327/134774975-8d21386e-a972-48d5-828e-d9a3869ae266.png)
 
-## アイコン( 好みなので参考データ )
+## アイコン( pkief.material-icon-theme )
 ![image](https://user-images.githubusercontent.com/1501327/135634230-8d46a15a-9c4a-44db-8f8c-601024b5eeac.png)
 ```
     "workbench.iconTheme": "material-icon-theme",
@@ -422,7 +422,7 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 
 
 
-## VBScript( ツール作成用 )
+## VBScript( serpen.vbsvscode )
 ![image](https://user-images.githubusercontent.com/1501327/134128422-db5fb3ec-5d2b-4909-b55e-cca924bd7e05.png)
 ```javascript
     "[vbs]": {

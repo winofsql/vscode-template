@@ -168,6 +168,32 @@ keyboard json
         "key": "shift+alt+pausebreak",
         "command": "editor.action.formatSelection",
         "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+numpad_divide",
+        "command": "workbench.action.splitEditorInGroup",
+        "when": "activeEditorCanSplitInGroup"
+    },
+    {
+        "key": "ctrl+shift+numpad_divide",
+        "command": "workbench.action.joinEditorInGroup",
+        "when": "sideBySideEditorActive"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "revealFileInOS"
+    },
+    {
+        "key": "ctrl+f2",
+        "command": "workbench.action.closeAllEditors"
+    },
+    {
+        "key": "ctrl+shift+numpad_subtract",
+        "command": "workbench.action.positionPanelRight"
+    },
+    {
+        "key": "ctrl+shift+numpad_add",
+        "command": "workbench.action.positionPanelBottom"
     }
 ]
 ```

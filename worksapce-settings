@@ -109,6 +109,12 @@
                 "group": "Java サンプル ダウンロード"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-map-list-array/raw/main README.md \\pg1-map-getenv Main.java \\pg2-getenv-to-array Main2.java \\pg3-array-list Main3.java \\pg4-map-for-each Main4.java",
+                "name": "java-map-list-array",
+                "auto": true,
+                "group": "Java サンプル ダウンロード"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0908-java-hello-class/raw/main HelloClass.java ConsoleFormat.java",
                 "name": "0908 java-hello-class",
                 "auto": true,

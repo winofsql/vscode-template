@@ -305,7 +305,7 @@ java.project.sourcePaths
 
 ## Python ( ms-python.python )
 ![image](https://user-images.githubusercontent.com/1501327/132113215-7c6ca944-66cb-4a01-9016-b13561e34d10.png)
-## 全角表示
+## 全角表示 ( mosapride.zenkaku )
 ![image](https://user-images.githubusercontent.com/1501327/132939808-726ac268-17c2-47f5-a7cd-2339f662ceba.png)\
 **▼ keybindings.json**
 ```javascript

@@ -121,6 +121,12 @@
                 "group": "Java サンプル ダウンロード"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-mysql-select-date-column-info/raw/main Main.java",
+                "name": "java-mysql-select-date-column-info",
+                "auto": true,
+                "group": "Java サンプル ダウンロード"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0908-java-hello-class/raw/main HelloClass.java ConsoleFormat.java",
                 "name": "0908 java-hello-class",
                 "auto": true,

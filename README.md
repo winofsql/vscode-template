@@ -242,7 +242,7 @@ java.project.sourcePaths
 ```
 
 
-## Code Runner
+## Code Runner ( formulahendry.code-runner )
 ![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)\
 **▼ keybindings.json**
 ```javascript

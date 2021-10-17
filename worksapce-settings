@@ -181,6 +181,12 @@
                 "group": "C#"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0908-cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs",
+                "name": "DataGridvie で MySQL を読み込む為の Form の定義",
+                "auto": true,
+                "group": "C#"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
                 "name": "設定ファイルのダウンロード",
                 "auto": true,

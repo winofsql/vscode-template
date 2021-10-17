@@ -14,8 +14,10 @@ Visual Studio Code 用テンプレート
         "csv": "explorer",
         "javascript": "cscript //Nologo",
         "php": "\\xampp\\php\\php.exe",
+        "python": "python -u",
         "powershell": "powershell -NoProfile -ExecutionPolicy Unrestricted -File",
-        "csharp": "dotnet run"
+        "csharp": "dotnet run",
+        "vbscript": "cscript //Nologo"
     },
     "code-runner.executorMapByFileExtension": {
         ".wsf": "cscript //Nologo",

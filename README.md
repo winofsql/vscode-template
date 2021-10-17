@@ -87,54 +87,6 @@ Visual Studio Code 用テンプレート
     "[powershell]": {
         "files.encoding": "shiftjis"
     },
-    "runTerminalCommand.commands": [
-        {
-            "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
-            "name": "PHP MVC テンプレートファイル",
-            "auto": true
-        },
-        {
-            "command": "dotnet new console",
-            "name": "コンソールプロジェクト作成",
-            "auto": true,
-            "group": "C#"
-        },
-        {
-            "command": "dotnet add package System.Data.Odbc",
-            "name": "System.Data.Odbc 追加",
-            "auto": true,
-            "group": "C#"
-        },
-        {
-            "command": "dotnet add package System.Text.Encoding.CodePages",
-            "name": "System.Text.Encoding.CodePages 追加",
-            "auto": true,
-            "group": "C#"
-        },
-        {
-            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
-            "name": "設定ファイルのダウンロード",
-            "auto": true,
-            "group": "設定"
-        },
-        {
-            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-            "name": "ワークスペース作成用スクリプトのダウンロード",
-            "auto": true,
-            "group": "設定"
-        },
-        {
-            "command": "\\xampp\\mysql\\bin\\my.bat",
-            "name": "MySQL Command Prompt",
-            "auto": true
-        },
-        {
-            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/hta-js-ado-mysql-req/raw/main/hta-js-ado-mysql-req.htm && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/hta-js-ado-mysql-req/raw/main/hta.js",
-            "name": "HTA + MySQL",
-            "auto": true,
-            "group": "サンプル ダウンロード"
-        }
-    ],
     "window.zoomLevel": 1
 }
 ```

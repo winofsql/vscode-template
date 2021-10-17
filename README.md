@@ -231,7 +231,7 @@ keyboard json
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)\
 **▼ ブロジェクト リビルド**
 ```
-Clean Java Language Server Workspace
+Java: Clean Java Language Server Workspace
 ```
 **▼ 一つのフォルダに複数のフォルダ内でクラス作成する為のフォルダ追加設定**
 ```

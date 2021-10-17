@@ -139,7 +139,7 @@
                 "group": "Java Subject ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java/raw/main Main.java Second.java Third.java",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java",
                 "name": "1004 java-basic-misc",
                 "auto": true,
                 "group": "Java Subject ダウンロード"

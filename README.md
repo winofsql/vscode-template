@@ -48,9 +48,6 @@ Visual Studio Code 用テンプレート
         }
     },
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "[perl]": {
-        "files.encoding": "eucjp"
-    },
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
@@ -72,6 +69,9 @@ Visual Studio Code 用テンプレート
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[perl]": {
+        "files.encoding": "eucjp"
     },
     "[csv]": {
         "files.encoding": "shiftjis"

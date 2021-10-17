@@ -360,6 +360,8 @@ namespace cs_core_0912
 dotnet add package System.Data.Odbc
 dotnet add package System.Text.Encoding.CodePages
 ```
+
+## Auto-Using for C# ( fudge.auto-using )
 ![image](https://user-images.githubusercontent.com/1501327/133971198-17dd8a9a-4101-44a5-a66f-1a70f5678030.png)\
 **※ C# では using 候補が動かない、この拡張も完全ではない**
 

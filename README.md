@@ -211,6 +211,7 @@ keyboard json
 | 操作 | Description 
 | :--- | :---  
 | SHIFT + ALT + K | キーボードショートカットの変更を開く
+| SHIFT + ALT + J | Java: Clean Java Language Server Workspace
 | SHIFT + ALT + PAUSE | フォーマット( 選択部分のフォーマット )
 | CTRL + SHIFT + DEL | 選択単位で行末スペース削除
 | CTRL + SHIFT + E | エクスプローラで表示

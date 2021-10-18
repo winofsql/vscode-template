@@ -223,6 +223,12 @@
                 "group": "テスト"
             },
             {
+                "command": "\xampp\apache\bin\httpd -t",
+                "name": "Apache Syntax チェック",
+                "auto": true,
+                "group": "テスト"
+            },
+            {
                 "command": "start chrome http://localhost:8080/lightbox",
                 "name": "TOMCAT : localhost:8080",
                 "auto": true,

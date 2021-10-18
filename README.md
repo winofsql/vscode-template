@@ -194,6 +194,14 @@ keyboard json
     {
         "key": "ctrl+shift+numpad_add",
         "command": "workbench.action.positionPanelBottom"
+    },
+    {
+        "key": "ctrl+f10",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "shift+alt+j",
+        "command": "java.clean.workspace"
     }
 ]
 ```

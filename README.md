@@ -114,7 +114,8 @@ Visual Studio Code 用テンプレート
 | CTRL + ENTER | 下に行追加
 | CTRL + SHIFT + ENTER | 上に行追加
 | CTRL + SHIFT + v | マークダウンのプレビュー
-| CTRL + ALT + 上下矢印 | カーソル拡張
+| CTRL + ALT + 上下矢印 | カーソル位置拡張
+| ALT + クリック | カーソル位置拡張
 
 
 ## keybindings.json : C:\Users\\%username%\AppData\Roaming\Code\User

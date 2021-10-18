@@ -446,6 +446,7 @@ javascript:s=location.href;s=s.replace("/en/","/ja/");location.href=s;void(0);
 ```
 Change Language Mode
 ```
+※ 右下の言語をクリック
 ![image](https://user-images.githubusercontent.com/1501327/134125761-070db934-955c-416a-9ca7-07a43ec0a050.png)
 
 ## メモ

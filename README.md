@@ -213,7 +213,13 @@ keyboard json
 | SHIFT + ALT + K | キーボードショートカットの変更を開く
 | SHIFT + ALT + PAUSE | フォーマット( 選択部分のフォーマット )
 | CTRL + SHIFT + DEL | 選択単位で行末スペース削除
-| Ctrl + SHIFT + E | エクスプローラで表示
+| CTRL + SHIFT + E | エクスプローラで表示
+| CTRL + SHIFT + テンキーの -(マイナス) | ターミナル右
+| CTRL + SHIFT + テンキーの +(プラス) | ターミナル下
+| CTRL + SHIFT + テンキーの /(プラス) | エディタ分割・切り替え
+| CTRL + F1 | 全て閉じる
+| CTRL + F2 | エディタを全て閉じる
+| CTRL + F10 | ターミナルを一つ閉じる
 | CTRL + F7 | 大文字に変換
 | CTRL + F6 | 小文字に変換
   

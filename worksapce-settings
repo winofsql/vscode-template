@@ -241,6 +241,12 @@
                 "group": "ダウンロード"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat server.xml web.xml copy-tomcat-conf.bat",
+                "name": "XAMPP TOMCAT 用 server.xml / web.xml",
+                "auto": true,
+                "group": "ダウンロード"
+            },
+            {
                 "command": "start chrome http://localhost:8080/lightbox",
                 "name": "TOMCAT : localhost:8080",
                 "auto": true,

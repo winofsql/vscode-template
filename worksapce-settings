@@ -229,6 +229,12 @@
                 "group": "テスト"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main menu-cmd-here.reg",
+                "name": "コマンドプロンプトをエクスプローラのコンテキストメニューむから開く( menu-cmd-here.reg )",
+                "auto": true,
+                "group": "ダウンロード"
+            },
+            {
                 "command": "start chrome http://localhost:8080/lightbox",
                 "name": "TOMCAT : localhost:8080",
                 "auto": true,

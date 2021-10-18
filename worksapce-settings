@@ -223,7 +223,7 @@
                 "group": "テスト"
             },
             {
-                "command": "\xampp\apache\bin\httpd -t",
+                "command": "\\xampp\\apache\\bin\\httpd -t",
                 "name": "Apache Syntax チェック",
                 "auto": true,
                 "group": "テスト"

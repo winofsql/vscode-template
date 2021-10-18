@@ -74,5 +74,9 @@
     {
         "key": "ctrl+f10",
         "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "shift+alt+j",
+        "command": "java.clean.workspace"
     }
 ]

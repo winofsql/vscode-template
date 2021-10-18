@@ -91,7 +91,7 @@
                 "auto": true
             },
             {
-                "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-mysql-insert/raw/main connect.php control.php model.php setting.php view.php",
                 "name": "PHP MVC テンプレートファイル",
                 "auto": true,
                 "group": "PHP サンプル ダウンロード"

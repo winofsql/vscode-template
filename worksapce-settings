@@ -164,7 +164,7 @@
             },
             {
                 "command": "mkdir cs-core-mysql-01 && cd cs-core-mysql-01 && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs && dotnet add package System.Data.Odbc",
-                "name": "1) MySQL を読み込む",
+                "name": "MySQL を読み込む",
                 "auto": true,
                 "group": "C#"
             },
@@ -182,13 +182,13 @@
             },
             {
                 "command": "mkdir cs-form-mysql-01 && cd cs-form-mysql-01 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-01/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc",
-                "name": "2)【マスタメンテ-(1)】主キーによる情報の読み込み",
+                "name": "マスタメンテ-(1)】主キーによる情報の読み込み",
                 "auto": true,
                 "group": "C#"
             },
             {
                 "command": "mkdir cs-form-mysql-02 && cd cs-form-mysql-02 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-02/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc",
-                "name": "3)【マスタメンテ-(2)】会話による画面コントロール",
+                "name": "マスタメンテ-(2)】会話による画面コントロール",
                 "auto": true,
                 "group": "C#"
             },

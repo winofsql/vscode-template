@@ -176,13 +176,19 @@
             },
             {
                 "command": "mkdir cs-form-mysql-datagridview && cd cs-form-mysql-datagridview && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc",
-                "name": "1) DataGridView で MySQL を読み込む為の Form の定義",
+                "name": "【問合せ-(1)】DataGridView で MySQL を読み込む為の Form の定義",
                 "auto": true,
                 "group": "C#"
             },
             {
                 "command": "mkdir cs-form-mysql-01 && cd cs-form-mysql-01 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-01/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc",
-                "name": "2) 主キーによる情報の読み込み",
+                "name": "2)【マスタメンテ-(1)】主キーによる情報の読み込み",
+                "auto": true,
+                "group": "C#"
+            },
+            {
+                "command": "mkdir cs-form-mysql-02 && cd cs-form-mysql-02 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-02/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc",
+                "name": "3)【マスタメンテ-(2)】会話による画面コントロール",
                 "auto": true,
                 "group": "C#"
             },

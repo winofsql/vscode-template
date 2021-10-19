@@ -223,8 +223,20 @@
                 "group": "設定"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs",
+                "name": "TOMCAT PATH 作成",
+                "auto": true,
+                "group": "設定"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs",
                 "name": "localhost",
+                "auto": true,
+                "group": "テスト"
+            },
+            {
+                "command": "start chrome http://localhost:8080/lightbox",
+                "name": "TOMCAT : localhost:8080",
                 "auto": true,
                 "group": "テスト"
             },
@@ -257,18 +269,6 @@
                 "name": "XAMPP TOMCAT 用 server.xml / web.xml",
                 "auto": true,
                 "group": "ダウンロード"
-            },
-            {
-                "command": "start chrome http://localhost:8080/lightbox",
-                "name": "TOMCAT : localhost:8080",
-                "auto": true,
-                "group": "TOMCAT"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs",
-                "name": "TOMCAT PATH 作成",
-                "auto": true,
-                "group": "TOMCAT"
             },
             {
                 "command": "\\xampp\\mysql\\bin\\my.bat",

@@ -103,6 +103,12 @@
                 "group": "PHP サンプル ダウンロード"
             },
             {
+                "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "java-basic-misc",
+                "auto": true,
+                "group": "Java サンプル ダウンロード"
+            },
+            {
                 "command": "mkdir ..\\java-class-list-array && cd ..\\java-class-list-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-class-list-array/raw/main Main.java Person.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "java-class-list-array",
                 "auto": true,

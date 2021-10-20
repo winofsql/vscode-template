@@ -278,6 +278,12 @@
                 "group": "ダウンロード"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main/vs-code.reg",
+                "name": "Codeで開くをエクスプローラのディレクトリコンテキストメニューに登録( vs-code.reg )",
+                "auto": true,
+                "group": "ダウンロード"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat xampp-tomcat.reg",
                 "name": "XAMPP TOMCAT 用 SDK場所登録用( xampp-tomcat.reg )",
                 "auto": true,

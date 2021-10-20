@@ -219,7 +219,7 @@ keyboard json
 | CTRL + SHIFT + E | エクスプローラで表示
 | CTRL + SHIFT + テンキーの -(マイナス) | ターミナル右
 | CTRL + SHIFT + テンキーの +(プラス) | ターミナル下
-| CTRL + SHIFT + テンキーの /(プラス) | エディタ分割・切り替え
+| CTRL + SHIFT + テンキーの /(スラッシュ) | エディタ分割・切り替え
 | CTRL + F1 | 全て閉じる
 | CTRL + F2 | エディタを全て閉じる
 | CTRL + F10 | ターミナルを一つ閉じる

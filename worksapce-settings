@@ -193,19 +193,19 @@
                 "group": "C#"
             },
             {
-                "command": "mkdir cs-form-mysql-01 && cd cs-form-mysql-01 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-01/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc",
+                "command": "mkdir ..\\cs-form-mysql-01 && cd ..\\cs-form-mysql-01 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-01/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "【マスタメンテ-(1)】主キーによる情報の読み込み",
                 "auto": true,
                 "group": "C#"
             },
             {
-                "command": "mkdir cs-form-mysql-02 && cd cs-form-mysql-02 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-02/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc",
+                "command": "mkdir ..\\cs-form-mysql-02 && cd ..\\cs-form-mysql-02 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-02/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "【マスタメンテ-(2)】会話による画面コントロール",
                 "auto": true,
                 "group": "C#"
             },
             {
-                "command": "mkdir cs-form-net-text && cd cs-form-net-text && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-text/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Text.Encoding.CodePages",
+                "command": "mkdir ..\\cs-form-net-text && cd ..\\cs-form-net-text && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-text/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "WEB より shift_jis の CSV を読み込む",
                 "auto": true,
                 "group": "C#"

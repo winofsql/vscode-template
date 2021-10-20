@@ -224,8 +224,8 @@
                 "group": "C#"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
-                "name": "設定ファイルのダウンロード",
+                "command": "cscript download\\setup-vscode-user.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
+                "name": "基本設定",
                 "auto": true,
                 "group": "設定"
             },

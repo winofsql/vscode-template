@@ -175,7 +175,7 @@
                 "group": "C#"
             },
             {
-                "command": "mkdir cs-core-mysql-01 && cd cs-core-mysql-01 && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs && dotnet add package System.Data.Odbc",
+                "command": "mkdir ..\\cs-core-mysql-01 && cd ..\\cs-core-mysql-01 && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "MySQL を読み込む",
                 "auto": true,
                 "group": "C#"

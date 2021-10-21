@@ -146,13 +146,13 @@
             },
             {
                 "command": "mkdir ..\\java-net-text && cd ..\\java-net-text && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-net-text/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "⚡ java-net-text",
+                "name": "&#9889; java-net-text",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-net-binary && cd ..\\java-net-binary && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-net-binary/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "⚡ java-net-binary",
+                "name": "&#9889; java-net-binary",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },

@@ -139,7 +139,7 @@
                 "group": "Java サンプル ダウンロード"
             },
             {
-                "command": "mkdir ..\\java-csv-read-ms932 && cd ..\\java-csv-read-ms932 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-csv-read-ms932/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\java-csv-read-ms932 && cd ..\\java-csv-read-ms932 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-csv-read-ms932/raw/main Main.java Main2.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "java-csv-read-ms932",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"

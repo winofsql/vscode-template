@@ -91,13 +91,13 @@
                 "auto": true
             },
             {
-                "command": "mkdir ..\\php-mvc-mysql-insert && cd ..\\php-mvc-mysql-insert && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-mysql-insert/raw/main connect.php control.php model.php setting.php view.php && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir php-mvc-mysql-insert && cd php-mvc-mysql-insert && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-mysql-insert/raw/main connect.php control.php model.php setting.php view.php",
                 "name": "PHP MVC テンプレートファイル",
                 "auto": true,
                 "group": "PHP サンプル ダウンロード"
             },
             {
-                "command": "mkdir ..\\php-pdo-select-basic && cd ..\\php-pdo-select-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-pdo-select-basic/raw/main README.md connect.php db-select-01-array.php db-select-02-heardoc.php setting.php && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir php-pdo-select-basic && cd php-pdo-select-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-pdo-select-basic/raw/main README.md connect.php db-select-01-array.php db-select-02-heardoc.php setting.php",
                 "name": "PHP PDO SELECT LOOP サンプル",
                 "auto": true,
                 "group": "PHP サンプル ダウンロード"

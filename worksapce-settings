@@ -152,7 +152,7 @@
             },
             {
                 "command": "mkdir ..\\java-net-binary && cd ..\\java-net-binary && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-net-binary/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "&#9889; java-net-binary",
+                "name": "java-net-binary",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },

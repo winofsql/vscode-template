@@ -145,7 +145,7 @@
                 "group": "Java サンプル ダウンロード"
             },
             {
-                "command": "mkdir ..\\java-net-text && cd ..\\java-net-text && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-csv-read-ms932/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\java-net-text && cd ..\\java-net-text && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-net-text/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "java-net-text",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"

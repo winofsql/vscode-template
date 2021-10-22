@@ -92,13 +92,13 @@
             },
             {
                 "command": "mkdir php-mvc-mysql-insert && cd php-mvc-mysql-insert && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-mysql-insert/raw/main connect.php control.php model.php setting.php view.php",
-                "name": "PHP MVC テンプレートファイル",
+                "name": "✅ PHP MVC テンプレートファイル",
                 "auto": true,
                 "group": "PHP サンプル ダウンロード"
             },
             {
                 "command": "mkdir php-pdo-select-basic && cd php-pdo-select-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-pdo-select-basic/raw/main README.md connect.php db-select-01-array.php db-select-02-heardoc.php setting.php",
-                "name": "PHP PDO SELECT LOOP サンプル",
+                "name": "🐬 PHP PDO SELECT LOOP サンプル",
                 "auto": true,
                 "group": "PHP サンプル ダウンロード"
             },
@@ -170,13 +170,13 @@
             },
             {
                 "command": "mkdir ..\\java-swing-text-read-write && cd ..\\java-swing-text-read-write && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-text-read-write/raw/main Main.java README.md \\action AppWindow.java BaseWindow.java Check.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "java-swing-text-read-write",
+                "name": "💻📄 java-swing-text-read-write",
                 "auto": true,
                 "group": "Java Swing サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-swing-jtable-csv-text && cd ..\\java-swing-jtable-csv-text && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-jtable-csv-text/raw/main Main.java syain.csv && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "java-swing-jtable-csv-text",
+                "name": "💻📄 java-swing-jtable-csv-text",
                 "auto": true,
                 "group": "Java Swing サンプル ダウンロード"
             },
@@ -194,44 +194,44 @@
             },
             {
                 "command": "mkdir ..\\cs-core-mysql-01 && cd ..\\cs-core-mysql-01 && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "★【バッチ】MySQL を読み込む",
+                "name": "🐬【バッチ】MySQL を読み込む",
                 "auto": true,
                 "group": "C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-datagridview && cd ..\\cs-form-mysql-datagridview && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "★【問合せ-(1)】DataGridView で MySQL を読み込む為の Form の定義",
+                "name": "🐬【問合せ-(1)】DataGridView で MySQL を読み込む為の Form の定義",
                 "auto": true,
                 "group": "C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-01 && cd ..\\cs-form-mysql-01 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-01/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "★【マスタメンテ-(1)】主キーによる情報の読み込み",
+                "name": "🐬【マスタメンテ-(1)】主キーによる情報の読み込み",
                 "auto": true,
                 "group": "C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-02 && cd ..\\cs-form-mysql-02 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-02/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "★【マスタメンテ-(2)】会話による画面コントロール",
+                "name": "🐬【マスタメンテ-(2)】会話による画面コントロール",
                 "auto": true,
                 "group": "C#"
             },
             {
                 "command": "mkdir ..\\cs-form-net-text && cd ..\\cs-form-net-text && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-text/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "★【WEBアクセス】WEB より shift_jis の CSV を読み込む",
+                "name": "🌏【WEBアクセス】WEB より shift_jis の CSV を読み込む",
                 "auto": true,
                 "group": "C#"
             },
 
             {
                 "command": "dotnet add package System.Data.Odbc",
-                "name": "【LIB】System.Data.Odbc 追加",
+                "name": "💼【LIB】System.Data.Odbc 追加",
                 "auto": true,
                 "group": "C#"
             },
             {
                 "command": "dotnet add package System.Text.Encoding.CodePages",
-                "name": "【LIB】System.Text.Encoding.CodePages 追加",
+                "name": "💼【LIB】System.Text.Encoding.CodePages 追加",
                 "auto": true,
                 "group": "C#"
             },
@@ -297,19 +297,19 @@
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat xampp-tomcat.reg",
-                "name": "XAMPP TOMCAT 用 SDK場所登録用( xampp-tomcat.reg )",
+                "name": "🐱 XAMPP TOMCAT 用 SDK場所登録用( xampp-tomcat.reg )",
                 "auto": true,
                 "group": "ダウンロード"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat server.xml web.xml copy-tomcat-conf.bat",
-                "name": "XAMPP TOMCAT 用 server.xml / web.xml",
+                "name": "🐱 XAMPP TOMCAT 用 server.xml / web.xml",
                 "auto": true,
                 "group": "ダウンロード"
             },
             {
                 "command": "\\xampp\\mysql\\bin\\my.bat",
-                "name": "MySQL Command Prompt",
+                "name": "🐬 MySQL Command Prompt",
                 "auto": true
             },
             {

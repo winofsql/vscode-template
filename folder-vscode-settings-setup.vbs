@@ -2,6 +2,7 @@ Set objSrvHTTP = Wscript.CreateObject("Msxml2.ServerXMLHTTP")
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set Stream1 = CreateObject("ADODB.Stream")
 Set Stream2 = CreateObject("ADODB.Stream")
+Set Stream3 = CreateObject("ADODB.Stream")
 Set f = fso.GetFolder(".")
 Set sf = f.SubFolders
 Dim text
@@ -66,9 +67,24 @@ Stream1.WriteText( text )
 Stream1.WriteText( vbCrLf )
 Stream1.WriteText( "}" )
 
-Stream1.SaveToFile "lightbox.code-workspace", 2
+Stream1.Position = 0
+Stream1.Type = 1
 
+Stream3.Open
+Stream3.Type = 1
+
+Stream1.Read(3)
+
+Stream1.CopyTo Stream3
+
+Stream3.SaveToFile "lightbox.code-workspace", 2
+
+Stream3.Close
 Stream1.Close
+
+' Stream1.SaveToFile "lightbox.code-workspace", 2
+
+' Stream1.Close
 
 Function GetSetting( url, target_path )
 

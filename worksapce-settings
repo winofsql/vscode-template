@@ -104,43 +104,43 @@
             },
             {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "java-基本部分",
+                "name": "✅ java-基本部分",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-hello-array && cd ..\\java-hello-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-hello-array/raw/main HelloArray.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "java-hello-array",
+                "name": "🌝 java-hello-array",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-class-list-array && cd ..\\java-class-list-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-class-list-array/raw/main Main.java Person.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "java-class-list-array",
+                "name": "🌝 java-class-list-array",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-map-list-array && cd ..\\java-map-list-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-map-list-array/raw/main README.md Pg1MapGetEnv.java Pg2GetenvToArray.java Pg3ArrayToList.java Pg4MapForEach.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "java-map-list-array",
+                "name": "🌝 java-map-list-array",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-mysql-select-string-int && cd ..\\java-mysql-select-string-int && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-mysql-select-string-int/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "java-mysql-select-string-int",
+                "name": "🐬 java-mysql-select-string-int",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-mysql-select-date-column-info && cd ..\\java-mysql-select-date-column-info && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-mysql-select-date-column-info/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "java-mysql-select-date-column-info",
+                "name": "🐬 java-mysql-select-date-column-info",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-csv-read-ms932 && cd ..\\java-csv-read-ms932 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-csv-read-ms932/raw/main Main.java Main2.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "java-csv-read-ms932",
+                "name": "📄 java-csv-read-ms932",
                 "auto": true,
                 "group": "Java サンプル ダウンロード"
             },

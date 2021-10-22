@@ -2,14 +2,16 @@ Set objSrvHTTP = Wscript.CreateObject("Msxml2.ServerXMLHTTP")
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set Stream1 = CreateObject("ADODB.Stream")
 Set Stream2 = CreateObject("ADODB.Stream")
-Set Stream3 = CreateObject("ADODB.Stream")
 Set f = fso.GetFolder(".")
 Set sf = f.SubFolders
 Dim text
 
-Set lightbox = fso.OpenTextFile("lightbox.code-workspace", 2, True)
-lightbox.WriteLine("{")
-lightbox.WriteLine("    ""folders"": [")
+Stream1.Open
+Stream1.Type = 2
+Stream1.Charset = "utf-8"
+
+Stream1.WriteText( "{" & vbCrLf )
+Stream1.WriteText( "    ""folders"": [" & vbCrLf)
 
 
 For Each f1 in sf
@@ -54,46 +56,19 @@ For Each f1 in sf
     
 Next
 
-lightbox.WriteLine("    ],")
+Stream1.WriteText( "    ]," & vbCrLf )
 
 Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings" & "?dummy=" & Timer, False )
 objSrvHTTP.Send
 text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
-lightbox.WriteLine(text)
 
+Stream1.WriteText( text )
+Stream1.WriteText( vbCrLf )
+Stream1.WriteText( "}" )
 
-lightbox.WriteLine("}")
-
-lightbox.close
-
-Stream1.Open
-Stream1.Type = 2
-Stream1.Charset = "shift_jis"
-
-Stream1.LoadFromFile "lightbox.code-workspace"
-
-Stream2.Open
-Stream2.Type = 2
-Stream2.Charset = "utf-8"
-
-Stream1.CopyTo Stream2
+Stream1.SaveToFile "lightbox.code-workspace", 2
 
 Stream1.Close
-
-Stream2.Position = 0
-Stream2.Type = 1
-
-Stream3.Open
-Stream3.Type = 1
-
-Stream2.Read(3)
-
-Stream2.CopyTo Stream3
-
-Stream3.SaveToFile "lightbox.code-workspace", 2
-
-Stream3.Close
-Stream2.Close
 
 Function GetSetting( url, target_path )
 
@@ -106,18 +81,18 @@ Function GetSetting( url, target_path )
 
     Call objSrvHTTP.Open("GET", url  & "?dummy=" & Timer, False )
     objSrvHTTP.Send
-    Stream1.Open
-    Stream1.Type = 1
-    Stream1.Write objSrvHTTP.responseBody
-    Stream1.SaveToFile target_path & "\.vscode\" & filename, 2
-    Stream1.Close
+    Stream2.Open
+    Stream2.Type = 1
+    Stream2.Write objSrvHTTP.responseBody
+    Stream2.SaveToFile target_path & "\.vscode\" & filename, 2
+    Stream2.Close
 
 End Function
 
 Function WorkspacePath()
 
-	lightbox.WriteLine("        {")
-	lightbox.WriteLine("            ""path"": """ & Replace( f1.path, "\", "\\" ) & """" )
-	lightbox.WriteLine("        },")
+	Stream1.WriteText( "        {" & vbCrLf )
+	Stream1.WriteText( "            ""path"": """ & Replace( f1.path, "\", "\\" ) & """" & vbCrLf )
+	Stream1.WriteText( "        }," & vbCrLf )
 
 End Function

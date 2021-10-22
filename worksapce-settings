@@ -237,7 +237,7 @@
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\setup-vscode-user.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
-                "name": "基本設定",
+                "name": "📥 基本設定",
                 "auto": true,
                 "group": "設定"
             },
@@ -249,31 +249,31 @@
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs",
-                "name": "XAMPP Alias 設定",
+                "name": "💯 XAMPP Alias 設定",
                 "auto": true,
                 "group": "設定"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat",
-                "name": "TOMCAT PATH 作成",
+                "name": "🐱 TOMCAT PATH 作成",
                 "auto": true,
                 "group": "設定"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs",
-                "name": "localhost",
+                "name": "🌏 localhost",
                 "auto": true,
                 "group": "テスト"
             },
             {
                 "command": "start chrome http://localhost:8080/lightbox",
-                "name": "TOMCAT : localhost:8080",
+                "name": "🐱 TOMCAT : localhost:8080",
                 "auto": true,
                 "group": "テスト"
             },
             {
                 "command": "mkdir ..\\java-%date:~5,2%%date:~8,2% && mkdir ..\\php-%date:~5,2%%date:~8,2% && mkdir ..\\cs-%date:~5,2%%date:~8,2% && mkdir ..\\python-%date:~5,2%%date:~8,2% && mkdir ..\\sql-%date:~5,2%%date:~8,2% && mkdir ..\\bat-%date:~5,2%%date:~8,2% && cd .. && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\folder-vscode-settings-setup.vbs",
-                "name": "簡易プロジェクトフォルダ作成",
+                "name": "📂 簡易プロジェクトフォルダ作成",
                 "auto": true,
                 "group": "テスト"
             },

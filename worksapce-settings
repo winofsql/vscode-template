@@ -272,7 +272,7 @@
             },
             {
                 "command": "\\xampp\\apache\\bin\\httpd -t",
-                "name": "Apache Syntax チェック",
+                "name": "🐎 Apache Syntax チェック",
                 "auto": true,
                 "group": "テスト"
             },

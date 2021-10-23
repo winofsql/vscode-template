@@ -222,7 +222,12 @@
                 "auto": true,
                 "group": "🟦 C#"
             },
-
+            {
+                "command": "mkdir ..\\cs-form-net-binary && cd ..\\cs-form-net-binary && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-binary/raw/main Form1.cs Form1.Designer.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🌏【WEBアクセス】WEB より shift_jis の CSV を読み込む",
+                "auto": true,
+                "group": "🟦 C#"
+            },
             {
                 "command": "dotnet add package System.Data.Odbc",
                 "name": "💼【LIB】System.Data.Odbc 追加",

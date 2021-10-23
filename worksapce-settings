@@ -248,11 +248,6 @@
                 "group": "🐍 Python subject ダウンロード"
             },            
             {
-                "command": "cmd",
-                "name": "────────────────────────────────────",
-                "auto": true,
-            },
-            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs",
                 "name": "🌏 localhost",
                 "auto": true,
@@ -268,6 +263,12 @@
                 "command": "mkdir ..\\java-%date:~5,2%%date:~8,2% && mkdir ..\\php-%date:~5,2%%date:~8,2% && mkdir ..\\cs-%date:~5,2%%date:~8,2% && mkdir ..\\python-%date:~5,2%%date:~8,2% && mkdir ..\\sql-%date:~5,2%%date:~8,2% && mkdir ..\\bat-%date:~5,2%%date:~8,2% && cd .. && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\folder-vscode-settings-setup.vbs",
                 "name": "📂 簡易プロジェクトフォルダ作成",
                 "auto": true,
+                "group": "テスト"
+            },
+            {
+                "command": "\\xampp\\mysql\\bin\\my.bat",
+                "name": "🐬 MySQL Command Prompt",
+                "auto": true
                 "group": "テスト"
             },
             {
@@ -301,15 +302,10 @@
                 "group": "ダウンロード"
             },
             {
-                "command": "\\xampp\\mysql\\bin\\my.bat",
-                "name": "🐬 MySQL Command Prompt",
-                "auto": true
-            },
-            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/hta-js-ado-mysql-req/raw/main hta-js-ado-mysql-req.htm hta.js",
-                "name": "HTA + MySQL",
+                "name": "🪔 HTA + 🐬 MySQL",
                 "auto": true,
-                "group": "サンプル ダウンロード"
+                "group": "ダウンロード"
             },
             {
                 "command": "start chrome https://github.com/winofsql/subject",

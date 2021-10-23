@@ -169,6 +169,12 @@
                 "group": "🟥 Java サンプル ダウンロード"
             },
             {
+                "command": "mkdir ..\\java-net-post && cd ..\\java-net-post && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-net-post/raw/main Main.java README.md && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🌏 java-net-json",
+                "auto": true,
+                "group": "🟥 Java サンプル ダウンロード"
+            },
+            {
                 "command": "mkdir ..\\java-0908-hello-class && cd ..\\java-0908-hello-class && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0908-java-hello-class/raw/main HelloClass.java ConsoleFormat.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "0908 java-hello-class",
                 "auto": true,

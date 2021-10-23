@@ -110,7 +110,7 @@
             },
             {
                 "command": "mkdir ..\\compare-java-01 && cd ..\\compare-java-01 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1021-java-csharp-basic/raw/main Program.java && mkdir ..\\compare-cs-01 && cd ..\\compare-cs-01 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1021-java-csharp-basic/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "✅ java C# 比較セット ( 1 ),
+                "name": "✅ java C# 比較セット 1,
                 "auto": true,
                 "group": "🟥 Java サンプル ダウンロード"
             },

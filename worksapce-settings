@@ -94,146 +94,146 @@
                 "command": "mkdir php-mvc-mysql-insert && cd php-mvc-mysql-insert && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-mysql-insert/raw/main connect.php control.php model.php setting.php view.php",
                 "name": "✅ PHP MVC テンプレートファイル",
                 "auto": true,
-                "group": "PHP サンプル ダウンロード"
+                "group": "🟠 PHP サンプル ダウンロード"
             },
             {
                 "command": "mkdir php-pdo-select-basic && cd php-pdo-select-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-pdo-select-basic/raw/main README.md connect.php db-select-01-array.php db-select-02-heardoc.php setting.php",
                 "name": "🐬 PHP PDO SELECT LOOP サンプル",
                 "auto": true,
-                "group": "PHP サンプル ダウンロード"
+                "group": "🟠 PHP サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,
-                "group": "Java サンプル ダウンロード"
+                "group": "🟥 Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-hello-array && cd ..\\java-hello-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-hello-array/raw/main HelloArray.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌝 java-hello-array",
                 "auto": true,
-                "group": "Java サンプル ダウンロード"
+                "group": "🟥 Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-class-list-array && cd ..\\java-class-list-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-class-list-array/raw/main Main.java Person.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌝 java-class-list-array",
                 "auto": true,
-                "group": "Java サンプル ダウンロード"
+                "group": "🟥 Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-map-list-array && cd ..\\java-map-list-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-map-list-array/raw/main README.md Pg1MapGetEnv.java Pg2GetenvToArray.java Pg3ArrayToList.java Pg4MapForEach.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌝 java-map-list-array",
                 "auto": true,
-                "group": "Java サンプル ダウンロード"
+                "group": "🟥 Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-mysql-select-string-int && cd ..\\java-mysql-select-string-int && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-mysql-select-string-int/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🐬 java-mysql-select-string-int",
                 "auto": true,
-                "group": "Java サンプル ダウンロード"
+                "group": "🟥 Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-mysql-select-date-column-info && cd ..\\java-mysql-select-date-column-info && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-mysql-select-date-column-info/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🐬 java-mysql-select-date-column-info",
                 "auto": true,
-                "group": "Java サンプル ダウンロード"
+                "group": "🟥 Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-csv-read-ms932 && cd ..\\java-csv-read-ms932 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-csv-read-ms932/raw/main Main.java Main2.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📄 java-csv-read-ms932",
                 "auto": true,
-                "group": "Java サンプル ダウンロード"
+                "group": "🟥 Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-net-text && cd ..\\java-net-text && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-net-text/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌏 java-net-text",
                 "auto": true,
-                "group": "Java サンプル ダウンロード"
+                "group": "🟥 Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-net-binary && cd ..\\java-net-binary && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-net-binary/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌏 java-net-binary",
                 "auto": true,
-                "group": "Java サンプル ダウンロード"
+                "group": "🟥 Java サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-0908-hello-class && cd ..\\java-0908-hello-class && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0908-java-hello-class/raw/main HelloClass.java ConsoleFormat.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "0908 java-hello-class",
                 "auto": true,
-                "group": "Java Subject ダウンロード"
+                "group": "🟥 Java Subject ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-0909-hello-class && cd ..\\java-0909-hello-class && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0909-java-hello-class/raw/main Hello.java LocalAction.java \\database MysqlAction.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "0909 java-hello-class",
                 "auto": true,
-                "group": "Java Subject ダウンロード"
+                "group": "🟥 Java Subject ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-swing-text-read-write && cd ..\\java-swing-text-read-write && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-text-read-write/raw/main Main.java README.md \\action AppWindow.java BaseWindow.java Check.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "💻📄 java-swing-text-read-write",
                 "auto": true,
-                "group": "Java Swing サンプル ダウンロード"
+                "group": "🟥 Java Swing サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-swing-jtable-csv-text && cd ..\\java-swing-jtable-csv-text && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-jtable-csv-text/raw/main Main.java syain.csv && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "💻📄 java-swing-jtable-csv-text",
                 "auto": true,
-                "group": "Java Swing サンプル ダウンロード"
+                "group": "🟥 Java Swing サンプル ダウンロード"
             },
             {
                 "command": "dotnet new console",
                 "name": "コンソールプロジェクト作成",
                 "auto": true,
-                "group": "C#"
+                "group": "🟦 C#"
             },
             {
                 "command": "dotnet new winforms",
                 "name": "Form プロジェクト作成",
                 "auto": true,
-                "group": "C#"
+                "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-core-mysql-01 && cd ..\\cs-core-mysql-01 && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🐬【バッチ】MySQL を読み込む",
                 "auto": true,
-                "group": "C#"
+                "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-datagridview && cd ..\\cs-form-mysql-datagridview && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🐬【問合せ-(1)】DataGridView で MySQL を読み込む為の Form の定義",
                 "auto": true,
-                "group": "C#"
+                "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-01 && cd ..\\cs-form-mysql-01 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-01/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🐬【マスタメンテ-(1)】主キーによる情報の読み込み",
                 "auto": true,
-                "group": "C#"
+                "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-02 && cd ..\\cs-form-mysql-02 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-02/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🐬【マスタメンテ-(2)】会話による画面コントロール",
                 "auto": true,
-                "group": "C#"
+                "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-net-text && cd ..\\cs-form-net-text && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-text/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌏【WEBアクセス】WEB より shift_jis の CSV を読み込む",
                 "auto": true,
-                "group": "C#"
+                "group": "🟦 C#"
             },
 
             {
                 "command": "dotnet add package System.Data.Odbc",
                 "name": "💼【LIB】System.Data.Odbc 追加",
                 "auto": true,
-                "group": "C#"
+                "group": "🟦 C#"
             },
             {
                 "command": "dotnet add package System.Text.Encoding.CodePages",
                 "name": "💼【LIB】System.Text.Encoding.CodePages 追加",
                 "auto": true,
-                "group": "C#"
+                "group": "🟦 C#"
             },
             {
                 "command": "mkdir py-0929-basic && cd py-0929-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0929-python-basic/raw/main README.md sample01.py sample02.py sample03.py sample04.py sample05.py sample06.py sample07.py sample08.py sample09.py sample10.py sample11.py sample12.py sample13.py sample14.py sample15.py",
@@ -273,7 +273,7 @@
             },
             {
                 "command": "\\xampp\\apache\\bin\\httpd -t",
-                "name": "🐎 Apache Syntax チェック",
+                "name": "❓ Apache Syntax チェック",
                 "auto": true,
                 "group": "テスト"
             },

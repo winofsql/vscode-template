@@ -170,13 +170,13 @@
             },
             {
                 "command": "mkdir ..\\java-swing-text-read-write && cd ..\\java-swing-text-read-write && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-text-read-write/raw/main Main.java README.md \\action AppWindow.java BaseWindow.java Check.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "💻📄 java-swing-text-read-write",
+                "name": "📄 java-swing-text-read-write",
                 "auto": true,
                 "group": "🟥 Java Swing サンプル ダウンロード"
             },
             {
                 "command": "mkdir ..\\java-swing-jtable-csv-text && cd ..\\java-swing-jtable-csv-text && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-jtable-csv-text/raw/main Main.java syain.csv && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "💻📄 java-swing-jtable-csv-text",
+                "name": "📄 java-swing-jtable-csv-text",
                 "auto": true,
                 "group": "🟥 Java Swing サンプル ダウンロード"
             },

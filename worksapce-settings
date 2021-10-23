@@ -239,25 +239,30 @@
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\setup-vscode-user.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
                 "name": "📥 基本設定",
                 "auto": true,
-                "group": "設定"
+                "group": "🖐 設定"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "💬 ワークスペース作成",
                 "auto": true,
-                "group": "設定"
+                "group": "🖐 設定"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs",
                 "name": "💯 XAMPP Alias 設定",
                 "auto": true,
-                "group": "設定"
+                "group": "🖐 設定"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat",
                 "name": "🐱 TOMCAT PATH 作成",
                 "auto": true,
-                "group": "設定"
+                "group": "🖐 設定"
+            },
+            {
+                "command": "",
+                "name": "────────────────────────────────────",
+                "auto": true,
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs",

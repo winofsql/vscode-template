@@ -170,7 +170,7 @@
             },
             {
                 "command": "mkdir ..\\java-net-post && cd ..\\java-net-post && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-net-post/raw/main Main.java README.md && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌏 java-net-json",
+                "name": "🌏 java-net-post",
                 "auto": true,
                 "group": "🟥 Java サンプル ダウンロード"
             },

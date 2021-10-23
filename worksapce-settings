@@ -254,13 +254,7 @@
                 "group": "🖐 設定"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat",
-                "name": "🐱 TOMCAT PATH 作成",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "",
+                "command": " ",
                 "name": "────────────────────────────────────",
                 "auto": true,
             },
@@ -346,6 +340,12 @@
                 "name": "VS Code テンプレート",
                 "auto": true,
                 "group": "ブックマーク"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat",
+                "name": "🐱 TOMCAT PATH 作成",
+                "auto": true,
+                "group": "🖐 設定"
             }
         ]
     }

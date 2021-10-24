@@ -291,7 +291,7 @@
             {
                 "command": "\\xampp\\mysql\\bin\\my.bat",
                 "name": "🐬 MySQL Command Prompt",
-                "auto": true
+                "auto": true,
                 "group": "テスト"
             },
             {

@@ -205,7 +205,7 @@
                 "group": "🟥 Java Swing サンプル ダウンロード"
             },
             {
-                "command": "mkdir ..\\java-swing-send-mail && cd ..\\java-swing-send-mail && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-send-mail/raw/main  Main.java \\action Action.java AppWindow.java BaseWindow.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\java-swing-send-mail && cd ..\\java-swing-send-mail && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-send-mail/raw/main  Main.java README.md \\action Action.java AppWindow.java BaseWindow.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📭 java-swing-send-mail",
                 "auto": true,
                 "group": "🟥 Java Swing サンプル ダウンロード"

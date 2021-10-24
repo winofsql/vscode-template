@@ -175,6 +175,12 @@
                 "group": "🟥 Java サンプル ダウンロード"
             },
             {
+                "command": "mkdir ..\\java-excel-newbook-cell && cd ..\\java-excel-newbook-cell && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-excel-newbook-cell/raw/main Main.java README.md && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "📊 java-excel-newbook-cell",
+                "auto": true,
+                "group": "🟥 Java サンプル ダウンロード"
+            },
+            {
                 "command": "mkdir ..\\java-0908-hello-class && cd ..\\java-0908-hello-class && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0908-java-hello-class/raw/main HelloClass.java ConsoleFormat.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "0908 java-hello-class",
                 "auto": true,
@@ -206,7 +212,7 @@
             },
             {
                 "command": "mkdir ..\\java-swing-send-mail && cd ..\\java-swing-send-mail && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-send-mail/raw/main  Main.java README.md \\action Action.java AppWindow.java BaseWindow.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📭 java-swing-send-mail",
+                "name": "📧 java-swing-send-mail",
                 "auto": true,
                 "group": "🟥 Java Swing サンプル ダウンロード"
             },

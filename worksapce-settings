@@ -265,7 +265,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-text-read-write && cd ..\\cs-form-text-read-write && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-text-read-write/raw/main/Form1.cs Form1.Designer.cs syain.csv && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-text-read-write && cd ..\\cs-form-text-read-write && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-text-read-write/raw/main Form1.cs Form1.Designer.cs syain.csv && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📄【テキストファイル】CSV を読み書き",
                 "auto": true,
                 "group": "🟦 C#"

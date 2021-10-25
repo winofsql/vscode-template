@@ -277,6 +277,24 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "mkdir ..\\cs-form-mysql-04 && cd ..\\cs-form-mysql-04 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-04/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🐬【マスタメンテ-(4)】コンボボックスと専用プライベートクラス",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mysql-05 && cd ..\\cs-form-mysql-05 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-05/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🐬【マスタメンテ-(5)】コンボボックスをDBより読み込んで作成",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mysql-06 && cd ..\\cs-form-mysql-06 && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-06/raw/main Form1.cs Form1.Designer.cs Form2.cs Form2.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🐬【マスタメンテ-(6)】新しい Form で一覧を表示してダブルクリックで参照",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "mkdir ..\\cs-form-text-read-write && cd ..\\cs-form-text-read-write && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-text-read-write/raw/main Form1.cs Form1.Designer.cs syain.csv && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📄【テキストファイル】CSV を読み書き",
                 "auto": true,

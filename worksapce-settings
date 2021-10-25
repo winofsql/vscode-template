@@ -182,7 +182,7 @@
             },
             {
                 "command": "mkdir ..\\java-pdfbox-text-line && cd ..\\java-pdfbox-text-line && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-pdfbox-string-line/raw/main Main.java README.md PdfText.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📊 java-pdfbox-text-line",
+                "name": "📇 java-pdfbox-text-line",
                 "auto": true,
                 "group": "🟥 Java サンプル ダウンロード"
             },

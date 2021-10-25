@@ -247,6 +247,14 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "mkdir ..\\cs-con-pdfsharp && cd ..\\cs-con-pdfsharp && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp/raw/main Program.cs&& dotnet add package PdfSharp --version 1.50.5147 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "📇【バッチ】PdfSharp とフリーフォント( けいふぉんと )で PDF 作成",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            
+            
+            {
                 "command": "mkdir ..\\cs-form-mysql-datagridview && cd ..\\cs-form-mysql-datagridview && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🐬【問合せ-(1)】DataGridView で MySQL を読み込む為の Form の定義",
                 "auto": true,

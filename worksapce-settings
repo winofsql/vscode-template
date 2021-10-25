@@ -181,6 +181,12 @@
                 "group": "🟥 Java サンプル ダウンロード"
             },
             {
+                "command": "mkdir ..\\java-pdfbox-text-line && cd ..\\java-pdfbox-text-line && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-pdfbox-string-line/raw/main Main.java README.md PdfText.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "📊 java-pdfbox-text-line",
+                "auto": true,
+                "group": "🟥 Java サンプル ダウンロード"
+            },
+            {
                 "command": "mkdir ..\\java-0908-hello-class && cd ..\\java-0908-hello-class && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0908-java-hello-class/raw/main HelloClass.java ConsoleFormat.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "0908 java-hello-class",
                 "auto": true,

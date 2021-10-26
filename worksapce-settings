@@ -349,6 +349,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "mkdir ..\\cs-form-mail-mailkit && cd ..\\cs-form-mail-mailkit && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mail-mailkit/raw/main Form1.cs Form1.Designer.cs && dotnet add package MailKit --version 2.15.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "💌【メール送信】CDO を使用してメールを送信する",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "dotnet add package System.Data.Odbc",
                 "name": "💼【LIB】System.Data.Odbc 追加",
                 "auto": true,

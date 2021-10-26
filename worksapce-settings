@@ -331,6 +331,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "mkdir ..\\cs-form-mail-cdo && cd ..\\cs-form-mail-cdo && dotnet new winforms && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mail-cdo/raw/main Form1.cs Form1.Designer.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "💌【メール送信】CDO を使用してメールを送信する",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "dotnet add package System.Data.Odbc",
                 "name": "💼【LIB】System.Data.Odbc 追加",
                 "auto": true,

@@ -265,7 +265,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "chrome http://font.sumomo.ne.jp/font_1.html",
+                "command": "start chrome http://font.sumomo.ne.jp/font_1.html",
                 "name": "───────────────────────────────────────────",
                 "auto": true,
                 "group": "🟦 C#"

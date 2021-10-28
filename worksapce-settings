@@ -241,13 +241,13 @@
                 "group": "🟥 Java"
             },
             {
-                "command": "dotnet new console",
+                "command": "dotnet new console && dotnet add package System.Data.Odbc && dotnet add package System.Text.Encoding.CodePages",
                 "name": "コンソールプロジェクト作成",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "dotnet new winforms",
+                "command": "dotnet new winforms && dotnet add package System.Data.Odbc && dotnet add package System.Text.Encoding.CodePages",
                 "name": "Form プロジェクト作成",
                 "auto": true,
                 "group": "🟦 C#"

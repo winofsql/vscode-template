@@ -473,9 +473,16 @@
                 "name": "💯 XAMPP Alias 設定",
                 "auto": true,
                 "group": "🖐 設定"
-            },            {
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat",
                 "name": "🐱 TOMCAT PATH 作成",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2%",
+                "name": "GIT SUBJECT",
                 "auto": true,
                 "group": "🖐 設定"
             }

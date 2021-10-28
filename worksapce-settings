@@ -487,8 +487,8 @@
                 "group": "🖐 設定"
             }
             {
-                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2%",
-                "name": "GIT SUBJECT",
+                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-main",
+                "name": "GIT SUBJECT MAIN",
                 "auto": true,
                 "group": "🖐 設定"
             }

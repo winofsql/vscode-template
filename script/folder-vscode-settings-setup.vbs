@@ -92,7 +92,8 @@ End Function
 Function WorkspacePath()
 
 	Stream1.WriteText( "        {" & vbCrLf )
-	Stream1.WriteText( "            ""path"": """ & Replace( f1.path, "\", "\\" ) & """" & vbCrLf )
+'	Stream1.WriteText( "            ""path"": """ & Replace( f1.path, "\", "\\" ) & """" & vbCrLf )
+	Stream1.WriteText( "            ""path"": """ & f1.Name & """" & vbCrLf )
 	Stream1.WriteText( "        }," & vbCrLf )
 
 End Function

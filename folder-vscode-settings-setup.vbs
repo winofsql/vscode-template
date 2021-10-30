@@ -26,6 +26,7 @@ For Each f1 in sf
         WorkspacePath
     ElseIf inStr( f1.name, "cs" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/csharp/.vscode/settings.json", f1.path )
+        Call GetSettingCs( "https://github.com/winofsql/vscode-template/raw/main/csharp/.vscode/", f1.path, f1.name )
         WorkspacePath
     ElseIf inStr( f1.name, "js" ) > 0 or inStr( f1.name, "javascript" ) > 0 or inStr( f1.name, "jscript" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/js-cscript/.vscode/settings.json", f1.path )
@@ -104,6 +105,34 @@ Function GetSetting( url, target_path )
     Stream2.Close
 
 End Function
+
+Function GetSettingCs( url, target_path, target )
+
+    Call objSrvHTTP.Open("GET", url  & "tasks.json?dummy=" & Timer, False )
+    objSrvHTTP.Send
+    Stream2.Open
+    Stream2.Type = 2
+    Stream2.Charset = "utf-8"
+    Stream2.WriteText Replace( objSrvHTTP.responseText, "$target", target ) 
+    Stream2.SaveToFile target_path & "\.vscode\tasks.json", 2
+    Stream2.Close
+
+    Call objSrvHTTP.Open("GET", url  & "launch.json?dummy=" & Timer, False )
+    objSrvHTTP.Send
+    Stream2.Open
+    Stream2.Type = 2
+    Stream2.Charset = "utf-8"
+    if inStr( target, "form" ) > 0 Then
+        Stream2.WriteText Replace( objSrvHTTP.responseText, "$target", target ) 
+    Else
+        Stream2.WriteText Replace( Replace( objSrvHTTP.responseText, "$target", target ), "-windows", "" )
+    End if
+    Stream2.SaveToFile target_path & "\.vscode\launch.json", 2
+    Stream2.Close
+
+
+End Function
+
 
 Function WorkspacePath()
 

@@ -43,3 +43,11 @@ Stream.Write objSrvHTTP.responseBody
 Stream.SaveToFile path & "\build-xampp-alias.vbs", 2
 Stream.Close
 
+Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/script/git-clone.vbs" & "?dummy=" & Timer, False )
+objSrvHTTP.Send
+Stream.Open
+Stream.Type = 1
+Stream.Write objSrvHTTP.responseBody
+Stream.SaveToFile path & "\git-clone.vbs", 2
+Stream.Close
+

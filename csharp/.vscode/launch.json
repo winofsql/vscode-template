@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net5.0-windows/cs-form-text-read-write.dll",
+            "program": "${workspaceFolder}/bin/Debug/net5.0-windows/$target.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",

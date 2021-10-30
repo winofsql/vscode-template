@@ -521,6 +521,12 @@
                 "name": "GIT SUBJECT MAIN",
                 "auto": true,
                 "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\git-clone.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "Your's GIT",
+                "auto": true,
+                "group": "🖐 設定"
             }
         ]
     }

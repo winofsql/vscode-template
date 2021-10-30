@@ -2,6 +2,7 @@ Set objSrvHTTP = Wscript.CreateObject("Msxml2.ServerXMLHTTP")
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set Stream1 = CreateObject("ADODB.Stream")
 Set Stream2 = CreateObject("ADODB.Stream")
+Set Stream3 = CreateObject("ADODB.Stream")
 Set f = fso.GetFolder(".")
 Set sf = f.SubFolders
 Dim text
@@ -25,6 +26,7 @@ For Each f1 in sf
         WorkspacePath
     ElseIf inStr( f1.name, "cs" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/csharp/.vscode/settings.json", f1.path )
+        Call GetSettingCs( "https://github.com/winofsql/vscode-template/raw/main/csharp/.vscode/", f1.path, f1.name )
         WorkspacePath
     ElseIf inStr( f1.name, "js" ) > 0 or inStr( f1.name, "javascript" ) > 0 or inStr( f1.name, "jscript" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/js-cscript/.vscode/settings.json", f1.path )
@@ -66,9 +68,24 @@ Stream1.WriteText( text )
 Stream1.WriteText( vbCrLf )
 Stream1.WriteText( "}" )
 
-Stream1.SaveToFile "lightbox.code-workspace", 2
+Stream1.Position = 0
+Stream1.Type = 1
 
+Stream3.Open
+Stream3.Type = 1
+
+Stream1.Read(3)
+
+Stream1.CopyTo Stream3
+
+Stream3.SaveToFile "lightbox.code-workspace", 2
+
+Stream3.Close
 Stream1.Close
+
+' Stream1.SaveToFile "lightbox.code-workspace", 2
+
+' Stream1.Close
 
 Function GetSetting( url, target_path )
 
@@ -88,6 +105,34 @@ Function GetSetting( url, target_path )
     Stream2.Close
 
 End Function
+
+Function GetSettingCs( url, target_path, target )
+
+    Call objSrvHTTP.Open("GET", url  & "tasks.json?dummy=" & Timer, False )
+    objSrvHTTP.Send
+    Stream2.Open
+    Stream2.Type = 2
+    Stream2.Charset = "utf-8"
+    Stream2.WriteText Replace( objSrvHTTP.responseText, "$target", target ) 
+    Stream2.SaveToFile target_path & "\.vscode\tasks.json", 2
+    Stream2.Close
+
+    Call objSrvHTTP.Open("GET", url  & "launch.json?dummy=" & Timer, False )
+    objSrvHTTP.Send
+    Stream2.Open
+    Stream2.Type = 2
+    Stream2.Charset = "utf-8"
+    if inStr( target, "form" ) > 0 Then
+        Stream2.WriteText Replace( objSrvHTTP.responseText, "$target", target ) 
+    Else
+        Stream2.WriteText Replace( Replace( objSrvHTTP.responseText, "$target", target ), "-windows", "" )
+    End if
+    Stream2.SaveToFile target_path & "\.vscode\launch.json", 2
+    Stream2.Close
+
+
+End Function
+
 
 Function WorkspacePath()
 

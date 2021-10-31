@@ -379,6 +379,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "dotnet add package System.Data.OleDb",
+                "name": "💼【LIB】System.Data.OleDb 追加",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "dotnet add package System.Text.Encoding.CodePages",
                 "name": "💼【LIB】System.Text.Encoding.CodePages 追加",
                 "auto": true,

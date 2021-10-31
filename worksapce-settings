@@ -259,6 +259,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "mkdir ..\\subject-1028-cs-post && cd ..\\subject-1028-cs-post && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1028-cs-post/raw/main Program.cs README.md \\php keijiban.php keijiban.txt && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🌏【バッチ:WEBアクセス】PHP の FORM にPOST する",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "mkdir ..\\cs-con-pdfsharp && cd ..\\cs-con-pdfsharp && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp/raw/main Program.cs FontResolver.cs README.md && dotnet add package PdfSharp --version 1.50.5147 && dotnet add package System.Text.Encoding.CodePages && dotnet add package System.Drawing.Common && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📇【バッチ】PdfSharp とフリーフォント( けいふぉんと )で PDF 作成",
                 "auto": true,

@@ -512,19 +512,19 @@
             },
             {
                 "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q",
-                "name": "SUBJECT ノーマル",
+                "name": "🟥 SUBJECT 今日の日付",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
-                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-main",
-                "name": "GIT SUBJECT MAIN",
+                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-main" && rmdir .git /S /Q",
+                "name": "🟥 SUBJECT MAIN",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\git-clone.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "Your's GIT",
+                "name": "🔱 Your's GIT",
                 "auto": true,
                 "group": "🖐 設定"
             }

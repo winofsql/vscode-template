@@ -367,6 +367,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "start chrome https://www.newtonsoft.com/json",
+                "name": "───────────────────────────────────────────",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "dotnet add package System.Data.Odbc",
                 "name": "💼【LIB】System.Data.Odbc 追加",
                 "auto": true,
@@ -381,6 +387,30 @@
             {
                 "command": "dotnet add package System.Drawing.Common",
                 "name": "💼【LIB】System.Drawing.Common 追加",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
+                "command": "dotnet add package Newtonsoft.Json --version 13.0.1",
+                "name": "💼【LIB】Newtonsoft.Json",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
+                "command": "dotnet add package MailKit --version 2.15.0",
+                "name": "💼【LIB】MailKit",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
+                "command": "dotnet add package MailKit --version 2.15.0",
+                "name": "💼【LIB】MailKit",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
+                "command": "dotnet add package PdfSharp --version 1.50.5147",
+                "name": "💼【LIB】PdfSharp",
                 "auto": true,
                 "group": "🟦 C#"
             },

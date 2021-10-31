@@ -52,7 +52,7 @@ For Each f1 in sf
     ElseIf inStr( f1.name, "wsh" ) > 0 or inStr( f1.name, "wsf" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/wsh/.vscode/settings.json", f1.path )
         WorkspacePath
-    ElseIf inStr( f1.name, "zz-" ) > 0 Then
+    Else
         WorkspacePath
     end if
     

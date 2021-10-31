@@ -421,8 +421,14 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-1029-mysql.git && cd subject-1029-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-0924-mysql.git && cd subject-0924-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌏 データ投入",
+                "auto": true,
+                "group": "🐬 SQL"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-1029-mysql.git && cd subject-1029-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🌏 日付関数・インライビュー・NULL演算",
                 "auto": true,
                 "group": "🐬 SQL"
             },

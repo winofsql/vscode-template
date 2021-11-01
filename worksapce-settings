@@ -427,6 +427,12 @@
                 "group": "🐬 SQL"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-1008-mysql.git && cd subject-1008-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🌏 LOAD DATA と INTO OUTFILE",
+                "auto": true,
+                "group": "🐬 SQL"
+            },
+            {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/subject-1029-mysql.git && cd subject-1029-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌏 データ投入",
                 "auto": true,

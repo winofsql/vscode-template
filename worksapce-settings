@@ -277,7 +277,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-con-open-file-dialog && cd ..\\cs-con-open-file-dialog && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-open-file-dialog/raw/main Program.cs cs-console-open-file-dialog.csproj && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-con-form-open-file-dialog && cd ..\\cs-con-form-open-file-dialog && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-form-open-file-dialog/raw/main Program.cs cs-console-open-file-dialog.csproj && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📇【バッチ + FORM】ファイルを開くダイアログ",
                 "auto": true,
                 "group": "🟦 C#"

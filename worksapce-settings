@@ -409,12 +409,6 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "dotnet add package MailKit --version 2.15.0",
-                "name": "💼【LIB】MailKit",
-                "auto": true,
-                "group": "🟦 C#"
-            },
-            {
                 "command": "dotnet add package PdfSharp --version 1.50.5147",
                 "name": "💼【LIB】PdfSharp",
                 "auto": true,

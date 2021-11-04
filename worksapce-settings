@@ -476,7 +476,13 @@
             },
             {
                 "command": "mkdir ..\\cs-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-02 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📂 C# フォルダ作成",
+                "name": "📂 C# コンソール フォルダ作成",
+                "auto": true,
+                "group": "テスト"
+            },
+            {
+                "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "📂 C# Form フォルダ作成",
                 "auto": true,
                 "group": "テスト"
             },

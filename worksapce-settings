@@ -283,7 +283,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-oledb-01.git && cd cs-con-oledb-01 && rmdir .git /S /Q && dotnet add package System.Data.OleDb && cd ..\\ && git clone https://github.com/winofsql/cs-con-oledb-02.git && cd cs-con-oledb-02 && rmdir .git /S /Q && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-oledb-access-select.git && cd cs-con-oledb-access-select && rmdir .git /S /Q && dotnet add package System.Data.OleDb && cd ..\\ && git clone https://github.com/winofsql/cs-con-oledb-02.git && cd cs-con-oledb-02 && rmdir .git /S /Q && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📕【バッチ + MS Access as DB】Microsoft Access に DB としてアクセス",
                 "auto": true,
                 "group": "🟦 C#"

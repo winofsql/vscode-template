@@ -565,6 +565,12 @@
                 "group": "📌 ブックマーク"
             },
             {
+                "command": "start chrome https://pixlr.com/jp/x/?lang=jp-JP",
+                "name": "🍱 オンライン画像エディタ",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\setup-vscode-user.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
                 "name": "📥 基本設定",
                 "auto": true,

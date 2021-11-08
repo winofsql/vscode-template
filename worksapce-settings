@@ -82,12 +82,12 @@
         "runTerminalCommand.commands": [
             {
                 "command": "explorer {resource}",
-                "name": "選択したファイルを既定のアプリで開く",
+                "name": "⭐ 選択したファイルを既定のアプリで開く",
                 "auto": true
             },
             {
                 "command": "code {resource}",
-                "name": "VSCode でフォルダを開く",
+                "name": "💙 VSCode でフォルダを開く",
                 "auto": true
             },
             {
@@ -460,109 +460,109 @@
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs",
                 "name": "🌏 localhost",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "start chrome http://localhost:8080/lightbox",
                 "name": "🐱 TOMCAT : localhost:8080",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "mkdir ..\\java-%date:~5,2%%date:~8,2%-01 && mkdir ..\\java-%date:~5,2%%date:~8,2%-02 && mkdir ..\\java-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📂 Java フォルダ作成",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "mkdir ..\\cs-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-02 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📂 C# コンソール フォルダ作成",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📂 C# Form フォルダ作成",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && mkdir ..\\php-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📂 PHP フォルダ作成",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📂 SQL フォルダ作成",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "mkdir ..\\python-%date:~5,2%%date:~8,2%-01 && mkdir ..\\python-%date:~5,2%%date:~8,2%-02 && mkdir ..\\python-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📂 Python フォルダ作成",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "mkdir ..\\java-%date:~5,2%%date:~8,2% && mkdir ..\\php-%date:~5,2%%date:~8,2% && mkdir ..\\cs-%date:~5,2%%date:~8,2% && mkdir ..\\python-%date:~5,2%%date:~8,2% && mkdir ..\\sql-%date:~5,2%%date:~8,2% && mkdir ..\\bat-%date:~5,2%%date:~8,2% && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📂 簡易プロジェクトフォルダ作成",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "\\xampp\\mysql\\bin\\my.bat",
                 "name": "🐬 MySQL Command Prompt",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "\\xampp\\apache\\bin\\httpd -t",
                 "name": "❓ Apache Syntax チェック",
                 "auto": true,
-                "group": "テスト"
+                "group": "🔄 テスト"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main menu-cmd-here.reg",
-                "name": "コマンドプロンプトをエクスプローラのコンテキストメニューから開く( menu-cmd-here.reg )",
+                "name": "🔴 コマンドプロンプトをエクスプローラのコンテキストメニューから開く( menu-cmd-here.reg )",
                 "auto": true,
-                "group": "ダウンロード"
+                "group": "📥 ダウンロード"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main/vs-code.reg",
-                "name": "Codeで開くをエクスプローラのディレクトリコンテキストメニューに登録( vs-code.reg )",
+                "name": "🔴 Codeで開くをエクスプローラのディレクトリコンテキストメニューに登録( vs-code.reg )",
                 "auto": true,
-                "group": "ダウンロード"
+                "group": "📥 ダウンロード"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat xampp-tomcat.reg",
                 "name": "🐱 XAMPP TOMCAT 用 SDK場所登録用( xampp-tomcat.reg )",
                 "auto": true,
-                "group": "ダウンロード"
+                "group": "📥 ダウンロード"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat server.xml web.xml copy-tomcat-conf.bat",
                 "name": "🐱 XAMPP TOMCAT 用 server.xml / web.xml",
                 "auto": true,
-                "group": "ダウンロード"
+                "group": "📥 ダウンロード"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/hta-js-ado-mysql-req/raw/main hta-js-ado-mysql-req.htm hta.js",
                 "name": "🪔 HTA + 🐬 MySQL",
                 "auto": true,
-                "group": "ダウンロード"
+                "group": "📥 ダウンロード"
             },
             {
                 "command": "start chrome https://github.com/winofsql/subject",
                 "name": "Subject ワークスペース用テンプレート",
                 "auto": true,
-                "group": "ブックマーク"
+                "group": "📌 ブックマーク"
             },
             {
                 "command": "start chrome https://github.com/winofsql/vscode-template",
                 "name": "VS Code テンプレート",
                 "auto": true,
-                "group": "ブックマーク"
+                "group": "📌 ブックマーク"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\setup-vscode-user.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",

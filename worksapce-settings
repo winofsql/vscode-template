@@ -103,8 +103,14 @@
                 "group": "🟠 PHP"
             },
             {
+                "command": "%windir%\\syswow64\\odbcad32.exe",
+                "name": "───────────────────────────────────────────",
+                "auto": true,
+                "group": "🟠 PHP"
+            },
+            {
                 "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject-1104-web-action-set.git && cd subject-1104-web-action-set && rmdir .git /S /Q",
-                "name": "🟥 PHP + C# + Java ( WEB GET 更新 API / JSON )",
+                "name": "🟥 【プロジェクト】PHP + C# + Java ( WEB GET 更新 API / JSON )",
                 "auto": true,
                 "group": "🟠 PHP"
             },

@@ -103,6 +103,12 @@
                 "group": "🟠 PHP"
             },
             {
+                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject-1104-web-action-set.git && rmdir .git /S /Q",
+                "name": "🟥 PHP + C# + Java ( WEB GET 更新 API / JSON )",
+                "auto": true,
+                "group": "🟠 PHP"
+            },
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,
@@ -249,6 +255,12 @@
             {
                 "command": "dotnet new winforms && dotnet add package System.Data.Odbc && dotnet add package System.Text.Encoding.CodePages",
                 "name": "Form プロジェクト作成",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-tuple.git && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🍙 【タプル】JavaScript のオブジェクトのような var a = (\"one\", \"two\");",
                 "auto": true,
                 "group": "🟦 C#"
             },

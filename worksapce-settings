@@ -259,7 +259,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-tuple.git && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-tuple.git && cd cs-con-tuple && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🍙 【タプル】JavaScript のオブジェクトのような var a = (\"one\", \"two\");",
                 "auto": true,
                 "group": "🟦 C#"

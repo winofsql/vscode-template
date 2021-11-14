@@ -78,5 +78,9 @@
     {
         "key": "shift+alt+j",
         "command": "java.clean.workspace"
+    },
+    {
+        "key": "shift+alt+w",
+        "command": "workbench.action.openWorkspaceSettingsFile"
     }
 ]

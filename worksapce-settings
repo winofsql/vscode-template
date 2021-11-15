@@ -1,5 +1,5 @@
     "settings": {
-        "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+        "window.title": "${dirty}${rootPath}${separator}${rootName}",
         "code-runner.runInTerminal": true,
         "code-runner.fileDirectoryAsCwd": true,
         "code-runner.executorMapByFileExtension": {

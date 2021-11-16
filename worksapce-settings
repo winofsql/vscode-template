@@ -561,7 +561,7 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "cd ..\\..\\ && if exist resource-winofsql\\. ( rmdir /S /Q resource-winofsql ) else ( echo first clone ) && git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && Code lightbox.code-workspace",
+                "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && Code lightbox.code-workspace",
                 "name": "🟥 販売管理リソース",
                 "auto": true,
                 "group": "📥 ダウンロード"

@@ -327,6 +327,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-access-select.git && cd cs-con-odbc-access-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "📕【バッチ + MS Access as DB( ODBC )】Microsoft Access に DB( ODBC ) としてアクセス",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "start chrome http://font.sumomo.ne.jp/font_1.html",
                 "name": "───────────────────────────────────────────",
                 "auto": true,

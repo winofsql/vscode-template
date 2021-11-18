@@ -501,6 +501,12 @@
                 "group": "🐬 SQL"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-sql-group-by.git && cd subject-sql-group-by && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🌏 GROUP BY (1) : 各 RDBMS",
+                "auto": true,
+                "group": "🐬 SQL"
+            },
+            {
                 "command": "mkdir py-0929-basic && cd py-0929-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0929-python-basic/raw/main README.md sample01.py sample02.py sample03.py sample04.py sample05.py sample06.py sample07.py sample08.py sample09.py sample10.py sample11.py sample12.py sample13.py sample14.py sample15.py",
                 "name": "✅ Python Subject Basic 0929",
                 "auto": true,

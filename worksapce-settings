@@ -16,6 +16,7 @@
             "vbscript": "cscript //Nologo"
         },
         "files.associations": {
+            "*.mnu": "csv",
             "*.ujis": "perl",
             "*.932": "csv",
             "*.jsp": "java",

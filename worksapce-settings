@@ -628,6 +628,12 @@
                 "group": "📥 ダウンロード"
             },
             {
+                "command": "start chrome https://remotedesktop.google.com/access/ && exit",
+                "name": "Google Chrome リモートアクセス",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
                 "command": "start chrome https://github.com/winofsql/subject && exit",
                 "name": "Subject ワークスペース用テンプレート",
                 "auto": true,

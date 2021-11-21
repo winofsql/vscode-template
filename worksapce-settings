@@ -102,12 +102,12 @@
         ],
         "runTerminalCommand.commands": [
             {
-                "command": "explorer {resource}",
+                "command": "explorer {resource} && exit",
                 "name": "⭐ 選択したファイルを既定のアプリで開く",
                 "auto": true
             },
             {
-                "command": "code {resource}",
+                "command": "code {resource} && exit",
                 "name": "💙 VSCode でフォルダを開く",
                 "auto": true
             },
@@ -124,7 +124,7 @@
                 "group": "🟠 PHP"
             },
             {
-                "command": "%windir%\\system32\\odbcad32.exe",
+                "command": "%windir%\\system32\\odbcad32.exe && exit",
                 "name": "───────────────────────────────────────────",
                 "auto": true,
                 "group": "🟠 PHP"
@@ -628,31 +628,31 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "start chrome https://github.com/winofsql/subject",
+                "command": "start chrome https://github.com/winofsql/subject && exit",
                 "name": "Subject ワークスペース用テンプレート",
                 "auto": true,
                 "group": "📌 ブックマーク"
             },
             {
-                "command": "start chrome https://github.com/winofsql/vscode-template",
+                "command": "start chrome https://github.com/winofsql/vscode-template && exit",
                 "name": "VS Code テンプレート",
                 "auto": true,
                 "group": "📌 ブックマーク"
             },
             {
-                "command": "start chrome https://pixlr.com/jp/x/?lang=jp-JP",
+                "command": "start chrome https://pixlr.com/jp/x/?lang=jp-JP && exit",
                 "name": "🍱 オンライン画像エディタ",
                 "auto": true,
                 "group": "📌 ブックマーク"
             },
             {
-                "command": "start chrome https://rextester.com/",
+                "command": "start chrome https://rextester.com/ && exit",
                 "name": "🍱 オンライン各種言語実行",
                 "auto": true,
                 "group": "📌 ブックマーク"
             },
             {
-                "command": "start chrome http://lightbox.on.coocan.jp/html/utf8tool.php",
+                "command": "start chrome http://lightbox.on.coocan.jp/html/utf8tool.php && exit",
                 "name": "🍱 UTF8 文字( 色付き文字も )",
                 "auto": true,
                 "group": "📌 ブックマーク"

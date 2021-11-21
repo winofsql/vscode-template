@@ -658,6 +658,18 @@
                 "group": "📌 ブックマーク"
             },
             {
+                "command": "%windir%\syswow64\odbcad32.exe",
+                "name": "🔶 ODBC32",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "%windir%\system32\odbcad32.exe",
+                "name": "🔶 ODBC64",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\setup-vscode-user.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
                 "name": "📥 基本設定",
                 "auto": true,

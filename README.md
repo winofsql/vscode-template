@@ -124,7 +124,6 @@ Visual Studio Code 用テンプレート
 keyboard json
 ```
 ```javascript
-// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
 [
     {
         "key": "ctrl+pausebreak",
@@ -204,6 +203,10 @@ keyboard json
     {
         "key": "shift+alt+j",
         "command": "java.clean.workspace"
+    },
+    {
+        "key": "shift+alt+w",
+        "command": "workbench.action.openWorkspaceSettingsFile"
     }
 ]
 ```

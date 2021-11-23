@@ -640,7 +640,7 @@
                 "group": "📌 ブックマーク"
             },
             {
-                "command": "start chrome https://remotedesktop.google.com/access/ && exit",
+                "command": "start chrome --incognito https://remotedesktop.google.com/access/ && exit",
                 "name": "Google Chrome リモートアクセス",
                 "auto": true,
                 "group": "📌 ブックマーク"

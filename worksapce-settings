@@ -688,7 +688,7 @@
                 "group": "🔳 Windows"
             },
             {
-                "command": "%windir%\system32\services.msc && exit",
+                "command": "%windir%\\system32\\services.msc && exit",
                 "name": "🔶 サービス",
                 "auto": true,
                 "group": "🔳 Windows"

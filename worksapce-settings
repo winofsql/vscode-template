@@ -442,139 +442,139 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "start chrome https://www.newtonsoft.com/json",
+                "command": "start chrome https://www.newtonsoft.com/json && exit",
                 "name": "───────────────────────────────────────────",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "dotnet add package System.Data.Odbc",
+                "command": "dotnet add package System.Data.Odbc && exit",
                 "name": "💼【LIB】System.Data.Odbc 追加",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "dotnet add package System.Data.OleDb",
+                "command": "dotnet add package System.Data.OleDb && exit",
                 "name": "💼【LIB】System.Data.OleDb 追加",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "dotnet add package System.Text.Encoding.CodePages",
+                "command": "dotnet add package System.Text.Encoding.CodePages && exit",
                 "name": "💼【LIB】System.Text.Encoding.CodePages 追加",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "dotnet add package System.Drawing.Common",
+                "command": "dotnet add package System.Drawing.Common && exit",
                 "name": "💼【LIB】System.Drawing.Common 追加",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "dotnet add package Newtonsoft.Json --version 13.0.1",
+                "command": "dotnet add package Newtonsoft.Json --version 13.0.1 && exit",
                 "name": "💼【LIB】Newtonsoft.Json",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "dotnet add package MailKit --version 2.15.0",
+                "command": "dotnet add package MailKit --version 2.15.0 && exit",
                 "name": "💼【LIB】MailKit",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "dotnet add package PdfSharp --version 1.50.5147",
+                "command": "dotnet add package PdfSharp --version 1.50.5147 && exit",
                 "name": "💼【LIB】PdfSharp",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-0924-mysql.git && cd subject-0924-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-0924-mysql.git && cd subject-0924-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "🌏 日付関数・インライビュー・NULL演算・バックアップのSQL",
                 "auto": true,
                 "group": "🐬 SQL"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-1008-mysql.git && cd subject-1008-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-1008-mysql.git && cd subject-1008-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "🌏 LOAD DATA と INTO OUTFILE",
                 "auto": true,
                 "group": "🐬 SQL"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-1029-mysql.git && cd subject-1029-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-1029-mysql.git && cd subject-1029-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "🌏 データ投入",
                 "auto": true,
                 "group": "🐬 SQL"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-sql-group-by.git && cd subject-sql-group-by && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/subject-sql-group-by.git && cd subject-sql-group-by && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "🌏 GROUP BY (1) : 各 RDBMS",
                 "auto": true,
                 "group": "🐬 SQL"
             },
             {
-                "command": "mkdir py-0929-basic && cd py-0929-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0929-python-basic/raw/main README.md sample01.py sample02.py sample03.py sample04.py sample05.py sample06.py sample07.py sample08.py sample09.py sample10.py sample11.py sample12.py sample13.py sample14.py sample15.py",
+                "command": "mkdir py-0929-basic && cd py-0929-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0929-python-basic/raw/main README.md sample01.py sample02.py sample03.py sample04.py sample05.py sample06.py sample07.py sample08.py sample09.py sample10.py sample11.py sample12.py sample13.py sample14.py sample15.py && exit",
                 "name": "✅ Python Subject Basic 0929",
                 "auto": true,
                 "group": "🐍 Python"
             },
             {
-                "command": "mkdir py-0930-basic && cd py-0930-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0930-python-basic/raw/main README.md flower01.jpg flower02.jpg flower03.jpg sample01.py sample02.py sample03.py sample04.py sample05.py sample06.py sample07.py sample08.py sample09.py sample10.py sample11.py sample12.py",
+                "command": "mkdir py-0930-basic && cd py-0930-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-0930-python-basic/raw/main README.md flower01.jpg flower02.jpg flower03.jpg sample01.py sample02.py sample03.py sample04.py sample05.py sample06.py sample07.py sample08.py sample09.py sample10.py sample11.py sample12.py && exit",
                 "name": "✅ Python Subject Basic 0930",
                 "auto": true,
                 "group": "🐍 Python"
             },            
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
                 "name": "🌏 localhost",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "start chrome http://localhost:8080/lightbox",
+                "command": "start chrome http://localhost:8080/lightbox && exit",
                 "name": "🐱 TOMCAT : localhost:8080",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2%-01 && mkdir ..\\java-%date:~5,2%%date:~8,2%-02 && mkdir ..\\java-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2%-01 && mkdir ..\\java-%date:~5,2%%date:~8,2%-02 && mkdir ..\\java-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 Java フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\cs-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-02 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-02 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 C# コンソール フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 C# Form フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && mkdir ..\\php-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && mkdir ..\\php-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 PHP フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 SQL フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\python-%date:~5,2%%date:~8,2%-01 && mkdir ..\\python-%date:~5,2%%date:~8,2%-02 && mkdir ..\\python-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\python-%date:~5,2%%date:~8,2%-01 && mkdir ..\\python-%date:~5,2%%date:~8,2%-02 && mkdir ..\\python-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 Python フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2% && mkdir ..\\php-%date:~5,2%%date:~8,2% && mkdir ..\\cs-%date:~5,2%%date:~8,2% && mkdir ..\\python-%date:~5,2%%date:~8,2% && mkdir ..\\sql-%date:~5,2%%date:~8,2% && mkdir ..\\bat-%date:~5,2%%date:~8,2% && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2% && mkdir ..\\php-%date:~5,2%%date:~8,2% && mkdir ..\\cs-%date:~5,2%%date:~8,2% && mkdir ..\\python-%date:~5,2%%date:~8,2% && mkdir ..\\sql-%date:~5,2%%date:~8,2% && mkdir ..\\bat-%date:~5,2%%date:~8,2% && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 簡易プロジェクトフォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
@@ -592,13 +592,13 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && Code lightbox.code-workspace",
+                "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && Code lightbox.code-workspace && exit",
                 "name": "🟥 販売管理リソース",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "🟥 SQLite3 初期セット",
                 "auto": true,
                 "group": "📥 ダウンロード"
@@ -610,25 +610,25 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main menu-cmd-here.reg",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main menu-cmd-here.reg && exit",
                 "name": "🔴 コマンドプロンプトをエクスプローラのコンテキストメニューから開く( menu-cmd-here.reg )",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main/vs-code.reg",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main/vs-code.reg && exit",
                 "name": "🔴 Codeで開くをエクスプローラのディレクトリコンテキストメニューに登録( vs-code.reg )",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat xampp-tomcat.reg",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat xampp-tomcat.reg && exit",
                 "name": "🐱 XAMPP TOMCAT 用 SDK場所登録用( xampp-tomcat.reg )",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat server.xml web.xml copy-tomcat-conf.bat",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat server.xml web.xml copy-tomcat-conf.bat && exit",
                 "name": "🐱 XAMPP TOMCAT 用 server.xml / web.xml",
                 "auto": true,
                 "group": "📥 ダウンロード"
@@ -712,37 +712,37 @@
                 "group": "🔳 Windows"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\setup-vscode-user.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\setup-vscode-user.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs && exit",
                 "name": "📥 基本設定",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "💬 ワークスペース作成",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs && exit",
                 "name": "💯 XAMPP Alias 設定",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
                 "name": "🐱 TOMCAT PATH 作成",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
-                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace",
+                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace && exit",
                 "name": "🟥 SUBJECT 今日の日付",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
-                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-main && cd subject-main && rmdir .git /S /Q && copy README.md zz-workspace",
+                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-main && cd subject-main && rmdir .git /S /Q && copy README.md zz-workspace && exit",
                 "name": "🟥 SUBJECT MAIN",
                 "auto": true,
                 "group": "🖐 設定"

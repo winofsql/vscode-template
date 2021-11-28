@@ -5,6 +5,9 @@ Set Stream2 = CreateObject("ADODB.Stream")
 Set Stream3 = CreateObject("ADODB.Stream")
 Set f = fso.GetFolder(".")
 Set sf = f.SubFolders
+
+settings = "https://github.com/winofsql/subject/raw/main/zz-workspace/.vscode/settings.json"
+
 Dim text
 
 Stream1.Open
@@ -19,38 +22,38 @@ For Each f1 in sf
     text = ""
     if inStr( f1.name, "java" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/java/.vscode/launch.json", f1.path )
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/java/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "bat" ) > 0 Then
-        Call GetSetting( "https://raw.githubusercontent.com/winofsql/vscode-template/main/batchfile/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "cs" ) > 0 Then
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/csharp/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         Call GetSettingCs( "https://github.com/winofsql/vscode-template/raw/main/csharp/.vscode/", f1.path, f1.name )
         WorkspacePath
     ElseIf inStr( f1.name, "js" ) > 0 or inStr( f1.name, "javascript" ) > 0 or inStr( f1.name, "jscript" ) > 0 Then
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/js-cscript/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "hta" ) > 0 Then
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/mshta/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "php" ) > 0 Then
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/php/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "ps" ) > 0 Then
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/powershell/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "py" ) > 0 Then
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/python/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "sql" ) > 0 Then
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/sql/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "vbs" ) > 0 Then
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/vbscript/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "wsh" ) > 0 or inStr( f1.name, "wsf" ) > 0 Then
-        Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/wsh/.vscode/settings.json", f1.path )
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     Else
         WorkspacePath

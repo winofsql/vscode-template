@@ -56,6 +56,7 @@ For Each f1 in sf
         Call GetSetting( settings, f1.path )
         WorkspacePath
     Else
+        Call GetSetting( settings, f1.path )
         WorkspacePath
     end if
     

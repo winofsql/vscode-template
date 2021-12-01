@@ -310,7 +310,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-con-pdfsharp-rectangle && cd ..\\cs-con-pdfsharp-rectangle && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp-rectangle/raw/main Program.cs FontResolver.cs && dotnet add package PdfSharp --version 1.50.5147 && dotnet add package System.Text.Encoding.CodePages && dotnet add package System.Drawing.Common && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-con-pdfsharp-rectangle && cd ..\\cs-con-pdfsharp-rectangle && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp-rectangle/raw/main Program.cs FontResolver.cs README.md && dotnet add package PdfSharp --version 1.50.5147 && dotnet add package System.Text.Encoding.CodePages && dotnet add package System.Drawing.Common && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📇【バッチ】ラノベPOP と 長方形描画 ( PDF 作成 )",
                 "auto": true,
                 "group": "🟦 C#"

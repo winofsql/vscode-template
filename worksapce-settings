@@ -316,6 +316,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "mkdir ..\\cs-con-excel-new && cd ..\\cs-con-excel-new && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-new/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "📇【バッチ】ブックを作成してセルに値をセットして Excel で起動( COM )",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "mkdir ..\\cs-con-form-open-file-dialog && cd ..\\cs-con-form-open-file-dialog && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-form-open-file-dialog/raw/main Program.cs cs-con-form-open-file-dialog.csproj && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📇【バッチ + FORM】ファイルを開くダイアログ",
                 "auto": true,

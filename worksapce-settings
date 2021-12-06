@@ -550,6 +550,12 @@
                 "group": "🔄 テスト"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-root-localhost.vbs && exit",
+                "name": "🌏 ROOT localhost",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
                 "command": "mkdir ..\\java-%date:~5,2%%date:~8,2%-01 && mkdir ..\\java-%date:~5,2%%date:~8,2%-02 && mkdir ..\\java-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 Java フォルダ作成",
                 "auto": true,

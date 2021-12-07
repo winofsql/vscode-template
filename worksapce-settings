@@ -130,8 +130,8 @@
                 "group": "🟠 PHP"
             },
             {
-                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject-1104-web-action-set.git && cd subject-1104-web-action-set && rmdir .git /S /Q",
-                "name": "🟥 【プロジェクト】PHP + C# + Java ( WEB GET 更新 API / JSON )",
+                "command": "git clone https://github.com/winofsql/php-board-v02-textfile.git && cd php-board-v02-textfile && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 2】MVC 掲示板 : テキストファイル",
                 "auto": true,
                 "group": "🟠 PHP"
             },
@@ -142,12 +142,11 @@
                 "group": "🟠 PHP"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v02-textfile.git && cd php-board-v02-textfile && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 2】MVC 掲示板 : テキストファイル",
+                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject-1104-web-action-set.git && cd subject-1104-web-action-set && rmdir .git /S /Q",
+                "name": "🟥 【プロジェクト】PHP + C# + Java ( WEB GET 更新 API / JSON )",
                 "auto": true,
                 "group": "🟠 PHP"
             },
-
             {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",

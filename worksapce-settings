@@ -1,4 +1,5 @@
     "settings": {
+        "-files.encoding": "shiftjis",
         "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}${rootName}",
         "code-runner.runInTerminal": true,
         "code-runner.fileDirectoryAsCwd": true,

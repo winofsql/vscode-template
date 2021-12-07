@@ -136,7 +136,7 @@
                 "group": "🟠 PHP"
             },
             {
-                "command": "%windir%\system32\cleanmgr.exe && exit",
+                "command": "%windir%\\system32\\cleanmgr.exe && exit",
                 "name": "───────────────────────────────────────────",
                 "auto": true,
                 "group": "🟠 PHP"

@@ -106,7 +106,7 @@ Visual Studio Code 用テンプレート
         "\\app\\workspace\\lib\\commons-logging-1.2.jar",
         "\\app\\workspace\\lib\\hsqldb-2.5.0.jar",
         "\\app\\workspace\\lib\\jackcess-3.0.1.jar",
-    ],   
+    ]
 }
 ```
 | Keyword | | Description 

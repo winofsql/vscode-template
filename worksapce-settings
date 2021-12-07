@@ -160,8 +160,8 @@
                 "group": "🟥 Java"
             },
             {
-                "command": "mkdir ..\\java-hello-array && cd ..\\java-hello-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-hello-array/raw/main HelloArray.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌝 java-hello-array",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/java-hello-array.git && cd java-hello-array && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🌝 【配列とArrayList】java-hello-array",
                 "auto": true,
                 "group": "🟥 Java"
             },

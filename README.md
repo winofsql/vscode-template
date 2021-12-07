@@ -87,7 +87,26 @@ Visual Studio Code 用テンプレート
     "[powershell]": {
         "files.encoding": "shiftjis"
     },
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "\\app\\workspace\\lib\\mysql-connector-java-8.0.26.jar",
+        "\\app\\workspace\\lib\\gson-2.8.8.jar",
+        "\\app\\workspace\\lib\\javax.mail.jar",
+        "\\app\\workspace\\lib\\javax.activation-1.2.0.jar",
+        "\\app\\workspace\\lib\\poi-5.0.0.jar",
+        "\\app\\workspace\\lib\\commons-collections4-4.4.jar",
+        "\\app\\workspace\\lib\\xmlbeans-4.0.0.jar",
+        "\\app\\workspace\\lib\\poi-ooxml-full-5.0.0.jar",
+        "\\app\\workspace\\lib\\poi-ooxml-5.0.0.jar",
+        "\\app\\workspace\\lib\\commons-compress-1.20.jar",
+        "\\app\\workspace\\lib\\pdfbox-app-2.0.24.jar",
+        "\\app\\workspace\\lib\\ucanaccess-5.0.1.jar",
+        "\\app\\workspace\\lib\\commons-lang3-3.8.1.jar",
+        "\\app\\workspace\\lib\\commons-logging-1.2.jar",
+        "\\app\\workspace\\lib\\hsqldb-2.5.0.jar",
+        "\\app\\workspace\\lib\\jackcess-3.0.1.jar",
+    ],   
 }
 ```
 | Keyword | | Description 

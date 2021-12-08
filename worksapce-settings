@@ -161,6 +161,12 @@
                 "group": "🟥 Java"
             },
             {
+                "command": "start ms-settings:windowsupdate && exit",
+                "name": "───────────────────────────────────────────【Windows Update】",
+                "auto": true,
+                "group": "🟥 Java"
+            },
+            {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/java-hello-array.git && cd java-hello-array && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌝 【配列とArrayList】 : java-hello-array",
                 "auto": true,

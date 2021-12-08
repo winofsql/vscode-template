@@ -161,8 +161,8 @@
                 "group": "🟥 Java"
             },
             {
-                "command": "start ms-settings:windowsupdate && exit",
-                "name": "──────────────────────────────────【Windows Update】",
+                "command": "start chrome https://docs.oracle.com/javase/jp/11/docs/api/java.base/java/util/ArrayList.html#method.summary && exit",
+                "name": "───────────────────────────────【ArrayList ( Java11 )】",
                 "auto": true,
                 "group": "🟥 Java"
             },

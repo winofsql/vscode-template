@@ -186,13 +186,13 @@
             },
             {
                 "command": "mkdir ..\\java-mysql-select-string-int && cd ..\\java-mysql-select-string-int && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-mysql-select-string-int/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬 java-mysql-select-string-int",
+                "name": "🐬 【一覧取得( int と String )】 : java-mysql-select-string-int",
                 "auto": true,
                 "group": "🟥 Java"
             },
             {
                 "command": "mkdir ..\\java-mysql-select-date-column-info && cd ..\\java-mysql-select-date-column-info && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-mysql-select-date-column-info/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬 java-mysql-select-date-column-info",
+                "name": "🐬 【一覧取得( 日付型の処理 )】 : java-mysql-select-date-column-info",
                 "auto": true,
                 "group": "🟥 Java"
             },

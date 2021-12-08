@@ -174,7 +174,7 @@
             },
             {
                 "command": "mkdir ..\\java-class-list-array && cd ..\\java-class-list-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-class-list-array/raw/main Main.java Person.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌝 java-class-list-array",
+                "name": "🌝 【クラスや配列を List にセット】 : java-class-list-array",
                 "auto": true,
                 "group": "🟥 Java"
             },

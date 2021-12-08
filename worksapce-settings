@@ -204,7 +204,7 @@
             },
             {
                 "command": "start chrome https://docs.oracle.com/javase/jp/11/docs/api/java.base/java/net/URL.html#openConnection() && exit",
-                "name": "──────────────────────────────────【openConnection ( Java11 )】",
+                "name": "───────────────────────────────【openConnection ( Java11 )】",
                 "auto": true,
                 "group": "🟥 Java"
             },

@@ -12,6 +12,7 @@ Visual Studio Code 用テンプレート
     "code-runner.showRunIconInEditorTitleMenu": false,
     "code-runner.executorMap": {
         "csv": "explorer",
+        "excel": "explorer",
         "javascript": "cscript //Nologo",
         "php": "\\xampp\\php\\php.exe",
         "python": "python -u",

@@ -6,7 +6,8 @@
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "cwd": "${fileDirname}"
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
         }
     ]
 }

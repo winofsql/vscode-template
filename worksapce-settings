@@ -306,7 +306,7 @@
             },
             {
                 "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples && exit",
-                "name": "──────────────────────────────────【タプル型 ( Microsoft )】",
+                "name": "────────────────────────────────【タプル型 ( Microsoft )】",
                 "auto": true,
                 "group": "🟦 C#"
             },

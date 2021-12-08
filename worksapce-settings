@@ -180,7 +180,7 @@
             },
             {
                 "command": "mkdir ..\\java-map-list-array && cd ..\\java-map-list-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-map-list-array/raw/main README.md Pg1MapGetEnv.java Pg2GetenvToArray.java Pg3ArrayToList.java Pg4MapForEach.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌝 java-map-list-array",
+                "name": "🌝 【MAP と LIST と 配列の一覧表示】 : java-map-list-array",
                 "auto": true,
                 "group": "🟥 Java"
             },

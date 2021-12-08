@@ -245,7 +245,7 @@
                 "group": "🟥 Java"
             },
             {
-                "command": "RunDLL32.EXE shell32.dll,Control_RunDLL appwiz.cpl",
+                "command": "RunDLL32.EXE shell32.dll,Control_RunDLL appwiz.cpl && exit",
                 "name": "──────────────────────────────────【プログラムと機能】",
                 "auto": true,
                 "group": "🟥 Java"
@@ -275,7 +275,7 @@
                 "group": "🟥 Java"
             },
             {
-                "command": "control.exe /name Microsoft.WindowsUpdate",
+                "command": "control.exe /name Microsoft.WindowsUpdate && exit",
                 "name": "──────────────────────────────────【WindowsUpdate】",
                 "auto": true,
                 "group": "🟥 Java"
@@ -383,7 +383,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "start chrome http://font.sumomo.ne.jp/font_1.html",
+                "command": "start chrome http://font.sumomo.ne.jp/font_1.html && exit",
                 "name": "──────────────────────────────────【けいふぉんと！】",
                 "auto": true,
                 "group": "🟦 C#"
@@ -425,7 +425,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/api/system.data.odbc.odbcconnection",
+                "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/api/system.data.odbc.odbcconnection && exit",
                 "name": "──────────────────────────────────【OdbcConnection クラス】",
                 "auto": true,
                 "group": "🟦 C#"

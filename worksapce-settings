@@ -305,6 +305,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples && exit",
+                "name": "──────────────────────────────────【タプル型 ( Microsoft )】",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-tuple.git && cd cs-con-tuple && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🍙 【タプル】JavaScript のオブジェクトのような var a = (\"one\", \"two\");",
                 "auto": true,

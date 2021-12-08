@@ -438,7 +438,7 @@
             },
             {
                 "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/api/system.data.odbc.odbcconnection && exit",
-                "name": "──────────────────────────────────【OdbcConnection クラス】",
+                "name": "────────────────────────────────【OdbcConnection クラス】",
                 "auto": true,
                 "group": "🟦 C#"
             },

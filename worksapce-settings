@@ -198,7 +198,13 @@
             },
             {
                 "command": "mkdir ..\\java-csv-read-ms932 && cd ..\\java-csv-read-ms932 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-csv-read-ms932/raw/main Main.java Main2.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📄 java-csv-read-ms932",
+                "name": "📄 【SHIFT_JIS CSV の読込み】 : java-csv-read-ms932",
+                "auto": true,
+                "group": "🟥 Java"
+            },
+            {
+                "command": "start chrome https://docs.oracle.com/javase/jp/11/docs/api/java.base/java/net/URL.html#openConnection() && exit",
+                "name": "──────────────────────────────────【openConnection ( Java11 )】",
                 "auto": true,
                 "group": "🟥 Java"
             },

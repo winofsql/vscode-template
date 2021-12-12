@@ -779,6 +779,12 @@
                 "group": "🖐 設定"
             },
             {
+                "command": "if exist \\app\\workspace ( cd \\app\\workspace && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace && exit ) else ( mkdir \\app\\workspace && cd \\app\\workspace && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace && exit )",
+                "name": "🟥 SUBJECT 今日の日( app\\workspace に作成 )",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs && exit",
                 "name": "💯 XAMPP Alias 設定",
                 "auto": true,
@@ -787,12 +793,6 @@
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
                 "name": "🐱 TOMCAT PATH 作成",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "if exist \\app\\workspace ( cd \\app\\workspace && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace && exit ) else ( mkdir \\app\\workspace && cd \\app\\workspace && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace && exit )",
-                "name": "🟥 app\\workspace : SUBJECT 今日の日付",
                 "auto": true,
                 "group": "🖐 設定"
             },

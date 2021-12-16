@@ -101,6 +101,12 @@
             "\\app\\workspace\\lib\\hsqldb-2.5.0.jar",
             "\\app\\workspace\\lib\\jackcess-3.0.1.jar",
         ],
+        "print.markdownRenderingBodyStyle": "background-color: white; font-family:\"メイリオ\", serif; font-size:13pt;",
+        "print.markdownRenderingHeadingStyle": "font-family:\"メイリオ\", sans-serif;",
+        "print.markdownRenderingParagraphStyle": "font-family:\"メイリオ\", serif;",
+        "print.markdownRenderingTableDataStyle": "font-family:\"メイリオ\", sans-serif; border-top:thin solid grey; border-left:thin solid grey;",
+        "print.markdownRenderingTableHeadingStyle": "font-family:\"メイリオ\", sans-serif; font-weight:400; border-top:thin solid grey; border-left:thin solid grey; ",
+        "print.markdownRenderingTableStyle": "font-family:\"メイリオ\", sans-serif; border-top:thin solid grey; border-left:thin solid grey;",
         "runTerminalCommand.commands": [
             {
                 "command": "explorer {resource} && exit",

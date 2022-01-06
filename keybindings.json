@@ -84,6 +84,6 @@
     },
     {
         "key": "shift+alt+s",
-        "command": "workbench.action.openRawDefaultSettings"
+        "command": "workbench.action.openSettingsJson"
     }
 ]

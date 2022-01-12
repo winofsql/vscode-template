@@ -11,7 +11,7 @@ Visual Studio Code 用テンプレート
     "editor.renderWhitespace": "boundary",
     "editor.fontSize": 16,
     "files.autoSave": "afterDelay",
-    "java.home": "c:\\java16",
+    "-java.home": "c:\\java16",
     "code-runner.showRunIconInEditorTitleMenu": false,
     "code-runner.executorMap": {
         "csv": "explorer",

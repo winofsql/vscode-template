@@ -230,6 +230,10 @@ keyboard json
     {
         "key": "shift+alt+w",
         "command": "workbench.action.openWorkspaceSettingsFile"
+    },
+    {
+        "key": "shift+alt+s",
+        "command": "workbench.action.openSettingsJson"
     }
 ]
 ```

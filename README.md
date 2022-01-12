@@ -1,5 +1,8 @@
 # vscode-template
 Visual Studio Code 用テンプレート
+
+![image](https://user-images.githubusercontent.com/1501327/149236402-c8926833-91b2-494b-8dd4-fc9c8a6995ec.png)
+
 ## settings.json( "C:\Users\\%username%\AppData\Roaming\Code\User" )
 ```javascript
 {

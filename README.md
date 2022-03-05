@@ -1,8 +1,6 @@
 # vscode-template
 Visual Studio Code 用テンプレート
 
-![image](https://user-images.githubusercontent.com/1501327/149236402-c8926833-91b2-494b-8dd4-fc9c8a6995ec.png)
-
 ## settings.json( "C:\Users\\%username%\AppData\Roaming\Code\User" )
 ```javascript
 {
@@ -265,10 +263,32 @@ keyboard json
 ![image](https://user-images.githubusercontent.com/1501327/134357892-2d8733c7-bf63-4266-9187-5343c9383e00.png)\
 ![image](https://user-images.githubusercontent.com/1501327/156706797-de1d389e-f3e2-4a9c-bc63-7a77724515c7.png)
 
+## Code Runner ( formulahendry.code-runner )
+![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)\
+**▼ keybindings.json**
+```javascript
+    {
+        "key": "f5",
+        "command": "code-runner.run",
+        "when": "editorLangId != 'java'"
+    }
+```
+```javascript
+    "code-runner.executorMap": {
+        "javascript": "cscript //Nologo",
+        "php": "C:\\xampp\\php\\php.exe",
+        "python": "python -u",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Unrestricted -File",
+        "bat": "cmd /c",
+        "csharp": "dotnet run",
+        "vbscript": "cscript //Nologo"
+    }
+```
 
 
 ## Extension Pack for Java ( vscjava.vscode-java-pack )
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)\
+![image](https://user-images.githubusercontent.com/1501327/149236402-c8926833-91b2-494b-8dd4-fc9c8a6995ec.png)\
 **▼ ブロジェクト リビルド**
 ```
 Java: Clean Java Language Server Workspace
@@ -292,28 +312,6 @@ java.project.sourcePaths
         }
     ]
 }
-```
-
-## Code Runner ( formulahendry.code-runner )
-![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)\
-**▼ keybindings.json**
-```javascript
-    {
-        "key": "f5",
-        "command": "code-runner.run",
-        "when": "editorLangId != 'java'"
-    }
-```
-```javascript
-    "code-runner.executorMap": {
-        "javascript": "cscript //Nologo",
-        "php": "C:\\xampp\\php\\php.exe",
-        "python": "python -u",
-        "powershell": "powershell -NoProfile -ExecutionPolicy Unrestricted -File",
-        "bat": "cmd /c",
-        "csharp": "dotnet run",
-        "vbscript": "cscript //Nologo"
-    }
 ```
 
 ## Python ( ms-python.python )

@@ -260,6 +260,12 @@ keyboard json
 \
 ![image](https://user-images.githubusercontent.com/1501327/134832146-8ea73bef-56e1-44e5-be67-7015f36a860b.png)
 
+## Run Terminal Command ( adrianwilczynski.terminal-commands )
+![image](https://user-images.githubusercontent.com/1501327/134173105-2c7ba14c-bc3a-49a4-a3ea-e882226d8dc1.png)\
+![image](https://user-images.githubusercontent.com/1501327/134357892-2d8733c7-bf63-4266-9187-5343c9383e00.png)\
+![image](https://user-images.githubusercontent.com/1501327/156706797-de1d389e-f3e2-4a9c-bc63-7a77724515c7.png)
+
+
 
 ## Extension Pack for Java ( vscjava.vscode-java-pack )
 ![image](https://user-images.githubusercontent.com/1501327/132113151-df054e16-63a5-42db-8502-65a12c6afbbc.png)\
@@ -287,11 +293,6 @@ java.project.sourcePaths
     ]
 }
 ```
-## Run Terminal Command ( adrianwilczynski.terminal-commands )
-![image](https://user-images.githubusercontent.com/1501327/134173105-2c7ba14c-bc3a-49a4-a3ea-e882226d8dc1.png)\
-![image](https://user-images.githubusercontent.com/1501327/134357892-2d8733c7-bf63-4266-9187-5343c9383e00.png)\
-![image](https://user-images.githubusercontent.com/1501327/156706797-de1d389e-f3e2-4a9c-bc63-7a77724515c7.png)
-
 
 ## Code Runner ( formulahendry.code-runner )
 ![image](https://user-images.githubusercontent.com/1501327/132113173-cabc662f-8f06-49d0-959e-e2247619d121.png)\

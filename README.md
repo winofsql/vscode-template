@@ -287,6 +287,10 @@ java.project.sourcePaths
     ]
 }
 ```
+## Run Terminal Command ( adrianwilczynski.terminal-commands )
+![image](https://user-images.githubusercontent.com/1501327/134173105-2c7ba14c-bc3a-49a4-a3ea-e882226d8dc1.png)\
+![image](https://user-images.githubusercontent.com/1501327/134357892-2d8733c7-bf63-4266-9187-5343c9383e00.png)\
+![image](https://user-images.githubusercontent.com/1501327/156706797-de1d389e-f3e2-4a9c-bc63-7a77724515c7.png)
 
 
 ## Code Runner ( formulahendry.code-runner )
@@ -308,47 +312,6 @@ java.project.sourcePaths
         "bat": "cmd /c",
         "csharp": "dotnet run",
         "vbscript": "cscript //Nologo"
-    }
-```
-## Run Terminal Command ( adrianwilczynski.terminal-commands )
-![image](https://user-images.githubusercontent.com/1501327/134173105-2c7ba14c-bc3a-49a4-a3ea-e882226d8dc1.png)\
-![image](https://user-images.githubusercontent.com/1501327/134357892-2d8733c7-bf63-4266-9187-5343c9383e00.png)\
-![image](https://user-images.githubusercontent.com/1501327/156706797-de1d389e-f3e2-4a9c-bc63-7a77724515c7.png)
-
-```javascript
-    "runTerminalCommand.commands": [
-        {
-            "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
-            "name": "Php Base",
-            "auto": true
-        },
-        {
-            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs",
-            "name": "download-settings",
-            "auto": true
-        },
-        {
-            "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-            "name": "workspace-build-download",
-            "auto": true
-        }
-    ]
-```
-
-## MySQL ( cweijan.vscode-mysql-client2 )
-![image](https://user-images.githubusercontent.com/1501327/132113188-f6e02a8e-4d19-49ba-96f9-8f01905e50b5.png)\
-[MySQL 文字列関数](https://dev.mysql.com/doc/refman/5.6/ja/string-functions.html)\
-**▼ keybindings.json**
-```javascript
-    {
-        "key": "f5",
-        "command": "mysql.runSQL",
-        "when": "editorLangId == 'sql'"
-    }
-```
-```javascript
-    "code-runner.executorMap": {
-        "sql": "\\xampp\\mysql\\bin\\my.bat"
     }
 ```
 

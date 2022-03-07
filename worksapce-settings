@@ -4,6 +4,7 @@
         "editor.mouseWheelZoom": true,
         "editor.renderWhitespace": "all",
         "editor.fontSize": 16,
+        "code-runner.showRunIconInEditorTitleMenu": false,
         "code-runner.runInTerminal": true,
         "code-runner.fileDirectoryAsCwd": true,
         "code-runner.executorMapByFileExtension": {

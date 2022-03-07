@@ -1,6 +1,9 @@
     "settings": {
         "-files.encoding": "shiftjis",
         "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}${rootName}",
+        "editor.mouseWheelZoom": true,
+        "editor.renderWhitespace": "all",
+        "editor.fontSize": 16,
         "code-runner.runInTerminal": true,
         "code-runner.fileDirectoryAsCwd": true,
         "code-runner.executorMapByFileExtension": {

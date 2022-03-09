@@ -147,8 +147,8 @@
                 "group": "🟠 PHP"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v02-textfile.git && cd php-board-v02-textfile && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 2】MVC 掲示板 : テキストファイル",
+                "command": "git clone https://github.com/php-board-v03-iframe-textfile.git && cd php-board-v03-iframe-textfile && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 3】MVC 掲示板 : IFRAME テキストファイル",
                 "auto": true,
                 "group": "🟠 PHP"
             },

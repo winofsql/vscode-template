@@ -202,7 +202,7 @@
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v12-image-database.git && cd php-board-v12-image-database && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 11】MVC 掲示板 : 画像アップロード(のみ)",
+                "name": "🟥 【掲示板 ver 12】MVC 掲示板 : 画像名をデータベースに登録",
                 "auto": true,
                 "group": "🟠 PHP"
             },

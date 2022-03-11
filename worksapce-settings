@@ -189,6 +189,12 @@
                 "group": "🟠 PHP"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-board-v10-js-data.git && cd php-board-v10-js-data && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 10】MVC 掲示板 : localStorage と クリップボード利用",
+                "auto": true,
+                "group": "🟠 PHP"
+            },
+            {
                 "command": "%windir%\\system32\\cleanmgr.exe && exit",
                 "name": "──────────────────────────────────【ディスク クリーンアップ】",
                 "auto": true,

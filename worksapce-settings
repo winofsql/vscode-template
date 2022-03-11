@@ -219,6 +219,12 @@
                 "group": "🟠 PHP"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-board-v15-lightbox2-image.git && cd php-board-v15-lightbox2-image && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 15】MVC 掲示板 : Lightbox2 で画像表示",
+                "auto": true,
+                "group": "🟠 PHP"
+            },
+            {
                 "command": "%windir%\\system32\\cleanmgr.exe && exit",
                 "name": "──────────────────────────────────【ディスク クリーンアップ】",
                 "auto": true,

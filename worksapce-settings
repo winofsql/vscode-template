@@ -142,49 +142,49 @@
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v02-textfile.git && cd php-board-v02-textfile && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 2】MVC 掲示板 : テキストファイル",
+                "name": "🟥 【掲示板 ver  2】MVC 掲示板 : テキストファイル",
                 "auto": true,
                 "group": "🟠 PHP"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v03-iframe-textfile.git && cd php-board-v03-iframe-textfile && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 3】MVC 掲示板 : IFRAME テキストファイル",
+                "name": "🟥 【掲示板 ver  3】MVC 掲示板 : IFRAME テキストファイル",
                 "auto": true,
                 "group": "🟠 PHP"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v04-iframe-textfile-final.git && cd php-board-v04-iframe-textfile-final && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 4】MVC 掲示板 : IFRAME テキストファイル 標準化",
+                "name": "🟥 【掲示板 ver  4】MVC 掲示板 : IFRAME テキストファイル 標準化",
                 "auto": true,
                 "group": "🟠 PHP"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v05-iframe-json.git && cd php-board-v05-iframe-json && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 5】MVC 掲示板 : IFRAME JSON",
+                "name": "🟥 【掲示板 ver  5】MVC 掲示板 : IFRAME JSON",
                 "auto": true,
                 "group": "🟠 PHP"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v06-database.git && cd php-board-v06-database && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 6】MVC 掲示板 : IFRAME データベース( MySQL )",
+                "name": "🟥 【掲示板 ver  6】MVC 掲示板 : IFRAME データベース( MySQL )",
                 "auto": true,
                 "group": "🟠 PHP"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v07-database-browser-check.git && cd php-board-v07-database-browser-check && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 7】MVC 掲示板 : IFRAME データベース( MySQL ) ブラウザチェック",
+                "name": "🟥 【掲示板 ver  7】MVC 掲示板 : IFRAME データベース( MySQL ) ブラウザチェック",
                 "auto": true,
                 "group": "🟠 PHP"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v08-database-update.git && cd php-board-v08-database-update && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 8】MVC 掲示板 : IFRAME データベース( MySQL ) データ修正",
+                "name": "🟥 【掲示板 ver  8】MVC 掲示板 : IFRAME データベース( MySQL ) データ修正",
                 "auto": true,
                 "group": "🟠 PHP"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v09-database-delete.git && cd php-board-v09-database-delete && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 9】MVC 掲示板 : IFRAME データベース( MySQL ) データ削除",
+                "name": "🟥 【掲示板 ver  9】MVC 掲示板 : IFRAME データベース( MySQL ) データ削除",
                 "auto": true,
                 "group": "🟠 PHP"
             },

@@ -214,7 +214,7 @@
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v14-text-image-upload.git && cd php-board-v14-text-image-upload && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver 13】MVC 掲示板 : 画像を掲示板に表示",
+                "name": "🟥 【掲示板 ver 14】MVC 掲示板 : 新規投稿で画像をアップロード",
                 "auto": true,
                 "group": "🟠 PHP"
             },

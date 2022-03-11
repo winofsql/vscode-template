@@ -207,6 +207,12 @@
                 "group": "🟠 PHP"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-board-v13-display-image.git && cd php-board-v13-display-image && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 13】MVC 掲示板 : 画像を掲示板に表示",
+                "auto": true,
+                "group": "🟠 PHP"
+            },
+            {
                 "command": "%windir%\\system32\\cleanmgr.exe && exit",
                 "name": "──────────────────────────────────【ディスク クリーンアップ】",
                 "auto": true,

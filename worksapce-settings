@@ -255,13 +255,13 @@
                 "group": "🟠 PHP-2"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v04-communication.git && cd php-mtn-v04-communication && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v03-update-insert.git && cd php-mtn-v03-update-insert && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  3】: 会話処理(2会話)",
                 "auto": true,
                 "group": "🟠 PHP-2"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v03-update-insert.git && cd php-mtn-v03-update-insert && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v04-communication.git && cd php-mtn-v04-communication && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  4】: 新規登録を追加",
                 "auto": true,
                 "group": "🟠 PHP-2"

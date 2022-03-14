@@ -267,6 +267,24 @@
                 "group": "🟠 PHP-2"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-mtn-v05-enter-control.git && cd php-mtn-v05-enter-control && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  5】: Enter キーで次のフィールドへ移動",
+                "auto": true,
+                "group": "🟠 PHP-2"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v06-combo-box.git && cd php-mtn-v06-combo-box && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  6】: コンボボックスの実装",
+                "auto": true,
+                "group": "🟠 PHP-2"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v07-html-validator.git && cd php-mtn-v07-html-validator && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  7】: HTML 要素の属性による入力制御",
+                "auto": true,
+                "group": "🟠 PHP-2"
+            },
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,

@@ -285,6 +285,24 @@
                 "group": "🟠 PHP-2"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-mtn-v08-sql-adjustment.git && cd php-mtn-v08-sql-adjustment && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  8】: SQL の調整",
+                "auto": true,
+                "group": "🟠 PHP-2"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v09-type-date.git && cd php-mtn-v09-type-date && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  9】: カレンダーコントロールの実装",
+                "auto": true,
+                "group": "🟠 PHP-2"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v10-check-entry.git && cd php-mtn-v10-check-entry && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver 10】: PHP 会話の標準的なエラー処理",
+                "auto": true,
+                "group": "🟠 PHP-2"
+            },
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,

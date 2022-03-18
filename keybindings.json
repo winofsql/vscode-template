@@ -1,13 +1,5 @@
 [
     {
-        "key": "ctrl+pausebreak",
-        "command": "extension.enableZenkaku"
-    },
-    {
-        "key": "shift+pausebreak",
-        "command": "extension.disableZenkaku"
-    },
-    {
         "key": "ctrl+f1",
         "command": "workbench.action.closeFolder",
         "when": "emptyWorkspaceSupport && workbenchState != 'empty'"

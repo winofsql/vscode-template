@@ -315,7 +315,7 @@
                 "group": "🟠 PHP-2"
             },
             {
-                "command": "git clone https://github.com/winofsql/pphp-mtn-v13-iframe-ref2.git && cd php-mtn-v13-iframe-ref2 && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v13-iframe-ref2.git && cd php-mtn-v13-iframe-ref2 && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver 13】: PHP 社員コードの IFRAME 問い合わせ参照",
                 "auto": true,
                 "group": "🟠 PHP-2"

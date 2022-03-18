@@ -303,6 +303,24 @@
                 "group": "🟠 PHP-2"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-mtn-v11-edit-control.git && cd php-mtn-v11-edit-control && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver 11】: PHP 編集処理の標準化",
+                "auto": true,
+                "group": "🟠 PHP-2"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v12-iframe-ref1.git && cd php-mtn-v12-iframe-ref1 && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver 12】: PHP 管理者の IFRAME 問い合わせ参照",
+                "auto": true,
+                "group": "🟠 PHP-2"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/pphp-mtn-v13-iframe-ref2.git && cd php-mtn-v13-iframe-ref2 && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver 13】: PHP 社員コードの IFRAME 問い合わせ参照",
+                "auto": true,
+                "group": "🟠 PHP-2"
+            },
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,

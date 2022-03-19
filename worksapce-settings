@@ -326,7 +326,6 @@
                 "auto": true,
                 "group": "🟠 PHP-2"
             },
-            
             {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",

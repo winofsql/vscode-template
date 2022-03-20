@@ -339,6 +339,12 @@
                 "group": "🟠 PHP-3"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-req-v03-csv-download.git && cd php-req-v03-csv-download && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  3】: PHP JavaScript によるテーブルデータの CSV ダウンロード",
+                "auto": true,
+                "group": "🟠 PHP-3"
+            },
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,

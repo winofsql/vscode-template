@@ -332,6 +332,12 @@
                 "auto": true,
                 "group": "🟠 PHP-3"
             },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v02-sql-item-layout.git && cd php-req-v02-sql-item-layout && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  2】: PHP SQL と CSS による表示方法の整備",
+                "auto": true,
+                "group": "🟠 PHP-3"
+            },
             
             {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",

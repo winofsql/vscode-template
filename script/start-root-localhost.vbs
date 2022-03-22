@@ -1,5 +1,5 @@
-Dim DocumentRoot : DocumentRoot = "C:\app\web22"
 Set WshShell = WScript.CreateObject("WScript.Shell")
+Dim DocumentRoot : DocumentRoot = WshShell.ExpandEnvironmentStrings("%DocumentRoot%")
 Dim path
 path = WshShell.CurrentDirectory
 Dim work

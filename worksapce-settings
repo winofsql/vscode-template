@@ -777,14 +777,26 @@
                 "group": "🔄 テスト"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-root-localhost.vbs && exit",
+                "name": "🌏 ROOT localhost ( 環境変数 DocumentRoot が必要です )",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
                 "command": "start chrome http://localhost:8080/lightbox && exit",
                 "name": "🐱 TOMCAT : localhost:8080",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-root-localhost.vbs && exit",
-                "name": "🌏 ROOT localhost",
+                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && mkdir ..\\php-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 PHP フォルダ作成 ( 日付ペースを３つ : ワークスペース )",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 SQL フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
@@ -803,18 +815,6 @@
             {
                 "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 C# Form フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && mkdir ..\\php-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 PHP フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-03 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 SQL フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
@@ -839,6 +839,12 @@
             {
                 "command": "\\xampp\\apache\\bin\\httpd -t",
                 "name": "❓ Apache Syntax チェック",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "findstr /B \"DocumentRoot\" c:\\xampp\\apache\\conf\\httpd.conf",
+                "name": "❓ Apache ドキュメントルート",
                 "auto": true,
                 "group": "🔄 テスト"
             },

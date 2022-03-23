@@ -345,6 +345,24 @@
                 "group": "🟠 PHP-3"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-req-v04-table-scroll.git && cd php-req-v04-table-scroll && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  4】: PHP CSS によるテーブル部分のスクロール",
+                "auto": true,
+                "group": "🟠 PHP-3"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v05-row-update.git && cd php-req-v05-row-update && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  5】: PHP INPUT 要素で行単位更新",
+                "auto": true,
+                "group": "🟠 PHP-3"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v06-row-update-td-input.git && cd php-req-v06-row-update-td-input && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  6】: PHP 動的な INPUT 要素で行単位更新",
+                "auto": true,
+                "group": "🟠 PHP-3"
+            },
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,

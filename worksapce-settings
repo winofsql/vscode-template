@@ -364,7 +364,7 @@
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v01-upload-one-file.git && cd php-v01-upload-one-file && rmdir .git /S /Q",
-                "name": "🟥 【問合せ ver  1】: PHPノーマル１ファイルアップロード",
+                "name": "🟥 【アップロード ver  1】: PHPノーマル１ファイルアップロード",
                 "auto": true,
                 "group": "🟠 PHP-4"
             },

@@ -416,6 +416,12 @@
                 "auto": true,
                 "group": "🟠 PHP-4"
             },
+            {
+                "command": "git clone https://github.com/winofsql/php-v03-upload-ajax-selected.git && cd php-v03-upload-ajax-selected && rmdir .git /S /Q",
+                "name": "🟥 【アップロード ver  3】: JavaScript でバイナリ画像データを作成して ajax でアップロード",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
 
             {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",

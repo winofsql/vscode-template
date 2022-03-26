@@ -412,7 +412,7 @@
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v02-upload-display-image.git && cd php-v02-upload-display-image && rmdir .git /S /Q",
-                "name": "🟥 【アップロード ver  1】: PHPノーマル１ファイルアップロード 選択した画像の表示",
+                "name": "🟥 【アップロード ver  2】: 選択した画像の表示",
                 "auto": true,
                 "group": "🟠 PHP-4"
             },

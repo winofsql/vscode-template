@@ -1043,7 +1043,67 @@
             },
             {
                 "command": "SystemPropertiesAdvanced.exe && exit",
-                "name": "🔶 システムの詳細設定",
+                "name": "🔶 システムの詳細設定 ( 環境変数へのダイアログ )",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "rundll32.exe shell32.dll,SHHelpShortcuts_RunDLL Connect && exit",
+                "name": "🔶 ネッワークドライブの割り当て",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,0 && exit",
+                "name": "🔶 デスクトップアイコンの設定",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "Rundll32.exe shell32.dll,Control_RunDLL ncpa.cpl && exit",
+                "name": "🔶 ネットワーク接続",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "powershell -NoProfile -ExecutionPolicy unrestricted -WindowStyle hidden -Command \"start %windir%\\system32\\cleanmgr.exe -verb runas\" && exit",
+                "name": "🔶 クリーンアップ( システム権限 )",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "mstsc.exe && exit",
+                "name": "🔶 リモートデスクトップ",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "mspaint.exe && exit",
+                "name": "🔶 ペイント",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "explorer.exe shell:SendTo && exit",
+                "name": "🔶 SendTo フォルダ",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "explorer.exe shell:Startup && exit",
+                "name": "🔶 スタートアップ フォルダ",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "Rundll32.exe devmgr.dll DeviceManager_Execute && exit",
+                "name": "🔶 デバイスマネージャ",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "\"%ProgramFiles%\\Common Files\\Microsoft Shared\\MSInfo\\msinfo32.exe\" && exit",
+                "name": "🔶 システム情報",
                 "auto": true,
                 "group": "🔳 Windows"
             },

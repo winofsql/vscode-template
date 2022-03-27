@@ -1067,13 +1067,13 @@
             },
             {
                 "command": "powershell -NoProfile -ExecutionPolicy unrestricted -WindowStyle hidden -Command \"start %windir%\\system32\\cleanmgr.exe -verb runas\" && exit",
-                "name": "🔶 クリーンアップ( システム権限 )",
+                "name": "🧹 クリーンアップ( システム権限 )",
                 "auto": true,
                 "group": "🔳 Windows"
             },
             {
                 "command": "mstsc.exe && exit",
-                "name": "🔶 リモートデスクトップ",
+                "name": "🔗 リモートデスクトップ",
                 "auto": true,
                 "group": "🔳 Windows"
             },
@@ -1085,31 +1085,31 @@
             },
             {
                 "command": "explorer.exe shell:SendTo && exit",
-                "name": "🔶 SendTo フォルダ",
+                "name": "📂 SendTo フォルダ",
                 "auto": true,
                 "group": "🔳 Windows"
             },
             {
                 "command": "explorer.exe shell:Startup && exit",
-                "name": "🔶 スタートアップ フォルダ",
+                "name": "📂 スタートアップ フォルダ",
                 "auto": true,
                 "group": "🔳 Windows"
             },
             {
                 "command": "Rundll32.exe devmgr.dll DeviceManager_Execute && exit",
-                "name": "🔶 デバイスマネージャ",
+                "name": "🏭 デバイスマネージャ",
                 "auto": true,
                 "group": "🔳 Windows"
             },
             {
                 "command": "\"%ProgramFiles%\\Common Files\\Microsoft Shared\\MSInfo\\msinfo32.exe\" && exit",
-                "name": "🔶 システム情報",
+                "name": "🔑 システム情報",
                 "auto": true,
                 "group": "🔳 Windows"
             },
             {
                 "command": "control.exe /name Microsoft.WindowsUpdate && exit",
-                "name": "🔶 Windows Update",
+                "name": "🔄 Windows Update",
                 "auto": true,
                 "group": "🔳 Windows"
             }

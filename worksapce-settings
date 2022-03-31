@@ -458,7 +458,18 @@
                 "auto": true,
                 "group": "🟠 PHP-4"
             },
-            php-v02-mail-ajax
+            {
+                "command": "git clone https://github.com/winofsql/php-v04-mail-ajax-jquery-ui.git && cd php-v04-mail-ajax-jquery-ui && rmdir .git /S /Q",
+                "name": "🟥 【メール送信 ver  4】: MySQL 登録後 XAMPP 内 sendmail.exe で ajax 経由でファイル添付送信( 日付コントロール2種類 )",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v05-mail-ajax-external-file.git && cd php-v05-mail-ajax-external-file && rmdir .git /S /Q",
+                "name": "🟥 【メール送信 ver  5】: MySQL 登録後 XAMPP 内 sendmail.exe で ajax 経由でファイル添付送信( 外部ファイル利用 )",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
             {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",

@@ -448,25 +448,25 @@
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v02-mail-ajax.git && cd php-v02-mail-ajax && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  2】: MySQL 登録後 XAMPP 内 sendmail.exe で ajax 経由で送信",
+                "name": "🟥 【メール送信 ver  2】: MySQL 登録後 XAMPP 内 sendmail で ajax 送信",
                 "auto": true,
                 "group": "🟠 PHP-4"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v03-mail-ajax-attachment.git && cd php-v03-mail-ajax-attachment && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  3】: MySQL 登録後 XAMPP 内 sendmail.exe で ajax 経由でファイル添付送信",
+                "name": "🟥 【メール送信 ver  3】: MySQL 登録後 XAMPP 内 sendmail で ajax ファイル添付",
                 "auto": true,
                 "group": "🟠 PHP-4"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v04-mail-ajax-jquery-ui.git && cd php-v04-mail-ajax-jquery-ui && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  4】: MySQL 登録後 XAMPP 内 sendmail.exe で ajax 経由でファイル添付送信( 日付コントロール2種類 )",
+                "name": "🟥 【メール送信 ver  4】: MySQL 登録後 XAMPP 内 sendmail で ajax ファイル添付( 日付コントロール2種類 )",
                 "auto": true,
                 "group": "🟠 PHP-4"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v05-mail-ajax-external-file.git && cd php-v05-mail-ajax-external-file && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  5】: MySQL 登録後 XAMPP 内 sendmail.exe で ajax 経由でファイル添付送信( 外部ファイル利用 )",
+                "name": "🟥 【メール送信 ver  5】: MySQL 登録後 XAMPP 内 sendmail で ajax ファイル添付( 外部ファイル利用 )",
                 "auto": true,
                 "group": "🟠 PHP-4"
             },

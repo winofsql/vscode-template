@@ -471,6 +471,12 @@
                 "group": "🟠 PHP-4"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-v06-mail-window-open-history.git && cd php-v06-mail-window-open-history && rmdir .git /S /Q",
+                "name": "🟥 【メール送信 ver  6】: MySQL 登録後 XAMPP 内 sendmail( window.open で送信履歴表示 )",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,

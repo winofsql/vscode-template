@@ -441,6 +441,12 @@
                 "group": "🟠 PHP-4"
             },
             {
+                "command": "start chrome https://www.php.net/manual/ja/function.mb-send-mail.php && exit",
+                "name": "───────────────────────────────【mb_send_mail】",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
                 "command": "git clone https://github.com/winofsql/php-v01-mail-mysqli.git && cd php-v01-mail-mysqli && rmdir .git /S /Q",
                 "name": "🟥 【メール送信 ver  1】: MySQL 登録後 XAMPP 内 sendmail.exe で送信",
                 "auto": true,
@@ -473,6 +479,12 @@
             {
                 "command": "git clone https://github.com/winofsql/php-v06-mail-window-open-history.git && cd php-v06-mail-window-open-history && rmdir .git /S /Q",
                 "name": "🟥 【メール送信 ver  6】: MySQL 登録後 XAMPP 内 sendmail( window.open で送信履歴表示 )",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "start chrome https://cdnjs.com/ && exit",
+                "name": "───────────────────────────────【JavaScript : cdnjs】",
                 "auto": true,
                 "group": "🟠 PHP-4"
             },

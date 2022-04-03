@@ -489,6 +489,13 @@
                 "group": "🟠 PHP-4"
             },
             {
+                "command": "git clone https://github.com/winofsql/js-v01-load-text.git && cd js-v01-load-text && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  1】: テキストデータを読込み",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,

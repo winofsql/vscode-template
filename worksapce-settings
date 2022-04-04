@@ -494,7 +494,18 @@
                 "auto": true,
                 "group": "🟠 PHP-4"
             },
-
+            {
+                "command": "git clone https://github.com/winofsql/js-v02-save-text.git && cd js-v02-save-text && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  2】: テキストデータを保存",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v03-table-control.git && cd js-v03-table-control && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript(CSS) ver  3】: テーブル表示のコントロール",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
             {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",

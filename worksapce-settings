@@ -519,6 +519,30 @@
                 "group": "🟠 PHP-4"
             },
             {
+                "command": "git clone https://github.com/winofsql/js-v06-speech-recognition.git && cd js-v06-speech-recognition && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  6】: 音声認識",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v07-balloon.git && cd js-v07-balloon && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  7】: バルーン",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v08-pie-chart.git && cd js-v08-pie-chart && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  8】: 円グラフ",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v09-line-chart.git && cd js-v09-line-chart && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  9】: 折れ線グラフ",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "✅ java-基本部分",
                 "auto": true,

@@ -369,6 +369,12 @@
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-print-v01-gothic.git && cd php-print-v01-gothic && rmdir .git /S /Q",
+                "name": "🟥 【印刷 ver  1】: フォント変更・タイトルサイズ変更",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
                 "command": "git clone https://github.com/winofsql/php-req-v01-basic.git && cd php-req-v01-basic && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  1】: PHP 単純 select",
                 "auto": true,
@@ -401,6 +407,18 @@
             {
                 "command": "git clone https://github.com/winofsql/php-req-v06-row-update-td-input.git && cd php-req-v06-row-update-td-input && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  6】: PHP 動的な INPUT 要素で行単位更新",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v07-row-update-checked.git && cd php-req-v07-row-update-checked && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  7】: PHP チェックボックス行の更新",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v08-row-update-selected.git && cd php-req-v08-row-update-selected && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  8】: PHP 行転送先の更新",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },

@@ -435,6 +435,13 @@
                 "group": "🟠 PHP-3-問合せ"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-req-ajax-v01-table-scroll.git && cd php-req-ajax-v01-table-scroll && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  9】: ajax CSS によるテーブル部分のスクロール",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            
+            {
                 "command": "git clone https://github.com/winofsql/php-v01-upload-one-file.git && cd php-v01-upload-one-file && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  1】: PHPノーマル１ファイルアップロード",
                 "auto": true,

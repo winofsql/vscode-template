@@ -436,7 +436,13 @@
             },
             {
                 "command": "git clone https://github.com/winofsql/php-req-ajax-v01-table-scroll.git && cd php-req-ajax-v01-table-scroll && rmdir .git /S /Q",
-                "name": "🟥 【問合せ ver  9】: ajax CSS によるテーブル部分のスクロール",
+                "name": "🟥 【ajax 問合せ ver  1】: CSS によるテーブル部分のスクロール",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-ajax-v02-row-update.git && cd php-req-ajax-v02-row-update && rmdir .git /S /Q",
+                "name": "🟥 【ajax 問合せ ver  2】: INPUT 要素で行単位更新",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },

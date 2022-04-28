@@ -765,7 +765,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\subject-1028-cs-post && cd ..\\subject-1028-cs-post && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1028-cs-post/raw/main Program.cs README.md \\php keijiban.php keijiban.txt model.php view.php && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\subject-1028-cs-post && cd ..\\subject-1028-cs-post && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1028-cs-post/raw/main Program.cs README.md \\php-test keijiban.php keijiban.txt model.php view.php && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🌏【バッチ : WEBアクセス】PHP の FORM にPOST する",
                 "auto": true,
                 "group": "🟦 C#"

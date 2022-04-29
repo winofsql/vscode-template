@@ -784,19 +784,19 @@
             },
             {
                 "command": "mkdir ..\\cs-con-excel-new && cd ..\\cs-con-excel-new && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-new/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📇【バッチ】ブックを作成してセルに値をセットして保存後 Excel で起動( COM )",
+                "name": "🌐【バッチ】ブックを作成してセルに値をセットして保存後 Excel で起動( COM )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-form-excel-open.git && cd cs-con-form-excel-open && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📇【バッチ】ブックを開いてセルに値をセットして保存後 Excel で起動( COM )",
+                "name": "🌐【バッチ】ブックを開いてセルに値をセットして保存後 Excel で起動( COM )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-con-excel-autofill && cd ..\\cs-con-excel-autofill && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-autofill/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📇【バッチ】新しいブックのデフォルトのシートのセルに値をセットしてオートフィルを Range オブジェクトから実行する( COM )",
+                "name": "🌐【バッチ】新しいブックのデフォルトのシートのセルに値をセットしてオートフィルを Range オブジェクトから実行する( COM )",
                 "auto": true,
                 "group": "🟦 C#"
             },

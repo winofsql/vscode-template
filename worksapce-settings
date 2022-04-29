@@ -687,6 +687,12 @@
                 "group": "🟥 Java"
             },
             {
+                "command": "mkdir ..\\java-zip4j-01 && cd ..\\java-zip4j-01 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-zip4j/raw/main/getFileHeaders/Main.java Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "📕【zip4j : zip 書庫内の一覧(UTF-8のみ)】",
+                "auto": true,
+                "group": "🟥 Java"
+            },
+            {
                 "command": "RunDLL32.EXE shell32.dll,Control_RunDLL appwiz.cpl && exit",
                 "name": "──────────────────────────────────【プログラムと機能】",
                 "auto": true,

@@ -104,6 +104,7 @@
             "\\app\\workspace\\lib\\commons-logging-1.2.jar",
             "\\app\\workspace\\lib\\hsqldb-2.5.0.jar",
             "\\app\\workspace\\lib\\jackcess-3.0.1.jar",
+            "\\app\\workspace\\lib\\zip4j-2.10.0.jar",
         ],
         "print.markdownRenderingBodyStyle": "background-color: white; font-family:\"メイリオ\", serif; font-size:13pt;",
         "print.markdownRenderingHeadingStyle": "font-family:\"メイリオ\", sans-serif;",

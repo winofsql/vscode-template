@@ -795,6 +795,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "mkdir ..\\cs-con-excel-autofill && cd ..\\cs-con-excel-autofill && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-autofill/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "📇【バッチ】C# : Excel の新しいブックのデフォルトのシートのセルに値をセットしてオートフィルを Range オブジェクトから実行する( COM )",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "mkdir ..\\cs-con-form-open-file-dialog && cd ..\\cs-con-form-open-file-dialog && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-form-open-file-dialog/raw/main Program.cs cs-con-form-open-file-dialog.csproj && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📇【バッチ + FORM】ファイルを開くダイアログ",
                 "auto": true,

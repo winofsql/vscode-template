@@ -1082,7 +1082,7 @@
             },
             {
                 "command": "mkdir ..\\tomcat-%date:~5,2%%date:~8,2% && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 TONCAT フォルダ作成",
+                "name": "📂 TOMCAT フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },

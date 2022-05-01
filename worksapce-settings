@@ -764,67 +764,67 @@
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-tuple.git && cd cs-con-tuple && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🍙 【タプル】JavaScript のオブジェクトのような var a = (\"one\", \"two\");",
+                "name": "🍙 【C : タプル】JavaScript のオブジェクトのような var a = (\"one\", \"two\");",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-core-mysql-01 && cd ..\\cs-core-mysql-01 && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【バッチ】MySQL を読み込む( 1 )",
+                "name": "🐬【C】MySQL を読み込む( 1 )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-core-mysql-02 && cd ..\\cs-core-mysql-02 && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-02/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【バッチ】MySQL を読み込む( 2 )",
+                "name": "🐬【C】MySQL を読み込む( 2 )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\subject-1028-cs-post && cd ..\\subject-1028-cs-post && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1028-cs-post/raw/main Program.cs README.md \\php-test keijiban.php keijiban.txt model.php view.php && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌏【バッチ : WEBアクセス】PHP の FORM にPOST する",
+                "name": "🌏【C】PHP の FORM にPOST する",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-con-pdfsharp && cd ..\\cs-con-pdfsharp && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp/raw/main Program.cs FontResolver.cs README.md && dotnet add package PdfSharp --version 1.50.5147 && dotnet add package System.Text.Encoding.CodePages && dotnet add package System.Drawing.Common && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📇【バッチ】PdfSharp とフリーフォント( けいふぉんと )で PDF 作成",
+                "name": "📇【C : PDF】PdfSharp とフリーフォント( けいふぉんと )で PDF 作成",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-con-pdfsharp-rectangle && cd ..\\cs-con-pdfsharp-rectangle && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp-rectangle/raw/main Program.cs FontResolver.cs README.md && dotnet add package PdfSharp --version 1.50.5147 && dotnet add package System.Text.Encoding.CodePages && dotnet add package System.Drawing.Common && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📇【バッチ】ラノベPOP と 長方形描画 ( PDF 作成 )",
+                "name": "📇【C : PDF】ラノベPOP と 長方形描画 ( PDF 作成 )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-con-excel-new && cd ..\\cs-con-excel-new && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-new/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌐【バッチ】ブックを作成してセルに値をセットして保存後 Excel で起動( COM )",
+                "name": "🌐【C : Excel】ブックを作成してセルに値をセットして保存後 Excel で起動( COM )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-form-excel-open.git && cd cs-con-form-excel-open && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌐【バッチ】ブックを開いてセルに値をセットして保存後 Excel で起動( COM )",
+                "name": "🌐【C : Excel】ブックを開いてセルに値をセットして保存後 Excel で起動( COM )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-con-excel-autofill && cd ..\\cs-con-excel-autofill && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-autofill/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌐【バッチ】新しいブックのデフォルトのシートのセルに値をセットしてオートフィルを Range オブジェクトから実行する( COM )",
+                "name": "🌐【C : Excel】新しいブックのデフォルトのシートのセルに値をセットしてオートフィルを Range オブジェクトから実行する( COM )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-con-form-open-file-dialog && cd ..\\cs-con-form-open-file-dialog && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-form-open-file-dialog/raw/main Program.cs cs-con-form-open-file-dialog.csproj && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🔍【バッチ + FORM】ファイルを開くダイアログ",
+                "name": "🔍【C + FORM】ファイルを開くダイアログ",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-con-DotNetZip-list && cd ..\\cs-con-DotNetZip-list && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://raw.githubusercontent.com/winofsql/cs-con-DotNetZip/main/list Program.cs && dotnet add package DotNetZip --version 1.16.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🔍【バッチ : DotNetZip】一覧表示",
+                "name": "🔍【C : DotNetZip】一覧表示",
                 "auto": true,
                 "group": "🟦 C#"
             },

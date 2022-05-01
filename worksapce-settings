@@ -770,7 +770,13 @@
             },
             {
                 "command": "mkdir ..\\cs-core-mysql-01 && cd ..\\cs-core-mysql-01 && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【バッチ】MySQL を読み込む",
+                "name": "🐬【バッチ】MySQL を読み込む( 1 )",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
+                "command": "mkdir ..\\cs-core-mysql-01 && cd ..\\cs-core-mysql-02 && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-02/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🐬【バッチ】MySQL を読み込む( 2 )",
                 "auto": true,
                 "group": "🟦 C#"
             },

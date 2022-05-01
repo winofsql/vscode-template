@@ -823,6 +823,12 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "mkdir ..\\cs-con-DotNetZip-list && cd ..\\cs-con-DotNetZip-list && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://raw.githubusercontent.com/winofsql/cs-con-DotNetZip/main/list/Program.cs Program.cs && dotnet add package DotNetZip --version 1.16.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🔍【バッチ : DotNetZip】一覧表示",
+                "auto": true,
+                "group": "🟦 C#"
+            },
+            {
                 "command": "start chrome https://dobon.net/vb/dotnet/form/openfiledialog.html#codecaption2 && exit",
                 "name": "──────────────────────────────────【OpenFileDialog】",
                 "auto": true,

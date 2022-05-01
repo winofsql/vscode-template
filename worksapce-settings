@@ -938,7 +938,7 @@
             },
             {
                 "command": "mkdir ..\\cs-form-net-json-datagridview && cd ..\\cs-form-net-json-datagridview && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-json-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package Newtonsoft.Json --version 13.0.1 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌏【WEB WEB】WEB の JSON をオブジェクトに変換して DataGridView で表示する",
+                "name": "🌏【F WEB】WEB の JSON をオブジェクトに変換して DataGridView で表示する",
                 "auto": true,
                 "group": "🟦 C#"
             },

@@ -692,7 +692,7 @@
             },
             {
                 "command": "mkdir ..\\java-zip4j-01 && cd ..\\java-zip4j-01 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-zip4j/raw/main/getFileHeaders Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📕【zip4j : zip 書庫内の一覧(UTF-8のみ)】",
+                "name": "📘【zip4j : zip 書庫内の一覧(UTF-8のみ)】",
                 "auto": true,
                 "group": "🟥 Java"
             },
@@ -824,7 +824,7 @@
             },
             {
                 "command": "mkdir ..\\cs-con-DotNetZip-list && cd ..\\cs-con-DotNetZip-list && dotnet new console -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://raw.githubusercontent.com/winofsql/cs-con-DotNetZip/main/list Program.cs && dotnet add package DotNetZip --version 1.16.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🔍【C : DotNetZip】一覧表示",
+                "name": "📘【C : DotNetZip】一覧表示",
                 "auto": true,
                 "group": "🟦 C#"
             },
@@ -836,31 +836,31 @@
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-oledb-access-select.git && cd cs-con-oledb-access-select && rmdir .git /S /Q && dotnet add package System.Data.OleDb && cd ..\\ && git clone https://github.com/winofsql/cs-con-oledb-02.git && cd cs-con-oledb-02 && rmdir .git /S /Q && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📕【バッチ + MS Access as DB】Microsoft Access に DB としてアクセス",
+                "name": "📕【C + MS Access as DB( OLEDB )】Microsoft Access に DB としてアクセス",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-sqlclient-select.git && cd cs-con-sqlclient-select && rmdir .git /S /Q && dotnet add package System.Data.SqlClient && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📕【バッチ + SQLExpress】",
+                "name": "📕【C + SQLExpress】",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-access-select.git && cd cs-con-odbc-access-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📕【バッチ + MS Access as DB( ODBC )】Microsoft Access に DB( ODBC ) としてアクセス",
+                "name": "📕【C + MS Access as DB( ODBC )】Microsoft Access に DB としてアクセス",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-excel-select.git && cd cs-con-odbc-excel-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📕【バッチ + MS Excel as DB( ODBC )】Microsoft Eccess に DB( ODBC ) としてアクセス",
+                "name": "📕【C + MS Excel as DB( ODBC )】Microsoft Eccess に DB としてアクセス",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-csv-select.git && cd cs-con-odbc-csv-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📕【バッチ + MS CSV as DB( ODBC )】CSV(テキストファイル) に DB( ODBC ) としてアクセス",
+                "name": "📕【C + MS CSV as DB( ODBC )】CSV(テキストファイル) に DB としてアクセス",
                 "auto": true,
                 "group": "🟦 C#"
             },

@@ -872,37 +872,37 @@
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-01 && cd ..\\cs-form-mysql-01 && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-01/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【マスタメンテ-(1)】主キーによる情報の読み込み",
+                "name": "🐬【F MTN (1)】主キーによる情報の読み込み",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-02 && cd ..\\cs-form-mysql-02 && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-02/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【マスタメンテ-(2)】会話による画面コントロール",
+                "name": "🐬【F MTN (2)】会話による画面コントロール",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-03 && cd ..\\cs-form-mysql-03 && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-03/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【マスタメンテ-(3)】更新処理と会話コントロール",
+                "name": "🐬【F MTN (3)】更新処理と会話コントロール",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-04 && cd ..\\cs-form-mysql-04 && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-04/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【マスタメンテ-(4)】コンボボックスと専用プライベートクラス",
+                "name": "🐬【F MTN (4)】コンボボックスと専用プライベートクラス",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-05 && cd ..\\cs-form-mysql-05 && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-05/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【マスタメンテ-(5)】コンボボックスをDBより読み込んで作成",
+                "name": "🐬【F MTN (5)】コンボボックスをDBより読み込んで作成",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-06 && cd ..\\cs-form-mysql-06 && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-06/raw/main Form1.cs Form1.Designer.cs Form2.cs Form2.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【マスタメンテ-(6)】新しい Form で一覧を表示してダブルクリックで参照",
+                "name": "🐬【F MTN (6)】新しい Form で一覧を表示してダブルクリックで参照",
                 "auto": true,
                 "group": "🟦 C#"
             },
@@ -914,43 +914,43 @@
             },
             {
                 "command": "mkdir ..\\cs-form-mysql-datagridview && cd ..\\cs-form-mysql-datagridview && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🐬【問合せ-(1)】DataGridView で MySQL を読み込む為の Form の定義",
+                "name": "🐬【F REQ (1)】DataGridView で MySQL を読み込む為の Form の定義",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-text-read-write && cd ..\\cs-form-text-read-write && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-text-read-write/raw/main Form1.cs Form1.Designer.cs syain.csv && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📄【テキストファイル】CSV を読み書き",
+                "name": "📄【F TEXT FILEス】CSV を読み書き",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-net-text && cd ..\\cs-form-net-text && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-text/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌏【WEBアクセス】WEB より shift_jis の CSV を読み込む",
+                "name": "🌏【F WEB】WEB より shift_jis の CSV を読み込む",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-net-binary && cd ..\\cs-form-net-binary && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-binary/raw/main Form1.cs Form1.Designer.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌏【WEBアクセス】画像ファイルを WEB より読込む( Byte 配列を保存 )",
+                "name": "🌏【F WEB】画像ファイルを WEB より読込む( Byte 配列を保存 )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-net-json-datagridview && cd ..\\cs-form-net-json-datagridview && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-json-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package Newtonsoft.Json --version 13.0.1 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🌏【WEBアクセス】WEB の JSON をオブジェクトに変換して DataGridView で表示する",
+                "name": "🌏【WEB WEB】WEB の JSON をオブジェクトに変換して DataGridView で表示する",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mail-cdo && cd ..\\cs-form-mail-cdo && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mail-cdo/raw/main Form1.cs Form1.Designer.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "💌【メール送信】CDO を使用してメールを送信する",
+                "name": "💌【F メール送信】CDO を使用してメールを送信する",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
                 "command": "mkdir ..\\cs-form-mail-mailkit && cd ..\\cs-form-mail-mailkit && dotnet new winforms -f net5.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mail-mailkit/raw/main Form1.cs Form1.Designer.cs && dotnet add package MailKit --version 2.15.0 && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "💌【メール送信】MailKit でメール送信",
+                "name": "💌【F メール送信】MailKit でメール送信",
                 "auto": true,
                 "group": "🟦 C#"
             },

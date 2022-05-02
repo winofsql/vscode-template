@@ -841,12 +841,6 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-oledb-access-select.git && cd cs-con-oledb-access-select && rmdir .git /S /Q && dotnet add package System.Data.OleDb && cd ..\\ && git clone https://github.com/winofsql/cs-con-oledb-02.git && cd cs-con-oledb-02 && rmdir .git /S /Q && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "📕【C + MS Access as DB( OLEDB )】Microsoft Access に DB としてアクセス",
-                "auto": true,
-                "group": "🟦 C#"
-            },
-            {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-sqlclient-select.git && cd cs-con-sqlclient-select && rmdir .git /S /Q && dotnet add package System.Data.SqlClient && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "📕【C + SQLExpress】",
                 "auto": true,
@@ -969,12 +963,6 @@
             {
                 "command": "dotnet add package System.Data.Odbc && exit",
                 "name": "💼【LIB】System.Data.Odbc 追加",
-                "auto": true,
-                "group": "🟦 C#"
-            },
-            {
-                "command": "dotnet add package System.Data.OleDb && exit",
-                "name": "💼【LIB】System.Data.OleDb 追加",
                 "auto": true,
                 "group": "🟦 C#"
             },

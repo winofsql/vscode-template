@@ -1045,6 +1045,12 @@
                 "group": "🐍 Python"
             },            
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-windows-basic.git && cd wsh-windows-basic && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "🌏 WSH Basic",
+                "auto": true,
+                "group": "🌏 Windows スクリプト"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
                 "name": "🌏 localhost",
                 "auto": true,

@@ -727,6 +727,12 @@
                 "group": "🟥 Java"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/java-swing-build-jtable.git && cd java-swing-build-jtable && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "name": "🚀📄 java-swing-build-jtable",
+                "auto": true,
+                "group": "🟥 Java"
+            },
+            {
                 "command": "mkdir ..\\java-swing-send-mail && cd ..\\java-swing-send-mail && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-swing-send-mail/raw/main Main.java README.md \\action Action.java AppWindow.java BaseWindow.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
                 "name": "🚀💌 java-swing-send-mail",
                 "auto": true,

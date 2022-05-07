@@ -1051,13 +1051,13 @@
                 "group": "🌏 Windows スクリプト"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-js-excel.git && cd https://github.com/winofsql/wsh-js-excel && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-js-excel.git && cd wsh-js-excel && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "🌏 WSH JScript Excel",
                 "auto": true,
                 "group": "🌏 Windows スクリプト"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/vbs-js-select-folder.git && cd https://github.com/winofsql/vbs-js-select-folder && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/vbs-js-select-folder.git && cd vbs-js-select-folder && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "🌏 WSH JScript Excel",
                 "auto": true,
                 "group": "🌏 Windows スクリプト"

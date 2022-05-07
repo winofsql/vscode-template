@@ -1058,7 +1058,7 @@
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/vbs-js-select-folder.git && cd vbs-js-select-folder && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "🌏 WSH JScript Excel",
+                "name": "🌏 フォルダを選択",
                 "auto": true,
                 "group": "🌏 Windows スクリプト"
             },

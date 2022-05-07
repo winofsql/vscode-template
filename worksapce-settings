@@ -1069,6 +1069,12 @@
                 "group": "🌏 Windows スクリプト"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-vbs-js-web-download.git && cd wsh-vbs-js-web-download && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "🌏 VBS & JS WEBファイルダウンロード",
+                "auto": true,
+                "group": "🌏 Windows スクリプト"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
                 "name": "🌏 localhost",
                 "auto": true,

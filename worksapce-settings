@@ -139,7 +139,7 @@
                 "group": "🖐 設定"
             },
             {
-                "command": "if exist \\app\\workspace ( cd \\app\\workspace && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace && exit ) else ( mkdir \\app\\workspace && cd \\app\\workspace && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace && exit )",
+                "command": "if exist c:\\app\\workspace ( c: && cd \\app\\workspace && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace && exit ) else ( c: && mkdir \\app\\workspace && cd \\app\\workspace && git clone https://github.com/winofsql/subject.git && ren subject subject-%date:~5,2%%date:~8,2% && cd subject-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && copy README.md zz-workspace && Code lightbox.code-workspace && exit )",
                 "name": "🟥 SUBJECT 今日の日( app\\workspace に作成 )",
                 "auto": true,
                 "group": "🖐 設定"

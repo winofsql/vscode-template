@@ -1087,8 +1087,8 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-root-localhost.vbs && exit",
-                "name": "🌏 ROOT localhost ( 環境変数 DocumentRoot が必要です )",
+                "command": "start chrome http://localhost/ && exit",
+                "name": "🌏 ROOT localhost",
                 "auto": true,
                 "group": "🔄 テスト"
             },

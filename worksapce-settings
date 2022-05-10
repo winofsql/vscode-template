@@ -1201,12 +1201,6 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/hta-js-ado-mysql-req/raw/main hta-js-ado-mysql-req.htm hta.js",
-                "name": "🪔 HTA + 🐬 MySQL",
-                "auto": true,
-                "group": "📥 ダウンロード"
-            },
-            {
                 "command": "start chrome https://vscode.dev/ && exit",
                 "name": "🌞 VS Code for WEB",
                 "auto": true,

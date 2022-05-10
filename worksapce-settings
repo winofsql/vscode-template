@@ -1237,6 +1237,36 @@
                 "group": "📌 ブックマーク"
             },
             {
+                "command": "start chrome https://regex101.com/ && exit",
+                "name": "🌞 正規表現",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
+                "command": "start chrome https://u670.com/pikamap/htmlseikei.php && exit",
+                "name": "🌞 HTML整形",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
+                "command": "start chrome https://atl2.net/webtool/sql%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%82%BF%E3%83%BCfor-web/ && exit",
+                "name": "🌞 SQLフォーマッター",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
+                "command": "start chrome https://migi.me/vsc_snippet/ && exit",
+                "name": "🌞 VSCodeスニペット用コード作成ツール",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
+                "command": "start chrome https://www.trendmicro.com/ja_jp/forHome/products/onlinescan.html && exit",
+                "name": "🌞 無料ウイルスチェック",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
                 "command": "start chrome https://github.com/winofsql/subject && exit",
                 "name": "🌞 Subject ワークスペース用テンプレート",
                 "auto": true,

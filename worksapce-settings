@@ -1219,18 +1219,6 @@
                 "group": "📌 ブックマーク"
             },
             {
-                "command": "start chrome https://github.com/winofsql/subject && exit",
-                "name": "🌞 Subject ワークスペース用テンプレート",
-                "auto": true,
-                "group": "📌 ブックマーク"
-            },
-            {
-                "command": "start chrome https://github.com/winofsql/vscode-template && exit",
-                "name": "🌞 VS Code テンプレート",
-                "auto": true,
-                "group": "📌 ブックマーク"
-            },
-            {
                 "command": "start chrome https://pixlr.com/jp/x/?lang=jp-JP && exit",
                 "name": "🍱 オンライン画像エディタ",
                 "auto": true,
@@ -1245,6 +1233,18 @@
             {
                 "command": "start chrome http://lightbox.on.coocan.jp/html/utf8tool.php && exit",
                 "name": "🍱 UTF8 文字( 色付き文字も )",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/subject && exit",
+                "name": "🌞 Subject ワークスペース用テンプレート",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/vscode-template && exit",
+                "name": "🌞 VS Code テンプレート",
                 "auto": true,
                 "group": "📌 ブックマーク"
             },

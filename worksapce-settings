@@ -1309,7 +1309,7 @@
                 "group": "🔳 Windows"
             },
             {
-                "command": "rundll32.exe shell32.dll,SHHelpShortcuts_RunDLL Connect && exit",
+                "command": "rundll32.exe shell32.dll,SHHelpShortcuts_RunDLL Connect",
                 "name": "🔶 ネッワークドライブの割り当て",
                 "auto": true,
                 "group": "🔳 Windows"

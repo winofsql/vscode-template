@@ -1057,7 +1057,7 @@
                 "group": "🐍 Python"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/py-grid-tkinter.git && cd py-com-sample && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/py-grid-tkinter.git && cd py-grid-tkinter && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "✅ Python GRID (tkinter) サンプル",
                 "auto": true,
                 "group": "🐍 Python"

@@ -1051,6 +1051,12 @@
                 "group": "🐍 Python"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/py-web-iframe-req.git && cd py-web-iframe-req && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "✅ Python WEBアプリ MySQL IFRAME 問い合わせ (標準化)",
+                "auto": true,
+                "group": "🐍 Python"
+            },
+            {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/py-com-sample.git && cd py-com-sample && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "✅ Python COM サンプル",
                 "auto": true,

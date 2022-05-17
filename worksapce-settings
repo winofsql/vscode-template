@@ -1057,6 +1057,12 @@
                 "group": "🐍 Python"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/py-lolipop-send-mail.git && cd py-lolipop-send-mail && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "✅ Python メール送信 : ロリポップ / Yahoo! / さくらインターネット",
+                "auto": true,
+                "group": "🐍 Python"
+            },
+            {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/py-com-sample.git && cd py-com-sample && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "✅ Python COM サンプル",
                 "auto": true,

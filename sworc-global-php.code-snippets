@@ -235,4 +235,17 @@
         ],
         "description": ""
     }
+    "php-function": {
+        "prefix": "php-function",
+        "body": [
+            "function $1($2) {",
+            "    global \\$value;",
+            "",
+            "",
+            "    return \\$value;",
+            "}",
+        ],
+        "description": ""
+    }
+    
 }

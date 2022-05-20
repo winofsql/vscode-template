@@ -236,6 +236,7 @@
         "description": ""
     }
     "php-function": {
+        "scope": "php",
         "prefix": "php-function",
         "body": [
             "function $1($2) {",

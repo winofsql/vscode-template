@@ -234,7 +234,7 @@
             "",
         ],
         "description": ""
-    }
+    },
     "php-function": {
         "scope": "php",
         "prefix": "php-function",

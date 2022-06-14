@@ -1301,7 +1301,7 @@
                 "command": "start chrome https://github.com/winofsql/desktop-reg-menu && exit",
                 "name": "✅ デスクトップメニュー",
                 "auto": true,
-                "group": "📥 ダウンロード"
+                "group": "📌 ブックマーク"
             },
             {
                 "command": "start chrome https://www.trendmicro.com/ja_jp/forHome/products/onlinescan.html && exit",

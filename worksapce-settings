@@ -1286,6 +1286,24 @@
                 "group": "📌 ブックマーク"
             },
             {
+                "command": "start chrome https://toolbox.winofsql.jp/html-page.php && exit",
+                "name": "🌏 リアルタイム HTML & jQuery",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
+                "command": "start chrome http://lightbox.on.coocan.jp/html/fontImage.php && exit",
+                "name": "🌏 フリーフォントで簡単ロゴ作成",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/desktop-reg-menu && exit",
+                "name": "✅ デスクトップメニュー",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
                 "command": "start chrome https://www.trendmicro.com/ja_jp/forHome/products/onlinescan.html && exit",
                 "name": "🌞 無料ウイルスチェック",
                 "auto": true,

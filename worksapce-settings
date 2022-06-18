@@ -90,6 +90,9 @@
         "[jsonc]": {
             "editor.defaultFormatter": "vscode.json-language-features"
         },
+        "[json]": {
+            "editor.defaultFormatter": "vscode.json-language-features"
+        },
         "java.project.referencedLibraries": [
             "lib/**/*.jar",
             "\\app\\workspace\\lib\\mysql-connector-java-8.0.26.jar",

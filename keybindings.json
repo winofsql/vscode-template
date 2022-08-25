@@ -1,0 +1,44 @@
+[
+    // java 以外は Code-Runner で登録シタコマンドで実行
+    {
+        "key": "f5",
+        "command": "code-runner.run",
+        "when": "editorLangId != 'java'"
+    },
+    // その場所でエクスプローラを開く
+    {
+        "key": "ctrl+shift+e",
+        "command": "revealFileInOS"
+    },
+    // vscode フォルダ・ワークスペース・ファイル参照を初期状態に
+    {
+        "key": "ctrl+f1",
+        "command": "workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    // タブを全て閉じる
+    {
+        "key": "ctrl+f2",
+        "command": "workbench.action.closeAllEditors"
+    },
+    // パネル内のウインドウを一つづつ閉じる
+    {
+        "key": "ctrl+f10",
+        "command": "workbench.action.terminal.kill"
+    },
+    // このファイルを開く
+    {
+        "key": "shift+alt+k",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    // ワークスペースを開く
+    {
+        "key": "shift+alt+w",
+        "command": "workbench.action.openWorkspaceSettingsFile"
+    },
+    // 元の settings.json を開く
+    {
+        "key": "shift+alt+s",
+        "command": "workbench.action.openSettingsJson"
+    }
+]

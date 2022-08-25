@@ -38,54 +38,6 @@
         "code-runner.fileDirectoryAsCwd": true,
         "runTerminalCommand.commands": [
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "💬 ワークスペース( CS ) : 作成",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "if exist c:\\app\\workspace ( c: && cd \\app\\workspace && git clone https://github.com/winofsql/subject2.git && ren subject2 subject2-%date:~5,2%%date:~8,2% && cd subject2-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && Code lightbox.code-workspace && exit ) else ( c: && mkdir \\app\\workspace && cd \\app\\workspace && git clone https://github.com/winofsql/subject2.git && ren subject2 subject2-%date:~5,2%%date:~8,2% && cd subject2-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && Code lightbox.code-workspace && exit )",
-                "name": "🟥 SUBJECT2 ( CS ) 今日の日( app\\workspace に作成 )",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/xampp-settings/raw/main .htaccess && exit",
-                "name": "💯 XAMPP Alias 設定",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
-                "name": "🐱 TOMCAT PATH 作成",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-main && cd subject-main && rmdir .git /S /Q && copy README.md zz-workspace && exit",
-                "name": "🟥 SUBJECT MAIN",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\git-clone.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
-                "name": "🔱 Your's GIT",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "dotnet new console -f net6.0",
-                "name": "コンソールプロジェクト作成",
-                "auto": true,
-                "group": "🟦 C#"
-            },
-            {
-                "command": "dotnet new winforms -f net6.0",
-                "name": "Form プロジェクト作成",
-                "auto": true,
-                "group": "🟦 C#"
-            },
-            {
                 "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples && exit",
                 "name": "────────────────────────────────【タプル型 ( Microsoft )】",
                 "auto": true,
@@ -285,45 +237,123 @@
             },
             {
                 "command": "start chrome https://www.newtonsoft.com/json && exit",
-                "name": "──────────────────────────────────【Json.NET】",
+                "name": "【Json.NET】",
                 "auto": true,
-                "group": "🟦 C#"
+                "group": "───────────────────────────────────────────"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "📂 C# コンソール フォルダ作成",
+                "auto": true,
+                "group": "📂 C# フォルダ作成"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs-form && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "📂 C# Form フォルダ作成",
+                "auto": true,
+                "group": "📂 C# フォルダ作成"
+            },
+            {
+                "command": "dotnet new console-classic",
+                "name": "クラシック コンソールプロジェクト作成",
+                "auto": true,
+                "group": "📥 C# テンプレート"
+            },
+            {
+                "command": "dotnet new console -f net6.0",
+                "name": "コンソールプロジェクト作成",
+                "auto": true,
+                "group": "📥 C# テンプレート"
+            },
+            {
+                "command": "dotnet new winforms -f net6.0",
+                "name": "Form プロジェクト作成",
+                "auto": true,
+                "group": "📥 C# テンプレート"
             },
             {
                 "command": "dotnet add package System.Data.Odbc && exit",
-                "name": "💼【LIB】System.Data.Odbc 追加",
+                "name": "💼 System.Data.Odbc 追加",
                 "auto": true,
-                "group": "🟦 C#"
+                "group": "💼 C# Add Package"
+            },
+            {
+                "command": "dotnet add package System.Data.OleDb && exit",
+                "name": "💼 System.Data.OleDb 追加",
+                "auto": true,
+                "group": "💼 C# Add Package"
             },
             {
                 "command": "dotnet add package System.Text.Encoding.CodePages && exit",
-                "name": "💼【LIB】System.Text.Encoding.CodePages 追加",
+                "name": "💼 System.Text.Encoding.CodePages 追加",
                 "auto": true,
-                "group": "🟦 C#"
+                "group": "💼 C# Add Package"
             },
             {
                 "command": "dotnet add package System.Drawing.Common && exit",
-                "name": "💼【LIB】System.Drawing.Common 追加",
+                "name": "💼 System.Drawing.Common 追加",
                 "auto": true,
-                "group": "🟦 C#"
+                "group": "💼 C# Add Package"
             },
             {
                 "command": "dotnet add package Newtonsoft.Json --version 13.0.1 && exit",
-                "name": "💼【LIB】Newtonsoft.Json",
+                "name": "💼 Newtonsoft.Json",
                 "auto": true,
-                "group": "🟦 C#"
+                "group": "💼 C# Add Package"
             },
             {
                 "command": "dotnet add package MailKit --version 2.15.0 && exit",
-                "name": "💼【LIB】MailKit",
+                "name": "💼 MailKit",
                 "auto": true,
-                "group": "🟦 C#"
+                "group": "💼 C# Add Package"
             },
             {
                 "command": "dotnet add package PdfSharp --version 1.50.5147 && exit",
-                "name": "💼【LIB】PdfSharp",
+                "name": "💼 PdfSharp",
                 "auto": true,
-                "group": "🟦 C#"
+                "group": "💼 C# Add Package"
+            },
+            {
+                "command": "start chrome https://www.newtonsoft.com/json && exit",
+                "name": "【Json.NET】",
+                "auto": true,
+                "group": "────────────────────────────────────────────"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "💬 ワークスペース( CS ) : 作成",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "if exist c:\\app\\workspace ( c: && cd \\app\\workspace && git clone https://github.com/winofsql/subject2.git && ren subject2 subject2-%date:~5,2%%date:~8,2% && cd subject2-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && Code lightbox.code-workspace && exit ) else ( c: && mkdir \\app\\workspace && cd \\app\\workspace && git clone https://github.com/winofsql/subject2.git && ren subject2 subject2-%date:~5,2%%date:~8,2% && cd subject2-%date:~5,2%%date:~8,2% && rmdir .git /S /Q && Code lightbox.code-workspace && exit )",
+                "name": "🟥 SUBJECT2 ( CS ) 今日の日( app\\workspace に作成 )",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/xampp-settings/raw/main .htaccess && exit",
+                "name": "💯 XAMPP Alias 設定",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
+                "name": "🐱 TOMCAT PATH 作成",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-main && cd subject-main && rmdir .git /S /Q && copy README.md zz-workspace && exit",
+                "name": "🟥 SUBJECT MAIN",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\git-clone.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🔱 Your's GIT",
+                "auto": true,
+                "group": "🖐 設定"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
@@ -340,18 +370,6 @@
             {
                 "command": "start chrome http://localhost:8080/lightbox && exit",
                 "name": "🐱 TOMCAT : localhost:8080",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 C# コンソール フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs-form && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 C# Form フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },

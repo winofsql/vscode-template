@@ -6,9 +6,6 @@ else
 	param = objArgs(0)
 end if
 
-if objArgs.Count = 0 then
-	objArgs = 0
-end if
 Set objSrvHTTP = Wscript.CreateObject("Msxml2.ServerXMLHTTP")
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set Stream1 = CreateObject("ADODB.Stream")
@@ -75,7 +72,12 @@ Next
 
 Stream1.WriteText( "    ]," & vbCrLf )
 
-Call objSrvHTTP.Open("GET", "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings" & "?dummy=" & Timer, False )
+ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings" & "?dummy=" & Timer
+if param = "2" then
+	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings-cs" & "?dummy=" & Timer
+end if
+
+Call objSrvHTTP.Open("GET", ActionPath, False )
 objSrvHTTP.Send
 text = Replace(objSrvHTTP.responseText, vbLf, vbCrLf )
 

@@ -1,3 +1,14 @@
+Set objArgs = WScript.Arguments
+Dim Param
+if objArgs.Count = 0 then
+	param = "0"
+else
+	param = objArgs(0)
+end if
+
+if objArgs.Count = 0 then
+	objArgs = 0
+end if
 Set objSrvHTTP = Wscript.CreateObject("Msxml2.ServerXMLHTTP")
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set Stream1 = CreateObject("ADODB.Stream")

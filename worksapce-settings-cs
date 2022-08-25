@@ -99,73 +99,73 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-tuple.git && cd cs-con-tuple && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-tuple.git && cd cs-con-tuple && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🍙 【C : タプル】JavaScript のオブジェクトのような var a = (\"one\", \"two\");",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-core-mysql-01 && cd ..\\cs-core-mysql-01 && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-core-mysql-01 && cd ..\\cs-core-mysql-01 && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-01/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🐬【C】MySQL を読み込む( 1 )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-core-mysql-02 && cd ..\\cs-core-mysql-02 && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-02/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-core-mysql-02 && cd ..\\cs-core-mysql-02 && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-core-mysql-02/raw/main Program.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🐬【C】MySQL を読み込む( 2 )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\subject-1028-cs-post && cd ..\\subject-1028-cs-post && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1028-cs-post/raw/main Program.cs README.md \\php-test keijiban.php keijiban.txt model.php view.php && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\subject-1028-cs-post && cd ..\\subject-1028-cs-post && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1028-cs-post/raw/main Program.cs README.md \\php-test keijiban.php keijiban.txt model.php view.php && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌏【C】PHP の FORM にPOST する",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-con-pdfsharp && cd ..\\cs-con-pdfsharp && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp/raw/main Program.cs FontResolver.cs README.md && dotnet add package PdfSharp --version 1.50.5147 && dotnet add package System.Text.Encoding.CodePages && dotnet add package System.Drawing.Common && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-con-pdfsharp && cd ..\\cs-con-pdfsharp && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp/raw/main Program.cs FontResolver.cs README.md && dotnet add package PdfSharp --version 1.50.5147 && dotnet add package System.Text.Encoding.CodePages && dotnet add package System.Drawing.Common && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "📇【C : PDF】PdfSharp とフリーフォント( けいふぉんと )で PDF 作成",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-con-pdfsharp-rectangle && cd ..\\cs-con-pdfsharp-rectangle && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp-rectangle/raw/main Program.cs FontResolver.cs README.md && dotnet add package PdfSharp --version 1.50.5147 && dotnet add package System.Text.Encoding.CodePages && dotnet add package System.Drawing.Common && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-con-pdfsharp-rectangle && cd ..\\cs-con-pdfsharp-rectangle && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-pdfsharp-rectangle/raw/main Program.cs FontResolver.cs README.md && dotnet add package PdfSharp --version 1.50.5147 && dotnet add package System.Text.Encoding.CodePages && dotnet add package System.Drawing.Common && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "📇【C : PDF】ラノベPOP と 長方形描画 ( PDF 作成 )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-con-excel-new && cd ..\\cs-con-excel-new && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-new/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-con-excel-new && cd ..\\cs-con-excel-new && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-new/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌐【C : Excel】ブックを作成してセルに値をセットして保存後 Excel で起動( COM )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-form-excel-open.git && cd cs-con-form-excel-open && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-form-excel-open.git && cd cs-con-form-excel-open && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌐【C : Excel】ブックを開いてセルに値をセットして保存後 Excel で起動( COM )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-con-excel-autofill && cd ..\\cs-con-excel-autofill && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-autofill/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-con-excel-autofill && cd ..\\cs-con-excel-autofill && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-excel-autofill/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌐【C : Excel】新しいブックのデフォルトのシートのセルに値をセットしてオートフィルを Range オブジェクトから実行する( COM )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-con-form-open-file-dialog && cd ..\\cs-con-form-open-file-dialog && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-form-open-file-dialog/raw/main Program.cs cs-con-form-open-file-dialog.csproj && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-con-form-open-file-dialog && cd ..\\cs-con-form-open-file-dialog && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-form-open-file-dialog/raw/main Program.cs cs-con-form-open-file-dialog.csproj && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🔍【C + FORM】ファイルを開くダイアログ",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-con-DotNetZip-list && cd ..\\cs-con-DotNetZip-list && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://raw.githubusercontent.com/winofsql/cs-con-DotNetZip/main/list Program.cs && dotnet add package DotNetZip --version 1.16.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-con-DotNetZip-list && cd ..\\cs-con-DotNetZip-list && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://raw.githubusercontent.com/winofsql/cs-con-DotNetZip/main/list Program.cs && dotnet add package DotNetZip --version 1.16.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "📘【C : DotNetZip】一覧表示",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-con-web-json && cd ..\\cs-con-web-json && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-web-json/raw/main Program.cs && dotnet add package Newtonsoft.Json --version 13.0.1 && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-con-web-json && cd ..\\cs-con-web-json && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-web-json/raw/main Program.cs && dotnet add package Newtonsoft.Json --version 13.0.1 && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌏【C : WEB + JSON】インターネットより JSON を取得してオブジェクトとして利用する",
                 "auto": true,
                 "group": "🟦 C#"
@@ -177,25 +177,25 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-sqlclient-select.git && cd cs-con-sqlclient-select && rmdir .git /S /Q && dotnet add package System.Data.SqlClient && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-sqlclient-select.git && cd cs-con-sqlclient-select && rmdir .git /S /Q && dotnet add package System.Data.SqlClient && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "📕【C + SQLExpress】",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-access-select.git && cd cs-con-odbc-access-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-access-select.git && cd cs-con-odbc-access-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "📕【C + MS Access as DB( ODBC )】Microsoft Access に DB としてアクセス",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-excel-select.git && cd cs-con-odbc-excel-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-excel-select.git && cd cs-con-odbc-excel-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "📕【C + MS Excel as DB( ODBC )】Microsoft Excel に DB としてアクセス",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-csv-select.git && cd cs-con-odbc-csv-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-odbc-csv-select.git && cd cs-con-odbc-csv-select && rmdir .git /S /Q && dotnet add package System.Data.Odbc && dotnet add package System.Data.OleDb && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "📕【C + MS CSV as DB( ODBC )】CSV(テキストファイル) に DB としてアクセス",
                 "auto": true,
                 "group": "🟦 C#"
@@ -207,19 +207,19 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-mysql-01 && cd ..\\cs-form-mysql-01 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-01/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-mysql-01 && cd ..\\cs-form-mysql-01 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-01/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🐬【F MTN (1)】主キーによる情報の読み込み",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-mysql-02 && cd ..\\cs-form-mysql-02 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-02/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-mysql-02 && cd ..\\cs-form-mysql-02 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-02/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🐬【F MTN (2)】会話による画面コントロール",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-mysql-03 && cd ..\\cs-form-mysql-03 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-03/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-mysql-03 && cd ..\\cs-form-mysql-03 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-03/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🐬【F MTN (3)】更新処理と会話コントロール",
                 "auto": true,
                 "group": "🟦 C#"
@@ -237,7 +237,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-mysql-06 && cd ..\\cs-form-mysql-06 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-06/raw/main Form1.cs Form1.Designer.cs Form2.cs Form2.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-mysql-06 && cd ..\\cs-form-mysql-06 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-06/raw/main Form1.cs Form1.Designer.cs Form2.cs Form2.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🐬【F MTN (6)】新しい Form で一覧を表示してダブルクリックで参照",
                 "auto": true,
                 "group": "🟦 C#"
@@ -249,31 +249,31 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-mysql-datagridview && cd ..\\cs-form-mysql-datagridview && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-mysql-datagridview && cd ..\\cs-form-mysql-datagridview && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mysql-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🐬【F REQ (1)】DataGridView で MySQL を読み込む為の Form の定義",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-text-read-write && cd ..\\cs-form-text-read-write && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-text-read-write/raw/main Form1.cs Form1.Designer.cs syain.csv && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-text-read-write && cd ..\\cs-form-text-read-write && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-text-read-write/raw/main Form1.cs Form1.Designer.cs syain.csv && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "📄【F TEXT FILEス】CSV を読み書き",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-net-text && cd ..\\cs-form-net-text && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-text/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-net-text && cd ..\\cs-form-net-text && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-text/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌏【F WEB】WEB より shift_jis の CSV を読み込む",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-net-binary && cd ..\\cs-form-net-binary && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-binary/raw/main Form1.cs Form1.Designer.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-net-binary && cd ..\\cs-form-net-binary && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-binary/raw/main Form1.cs Form1.Designer.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌏【F WEB】画像ファイルを WEB より読込む( Byte 配列を保存 )",
                 "auto": true,
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-net-json-datagridview && cd ..\\cs-form-net-json-datagridview && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-json-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package Newtonsoft.Json --version 13.0.1 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-net-json-datagridview && cd ..\\cs-form-net-json-datagridview && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-net-json-datagridview/raw/main Form1.cs Form1.Designer.cs && dotnet add package Newtonsoft.Json --version 13.0.1 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌏【F WEB】WEB の JSON をオブジェクトに変換して DataGridView で表示する",
                 "auto": true,
                 "group": "🟦 C#"
@@ -285,7 +285,7 @@
                 "group": "🟦 C#"
             },
             {
-                "command": "mkdir ..\\cs-form-mail-mailkit && cd ..\\cs-form-mail-mailkit && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mail-mailkit/raw/main Form1.cs Form1.Designer.cs && dotnet add package MailKit --version 2.15.0 && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
+                "command": "mkdir ..\\cs-form-mail-mailkit && cd ..\\cs-form-mail-mailkit && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mail-mailkit/raw/main Form1.cs Form1.Designer.cs && dotnet add package MailKit --version 2.15.0 && dotnet add package System.Text.Encoding.CodePages && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "💌【F メール送信】MailKit でメール送信",
                 "auto": true,
                 "group": "🟦 C#"
@@ -351,43 +351,43 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 PHP フォルダ作成 ( 日付ペースを２つ : ワークスペース )",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 SQL フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2%-01 && mkdir ..\\java-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2%-01 && mkdir ..\\java-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 Java フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\cs-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "mkdir ..\\cs-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 C# コンソール フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 C# Form フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\python-%date:~5,2%%date:~8,2%-01 && mkdir ..\\python-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "mkdir ..\\python-%date:~5,2%%date:~8,2%-01 && mkdir ..\\python-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 Python フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\tomcat-%date:~5,2%%date:~8,2% && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "mkdir ..\\tomcat-%date:~5,2%%date:~8,2% && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 TOMCAT フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
@@ -417,7 +417,7 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/winofsql-mdb-sql-skeleton.git && cd winofsql-mdb-sql-skeleton && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/winofsql-mdb-sql-skeleton.git && cd winofsql-mdb-sql-skeleton && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "🟥 SQLの窓スケルトンメニュー拡張",
                 "auto": true,
                 "group": "📥 ダウンロード"
@@ -453,7 +453,7 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "🟥 SQLite3 初期セット",
                 "auto": true,
                 "group": "📥 ダウンロード"

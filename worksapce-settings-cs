@@ -344,44 +344,14 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 PHP フォルダ作成 ( 日付ペースを２つ : ワークスペース )",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 SQL フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2%-01 && mkdir ..\\java-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 Java フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\cs-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 C# コンソール フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs-form && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 C# Form フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\python-%date:~5,2%%date:~8,2%-01 && mkdir ..\\python-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 Python フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\tomcat-%date:~5,2%%date:~8,2% && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 TOMCAT フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },

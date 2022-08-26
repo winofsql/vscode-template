@@ -392,6 +392,72 @@
                 "group": "🔄 テスト"
             },
             {
+                "command": "start chrome https://mergedoc.osdn.jp/ && exit",
+                "name": "🟥 Pleiades All in One",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://www.oracle.com/jp/database/technologies/xe-downloads.html && exit",
+                "name": "🟥 Oracle Database XE",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://www.oracle.com/database/technologies/instant-client/downloads.html && exit",
+                "name": "🟥 Oracle Instant Client",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://www.microsoft.com/ja-jp/download/details.aspx?id=101064 && exit",
+                "name": "🟥 SQL Server 2019 Express",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/oracle-21c-xe && exit",
+                "name": "─────────────────────────────────────────────",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://visualstudio.microsoft.com/ja/free-developer-offers/ && exit",
+                "name": "🟥 Visual Studio Community",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://azure.microsoft.com/ja-jp/products/visual-studio-code/ && exit",
+                "name": "🟥 Visual Studio Code",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://www.apachefriends.org/download.html && exit",
+                "name": "🟥 XAMPP",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://git-scm.com/ && exit",
+                "name": "🟥 git",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://filezilla-project.org/download.php?show_all=1 && exit",
+                "name": "🟥 FileZilla Client",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
+                "command": "start chrome https://pythonlinks.python.jp/ja/index.html && exit",
+                "name": "🟥 Python",
+                "auto": true,
+                "group": "💽 ソフトウェア"
+            },
+            {
                 "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && move MySQL.md action && move README.md action && Code lightbox.code-workspace && exit",
                 "name": "🟥 販売管理リソース",
                 "auto": true,

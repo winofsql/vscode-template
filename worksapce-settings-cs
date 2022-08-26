@@ -38,7 +38,11 @@
         "code-runner.fileDirectoryAsCwd": true,
         "runTerminalCommand.commands": [
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-startup.git && cd cs-startup && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "command": "cd ..\\ && mkdir startup && cd startup && mkdir form_01 && mkdir form_02 && mkdir form_03 && cd form_01 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-startup/raw/main/form_01 README.md && cd ..\\ && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🌞 form_01, form_02, form_03 (フォームの基本部分)",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
                 "name": "🌞 form_01, form_02, form_03 (フォームの基本部分)",
                 "auto": true,
                 "group": "🟦 C# トレーニング"

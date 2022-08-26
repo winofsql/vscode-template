@@ -38,6 +38,12 @@
         "code-runner.fileDirectoryAsCwd": true,
         "runTerminalCommand.commands": [
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-startup.git && cd cs-startup && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🌞 form_01, form_02, form_03 (フォームの基本部分)",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
                 "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples && exit",
                 "name": "────────────────────────────────【タプル型 ( Microsoft )】",
                 "auto": true,
@@ -482,7 +488,7 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main/vs-code.reg && exit",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-startup/raw/main vscode-directory.reg && exit",
                 "name": "🔴 Codeで開くをエクスプローラのディレクトリコンテキストメニューに登録( vs-code.reg )",
                 "auto": true,
                 "group": "📥 ダウンロード"

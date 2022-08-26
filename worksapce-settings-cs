@@ -43,10 +43,6 @@
                 "auto": true,
                 "group": "🟦 C# トレーニング"
             },
-                "name": "🌞 form_01, form_02, form_03 (フォームの基本部分)",
-                "auto": true,
-                "group": "🟦 C# トレーニング"
-            },
             {
                 "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples && exit",
                 "name": "────────────────────────────────【タプル型 ( Microsoft )】",

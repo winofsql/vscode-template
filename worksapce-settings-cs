@@ -38,7 +38,7 @@
         "code-runner.fileDirectoryAsCwd": true,
         "runTerminalCommand.commands": [
             {
-                "command": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\bat\\cs-startup.bat && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "command": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\bat\\cs-startup.bat",
                 "name": "🌞 form_01, form_02, form_03 (フォームの基本部分)",
                 "auto": true,
                 "group": "🟦 C# トレーニング"

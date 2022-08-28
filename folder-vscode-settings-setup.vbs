@@ -80,7 +80,7 @@ Stream1.WriteText( "    ]," & vbCrLf )
 
 ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings" & "?dummy=" & Timer
 if param = "2" then
-	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/workspace-settings-cs" & "?dummy=" & Timer
+	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings-cs" & "?dummy=" & Timer
 end if
 if param = "3" then
 	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings-java" & "?dummy=" & Timer

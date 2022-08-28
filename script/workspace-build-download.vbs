@@ -19,4 +19,7 @@ ActionPath = "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\folde
 if param = "2" then
 	ActionPath = "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\folder-vscode-settings-setup.vbs 2"
 end if
+if param = "3" then
+	ActionPath = "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\folder-vscode-settings-setup.vbs 3"
+end if
 WshShell.Run(ActionPath)

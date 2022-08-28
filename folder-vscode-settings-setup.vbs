@@ -15,7 +15,7 @@ Set f = fso.GetFolder(".")
 Set sf = f.SubFolders
 
 settings = "https://github.com/winofsql/subject/raw/main/zz-workspace/.vscode/settings.json"
-if param = "2" then
+if param = "2" then 
 	settings = "https://github.com/winofsql/subject2/raw/main/workspace/.vscode/settings.json"
 end if
 if param = "3" then

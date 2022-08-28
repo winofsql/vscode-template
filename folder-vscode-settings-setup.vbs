@@ -18,6 +18,9 @@ settings = "https://github.com/winofsql/subject/raw/main/zz-workspace/.vscode/se
 if param = "2" then
 	settings = "https://github.com/winofsql/subject2/raw/main/workspace/.vscode/settings.json"
 end if
+if param = "3" then
+	settings = "https://github.com/winofsql/subject3/raw/main/workspace/.vscode/settings.json"
+end if
 
 Dim text
 
@@ -78,6 +81,9 @@ Stream1.WriteText( "    ]," & vbCrLf )
 ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings" & "?dummy=" & Timer
 if param = "2" then
 	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings-cs" & "?dummy=" & Timer
+end if
+if param = "3" then
+	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings-java" & "?dummy=" & Timer
 end if
 
 Call objSrvHTTP.Open("GET", ActionPath, False )

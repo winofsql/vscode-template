@@ -44,6 +44,12 @@
                 "group": "🟦 C# トレーニング"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-binary-writer.git && cd cs-con-binary-write && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🌞 バイナリデータの書き込みと HexEditor で内容確認",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
                 "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples && exit",
                 "name": "────────────────────────────────【タプル型 ( Microsoft )】",
                 "auto": true,

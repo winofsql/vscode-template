@@ -152,4 +152,23 @@
         ],
         "description": ""
     },
+    "StreamReader": {
+        "prefix": "StreamReader",
+        "body": [
+            "string filepath = @\"C:\\app\\workspace\\csv\\社員マスタ.csv\";",
+            "",
+            "Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);",
+            "",
+            "using( var sr = new StreamReader(filepath,Encoding.GetEncoding(\"shift_jis\")) ) {",
+            "",
+            "    string? line;",
+            "    while ((line = sr.ReadLine()) != null)",
+            "    {",
+            "        Console.WriteLine(line);",
+            "    }",
+            "}",
+            "",
+        ],
+        "description": ""
+    },
 }

@@ -1,0 +1,11 @@
+{
+    "-files.encoding": "shiftjis",
+    "editor.mouseWheelZoom": true,
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 1,
+    "-workbench.iconTheme": "material-icon-theme",
+    "-material-icon-theme.folders.color": "#bfc553",
+    "-material-icon-theme.opacity": 0.8,
+    "-material-icon-theme.showWelcomeMessage": false,
+    "files.autoSave": "afterDelay"
+}

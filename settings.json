@@ -1,11 +1,41 @@
 {
     "-files.encoding": "shiftjis",
     "editor.mouseWheelZoom": true,
-    "workbench.startupEditor": "none",
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "path": [
+                "C:\\WINDOWS\\system32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "window.zoomLevel": 1,
-    "-workbench.iconTheme": "material-icon-theme",
-    "-material-icon-theme.folders.color": "#bfc553",
-    "-material-icon-theme.opacity": 0.8,
-    "-material-icon-theme.showWelcomeMessage": false,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "workbench.startupEditor": "none",
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "security.workspace.trust.enabled": false,
+    "code-runner.executorMap": {
+        "csv": "explorer",
+        "javascript": "cscript //Nologo",
+        "php": "\\xampp\\php\\php.exe",
+        "python": "python -u",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Unrestricted -File",
+        "csharp": "dotnet run",
+        "vbscript": "cscript //Nologo",
+        "bat": "cmd /c"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true
+
 }

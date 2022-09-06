@@ -1,0 +1,1 @@
+copy C:\Users\%username%\AppData\Roaming\Code\User\settings.json "C:\Users\%username%\AppData\Roaming\Code\User\settings-%date:~5,2%%date:~8,2%-%time:~0,2%%time:~3,2%%time:~6,2%.json"

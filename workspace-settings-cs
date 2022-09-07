@@ -38,6 +38,11 @@
         "code-runner.fileDirectoryAsCwd": true,
         "runTerminalCommand.commands": [
             {
+                "command": "code {resource} && exit",
+                "name": "💙 VSCode でフォルダを開く",
+                "auto": true
+            },
+            {
                 "command": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\bat\\cs-startup.bat",
                 "name": "🌞 form_01, form_02, form_03 (フォームの基本部分)",
                 "auto": true,

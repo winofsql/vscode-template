@@ -473,3 +473,6 @@ C/C++ のフォーマッタは Microsoft の C/C++ 拡張 ( ms-vscode.cpptools )
 
 [32ビット .accdb ドライバ](https://www.microsoft.com/ja-jp/download/details.aspx?id=13255)
 
+```
+"C:\app2\Microsoft VS Code\Code.exe" --extensions-dir "C:\app\vsext"
+```

@@ -41,7 +41,7 @@
     "code-runner.runInTerminal": true,
     "code-runner.fileDirectoryAsCwd": true,
     "files.associations": {
-        "*.hta": "html"
+        "*.hta": "html",
+        "*.wsf": "vbs"
     }
-
 }

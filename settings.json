@@ -38,6 +38,9 @@
         "vbscript": "cscript //Nologo",
         "bat": "cmd /c"
     },
+    "code-runner.executorMapByFileExtension": {
+        ".hta": "mshta.exe",
+    },
     "code-runner.runInTerminal": true,
     "code-runner.fileDirectoryAsCwd": true,
     "files.associations": {

@@ -36,6 +36,9 @@
         "bat": "cmd /c"
     },
     "code-runner.runInTerminal": true,
-    "code-runner.fileDirectoryAsCwd": true
+    "code-runner.fileDirectoryAsCwd": true,
+    "files.associations": {
+        "*.hta": "html"
+    }
 
 }

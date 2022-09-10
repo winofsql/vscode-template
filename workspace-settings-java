@@ -28,6 +28,7 @@
             "files.encoding": "shiftjis",
             "editor.insertSpaces": true
         },
+        "security.workspace.trust.enabled": false,
         "code-runner.executorMap": {
             "csv": "explorer",
             "javascript": "cscript //Nologo",

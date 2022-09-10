@@ -25,7 +25,8 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[vbs]": {
-        "files.encoding": "shiftjis"
+        "files.encoding": "shiftjis",
+        "editor.insertSpaces": true
     },
     "security.workspace.trust.enabled": false,
     "code-runner.executorMap": {

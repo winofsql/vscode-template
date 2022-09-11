@@ -41,12 +41,12 @@
         },
         "code-runner.executorMapByFileExtension": {
             ".hta": "mshta.exe",
+            ".wsf": "cscript //Nologo"
         },
         "code-runner.runInTerminal": true,
         "code-runner.fileDirectoryAsCwd": true,
         "files.associations": {
-            "*.hta": "html",
-            "*.wsf": "vbs"
+            "*.hta": "html"
         },
         "java.project.referencedLibraries": [
             "lib/**/*.jar",

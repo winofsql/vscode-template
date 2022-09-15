@@ -79,7 +79,7 @@
                 "group": "🟦 C# トレーニング"
             },
             {
-                "command": "mkdir ..\\cs-con-dictionary && cd ..\\cn-con-here-document && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cn-con-here-document/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "command": "mkdir ..\\cn-con-here-document && cd ..\\cn-con-here-document && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cn-con-here-document/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌞 ヒアドキュメント",
                 "auto": true,
                 "group": "🟦 C# トレーニング"

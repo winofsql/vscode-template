@@ -73,6 +73,12 @@
                 "group": "🟦 C# トレーニング"
             },
             {
+                "command": "mkdir ..\\cs-con-dictionary && cd ..\\cs-con-dictionary && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-dictionary/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🌞 Dictoniary : var : new",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
                 "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples && exit",
                 "name": "────────────────────────────────【タプル型 ( Microsoft )】",
                 "auto": true,

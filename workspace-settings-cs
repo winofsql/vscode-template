@@ -79,13 +79,13 @@
                 "group": "🟦 C# トレーニング"
             },
             {
-                "command": "mkdir ..\\cs-con-here-document && cd ..\\cs-con-here-document && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cn-con-here-document/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "command": "mkdir ..\\cs-con-here-document && cd ..\\cs-con-here-document && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-here-document/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌞 ヒアドキュメント",
                 "auto": true,
                 "group": "🟦 C# トレーニング"
             },
             {
-                "command": "mkdir ..\\cs-tuple && cd ..\\cs-tuple && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cn-con-here-document/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "command": "mkdir ..\\cs-tuple && cd ..\\cs-tuple && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-tuple/raw/main Form1.Designer.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌞 補完文字列、タプル、自動プロパティ初期化子",
                 "auto": true,
                 "group": "🟦 C# トレーニング"

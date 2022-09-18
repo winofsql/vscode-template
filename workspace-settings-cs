@@ -91,6 +91,12 @@
                 "group": "🟦 C# トレーニング"
             },
             {
+                "command": "mkdir ..\\cs-con-string-int && cd ..\\cs-con-string-int && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-string-int/raw/main Program.cs README.md && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🌞 文字列 <==> 整数",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
                 "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples && exit",
                 "name": "────────────────────────────────【タプル型 ( Microsoft )】",
                 "auto": true,

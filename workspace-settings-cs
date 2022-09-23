@@ -103,6 +103,12 @@
                 "group": "🟦 C# トレーニング"
             },
             {
+                "command": "mkdir ..\\cs-delegate-anonymous-struct && cd ..\\cs-delegate-anonymous-struct && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-delegate-anonymous-struct/raw/main Form1.cs Form1.Designer.cs README.md && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🌞 delegate + ラムダ式、匿名型と構造体",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
                 "command": "start chrome https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples && exit",
                 "name": "────────────────────────────────【タプル型 ( Microsoft )】",
                 "auto": true,

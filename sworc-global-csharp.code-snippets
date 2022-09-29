@@ -1,4 +1,15 @@
 {
+    "print": {
+        "scope": "csharp",
+        "prefix": "print",
+        "body": [
+            "public void ${1:print}(string message) {",
+            "    System.Diagnostics.Debug.WriteLine(\"DBG:{message}\");",
+            "}",
+            "",
+        ],
+        "description": ""
+    },
     "Console.WriteLine": {
         "scope": "csharp",
         "prefix": "console-writeline",

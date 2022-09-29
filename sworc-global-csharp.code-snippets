@@ -4,7 +4,8 @@
         "prefix": "print",
         "body": [
             "public void ${1:print}(string message) {",
-            "    System.Diagnostics.Debug.WriteLine(\"DBG:{message}\");",
+            "    System.Console.WriteLine(\\$\"DBG:{message}\");",
+            "    System.Diagnostics.Debug.WriteLine(\\$\"DBG:{message}\");",
             "}",
             "",
         ],

@@ -19,7 +19,7 @@
         "files.trimTrailingWhitespace": true,
         "workbench.startupEditor": "none",
         "[csharp]": {
-            "editor.defaultFormatter": "ms-dotnettools.csharp"
+            "editor.defaultFormatter": "ms-dotnettools.csharp",
             "-editor.tabSize": 2
         },
         "[java]": {

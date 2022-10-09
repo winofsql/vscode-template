@@ -21,6 +21,10 @@
         "workbench.startupEditor": "none",
         "[csharp]": {
             "editor.defaultFormatter": "ms-dotnettools.csharp"
+            "-editor.tabSize": 2
+        },
+        "[java]": {
+            "-editor.tabSize": 2
         },
         "[jsonc]": {
             "editor.defaultFormatter": "vscode.json-language-features"

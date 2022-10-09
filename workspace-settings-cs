@@ -1,5 +1,6 @@
     "settings": {
         "-files.encoding": "shiftjis",
+        "-editor.tabSize": 2
         "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}${rootName}",
         "editor.mouseWheelZoom": true,
         "editor.renderWhitespace": "all",

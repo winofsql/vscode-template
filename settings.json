@@ -1,5 +1,6 @@
 {
     "-files.encoding": "shiftjis",
+    "-editor.tabSize": 2
     "editor.mouseWheelZoom": true,
     "editor.fontSize": 16,
     "editor.renderWhitespace": "all",

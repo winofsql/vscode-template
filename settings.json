@@ -29,8 +29,10 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[vbs]": {
-        "files.encoding": "shiftjis",
-        "editor.insertSpaces": true
+        "files.encoding": "shiftjis"
+    },
+    "[csv]": {
+        "files.encoding": "shiftjis"
     },
     "security.workspace.trust.enabled": false,
     "code-runner.executorMap": {

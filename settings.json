@@ -28,10 +28,16 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[csv]": {
+        "files.encoding": "shiftjis"
+    },
     "[vbs]": {
         "files.encoding": "shiftjis"
     },
-    "[csv]": {
+    "[bat]": {
+        "files.encoding": "shiftjis"
+    },
+    "[powershell]": {
         "files.encoding": "shiftjis"
     },
     "security.workspace.trust.enabled": false,

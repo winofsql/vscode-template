@@ -28,9 +28,17 @@
         "[jsonc]": {
             "editor.defaultFormatter": "vscode.json-language-features"
         },
+        "[csv]": {
+            "files.encoding": "shiftjis"
+        },
         "[vbs]": {
-            "files.encoding": "shiftjis",
-            "editor.insertSpaces": true
+            "files.encoding": "shiftjis"
+        },
+        "[bat]": {
+            "files.encoding": "shiftjis"
+        },
+        "[powershell]": {
+            "files.encoding": "shiftjis"
         },
         "security.workspace.trust.enabled": false,
         "code-runner.executorMap": {

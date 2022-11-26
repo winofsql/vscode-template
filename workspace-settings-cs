@@ -97,7 +97,7 @@
                 "group": "🟦 C# トレーニング"
             },
             {
-                "command": "mkdir ..\\cs-tuple && cd ..\\cs-tuple && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-tuple/raw/main Form1.Designer.cs README.md && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "command": "mkdir ..\\cs-form-tuple && cd ..\\cs-form-tuple && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-tuple/raw/main Form1.Designer.cs README.md && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌞 補完文字列、タプル、自動プロパティ初期化子",
                 "auto": true,
                 "group": "🟦 C# トレーニング"

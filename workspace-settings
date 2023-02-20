@@ -822,6 +822,13 @@
                 "group": "📥 ダウンロード"
             },
             {
+                "command": "start chrome https://azure.microsoft.com/ja-jp/products/visual-studio-code && exit",
+                "name": "🟥 Visual Studio Code",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            
+            {
                 "command": "start chrome https://vscode.dev/ && exit",
                 "name": "🌞 VS Code for WEB",
                 "auto": true,

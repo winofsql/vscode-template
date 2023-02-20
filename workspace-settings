@@ -911,6 +911,13 @@
                 "auto": true,
                 "group": "📌 ブックマーク"
             },
+            
+            {
+                "command": "start chrome https://www.virustotal.com/gui/home/upload && exit",
+                "name": "🌞 オンライン ファイルウイルスチェック ( VirusTotal )",
+                "auto": true,
+                "group": "📌 ブックマーク"
+            },
             {
                 "command": "start chrome https://www.trendmicro.com/ja_jp/forHome/products/onlinescan.html && exit",
                 "name": "🌞 無料ウイルスチェック",

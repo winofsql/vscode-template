@@ -816,6 +816,12 @@
                 "group": "📥 ダウンロード"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat xampp-tomcat.reg && exit",
+                "name": "🐱 XAMPP TOMCAT 用 SDK場所登録用( xampp-tomcat.reg )",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
                 "command": "start chrome https://vscode.dev/ && exit",
                 "name": "🌞 VS Code for WEB",
                 "auto": true,

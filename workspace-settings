@@ -175,19 +175,7 @@
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
-                "name": "🌏 localhost",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "start chrome http://localhost/ && exit",
-                "name": "🌏 ROOT localhost",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "start chrome http://localhost:8080/lightbox && exit",
-                "name": "🐱 TOMCAT : localhost:8080",
+                "name": "🌏 localhost ( XAMPP Alias ) ",
                 "auto": true,
                 "group": "🔄 テスト"
             },
@@ -234,8 +222,20 @@
                 "group": "🔄 テスト"
             },
             {
+                "command": "start chrome http://localhost:8080/lightbox && exit",
+                "name": "🐱 TOMCAT : localhost:8080",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
                 "command": "\\xampp\\mysql\\bin\\my.bat",
                 "name": "🐬 MySQL Command Prompt",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "start chrome http://localhost/ && exit",
+                "name": "🌏 Apache ROOT localhost",
                 "auto": true,
                 "group": "🔄 テスト"
             },

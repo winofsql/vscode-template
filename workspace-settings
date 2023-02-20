@@ -174,6 +174,84 @@
                 "group": "🖐 設定"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
+                "name": "🌏 localhost",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "start chrome http://localhost/ && exit",
+                "name": "🌏 ROOT localhost",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "start chrome http://localhost:8080/lightbox && exit",
+                "name": "🐱 TOMCAT : localhost:8080",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 PHP フォルダ作成 ( 日付ペースを２つ : ワークスペース )",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 SQL フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2%-01 && mkdir ..\\java-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 Java フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "mkdir ..\\cs-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 C# コンソール フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 C# Form フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "mkdir ..\\python-%date:~5,2%%date:~8,2%-01 && mkdir ..\\python-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 Python フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "mkdir ..\\tomcat-%date:~5,2%%date:~8,2% && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 TOMCAT フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "\\xampp\\mysql\\bin\\my.bat",
+                "name": "🐬 MySQL Command Prompt",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "\\xampp\\apache\\bin\\httpd -t",
+                "name": "❓ Apache Syntax チェック",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "findstr /B \"DocumentRoot\" c:\\xampp\\apache\\conf\\httpd.conf",
+                "name": "❓ Apache ドキュメントルート",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
                 "command": "mkdir php-mvc-mysql-insert && cd php-mvc-mysql-insert && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-mysql-insert/raw/main connect.php control.php model.php setting.php view.php",
                 "name": "✅ PHP MVC テンプレートファイル",
                 "auto": true,
@@ -1108,84 +1186,6 @@
                 "name": "🌏 VBS & JS WEBファイルダウンロード",
                 "auto": true,
                 "group": "🌏 Windows スクリプト"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
-                "name": "🌏 localhost",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "start chrome http://localhost/ && exit",
-                "name": "🌏 ROOT localhost",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "start chrome http://localhost:8080/lightbox && exit",
-                "name": "🐱 TOMCAT : localhost:8080",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 PHP フォルダ作成 ( 日付ペースを２つ : ワークスペース )",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\sql-%date:~5,2%%date:~8,2%-01 && mkdir ..\\sql-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 SQL フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\java-%date:~5,2%%date:~8,2%-01 && mkdir ..\\java-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 Java フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\cs-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 C# コンソール フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-01 && mkdir ..\\cs-form-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 C# Form フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\python-%date:~5,2%%date:~8,2%-01 && mkdir ..\\python-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 Python フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "mkdir ..\\tomcat-%date:~5,2%%date:~8,2% && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 TOMCAT フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "\\xampp\\mysql\\bin\\my.bat",
-                "name": "🐬 MySQL Command Prompt",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "\\xampp\\apache\\bin\\httpd -t",
-                "name": "❓ Apache Syntax チェック",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "findstr /B \"DocumentRoot\" c:\\xampp\\apache\\conf\\httpd.conf",
-                "name": "❓ Apache ドキュメントルート",
-                "auto": true,
-                "group": "🔄 テスト"
             },
             {
                 "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && move MySQL.md action && move README.md action && Code lightbox.code-workspace && exit",

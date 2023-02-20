@@ -858,7 +858,7 @@
                 "group": "📌 ブックマーク"
             },
             {
-                "command": "start chrome https://rextester.com/ && exit",
+                "command": "start chrome https://replit.com/ && exit",
                 "name": "🍱 オンライン各種言語実行",
                 "auto": true,
                 "group": "📌 ブックマーク"
@@ -911,7 +911,6 @@
                 "auto": true,
                 "group": "📌 ブックマーク"
             },
-            
             {
                 "command": "start chrome https://www.virustotal.com/gui/home/upload && exit",
                 "name": "🌞 オンライン ファイルウイルスチェック ( VirusTotal )",

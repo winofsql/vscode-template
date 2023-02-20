@@ -132,12 +132,6 @@
                 "auto": true
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\setup-vscode-user.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\sworc-settings-download.vbs && exit",
-                "name": "📥 基本設定",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "💬 ワークスペース作成",
                 "auto": true,

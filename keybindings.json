@@ -26,7 +26,16 @@
         "key": "ctrl+f10",
         "command": "workbench.action.terminal.kill"
     },
-    // このファイルを開く
+    // 大文字に変換
+    {
+        "key": "ctrl+f7",
+        "command": "editor.action.transformToUppercase"
+    },
+    // 小文字に変換
+    {
+        "key": "ctrl+f6",
+        "command": "editor.action.transformToLowercase"
+    },    // このファイルを開く
     {
         "key": "shift+alt+k",
         "command": "workbench.action.openGlobalKeybindingsFile"

@@ -204,6 +204,24 @@
                 "group": "🔄 テスト"
             },
             {
+                "command": "dotnet new console-classic",
+                "name": "-　　　クラシック コンソールプロジェクト作成",
+                    "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "dotnet new console -f net6.0",
+                "name": "-　　　コンソールプロジェクト作成",
+                    "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "dotnet new winforms -f net6.0",
+                "name": "-　　　Form プロジェクト作成",
+                    "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
                 "command": "mkdir ..\\python-%date:~5,2%%date:~8,2%-01 && mkdir ..\\python-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 Python フォルダ作成",
                 "auto": true,

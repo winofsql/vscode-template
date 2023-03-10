@@ -690,6 +690,36 @@
                 "group": "🟠 PHP-4"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/examination-data.git && cd examination-data && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "✅ 試験問題",
+                "auto": true,
+                "group": "✅ リテラシー"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-windows-basic.git && cd wsh-windows-basic && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "🌏 WSH Basic",
+                "auto": true,
+                "group": "✅ リテラシー"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-js-excel.git && cd wsh-js-excel && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "🌏 WSH JScript Excel",
+                "auto": true,
+                "group": "✅ リテラシー"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/vbs-js-select-folder.git && cd vbs-js-select-folder && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "🌏 VBS & JS フォルダを選択",
+                "auto": true,
+                "group": "✅ リテラシー"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-vbs-js-web-download.git && cd wsh-vbs-js-web-download && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "🌏 VBS & JS WEBファイルダウンロード",
+                "auto": true,
+                "group": "✅ リテラシー"
+            },
+            {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/subject-0924-mysql.git && cd subject-0924-mysql && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "🌏 日付関数・インライビュー・NULL演算・バックアップのSQL",
                 "auto": true,
@@ -754,30 +784,6 @@
                 "name": "✅ Python GRID (tkinter) サンプル",
                 "auto": true,
                 "group": "🐍 Python"
-            },
-            {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-windows-basic.git && cd wsh-windows-basic && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "🌏 WSH Basic",
-                "auto": true,
-                "group": "🌏 Windows スクリプト"
-            },
-            {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-js-excel.git && cd wsh-js-excel && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "🌏 WSH JScript Excel",
-                "auto": true,
-                "group": "🌏 Windows スクリプト"
-            },
-            {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/vbs-js-select-folder.git && cd vbs-js-select-folder && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "🌏 VBS & JS フォルダを選択",
-                "auto": true,
-                "group": "🌏 Windows スクリプト"
-            },
-            {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/wsh-vbs-js-web-download.git && cd wsh-vbs-js-web-download && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "🌏 VBS & JS WEBファイルダウンロード",
-                "auto": true,
-                "group": "🌏 Windows スクリプト"
             },
             {
                 "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && move MySQL.md action && move README.md action && Code lightbox.code-workspace && exit",

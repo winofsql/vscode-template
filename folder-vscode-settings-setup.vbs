@@ -14,7 +14,7 @@ Set Stream3 = CreateObject("ADODB.Stream")
 Set f = fso.GetFolder(".")
 Set sf = f.SubFolders
 
-settings = "https://github.com/winofsql/subject/raw/main/zz-workspace/.vscode/settings.json"
+settings = "https://github.com/winofsql/subject-2022/raw/main/zz-workspace/.vscode/settings.json"
 if param = "2" then 
 	settings = "https://github.com/winofsql/subject2/raw/main/workspace/.vscode/settings.json"
 end if

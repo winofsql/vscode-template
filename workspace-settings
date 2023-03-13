@@ -690,8 +690,26 @@
                 "group": "🟠 PHP-4"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/examination-data.git && cd examination-data && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "✅ 試験問題",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/examination-data-2020s.git && cd examination-data-2020s && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "✅ 試験問題 2020 後期",
+                "auto": true,
+                "group": "✅ リテラシー"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/examination-data-2021f.git && cd examination-data-2021f && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "✅ 試験問題 2021 前期",
+                "auto": true,
+                "group": "✅ リテラシー"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/examination-data-2021s.git && cd examination-data-2021s && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "✅ 試験問題 2021 後期",
+                "auto": true,
+                "group": "✅ リテラシー"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/examination-data-2022f.git && cd examination-data-2022f && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "✅ 試験問題 2022 前期",
                 "auto": true,
                 "group": "✅ リテラシー"
             },

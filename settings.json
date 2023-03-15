@@ -59,5 +59,8 @@
     "code-runner.fileDirectoryAsCwd": true,
     "files.associations": {
         "*.hta": "html"
+    },
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
     }
 }

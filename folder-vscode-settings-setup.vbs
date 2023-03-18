@@ -36,13 +36,13 @@ For Each f1 in sf
     text = ""
     if inStr( f1.name, "java" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/java/.vscode/launch.json", f1.path )
-        Call GetSetting( settings, f1.path )
+	' Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "bat" ) > 0 Then
         Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "cs" ) > 0 Then
-        Call GetSetting( settings, f1.path )
+	' Call GetSetting( settings, f1.path )
         Call GetSettingCs( "https://github.com/winofsql/vscode-template/raw/main/csharp/.vscode/", f1.path, f1.name )
         WorkspacePath
     ElseIf inStr( f1.name, "js" ) > 0 or inStr( f1.name, "javascript" ) > 0 or inStr( f1.name, "jscript" ) > 0 Then

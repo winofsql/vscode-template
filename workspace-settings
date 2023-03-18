@@ -156,18 +156,6 @@
                 "group": "🖐 設定"
             },
             {
-                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject.git && ren subject subject-main && cd subject-main && rmdir .git /S /Q && copy README.md zz-workspace && exit",
-                "name": "🟥 SUBJECT MAIN",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\git-clone.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs",
-                "name": "🔱 Your's GIT",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
                 "name": "🌏 localhost ( XAMPP Alias ) ",
                 "auto": true,

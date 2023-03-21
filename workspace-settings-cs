@@ -61,6 +61,42 @@
         },
         "runTerminalCommand.commands": [
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "📂 フォルダ作成 : C# コンソール ",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs-form && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "📂 フォルダ作成 : C# Form ",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet new console-classic",
+                "name": "🟥 クラシック コンソールプロジェクト作成",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet new console -f net6.0",
+                "name": "🟥 コンソールプロジェクト作成",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet new winforms -f net6.0",
+                "name": "🟥 Form プロジェクト作成",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/subject2/blob/main/workspace/DOTNET.md && exit",
+                "name": "────────────────────────────────【テンプレートチェック】",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
                 "command": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\bat\\cs-startup.bat",
                 "name": "🌞 form_01, form_02, form_03 (フォームの基本部分)",
                 "auto": true,
@@ -111,6 +147,54 @@
             {
                 "command": "mkdir ..\\cs-form-delegate-anonymous-struct && cd ..\\cs-form-delegate-anonymous-struct && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-delegate-anonymous-struct/raw/main Form1.cs Form1.Designer.cs README.md && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌞 delegate + ラムダ式、匿名型と構造体",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "start chrome https://www.newtonsoft.com/json && exit",
+                "name": "────────────────────────────────【Json.NET】",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet add package System.Data.Odbc && exit",
+                "name": "💼 System.Data.Odbc 追加",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet add package System.Data.OleDb && exit",
+                "name": "💼 System.Data.OleDb 追加",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet add package System.Text.Encoding.CodePages && exit",
+                "name": "💼 System.Text.Encoding.CodePages 追加",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet add package System.Drawing.Common && exit",
+                "name": "💼 System.Drawing.Common 追加",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet add package Newtonsoft.Json --version 13.0.1 && exit",
+                "name": "💼 Newtonsoft.Json",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet add package MailKit --version 2.15.0 && exit",
+                "name": "💼 MailKit",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "dotnet add package PdfSharp --version 1.50.5147 && exit",
+                "name": "💼 PdfSharp",
                 "auto": true,
                 "group": "🟦 C# トレーニング"
             },
@@ -311,84 +395,6 @@
                 "name": "💌【Form メール送信】MailKit でメール送信",
                 "auto": true,
                 "group": "🟦 C#"
-            },
-            {
-                "command": "start chrome https://www.newtonsoft.com/json && exit",
-                "name": "【Json.NET】",
-                "auto": true,
-                "group": "───────────────────────────────────────────"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 C# コンソール フォルダ作成",
-                "auto": true,
-                "group": "📂 C# フォルダ作成"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs-form && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 C# Form フォルダ作成",
-                "auto": true,
-                "group": "📂 C# フォルダ作成"
-            },
-            {
-                "command": "dotnet new console-classic",
-                "name": "クラシック コンソールプロジェクト作成",
-                "auto": true,
-                "group": "📥 C# テンプレート"
-            },
-            {
-                "command": "dotnet new console -f net6.0",
-                "name": "コンソールプロジェクト作成",
-                "auto": true,
-                "group": "📥 C# テンプレート"
-            },
-            {
-                "command": "dotnet new winforms -f net6.0",
-                "name": "Form プロジェクト作成",
-                "auto": true,
-                "group": "📥 C# テンプレート"
-            },
-            {
-                "command": "dotnet add package System.Data.Odbc && exit",
-                "name": "💼 System.Data.Odbc 追加",
-                "auto": true,
-                "group": "💼 C# Add Package"
-            },
-            {
-                "command": "dotnet add package System.Data.OleDb && exit",
-                "name": "💼 System.Data.OleDb 追加",
-                "auto": true,
-                "group": "💼 C# Add Package"
-            },
-            {
-                "command": "dotnet add package System.Text.Encoding.CodePages && exit",
-                "name": "💼 System.Text.Encoding.CodePages 追加",
-                "auto": true,
-                "group": "💼 C# Add Package"
-            },
-            {
-                "command": "dotnet add package System.Drawing.Common && exit",
-                "name": "💼 System.Drawing.Common 追加",
-                "auto": true,
-                "group": "💼 C# Add Package"
-            },
-            {
-                "command": "dotnet add package Newtonsoft.Json --version 13.0.1 && exit",
-                "name": "💼 Newtonsoft.Json",
-                "auto": true,
-                "group": "💼 C# Add Package"
-            },
-            {
-                "command": "dotnet add package MailKit --version 2.15.0 && exit",
-                "name": "💼 MailKit",
-                "auto": true,
-                "group": "💼 C# Add Package"
-            },
-            {
-                "command": "dotnet add package PdfSharp --version 1.50.5147 && exit",
-                "name": "💼 PdfSharp",
-                "auto": true,
-                "group": "💼 C# Add Package"
             },
             {
                 "command": "start chrome https://www.newtonsoft.com/json && exit",

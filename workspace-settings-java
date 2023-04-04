@@ -85,61 +85,55 @@
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "✅ java-基本部分",
                 "auto": true,
-                "group": "🟥 Java"
+                "group": "🟥 Java トレーニング"
             },
             {
                 "command": "mkdir ..\\compare-java-01 && cd ..\\compare-java-01 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1021-java-csharp-basic/raw/main Program.java && mkdir ..\\compare-cs-01 && cd ..\\compare-cs-01 && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1021-java-csharp-basic/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "✅ java C# 比較セット ( 1 )",
                 "auto": true,
-                "group": "🟥 Java"
+                "group": "🟥 Java トレーニング"
             },
             {
                 "command": "start chrome https://docs.oracle.com/javase/jp/11/docs/api/java.base/java/util/ArrayList.html#method.summary && exit",
                 "name": "───────────────────────────────【ArrayList ( Java11 )】",
                 "auto": true,
-                "group": "🟥 Java"
+                "group": "🟥 Java トレーニング"
             },
             {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/java-hello-array.git && cd java-hello-array && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "🌝 【配列とArrayList】 : java-hello-array",
                 "auto": true,
-                "group": "🟥 Java"
+                "group": "🟥 Java トレーニング"
             },
             {
                 "command": "mkdir ..\\java-class-list-array && cd ..\\java-class-list-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-class-list-array/raw/main Main.java Person.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "🌝 【クラスや配列を List にセット】 : java-class-list-array",
                 "auto": true,
-                "group": "🟥 Java"
+                "group": "🟥 Java トレーニング"
             },
             {
                 "command": "mkdir ..\\java-map-list-array && cd ..\\java-map-list-array && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-map-list-array/raw/main README.md Pg1MapGetEnv.java Pg2GetenvToArray.java Pg3ArrayToList.java Pg4MapForEach.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "🌝 【MAP と LIST と 配列の一覧表示】 : java-map-list-array",
                 "auto": true,
-                "group": "🟥 Java"
+                "group": "🟥 Java トレーニング"
             },
             {
                 "command": "mkdir ..\\java-mysql-select-string-int && cd ..\\java-mysql-select-string-int && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-mysql-select-string-int/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "🐬 【一覧取得( int と String )】 : java-mysql-select-string-int",
                 "auto": true,
-                "group": "🟥 Java"
+                "group": "🟥 Java トレーニング"
             },
             {
                 "command": "mkdir ..\\java-mysql-select-date-column-info && cd ..\\java-mysql-select-date-column-info && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-mysql-select-date-column-info/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "🐬 【一覧取得( 日付型の処理 )】 : java-mysql-select-date-column-info",
                 "auto": true,
-                "group": "🟥 Java"
+                "group": "🟥 Java トレーニング"
             },
             {
                 "command": "mkdir ..\\java-csv-read-ms932 && cd ..\\java-csv-read-ms932 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-csv-read-ms932/raw/main Main.java Main2.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "📄 【SHIFT_JIS CSV の読込み】 : java-csv-read-ms932",
                 "auto": true,
-                "group": "🟥 Java"
-            },
-            {
-                "command": "start chrome https://docs.oracle.com/javase/jp/11/docs/api/java.base/java/net/URL.html#openConnection() && exit",
-                "name": "────────────────────────────【URL openConnection ( Java11 )】",
-                "auto": true,
-                "group": "🟥 Java"
+                "group": "🟥 Java トレーニング"
             },
             {
                 "command": "mkdir ..\\java-net-text && cd ..\\java-net-text && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/java-net-text/raw/main Main.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
@@ -190,8 +184,8 @@
                 "group": "🟥 Java"
             },
             {
-                "command": "RunDLL32.EXE shell32.dll,Control_RunDLL appwiz.cpl && exit",
-                "name": "──────────────────────────────────【プログラムと機能】",
+                "command": "start chrome https://docs.oracle.com/javase/jp/11/docs/api/java.base/java/net/URL.html#openConnection() && exit",
+                "name": "────────────────────────────【URL openConnection ( Java11 )】",
                 "auto": true,
                 "group": "🟥 Java"
             },

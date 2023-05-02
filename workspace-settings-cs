@@ -409,7 +409,7 @@
                 "group": "🖐 設定"
             },
             {
-                "command": "if exist c:\\app\\workspace ( cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject2 && exit ) else ( c: && mkdir \\app\\workspace && c:\\app\\workspace ( cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject2 && exit )",
+                "command": "if exist c:\\app\\workspace ( cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject2 && exit ) else ( c: && mkdir \\app\\workspace && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject2 && exit )",
                 "name": "🟥 SUBJECT2 ( CS ) 今日の日( app\\workspace に作成 )",
                 "auto": true,
                 "group": "🖐 設定"

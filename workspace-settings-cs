@@ -427,6 +427,12 @@
                 "group": "🖐 設定"
             },
             {
+                "command": "dotnet new install Classic.Console.Templates",
+                "name": "🔄 Classic.Console.Templates をインストール",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
                 "name": "🌏 localhost",
                 "auto": true,

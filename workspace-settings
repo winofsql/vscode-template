@@ -174,8 +174,8 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir ..\\php-%date:~5,2%%date:~8,2%-01 && mkdir ..\\php-%date:~5,2%%date:~8,2%-02 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 PHP フォルダ作成 ( 日付ペースを２つ : ワークスペース )",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\php-folder.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 PHP フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },

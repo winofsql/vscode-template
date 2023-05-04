@@ -83,7 +83,7 @@
             "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
         },
         "[csharp]": {
-            "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
         "[java]": {
             "editor.defaultFormatter": "redhat.java"

@@ -34,6 +34,9 @@ End If
 
 SevenZipPath = objShell.RegRead("HKLM\SOFTWARE\7-Zip\Path") & "7z.exe"
 
+Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\settings\.htaccess")
+sourceFile.Copy target2 & "\.htaccess", True
+
 If not objFSO.FolderExists(target3) Then
 
 

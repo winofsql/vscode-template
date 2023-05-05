@@ -156,6 +156,12 @@
                 "group": "🖐 設定"
             },
             {
+                "command": "Code C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User && exit",
+                "name": "──────────────────────────────────【VSCode lightbox settings】",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
                 "command": "wscript.exe doc\\windows\\files\\import-chrome.vbs",
                 "name": "🔄 Google Chrome にブックマークをインポート",
                 "auto": true,

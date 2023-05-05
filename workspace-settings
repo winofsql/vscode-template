@@ -132,26 +132,8 @@
                 "auto": true
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "💬 ワークスペース作成",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
                 "command": "if exist c:\\app\\workspace ( cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject && exit ) else ( c: && mkdir \\app\\workspace && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject && exit )",
                 "name": "🟥 SUBJECT 今日の日( app\\workspace に作成 )",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/xampp-settings/raw/main .htaccess && exit",
-                "name": "💯 XAMPP Alias 設定",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
-                "name": "🐱 TOMCAT PATH 作成",
                 "auto": true,
                 "group": "🖐 設定"
             },
@@ -170,6 +152,30 @@
             {
                 "command": "copy doc\\windows\\files\\package.json C:\\Users\\%USERNAME%\\.vscode\\extensions\\adrianwilczynski.terminal-commands-1.0.5",
                 "name": "🔄 🟥 ターミナルコマンドへ表示を変更",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "💬 ワークスペース作成",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "Code C:\\xampp && exit",
+                "name": "──────────────────────────────────【XAMPP Folder】",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/xampp-settings/raw/main .htaccess && exit",
+                "name": "💯 XAMPP Alias 設定",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
+                "name": "🐱 TOMCAT PATH 作成",
                 "auto": true,
                 "group": "🖐 設定"
             },

@@ -1,5 +1,5 @@
 Dim objShell, objFSO
-Dim work, url, repoName, repoPath, newRepoName, suffix, suffixMonth, suffixDay, i
+Dim work, workpath , url, repoName, repoPath, newRepoName, suffix, suffixMonth, suffixDay, i
 
 Set objShell = CreateObject("WScript.Shell")
 Set objFSO = CreateObject("Scripting.FileSystemObject")
@@ -23,10 +23,15 @@ If objFSO.FolderExists("..\" & repoName & "01") Then
 	objFSO.CreateFolder("..\" & newRepoName)
 	
 	repoPath = objShell.CurrentDirectory
-	
+
 	work = Split(repoPath, "\")
 
-	objShell.CurrentDirectory = Replace( repoPath, work(UBound(work)), "" ) & "\" & newRepoName
+	workpath = ""
+	For i = 0 to UBound(work) - 1
+		workpath = workpath & work(i) & "\"
+	Next
+	
+	objShell.CurrentDirectory = workpath & newRepoName
 
 Else
     objFSO.CreateFolder("..\" & repoName & "01")
@@ -34,8 +39,12 @@ Else
 	repoPath = objShell.CurrentDirectory
 
 	work = Split(repoPath, "\")
+	workpath = ""
+	For i = 0 to UBound(work) - 1
+		workpath = workpath & work(i) & "\"
+	Next
 
-	objShell.CurrentDirectory = Replace( repoPath, work(UBound(work)), "" ) & "\" & repoName & "01"
+	objShell.CurrentDirectory = workpath & repoName & "01"
 
 End If
 

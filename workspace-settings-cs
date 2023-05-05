@@ -403,14 +403,14 @@
                 "group": "────────────────────────────────────────────"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "💬 ワークスペース( CS ) : 作成",
+                "command": "if exist c:\\app\\workspace ( cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject2 && exit ) else ( c: && mkdir \\app\\workspace && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject2 && exit )",
+                "name": "🟥 SUBJECT2 ( CS ) 今日の日( app\\workspace に作成 )",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
-                "command": "if exist c:\\app\\workspace ( cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject2 && exit ) else ( c: && mkdir \\app\\workspace && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject2 && exit )",
-                "name": "🟥 SUBJECT2 ( CS ) 今日の日( app\\workspace に作成 )",
+                "command": "start chrome https://github.com/winofsql/subject2 && exit",
+                "name": "──────────────────────────────────【subject2】",
                 "auto": true,
                 "group": "🖐 設定"
             },
@@ -423,6 +423,12 @@
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
                 "name": "🐱 TOMCAT PATH 作成",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "💬 ワークスペース( CS ) : 作成",
                 "auto": true,
                 "group": "🖐 設定"
             },

@@ -251,26 +251,38 @@
                 "group": "────────────────────────────────────────────"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3 && exit",
-                "name": "💬 ワークスペース( Java ) : 作成",
-                "auto": true,
-                "group": "🖐 設定"
-            },
-            {
                 "command": "if exist c:\\app\\workspace ( cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject3 && exit ) else ( c: && mkdir \\app\\workspace && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject3 && exit )",
                 "name": "🟥 SUBJECT3 ( Java ) 今日の日( app\\workspace に作成 )",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/xampp-settings/raw/main .htaccess && exit",
-                "name": "💯 XAMPP Alias 設定",
+                "command": "start chrome https://github.com/winofsql/LINK-BASE-PG-LANGUAGE/blob/main/paiza.md && exit",
+                "name": "─────────────────────────────────────【paiza.md】",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3 && exit",
+                "name": "💬 ワークスペース( Java ) : 作成",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/link-base-pg-language/blob/main/document.md#-java && exit",
+                "name": "───────────────────────────────────【Javaリファレンス】",
                 "auto": true,
                 "group": "🖐 設定"
             },
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
-                "name": "🐱 TOMCAT PATH 作成",
+                "name": "🐱 TOMCAT サンプル",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\java-settings.vbs && exit",
+                "name": "🔄 Java 環境設定とインストール",
                 "auto": true,
                 "group": "🖐 設定"
             },

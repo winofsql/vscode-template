@@ -853,8 +853,8 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/winofsql-mdb-sql-skeleton.git && cd winofsql-mdb-sql-skeleton && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "🟥 SQLの窓スケルトンメニュー拡張",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "🟥 SQLite3 初期セット",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },
@@ -865,32 +865,80 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main menu-cmd-here.reg && exit",
-                "name": "🔴 コマンドプロンプトをエクスプローラのコンテキストメニューから開く( menu-cmd-here.reg )",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/winofsql-mdb-sql-skeleton.git && cd winofsql-mdb-sql-skeleton && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "🟥 SQLの窓スケルトンメニュー拡張",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/vscode-template/raw/main/vs-code.reg && exit",
-                "name": "🔴 Codeで開くをエクスプローラのディレクトリコンテキストメニューに登録( vs-code.reg )",
+                "command": "start chrome https://github.com/winofsql/LINK-BASE-PG-LANGUAGE && exit",
+                "name": "────────────────────────────────【言語ドキュメントメニュー】",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "🟥 SQLite3 初期セット",
+                "command": "start chrome https://visualstudio.microsoft.com/ja/free-developer-offers/ && exit",
+                "name": "🟥 Visual Studio Community",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "start chrome https://azure.microsoft.com/ja-jp/products/visual-studio-code && exit",
+                "command": "start chrome https://azure.microsoft.com/ja-jp/products/visual-studio-code/ && exit",
                 "name": "🟥 Visual Studio Code",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "start chrome https://visualstudio.microsoft.com/ja/vs/ && exit",
-                "name": "🟥 Visual Studio",
+                "command": "start chrome https://www.apachefriends.org/download.html && exit",
+                "name": "🟥 XAMPP",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "start chrome https://git-scm.com/ && exit",
+                "name": "🟥 git",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "start chrome https://filezilla-project.org/download.php?show_all=1 && exit",
+                "name": "🟥 FileZilla Client",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "start chrome https://pythonlinks.python.jp/ja/index.html && exit",
+                "name": "🟥 Python",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/LINK-BASE-PG-LANGUAGE && exit",
+                "name": "────────────────────────────────【言語ドキュメントメニュー】",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "start chrome https://mergedoc.osdn.jp/ && exit",
+                "name": "🟥 Pleiades All in One",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "start chrome https://www.oracle.com/jp/database/technologies/xe-downloads.html && exit",
+                "name": "🟥 Oracle Database XE",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "start chrome https://www.oracle.com/database/technologies/instant-client/downloads.html && exit",
+                "name": "🟥 Oracle Instant Client",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "start chrome https://www.microsoft.com/ja-jp/download/details.aspx?id=101064 && exit",
+                "name": "🟥 SQL Server 2019 Express",
                 "auto": true,
                 "group": "📥 ダウンロード"
             },

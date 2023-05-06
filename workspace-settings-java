@@ -101,7 +101,7 @@
                 "group": "🟥 Java トレーニング"
             },
             {
-                "command": "mkdir ..\\compare-java-01 && cd ..\\compare-java-01 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1021-java-csharp-basic/raw/main Program.java && mkdir ..\\compare-cs-01 && cd ..\\compare-cs-01 && dotnet new console && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1021-java-csharp-basic/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
+                "command": "mkdir ..\\compare-java-01 && cd ..\\compare-java-01 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1021-java-csharp-basic/raw/main Program.java && mkdir ..\\compare-cs-01 && cd ..\\compare-cs-01 && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1021-java-csharp-basic/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "✅ java C# 比較セット ( 1 )",
                 "auto": true,
                 "group": "🟥 Java トレーニング"

@@ -64,6 +64,17 @@ If not objFSO.FolderExists("c:\xampp") Then
 	suffix = suffixMonth & suffixDay
 
 	objShell.Run Chr(34) & SevenZipPath & Chr(34) & " x -oc:\xampp-" & suffix & " " & "c:\xampp.zip", 0, True
+
+	Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\server.xml")
+	sourceFile.Copy "C:\xampp-" & suffix & "\tomcat\conf\server.xml", True
+	Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\web.xml")
+	sourceFile.Copy "C:\xampp-" & suffix & "\tomcat\conf\web.xml", True
+
 End If
+
+Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\server.xml")
+sourceFile.Copy "C:\xampp\tomcat\conf\server.xml", True
+Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\web.xml")
+sourceFile.Copy "C:\xampp\tomcat\conf\web.xml", True
 
 MsgBox("xampp 設定を終了しました。")

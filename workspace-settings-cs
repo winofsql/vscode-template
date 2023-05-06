@@ -434,14 +434,14 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "start chrome http://localhost/ && exit",
-                "name": "🌏 ROOT localhost",
+                "command": "start chrome https://github.com/winofsql/LINK-BASE-PG-LANGUAGE && exit",
+                "name": "────────────────────────────────【言語ドキュメントメニュー】",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
-                "command": "start chrome http://localhost:8080/lightbox && exit",
-                "name": "🐱 TOMCAT : localhost:8080",
+                "command": "start chrome http://localhost/ && exit",
+                "name": "🌏 ROOT localhost",
                 "auto": true,
                 "group": "🔄 テスト"
             },

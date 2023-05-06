@@ -157,6 +157,12 @@
                 "group": "🖐 設定"
             },
             {
+                "command": "dotnet new install Classic.Console.Templates",
+                "name": "🔄 Classic.Console.Templates をインストール",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "💬 ワークスペース作成",
                 "auto": true,
@@ -175,8 +181,14 @@
                 "group": "🖐 設定"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs tomcat && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 TOMCAT フォルダ作成",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
-                "name": "🐱 TOMCAT PATH 作成",
+                "name": "🐱 TOMCAT サンプル",
                 "auto": true,
                 "group": "🖐 設定"
             },
@@ -193,6 +205,12 @@
                 "group": "🔄 テスト"
             },
             {
+                "command": "Code C:\\xampp && exit",
+                "name": "──────────────────────────────────【XAMPP Folder】",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\php-folder.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 PHP フォルダ作成",
                 "auto": true,
@@ -205,20 +223,8 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3 && exit",
-                "name": "📂 Java フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
                 "name": "📂 C# コンソール フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs-form && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
-                "name": "📂 C# Form フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
             },
@@ -235,9 +241,21 @@
                 "group": "🔄 テスト"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs-form && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "📂 C# Form フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
                 "command": "dotnet new winforms -f net6.0",
                 "name": "-　　　Form プロジェクト作成",
                     "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3 && exit",
+                "name": "📂 Java フォルダ作成",
+                "auto": true,
                 "group": "🔄 テスト"
             },
             {
@@ -247,26 +265,32 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs tomcat && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
-                "name": "📂 TOMCAT フォルダ作成",
+                "command": "Code C:\\xampp && exit",
+                "name": "──────────────────────────────────【XAMPP Folder】",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
                 "command": "start chrome http://localhost:8080/lightbox && exit",
-                "name": "🐱 TOMCAT : localhost:8080",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "\\xampp\\mysql\\bin\\my.bat",
-                "name": "🐬 MySQL Command Prompt",
+                "name": "🌏 TOMCAT : localhost:8080",
                 "auto": true,
                 "group": "🔄 テスト"
             },
             {
                 "command": "start chrome http://localhost/ && exit",
                 "name": "🌏 Apache ROOT localhost",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "Code C:\\xampp && exit",
+                "name": "──────────────────────────────────【XAMPP Folder】",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "\\xampp\\mysql\\bin\\my.bat",
+                "name": "🐬 MySQL Command Prompt",
                 "auto": true,
                 "group": "🔄 テスト"
             },

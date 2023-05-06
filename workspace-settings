@@ -229,7 +229,7 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "dotnet new console-classic",
+                "command": "dotnet new console-classic -f net6.0",
                 "name": "-　　　クラシック コンソールプロジェクト作成",
                     "auto": true,
                 "group": "🔄 テスト"

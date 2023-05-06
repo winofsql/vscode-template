@@ -383,18 +383,6 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat xampp-tomcat.reg && exit",
-                "name": "🐱 XAMPP TOMCAT 用 SDK場所登録用( xampp-tomcat.reg )",
-                "auto": true,
-                "group": "📥 ダウンロード"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/apache-index/raw/main/tomcat server.xml web.xml copy-tomcat-conf.bat && exit",
-                "name": "🐱 XAMPP TOMCAT 用 server.xml / web.xml",
-                "auto": true,
-                "group": "📥 ダウンロード"
-            },
-            {
                 "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3 && exit",
                 "name": "🟥 SQLite3 初期セット",
                 "auto": true,

@@ -83,6 +83,18 @@
         ],
         "runTerminalCommand.commands": [
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3 && exit",
+                "name": "📂 Java フォルダ作成",
+                "auto": true,
+                "group": "🟥 Java トレーニング"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/link-base-pg-language/blob/main/document.md#-java && exit",
+                "name": "───────────────────────────────────【Javaリファレンス】",
+                "auto": true,
+                "group": "🟥 Java トレーニング"
+            },
+            {
                 "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "✅ java-基本部分",
                 "auto": true,
@@ -275,6 +287,12 @@
                 "group": "🖐 設定"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs tomcat && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 TOMCAT フォルダ作成",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-tomcat-path.vbs && cd WEB-INF\\classes\\lightbox && cmd /c comp.bat && exit",
                 "name": "🐱 TOMCAT サンプル",
                 "auto": true,
@@ -293,6 +311,18 @@
                 "group": "🔄 テスト"
             },
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3 && exit",
+                "name": "📂 Java フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "start chrome https://github.com/winofsql/link-base-pg-language/blob/main/document.md#-java && exit",
+                "name": "───────────────────────────────────【Javaリファレンス】",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
                 "command": "start chrome http://localhost/ && exit",
                 "name": "🌏 ROOT localhost",
                 "auto": true,
@@ -300,13 +330,7 @@
             },
             {
                 "command": "start chrome http://localhost:8080/lightbox && exit",
-                "name": "🐱 TOMCAT : localhost:8080",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3 && exit",
-                "name": "📂 Java フォルダ作成",
+                "name": "🌏 TOMCAT : localhost:8080",
                 "auto": true,
                 "group": "🔄 テスト"
             },

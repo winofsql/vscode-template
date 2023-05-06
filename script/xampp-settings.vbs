@@ -76,5 +76,7 @@ Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp
 sourceFile.Copy "C:\xampp\tomcat\conf\server.xml", True
 Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\web.xml")
 sourceFile.Copy "C:\xampp\tomcat\conf\web.xml", True
+Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\httpd.conf")
+sourceFile.Copy "C:\xampp\apache\conf\httpd.conf", True
 
 MsgBox("xampp 設定を終了しました。")

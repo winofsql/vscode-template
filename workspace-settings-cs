@@ -104,18 +104,6 @@
                 "group": "🟦 C# トレーニング"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-binary-writer.git && cd cs-con-binary-writer && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
-                "name": "🌞 バイナリデータの書き込みと HexEditor で内容確認",
-                "auto": true,
-                "group": "🟦 C# トレーニング"
-            },
-            {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-binary-struct-writer.git && cd cs-con-binary-struct-writer && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
-                "name": "🌞 構造体をバイナリデータとして書き込んで HexEditor で内容確認",
-                "auto": true,
-                "group": "🟦 C# トレーニング"
-            },
-            {
                 "command": "mkdir ..\\cs-con-dictionary && cd ..\\cs-con-dictionary && dotnet new console -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-con-dictionary/raw/main Program.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌞 Dictoniary : var : new",
                 "auto": true,
@@ -148,6 +136,18 @@
             {
                 "command": "mkdir ..\\cs-form-delegate-anonymous-struct && cd ..\\cs-form-delegate-anonymous-struct && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-delegate-anonymous-struct/raw/main Form1.cs Form1.Designer.cs README.md && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🌞 delegate + ラムダ式、匿名型と構造体",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-binary-writer.git && cd cs-con-binary-writer && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🌞 バイナリデータの書き込みと HexEditor で内容確認",
+                "auto": true,
+                "group": "🟦 C# トレーニング"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/cs-con-binary-struct-writer.git && cd cs-con-binary-struct-writer && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🌞 構造体をバイナリデータとして書き込んで HexEditor で内容確認",
                 "auto": true,
                 "group": "🟦 C# トレーニング"
             },

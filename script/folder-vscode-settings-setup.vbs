@@ -14,7 +14,13 @@ Set Stream3 = CreateObject("ADODB.Stream")
 Set f = fso.GetFolder(".")
 Set sf = f.SubFolders
 
-settings = "https://github.com/winofsql/subject/raw/main/zz-workspace/.vscode/settings.json"
+settings = "https://github.com/winofsql/subject/raw/main/workspace/.vscode/settings.json"
+if param = "2" then 
+	settings = "https://github.com/winofsql/subject2/raw/main/workspace/.vscode/settings.json"
+end if
+if param = "3" then
+	settings = "https://github.com/winofsql/subject3/raw/main/workspace/.vscode/settings.json"
+end if
 
 Dim text
 
@@ -64,7 +70,7 @@ For Each f1 in sf
         Call GetSetting( settings, f1.path )
         WorkspacePath
     Else
-        Call GetSetting( settings, f1.path )
+        ' Call GetSetting( settings, f1.path )
         WorkspacePath
     end if
     
@@ -72,9 +78,12 @@ Next
 
 Stream1.WriteText( "    ]," & vbCrLf )
 
-ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings" & "?dummy=" & Timer
+ActionPath = "https://github.com/winofsql/vscode-template/raw/main/workspace-settings" & "?dummy=" & Timer
 if param = "2" then
-	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/worksapce-settings-cs" & "?dummy=" & Timer
+	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/workspace-settings-cs" & "?dummy=" & Timer
+end if
+if param = "3" then
+	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/workspace-settings-java" & "?dummy=" & Timer
 end if
 
 Call objSrvHTTP.Open("GET", ActionPath, False )
@@ -124,6 +133,10 @@ Function GetSetting( url, target_path )
 End Function
 
 Function GetSettingCs( url, target_path, target )
+
+    on error resume next
+    fso.CreateFolder(target_path & "\.vscode")
+    on error goto 0
 
     Call objSrvHTTP.Open("GET", url  & "tasks.json?dummy=" & Timer, False )
     objSrvHTTP.Send

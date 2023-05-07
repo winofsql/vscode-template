@@ -645,6 +645,11 @@
                 "name": "🔄 Windows Update",
                 "auto": true,
                 "group": "🔳 Windows"
+            },
+            {
+                "command": "code {resource} && exit",
+                "name": "💙 VSCode でフォルダを開く",
+                "auto": true
             }
         ]
     }

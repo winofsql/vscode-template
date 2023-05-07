@@ -223,7 +223,7 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 C# コンソール フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
@@ -241,7 +241,7 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs-form && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs cs-form && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 C# Form フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
@@ -253,7 +253,7 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3 && exit",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
                 "name": "📂 Java フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"

@@ -145,8 +145,14 @@
                 "group": "🖐 設定"
             },
             {
-                "command": "wscript.exe ..\\workspace\\doc\\windows\\files\\import-chrome.vbs",
-                "name": "🔄 Google Chrome にブックマークをインポート",
+                "command": "wscript.exe ..\\workspace\\doc\\windows\\files\\import-chrome-2.vbs",
+                "name": "🔄 Google Chrome にブックマークをインポート(すでに２個以上ある場合)",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "wscript.exe ..\\workspace\\doc\\windows\\files\\import-chrome-0-1.vbs",
+                "name": "🔄 Google Chrome にブックマークをインポート(１個または無い場合)",
                 "auto": true,
                 "group": "🖐 設定"
             },

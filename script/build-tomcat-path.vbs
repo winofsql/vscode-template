@@ -110,6 +110,13 @@ dim text
 work = Split(path, "\")
 fname = work(Ubound(work))
 
+If not fso.FolderExists("\xampp\tomcat\conf\Catalina") Then
+
+	fso.CreateFolder("\xampp\tomcat\conf\Catalina")
+
+End If
+
+
 Set f = fso.GetFolder("\xampp\tomcat\conf\Catalina")
 Set fc = f.SubFolders
 on error resume next

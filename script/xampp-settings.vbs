@@ -70,6 +70,9 @@ If not objFSO.FolderExists("c:\xampp") Then
 	Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\web.xml")
 	sourceFile.Copy "C:\xampp-" & suffix & "\tomcat\conf\web.xml", True
 
+	Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\httpd.conf")
+	sourceFile.Copy "C:\xampp-" & suffix & "\tomcat\conf\httpd.conf", True
+
 End If
 
 Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\server.xml")

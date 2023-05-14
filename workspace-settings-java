@@ -95,7 +95,7 @@
                 "group": "🟥 Java トレーニング"
             },
             {
-                "command": "mkdir ..\\java-basic-misc && cd ..\\java-basic-misc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-1014-java-basic-misc/raw/main Main.java Second.java Third.java && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/java-basic-misc.git && cd java-basic-misc && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
                 "name": "✅ java-基本部分",
                 "auto": true,
                 "group": "🟥 Java トレーニング"

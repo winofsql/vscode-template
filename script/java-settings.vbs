@@ -48,25 +48,33 @@ SevenZipPath = objShell.RegRead("HKLM\SOFTWARE\7-Zip\Path") & "7z.exe"
 Wscript.Echo SevenZipPath
 
 If not objFSO.FolderExists(target3 & "\lib") Then
+
+	Wscript.Echo "lib.zip をダウンロードしています......"
 	Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\java\lib.zip")
 	sourceFile.Copy target3 & "\lib.zip", True
+	Wscript.Echo "lib.zip をダウンロードしました"
 
-	Wscript.Echo "lib.zip をGドライブからコピーしました"
-
+	Wscript.Echo "lib.zip を解凍しています......"
 	objShell.Run Chr(34) & SevenZipPath & Chr(34) & " x -o" & target3 & " " & target3 & "\lib.zip", 0, True
-
 	Wscript.Echo "lib.zip を解凍しました"
 
+	Wscript.Echo "lib.zip を削除しています......"
 	objFSO.DeleteFile target3 & "\lib.zip"
-
 	Wscript.Echo "lib.zip を削除しました"
+
 End If
 
 If not objFSO.FolderExists("c:\java16") Then
+
+	Wscript.Echo "java16.zip をダウンロードしています......"
 	Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\java\java16.zip")
 	sourceFile.Copy "c:\java16.zip", True
+	Wscript.Echo "java16.zip をダウンロードしました"
 
+	Wscript.Echo "java16.zip を解凍しています......"
 	objShell.Run Chr(34) & SevenZipPath & Chr(34) & " x -oc:\java16" & " " & "c:\java16.zip", 0, True
+	Wscript.Echo "java16.zip を解凍しました"
+
 End If
 
 MsgBox("java 設定を終了しました。")

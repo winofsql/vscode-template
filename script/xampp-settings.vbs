@@ -87,6 +87,9 @@ If not objFSO.FolderExists("c:\xampp") Then
 	Set sourceFile = objFSO.GetFile("G:\共有ドライブ\SE-WORK-DOWNLOAD\database\xampp\httpd.conf")
 	sourceFile.Copy "C:\xampp-" & suffix & "\tomcat\conf\httpd.conf", True
 
+	MsgBox("xampp 設定を終了しました。")
+	Wscript.Quit
+
 End If
 
 Wscript.Echo "Tomcat 用の server.xml をダウンロードしています......"

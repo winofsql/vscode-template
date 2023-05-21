@@ -59,6 +59,10 @@ If not objFSO.FolderExists(target3) Then
 	objFSO.DeleteFile target2 & "\index.zip"
 	Wscript.Echo "index.zip を削除しました"
 
+else
+
+	Wscript.Echo target3 & " は既に存在しています。内容を再度ダウンロードするには " & target3 & " フォルダを削除するかリネームしてください" & vbCrLf
+
 End If
 
 If not objFSO.FolderExists("c:\xampp") Then
@@ -89,6 +93,10 @@ If not objFSO.FolderExists("c:\xampp") Then
 
 	MsgBox("xampp 設定を終了しました。")
 	Wscript.Quit
+
+else
+
+	Wscript.Echo "c:\xampp は既に存在しています。内容を再度ダウンロードするには c:\xampp フォルダを削除するかリネームしてください" & vbCrLf
 
 End If
 

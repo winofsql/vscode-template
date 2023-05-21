@@ -9,9 +9,11 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 
 ' 環境変数JAVA_HOMEに値"c:\java16"を登録する
 objShell.Environment("System").Item("JAVA_HOME") = "c:\java16"
+Wscript.Echo "環境変数JAVA_HOMEに値 c:\java16 を登録しました" & vbCrLf
 
 ' レジストリに値を書き込む
 objShell.RegWrite "HKLM\SOFTWARE\JavaSoft\Java Development Kit\JavaHome", "C:\java16", "REG_SZ"
+Wscript.Echo "Tomcat 起動用に レジストリに値を書き込みました" & vbCrLf
 
 target1 = "c:\app"
 target2 = "c:\app\java23"
@@ -45,7 +47,7 @@ End If
 
 SevenZipPath = objShell.RegRead("HKLM\SOFTWARE\7-Zip\Path") & "7z.exe"
 
-Wscript.Echo SevenZipPath
+Wscript.Echo "解凍用の7z.exe のパスを取得しました : " & SevenZipPath & vbCrLf
 
 If not objFSO.FolderExists(target3 & "\lib") Then
 
@@ -62,6 +64,10 @@ If not objFSO.FolderExists(target3 & "\lib") Then
 	objFSO.DeleteFile target3 & "\lib.zip"
 	Wscript.Echo "lib.zip を削除しました"
 
+else
+
+	Wscript.Echo target3 & "\lib は既に存在しています。内容を再度ダウンロードするには lib フォルダを削除するかリネームしてください" & vbCrLf
+
 End If
 
 If not objFSO.FolderExists("c:\java16") Then
@@ -74,6 +80,10 @@ If not objFSO.FolderExists("c:\java16") Then
 	Wscript.Echo "java16.zip を解凍しています......"
 	objShell.Run Chr(34) & SevenZipPath & Chr(34) & " x -oc:\java16" & " " & "c:\java16.zip", 0, True
 	Wscript.Echo "java16.zip を解凍しました"
+
+else
+
+	Wscript.Echo "c:\java16 は既に存在しています。内容を再度ダウンロードするには java16 フォルダを削除するかリネームしてください" & vbCrLf
 
 End If
 

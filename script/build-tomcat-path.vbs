@@ -23,6 +23,9 @@ on error resume next
 fc.Add("lightbox")
 on error goto 0 
 
+Set sourceFile = fso.GetFile("C:\app\workspace\lib\mysql-connector-java-8.0.26.jar")
+sourceFile.Copy path & "\WEB-INF\lib\mysql-connector-java-8.0.26.jar", True
+
 'Call objSrvHTTP.Open("GET", "https://github.com/winofsql/apache-index/raw/main/sworc-global-jsp.code-snippets" & "?dummy=" & Timer, False )
 'objSrvHTTP.Send
 'Stream.Open

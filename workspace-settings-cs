@@ -398,6 +398,36 @@
                 "group": "🟦 C#"
             },
             {
+                "command": "mkdir ..\\cs-form-mtn-001-vs2022 && cd ..\\cs-form-mtn-001-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-001-vs2022/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (001)】基本テンプレート画面",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-002-vs2022 && cd ..\\cs-form-mtn-002-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-002-vs2022/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (002)】画面遷移コントロール",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-003-vs2022 && cd ..\\cs-form-mtn-003-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-003-vs2022/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (003)】新規処理データベースアクセス(select)",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-004-vs2022 && cd ..\\cs-form-mtn-004-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-004-vs2022/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (004)】新規処理データベース更新(insert)",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-005-vs2022 && cd ..\\cs-form-mtn-005-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-005-vs2022/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (005)】更新確認・処理区分・接続処理を関数化",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },            
+            {
                 "command": "start chrome https://www.newtonsoft.com/json && exit",
                 "name": "【Json.NET】",
                 "auto": true,

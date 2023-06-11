@@ -428,6 +428,24 @@
                 "group": "🟦 C# 試験用"
             },            
             {
+                "command": "mkdir ..\\cs-form-mtn-006-vs2022 && cd ..\\cs-form-mtn-006-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-006-vs2022/raw/main Form1.cs Form1.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (006)】Enter to Tab : Vaidating 入力チェック",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-007-vs2022 && cd ..\\cs-form-mtn-007-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-007-vs2022/raw/main Form1.cs Form1.Designer.cs Form2.cs Form2.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (007)】ファンクションキー : Form2",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-008-vs2022 && cd ..\\cs-form-mtn-008-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-008-vs2022/raw/main Form1.cs Form1.Designer.cs Form2.cs Form2.Designer.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (008)】DataGridView で更新",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
                 "command": "start chrome https://www.newtonsoft.com/json && exit",
                 "name": "【Json.NET】",
                 "auto": true,

@@ -458,7 +458,7 @@
                 "group": "🟦 C# 試験用"
             },
             {
-                "command": "mkdir ..\\cs-form-230615 && cd ..\\cs-form-230615 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-230615/raw/main Form1.cs Form1.Designer.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "command": "mkdir ..\\cs-form-230615 && cd ..\\cs-form-230615 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-230615/raw/main Form1.cs Form1.Designer.cs Form1.resx && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🟥 C# Form のいろいろなパーツ",
                 "auto": true,
                 "group": "🟦 C# オプション"

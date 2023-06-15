@@ -446,6 +446,24 @@
                 "group": "🟦 C# 試験用"
             },
             {
+                "command": "mkdir ..\\cs-form-mtn-009-vs2022 && cd ..\\cs-form-mtn-009-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-009-vs2022/raw/main Form1.cs Form1.Designer.cs Form1.Action.cs Form1.Check.cs Form1.Events.cs Form1.Taskbar.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (009)】入れ子機能( Web ) を使用した機能のソース分割( partial )",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-010-vs2022 && cd ..\\cs-form-mtn-010-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-010-vs2022/raw/main Form1.cs Form1.Designer.cs Form1.Action.cs Form1.Check.cs Form1.Events.cs Form1.Taskbar.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (010)】ComboBox 用クラスで固定データを使用",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-230615 && cd ..\\cs-form-230615 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-230615/raw/main Form1.cs Form1.Designer.cs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🟥 C# Form のいろいろなパーツ",
+                "auto": true,
+                "group": "🟦 C# オプション"
+            },
+            {
                 "command": "start chrome https://www.newtonsoft.com/json && exit",
                 "name": "【Json.NET】",
                 "auto": true,

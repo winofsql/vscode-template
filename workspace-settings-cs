@@ -482,6 +482,18 @@
                 "group": "🟦 C# 試験用"
             },
             {
+                "command": "mkdir ..\\cs-form-mtn-015-vs2022 && cd ..\\cs-form-mtn-015-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-015-vs2022/raw/main Form2.cs Form2.Designer.cs Form1.cs Form1.Designer.cs Form1.Action.cs Form1.Check.cs Form1.Events.cs Form1.Taskbar.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (015)】修正処理 ( 新しい Form で DataGridView を使用して参照 )",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-016-vs2022 && cd ..\\cs-form-mtn-016-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-016-vs2022/raw/main Form2.cs Form2.Designer.cs Form1.cs Form1.Designer.cs Form1.Action.cs Form1.Check.cs Form1.Events.cs Form1.Taskbar.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (016)】削除処理 ( 第二会話で入力不可 ) + DataGridView で Enter キーで選択",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
                 "command": "mkdir ..\\cs-form-230615 && cd ..\\cs-form-230615 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-230615/raw/main Form1.cs Form1.Designer.cs Form1.resx && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🟥 C# Form のいろいろなパーツ",
                 "auto": true,

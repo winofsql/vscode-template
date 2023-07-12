@@ -464,6 +464,24 @@
                 "group": "🟦 C# 試験用"
             },
             {
+                "command": "mkdir ..\\cs-form-mtn-012-vs2022 && cd ..\\cs-form-mtn-012-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-012-vs2022/raw/main Form1.cs Form1.Designer.cs Form1.Action.cs Form1.Check.cs Form1.Events.cs Form1.Taskbar.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (012)】第二会話の validating と キャンセルボタンを有効にする validating 内の return",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-013-vs2022 && cd ..\\cs-form-mtn-013-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-013-vs2022/raw/main Form1.cs Form1.Designer.cs Form1.Action.cs Form1.Check.cs Form1.Events.cs Form1.Taskbar.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (013)】修正処理 ( 単純文字列と整数値 )",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
+                "command": "mkdir ..\\cs-form-mtn-014-vs2022 && cd ..\\cs-form-mtn-014-vs2022 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-mtn-014-vs2022/raw/main Form1.cs Form1.Designer.cs Form1.Action.cs Form1.Check.cs Form1.Events.cs Form1.Taskbar.cs && dotnet add package System.Data.Odbc && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
+                "name": "🐬【Form MTN (014)】修正処理 ( 単純文字列と整数値とコンボボックスとDateTimePicker )",
+                "auto": true,
+                "group": "🟦 C# 試験用"
+            },
+            {
                 "command": "mkdir ..\\cs-form-230615 && cd ..\\cs-form-230615 && dotnet new winforms -f net6.0 && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/cs-form-230615/raw/main Form1.cs Form1.Designer.cs Form1.resx && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2",
                 "name": "🟥 C# Form のいろいろなパーツ",
                 "auto": true,

@@ -49,5 +49,10 @@
     {
         "key": "shift+alt+s",
         "command": "workbench.action.openSettingsJson"
+    },
+    {
+        "key": "shift+alt+m",
+        "command": "editor.action.formatDocument.multiple"
     }
+    
 ]

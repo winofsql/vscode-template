@@ -223,6 +223,12 @@
                 "group": "🟥 Java"
             },
             {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/java-swing-mtn-01.git && cd java-swing-mtn-01 && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 3",
+                "name": "🚀🐬 MySQL 社員マスタメンテ (1)",
+                "auto": true,
+                "group": "🟥 Java"
+            },
+            {
                 "command": "control.exe /name Microsoft.WindowsUpdate && exit",
                 "name": "──────────────────────────────────【WindowsUpdate】",
                 "auto": true,

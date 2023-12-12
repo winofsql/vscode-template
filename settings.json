@@ -62,5 +62,8 @@
     },
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
-    }
+    },
+    "audioCues.lineHasError": "off",
+    "editor.accessibilitySupport": "off",
+    "workbench.tree.enableStickyScroll": true
 }

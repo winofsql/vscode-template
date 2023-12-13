@@ -1,9 +1,9 @@
     "settings": {
         "-files.encoding": "shiftjis",
+        "-editor.tabSize": 2,
         "audioCues.lineHasError": "off",
         "editor.accessibilitySupport": "off",
         "workbench.tree.enableStickyScroll": true,
-        "-editor.tabSize": 2,
         "git.autoRepositoryDetection": false,
         "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}${rootName}",
         "editor.mouseWheelZoom": true,

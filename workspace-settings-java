@@ -1,5 +1,8 @@
     "settings": {
         "-files.encoding": "shiftjis",
+        "audioCues.lineHasError": "off",
+        "editor.accessibilitySupport": "off",
+        "workbench.tree.enableStickyScroll": true,
         "-editor.tabSize": 2,
         "git.autoRepositoryDetection": false,
         "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}${rootName}",

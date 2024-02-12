@@ -1,7 +1,4 @@
-param(
-    [string]$baseUrl,
-    [string[]]$paths
-)
+# $args は自動的にすべてのコマンドライン引数を含む配列です
 
 # ファイルシステムオブジェクトを作成
 $fso = New-Object -ComObject Scripting.FileSystemObject
@@ -9,7 +6,12 @@ $fso = New-Object -ComObject Scripting.FileSystemObject
 # 現在のパスを初期化
 $curPath = ""
 
-foreach ($path in $paths) {
+# 最初の引数はベースURLとして使用
+$baseUrl = $args[0]
+
+# 残りの引数を処理
+for ($i = 1; $i -lt $args.Length; $i++) {
+    $path = $args[$i]
 
     if ($path.StartsWith("\")) {
         $folderName = $path.TrimStart("\")

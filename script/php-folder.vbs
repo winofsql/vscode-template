@@ -60,6 +60,6 @@ objShell.Run "cmd /c cscript C:\Users\%USERNAME%\AppData\Roaming\Code\User\scrip
 
 if param = "2" then
 
-	objShell.Run "cmd /c cscript C:\Users\%USERNAME%\AppData\Roaming\Code\User\script\download.vbs https://github.com/winofsql/resource-winofsql/raw/main/sqlite3 lightbox.sqlite3", 0, True
+	objShell.Run "cmd /c cscript C:\Users\%USERNAME%\AppData\Roaming\Code\User\script\download.vbs https://github.com/winofsql/resource-winofsql/raw/main/sqlite3 lightbox.sqlite3 bbs.sqlite3", 0, True
 
 end if

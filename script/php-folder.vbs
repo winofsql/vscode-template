@@ -1,6 +1,14 @@
 Dim objShell, objFSO
 Dim work, workpath , url, repoName, repoPath, newRepoName, suffix, suffixMonth, suffixDay, i
 
+Set objArgs = WScript.Arguments
+Dim param
+if objArgs.Count = 0 then
+	param = "1"
+else
+	param = objArgs(0)
+end if
+
 Set objShell = CreateObject("WScript.Shell")
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 
@@ -50,4 +58,8 @@ End If
 
 objShell.Run "cmd /c cscript C:\Users\%USERNAME%\AppData\Roaming\Code\User\script\build-xampp-alias.vbs && cscript C:\Users\%USERNAME%\AppData\Roaming\Code\User\script\download.vbs https://github.com/winofsql/xampp-settings/raw/main .htaccess", 0, True
 
+if param = "2" then
 
+	objShell.Run "cmd /c cscript C:\Users\%USERNAME%\AppData\Roaming\Code\User\script\download.vbs https://github.com/winofsql/resource-winofsql/raw/main/sqlite3 lightbox.sqlite3", 0, True
+
+end if

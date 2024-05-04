@@ -1,0 +1,733 @@
+    "settings": {
+        "-files.encoding": "shiftjis",
+        "editor.accessibilitySupport": "off",
+        "workbench.tree.enableStickyScroll": true,
+        "git.autoRepositoryDetection": false,
+        "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}${rootName}",
+        "editor.mouseWheelZoom": true,
+        "editor.renderWhitespace": "all",
+        "editor.fontSize": 16,
+        "code-runner.showRunIconInEditorTitleMenu": true,
+        "code-runner.runInTerminal": true,
+        "code-runner.fileDirectoryAsCwd": true,
+        "code-runner.executorMapByFileExtension": {
+            ".hta": "\\Windows\\SysWOW64\\mshta.exe",
+            ".htm": "\\Windows\\SysWOW64\\mshta.exe"
+        },
+        "code-runner.executorMap": {
+            "csv": "explorer",
+            "javascript": "cscript //Nologo",
+            "php": "\\xampp\\php\\php.exe",
+            "python": "python -u",
+            "powershell": "powershell -NoProfile -ExecutionPolicy Unrestricted -File",
+            "csharp": "dotnet run",
+            "vbscript": "cscript //Nologo",
+            "bat": "cmd /c"
+        },
+        "workbench.iconTheme": "material-icon-theme",
+        "material-icon-theme.folders.color": "#bfc553",
+        "material-icon-theme.opacity": 0.8,
+        "material-icon-theme.showWelcomeMessage": false,
+        "files.associations": {
+            "*.mnu": "csv",
+            "*.ujis": "perl",
+            "*.932": "csv",
+            "*.jsp": "java",
+            "*.htm": "html",
+            "*.hta": "html",
+            "*.xlsx": "excel"
+        },
+        "terminal.integrated.fontSize": 16,
+        "terminal.integrated.profiles.windows": {
+            "PowerShell": {
+                "source": "PowerShell",
+                "icon": "terminal-powershell"
+            },
+            "Command Prompt": {
+                "path": [
+                    "C:\\WINDOWS\\system32\\cmd.exe"
+                ],
+                "args": [],
+                "icon": "terminal-cmd"
+            },
+            "Git Bash": {
+                "source": "Git Bash"
+            }
+        },
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "csv-edit.fontSizeInPx": 14,
+        "csv-preview.formatValues": "never",
+        "[perl]": {
+            "files.encoding": "eucjp"
+        },
+        "[csv]": {
+            "files.encoding": "shiftjis"
+        },
+        "[vbs]": {
+            "files.encoding": "shiftjis"
+        },
+        "[bat]": {
+            "files.encoding": "shiftjis"
+        },
+        "[powershell]": {
+            "files.encoding": "shiftjis"
+        },
+        "[php]": {
+            "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[html]": {
+            "editor.defaultFormatter": "vscode.html-language-features"
+        },
+        "sql-formatter.uppercase": true,
+        "[sql]": {
+            "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+        },
+        "[csharp]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[java]": {
+            "editor.defaultFormatter": "redhat.java"
+        },
+        "[jsonc]": {
+            "editor.defaultFormatter": "vscode.json-language-features"
+        },
+        "java.project.referencedLibraries": [
+            "lib/**/*.jar",
+            "\\app\\workspace\\lib\\*.jar",
+        ],
+        "print.markdownRenderingBodyStyle": "background-color: white; font-family:\"メイリオ\", serif; font-size:13pt;",
+        "print.markdownRenderingHeadingStyle": "font-family:\"メイリオ\", sans-serif;",
+        "print.markdownRenderingParagraphStyle": "font-family:\"メイリオ\", serif;",
+        "print.markdownRenderingTableDataStyle": "font-family:\"メイリオ\", sans-serif; border-top:thin solid grey; border-left:thin solid grey;",
+        "print.markdownRenderingTableHeadingStyle": "font-family:\"メイリオ\", sans-serif; font-weight:400; border-top:thin solid grey; border-left:thin solid grey; ",
+        "print.markdownRenderingTableStyle": "font-family:\"メイリオ\", sans-serif; border-top:thin solid grey; border-left:thin solid grey;",
+        "runTerminalCommand.commands": [
+            {
+                "command": "if exist c:\\app\\workspace ( cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject4 && exit ) else ( c: && mkdir \\app\\workspace && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject4 && exit )",
+                "name": "🟥 SUBJECT 今日の日( app\\workspace に作成 )",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "Code C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User && exit",
+                "name": "──────────────────────────────────【VSCode lightbox settings】",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 4 && exit",
+                "name": "💬 ワークスペース作成",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "Code C:\\xampp && exit",
+                "name": "──────────────────────────────────【XAMPP Folder】",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-xampp-alias.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/xampp-settings/raw/main .htaccess && exit",
+                "name": "💯 XAMPP Alias 設定",
+                "auto": true,
+                "group": "🖐 設定"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
+                "name": "🌏 localhost ( XAMPP Alias ) ",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "Code C:\\xampp && exit",
+                "name": "──────────────────────────────────【XAMPP Folder】",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\php-folder.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 PHP フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs sql && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "name": "📂 SQL フォルダ作成",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "Code C:\\xampp && exit",
+                "name": "──────────────────────────────────【XAMPP Folder】",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "start chrome http://localhost/ && exit",
+                "name": "🌏 Apache ROOT localhost",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "Code C:\\xampp && exit",
+                "name": "──────────────────────────────────【XAMPP Folder】",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "\\xampp\\apache\\bin\\httpd -t",
+                "name": "❓ Apache Syntax チェック",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "findstr /B \"DocumentRoot\" c:\\xampp\\apache\\conf\\httpd.conf",
+                "name": "❓ Apache ドキュメントルート",
+                "auto": true,
+                "group": "🔄 テスト"
+            },
+            {
+                "command": "mkdir php-mvc-mysql-insert && cd php-mvc-mysql-insert && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-mysql-insert/raw/main connect.php control.php model.php setting.php view.php",
+                "name": "✅ PHP MVC テンプレートファイル",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "mkdir php-pdo-select-basic && cd php-pdo-select-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-pdo-select-basic/raw/main README.md connect.php db-select-01-array.php db-select-02-heredoc.php setting.php",
+                "name": "🐬 PHP PDO SELECT LOOP サンプル",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "%windir%\\system32\\odbcad32.exe && exit",
+                "name": "──────────────────────────────────【ODBC 32】",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v02-textfile.git && cd php-board-v02-textfile && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  2】MVC 掲示板 : テキストファイル",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v03-iframe-textfile.git && cd php-board-v03-iframe-textfile && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  3】MVC 掲示板 : IFRAME テキストファイル",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v04-iframe-textfile-final.git && cd php-board-v04-iframe-textfile-final && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  4】MVC 掲示板 : IFRAME テキストファイル 標準化",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v05-iframe-json.git && cd php-board-v05-iframe-json && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  5】MVC 掲示板 : IFRAME JSON",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v06-database.git && cd php-board-v06-database && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  6】MVC 掲示板 : IFRAME データベース( MySQL )",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v07-database-browser-check.git && cd php-board-v07-database-browser-check && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  7】MVC 掲示板 : IFRAME データベース( MySQL ) ブラウザチェック",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v08-database-update.git && cd php-board-v08-database-update && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  8】MVC 掲示板 : IFRAME データベース( MySQL ) データ修正",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v09-database-delete.git && cd php-board-v09-database-delete && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  9】MVC 掲示板 : IFRAME データベース( MySQL ) データ削除",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v10-js-data.git && cd php-board-v10-js-data && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 10】MVC 掲示板 : localStorage と クリップボード利用",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v11-image-upload.git && cd php-board-v11-image-upload && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 11】MVC 掲示板 : 画像アップロード(のみ)",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v12-image-database.git && cd php-board-v12-image-database && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 12】MVC 掲示板 : 画像名をデータベースに登録",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v13-display-image.git && cd php-board-v13-display-image && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 13】MVC 掲示板 : 画像を掲示板に表示",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v14-text-image-upload.git && cd php-board-v14-text-image-upload && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 14】MVC 掲示板 : 新規投稿で画像をアップロード",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v15-lightbox2-image.git && cd php-board-v15-lightbox2-image && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 15】MVC 掲示板 : Lightbox2 で画像表示",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-board-v16-gd-small-image.git && cd php-board-v16-gd-small-image && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver 16】MVC 掲示板 : 画像を縮小してサムネイルとして使用する",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "%windir%\\system32\\cleanmgr.exe && exit",
+                "name": "──────────────────────────────────【ディスク クリーンアップ】",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject-1104-web-action-set.git && cd subject-1104-web-action-set && rmdir .git /S /Q",
+                "name": "🟥 【プロジェクト】PHP + C# + Java ( WEB GET 更新 API / JSON )",
+                "auto": true,
+                "group": "🟠 PHP-1"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v01-update.git && cd php-mtn-v01-update && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  1】: 表示して修正",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v02-update-model.git && cd php-mtn-v02-update-model && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  2】: 標準化開始",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v03-update-insert.git && cd php-mtn-v03-update-insert && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  3】: 新規登録を追加",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v04-communication.git && cd php-mtn-v04-communication && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  4】: 会話処理(2会話)",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v05-enter-control.git && cd php-mtn-v05-enter-control && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  5】: Enter キーで次のフィールドへ移動",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v06-combo-box.git && cd php-mtn-v06-combo-box && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  6】: コンボボックスの実装",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v07-html-validator.git && cd php-mtn-v07-html-validator && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  7】: HTML 要素の属性による入力制御",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v08-sql-adjustment.git && cd php-mtn-v08-sql-adjustment && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  8】: SQL の調整",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v09-type-date.git && cd php-mtn-v09-type-date && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver  9】: カレンダーコントロールの実装",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v10-check-entry.git && cd php-mtn-v10-check-entry && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver 10】: PHP 会話の標準的なエラー処理",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v11-edit-control.git && cd php-mtn-v11-edit-control && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver 11】: PHP 編集処理の標準化",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v12-iframe-ref1.git && cd php-mtn-v12-iframe-ref1 && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver 12】: PHP 管理者の IFRAME 問い合わせ参照",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v13-iframe-ref2.git && cd php-mtn-v13-iframe-ref2 && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver 13】: PHP 社員コードの IFRAME 問い合わせ参照",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-mtn-v14-pdf-print.git && cd php-mtn-v14-pdf-print && rmdir .git /S /Q",
+                "name": "🟥 【マスタメンテ ver 14】: PHP 社員一覧印刷処理( TCPDF )",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-print-v01-gothic.git && cd php-print-v01-gothic && rmdir .git /S /Q",
+                "name": "🟥 【印刷 ver  1】: フォント変更・タイトルサイズ変更",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-print-v02-format-control.git && cd php-print-v02-format-control && rmdir .git /S /Q",
+                "name": "🟥 【印刷 ver  2】: 印刷出力レイアウトのコントロール",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-print-v03-line-sum-text-effect.git && cd php-print-v03-line-sum-text-effect && rmdir .git /S /Q",
+                "name": "🟥 【印刷 ver  3】: 罫線とテキスト効果( ドロップシャドウ・文字色・文字枠線 )",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v01-basic.git && cd php-req-v01-basic && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  1】: PHP 単純 select",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v02-sql-item-layout.git && cd php-req-v02-sql-item-layout && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  2】: PHP SQL と CSS による表示方法の整備",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v03-csv-download.git && cd php-req-v03-csv-download && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  3】: PHP JavaScript によるテーブルデータの CSV ダウンロード",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v04-table-scroll.git && cd php-req-v04-table-scroll && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  4】: PHP CSS によるテーブル部分のスクロール",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v05-row-update.git && cd php-req-v05-row-update && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  5】: PHP INPUT 要素で行単位更新",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v06-row-update-td-input.git && cd php-req-v06-row-update-td-input && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  6】: PHP 動的な INPUT 要素で行単位更新",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v07-row-update-checked.git && cd php-req-v07-row-update-checked && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  7】: PHP チェックボックス行の更新",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-v08-row-update-selected.git && cd php-req-v08-row-update-selected && rmdir .git /S /Q",
+                "name": "🟥 【問合せ ver  8】: PHP 行転送先の更新",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-ajax-v01-table-scroll.git && cd php-req-ajax-v01-table-scroll && rmdir .git /S /Q",
+                "name": "🟥 【ajax 問合せ ver  1】: CSS によるテーブル部分のスクロール",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-req-ajax-v02-row-update.git && cd php-req-ajax-v02-row-update && rmdir .git /S /Q",
+                "name": "🟥 【ajax 問合せ ver  2】: INPUT 要素で行単位更新",
+                "auto": true,
+                "group": "🟠 PHP-3-問合せ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v01-upload-one-file.git && cd php-v01-upload-one-file && rmdir .git /S /Q",
+                "name": "🟥 【アップロード ver  1】: PHPノーマル１ファイルアップロード",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v02-upload-display-image.git && cd php-v02-upload-display-image && rmdir .git /S /Q",
+                "name": "🟥 【アップロード ver  2】: 選択した画像の表示",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v03-upload-ajax-selected.git && cd php-v03-upload-ajax-selected && rmdir .git /S /Q",
+                "name": "🟥 【アップロード ver  3】: JavaScript でバイナリ画像データを作成して ajax でアップロード",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v04-upload-webrtc-camera.git && cd php-v04-upload-webrtc-camera && rmdir .git /S /Q",
+                "name": "🟥 【アップロード ver  4】: WebRTCでカメラ画像でバイナリ画像データを作成して ajax でアップロード",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v05-upload-multiple.git && cd php-v05-upload-multiple && rmdir .git /S /Q",
+                "name": "🟥 【アップロード ver  5】: 複数一括ファイル選択で画像でバイナリ画像データを作成して ajax でアップロード",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v06-upload-drag-drop.git && cd php-v06-upload-drag-drop && rmdir .git /S /Q",
+                "name": "🟥 【アップロード ver  6】: 複数ファイルドラッグ-ドロップで画像でバイナリ画像データを作成して ajax でアップロード",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "start chrome https://www.php.net/manual/ja/function.mb-send-mail.php && exit",
+                "name": "───────────────────────────────【mb_send_mail】",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v01-mail-mysqli.git && cd php-v01-mail-mysqli && rmdir .git /S /Q",
+                "name": "🟥 【メール送信 ver  1】: MySQL 登録後 XAMPP 内 sendmail.exe で送信",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v02-mail-ajax.git && cd php-v02-mail-ajax && rmdir .git /S /Q",
+                "name": "🟥 【メール送信 ver  2】: MySQL 登録後 XAMPP 内 sendmail で ajax 送信",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v03-mail-ajax-attachment.git && cd php-v03-mail-ajax-attachment && rmdir .git /S /Q",
+                "name": "🟥 【メール送信 ver  3】: MySQL 登録後 XAMPP 内 sendmail で ajax ファイル添付",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v04-mail-ajax-jquery-ui.git && cd php-v04-mail-ajax-jquery-ui && rmdir .git /S /Q",
+                "name": "🟥 【メール送信 ver  4】: MySQL 登録後 XAMPP 内 sendmail で ajax ファイル添付( 日付コントロール2種類 )",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v05-mail-ajax-external-file.git && cd php-v05-mail-ajax-external-file && rmdir .git /S /Q",
+                "name": "🟥 【メール送信 ver  5】: MySQL 登録後 XAMPP 内 sendmail で ajax ファイル添付( 外部ファイル利用 )",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-v06-mail-window-open-history.git && cd php-v06-mail-window-open-history && rmdir .git /S /Q",
+                "name": "🟥 【メール送信 ver  6】: MySQL 登録後 XAMPP 内 sendmail( window.open で送信履歴表示 )",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "start chrome https://cdnjs.com/ && exit",
+                "name": "───────────────────────────────【JavaScript : cdnjs】",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v01-load-text.git && cd js-v01-load-text && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  1】: テキストデータを読込み",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v02-save-text.git && cd js-v02-save-text && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  2】: テキストデータを保存",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v03-table-control.git && cd js-v03-table-control && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  3】: テーブル表示のコントロール",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v04-localstorage-diary.git && cd js-v04-localstorage-diary && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  4】: localStorage                ",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v05-clipboard.git && cd js-v05-clipboard && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  5】: クリップボード",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v06-speech-recognition.git && cd js-v06-speech-recognition && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  6】: 音声認識",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v07-balloon.git && cd js-v07-balloon && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  7】: バルーン",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v08-pie-chart.git && cd js-v08-pie-chart && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  8】: 円グラフ",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-v09-line-chart.git && cd js-v09-line-chart && rmdir .git /S /Q",
+                "name": "🟥 【JavaScript ver  9】: 折れ線グラフ",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
+                "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && move MySQL.md action && move README.md action && Code lightbox.code-workspace && exit",
+                "name": "🟥 販売管理リソース",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "name": "🟥 SQLite3 初期セット",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/subject-2022-software/raw/main/lightbox/ WinOfSql105.zip && exit",
+                "name": "🟥 WinOfSql105.zip",
+                "auto": true,
+                "group": "📥 ダウンロード"
+            },
+            {
+                "command": "%windir%\\syswow64\\odbcad32.exe && exit",
+                "name": "🔶 ODBC32",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "%windir%\\system32\\odbcad32.exe && exit",
+                "name": "🔶 ODBC64",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "%windir%\\system32\\services.msc && exit",
+                "name": "🔶 サービス",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "RunDLL32.EXE shell32.dll,Control_RunDLL appwiz.cpl && exit",
+                "name": "🔶 プログラムと機能",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "SystemPropertiesAdvanced.exe && exit",
+                "name": "🔶 システムの詳細設定 ( 環境変数へのダイアログ )",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "rundll32.exe shell32.dll,SHHelpShortcuts_RunDLL Connect",
+                "name": "🔶 ネッワークドライブの割り当て",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,0 && exit",
+                "name": "🔶 デスクトップアイコンの設定",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "Rundll32.exe shell32.dll,Control_RunDLL ncpa.cpl && exit",
+                "name": "🔶 ネットワーク接続",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "powershell -NoProfile -ExecutionPolicy unrestricted -WindowStyle hidden -Command \"start %windir%\\system32\\cleanmgr.exe -verb runas\" && exit",
+                "name": "🧹 クリーンアップ( システム権限 )",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "mstsc.exe && exit",
+                "name": "🔗 リモートデスクトップ",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "mspaint.exe && exit",
+                "name": "🔶 ペイント",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "explorer.exe shell:SendTo && exit",
+                "name": "📂 SendTo フォルダ",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "explorer.exe shell:Startup && exit",
+                "name": "📂 スタートアップ フォルダ",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "Rundll32.exe devmgr.dll DeviceManager_Execute && exit",
+                "name": "🏭 デバイスマネージャ",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "wf.msc && exit",
+                "name": "🏭 ファイアーウォール 詳細",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "\"%ProgramFiles%\\Common Files\\Microsoft Shared\\MSInfo\\msinfo32.exe\" && exit",
+                "name": "🔑 システム情報",
+                "auto": true,
+                "group": "🔳 Windows"
+            },
+            {
+                "command": "control.exe /name Microsoft.WindowsUpdate && exit",
+                "name": "🔄 Windows Update",
+                "auto": true,
+                "group": "🔳 Windows"
+            }
+        ]
+    }

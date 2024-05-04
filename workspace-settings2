@@ -291,18 +291,6 @@
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "%windir%\\system32\\cleanmgr.exe && exit",
-                "name": "──────────────────────────────────【ディスク クリーンアップ】",
-                "auto": true,
-                "group": "🟠 PHP-1"
-            },
-            {
-                "command": "cd ..\\..\\ && git clone https://github.com/winofsql/subject-1104-web-action-set.git && cd subject-1104-web-action-set && rmdir .git /S /Q",
-                "name": "🟥 【プロジェクト】PHP + C# + Java ( WEB GET 更新 API / JSON )",
-                "auto": true,
-                "group": "🟠 PHP-1"
-            },
-            {
                 "command": "git clone https://github.com/winofsql/php-mtn-v01-update-sqlite.git && cd php-mtn-v01-update-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  1】: 表示して修正",
                 "auto": true,

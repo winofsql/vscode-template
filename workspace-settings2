@@ -73,7 +73,7 @@
             "files.encoding": "shiftjis"
         },
         "[php]": {
-            "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+            "editor.defaultFormatter": null
         },
         "[javascript]": {
             "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -196,8 +196,8 @@
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "mkdir php-pdo-select-basic && cd php-pdo-select-basic && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-pdo-select-basic/raw/main README.md connect.php db-select-01-array.php db-select-02-heredoc.php setting.php",
-                "name": "🐬 PHP PDO SELECT LOOP サンプル",
+                "command": "mkdir php-pdo-select-basic-sqlite && cd php-pdo-select-basic-sqlite && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-pdo-select-basic-sqlite/raw/main README.md connect.php db-select-01-array.php db-select-02-heredoc.php setting.php",
+                "name": "✅ PHP PDO SELECT LOOP サンプル",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },

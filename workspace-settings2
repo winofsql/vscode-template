@@ -190,7 +190,7 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "mkdir php-mvc-mysql-insert && cd php-mvc-mysql-insert && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-mysql-insert/raw/main connect.php control.php model.php setting.php view.php",
+                "command": "mkdir php-mvc-sqlite-insert && cd php-mvc-sqlite-insert && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-sqlite-insert/raw/main connect.php control.php model.php setting.php view.php",
                 "name": "✅ PHP MVC テンプレートファイル",
                 "auto": true,
                 "group": "🟠 PHP-1"

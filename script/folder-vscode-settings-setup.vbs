@@ -14,12 +14,15 @@ Set Stream3 = CreateObject("ADODB.Stream")
 Set f = fso.GetFolder(".")
 Set sf = f.SubFolders
 
-settings = "https://github.com/winofsql/subject/raw/main/workspace/.vscode/settings.json"
+settings = "https://github.com/winofsql/subject-2022/raw/main/zz-workspace/.vscode/settings.json"
 if param = "2" then 
 	settings = "https://github.com/winofsql/subject2/raw/main/workspace/.vscode/settings.json"
 end if
 if param = "3" then
 	settings = "https://github.com/winofsql/subject3/raw/main/workspace/.vscode/settings.json"
+end if
+if param = "4" then
+	settings = "https://github.com/winofsql/subject4/raw/main/workspace/.vscode/settings.json"
 end if
 
 Dim text
@@ -36,13 +39,13 @@ For Each f1 in sf
     text = ""
     if inStr( f1.name, "java" ) > 0 Then
         Call GetSetting( "https://github.com/winofsql/vscode-template/raw/main/java/.vscode/launch.json", f1.path )
-        Call GetSetting( settings, f1.path )
+        ' Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "bat" ) > 0 Then
         Call GetSetting( settings, f1.path )
         WorkspacePath
     ElseIf inStr( f1.name, "cs" ) > 0 Then
-        Call GetSetting( settings, f1.path )
+        ' Call GetSetting( settings, f1.path )
         Call GetSettingCs( "https://github.com/winofsql/vscode-template/raw/main/csharp/.vscode/", f1.path, f1.name )
         WorkspacePath
     ElseIf inStr( f1.name, "js" ) > 0 or inStr( f1.name, "javascript" ) > 0 or inStr( f1.name, "jscript" ) > 0 Then
@@ -84,6 +87,9 @@ if param = "2" then
 end if
 if param = "3" then
 	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/workspace-settings-java" & "?dummy=" & Timer
+end if
+if param = "4" then
+	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/workspace-settings2" & "?dummy=" & Timer
 end if
 
 Call objSrvHTTP.Open("GET", ActionPath, False )

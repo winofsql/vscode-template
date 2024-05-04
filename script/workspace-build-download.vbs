@@ -22,4 +22,7 @@ end if
 if param = "3" then
 	ActionPath = "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\folder-vscode-settings-setup.vbs 3"
 end if
+if param = "4" then
+	ActionPath = "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\folder-vscode-settings-setup.vbs 4"
+end if
 WshShell.Run(ActionPath)

@@ -106,6 +106,11 @@
         "print.markdownRenderingTableStyle": "font-family:\"メイリオ\", sans-serif; border-top:thin solid grey; border-left:thin solid grey;",
         "runTerminalCommand.commands": [
             {
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
+                "name": "🌏 localhost ( XAMPP Alias ) ",
+                "auto": true
+            },
+            {
                 "command": "if exist c:\\app\\workspace ( cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject4 && exit ) else ( c: && mkdir \\app\\workspace && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\gitd.vbs subject4 && exit )",
                 "name": "🟥 SUBJECT 今日の日( app\\workspace に作成 )",
                 "auto": true,
@@ -136,8 +141,8 @@
                 "group": "🖐 設定"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\start-localhost.vbs && exit",
-                "name": "🌏 localhost ( XAMPP Alias ) ",
+                "command": "start chrome http://localhost/ && exit",
+                "name": "🌏 Apache ROOT localhost",
                 "auto": true,
                 "group": "🔄 テスト"
             },
@@ -156,18 +161,6 @@
             {
                 "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\build-dir.vbs sql && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 4 && exit",
                 "name": "📂 SQL フォルダ作成",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "Code C:\\xampp && exit",
-                "name": "──────────────────────────────────【XAMPP Folder】",
-                "auto": true,
-                "group": "🔄 テスト"
-            },
-            {
-                "command": "start chrome http://localhost/ && exit",
-                "name": "🌏 Apache ROOT localhost",
                 "auto": true,
                 "group": "🔄 テスト"
             },

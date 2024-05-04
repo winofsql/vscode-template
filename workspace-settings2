@@ -148,7 +148,7 @@
                 "group": "🔄 テスト"
             },
             {
-                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\php-folder.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && exit",
+                "command": "cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\php-folder.vbs && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs && C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/resource-winofsql/raw/main/sqlite3 lightbox.sqlite3 && exit",
                 "name": "📂 PHP フォルダ作成",
                 "auto": true,
                 "group": "🔄 テスト"
@@ -232,7 +232,7 @@
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v06-database.git && cd php-board-v06-database && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-board-v06-database.git && cd php-board-v06-database-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver  6】MVC 掲示板 : IFRAME データベース( MySQL )",
                 "auto": true,
                 "group": "🟠 PHP-1"

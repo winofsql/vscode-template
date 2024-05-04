@@ -549,6 +549,12 @@
                 "group": "🟠 PHP-4"
             },
             {
+                "command": "git clone https://github.com/winofsql/js-jquery-ui-datepicker.git && cd js-jquery-ui-datepicker && rmdir .git /S /Q",
+                "name": "🟥 【jQuery UI Datepicker】: 1 ～ 7",
+                "auto": true,
+                "group": "🟠 PHP-5"
+            },
+            {
                 "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && move MySQL.md action && move README.md action && Code lightbox.code-workspace && exit",
                 "name": "🟥 販売管理リソース",
                 "auto": true,

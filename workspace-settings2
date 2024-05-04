@@ -233,66 +233,66 @@
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v06-database-sqlite.git && cd php-board-v06-database-sqlite && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver  6】MVC 掲示板 : IFRAME データベース( MySQL )",
+                "name": "🟥 【掲示板 ver  6】MVC 掲示板 : IFRAME データベース( sqlite3 )",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v07-database-browser-check.git && cd php-board-v07-database-browser-check && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver  7】MVC 掲示板 : IFRAME データベース( MySQL ) ブラウザチェック",
+                "command": "git clone https://github.com/winofsql/php-board-v07-database-browser-check-sqlite.git && cd php-board-v07-database-browser-check-sqlite && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  7】MVC 掲示板 : IFRAME データベース( sqlite3 ) ブラウザチェック",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v08-database-update.git && cd php-board-v08-database-update && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver  8】MVC 掲示板 : IFRAME データベース( MySQL ) データ修正",
+                "command": "git clone https://github.com/winofsql/php-board-v08-database-update-sqlite.git && cd php-board-v08-database-update-sqlite && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  8】MVC 掲示板 : IFRAME データベース( sqlite3 ) データ修正",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v09-database-delete.git && cd php-board-v09-database-delete && rmdir .git /S /Q",
-                "name": "🟥 【掲示板 ver  9】MVC 掲示板 : IFRAME データベース( MySQL ) データ削除",
+                "command": "git clone https://github.com/winofsql/php-board-v09-database-delete-sqlite.git && cd php-board-v09-database-delete-sqlite && rmdir .git /S /Q",
+                "name": "🟥 【掲示板 ver  9】MVC 掲示板 : IFRAME データベース( sqlite3 ) データ削除",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v10-js-data.git && cd php-board-v10-js-data && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-board-v10-js-data-sqlite.git && cd php-board-v10-js-data-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 10】MVC 掲示板 : localStorage と クリップボード利用",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v11-image-upload.git && cd php-board-v11-image-upload && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-board-v11-image-upload-sqlite.git && cd php-board-v11-image-upload-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 11】MVC 掲示板 : 画像アップロード(のみ)",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v12-image-database.git && cd php-board-v12-image-database && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-board-v12-image-database-sqlite.git && cd php-board-v12-image-database-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 12】MVC 掲示板 : 画像名をデータベースに登録",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v13-display-image.git && cd php-board-v13-display-image && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-board-v13-display-image-sqlite.git && cd php-board-v13-display-image-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 13】MVC 掲示板 : 画像を掲示板に表示",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v14-text-image-upload.git && cd php-board-v14-text-image-upload && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-board-v14-text-image-upload-sqlite.git && cd php-board-v14-text-image-upload-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 14】MVC 掲示板 : 新規投稿で画像をアップロード",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v15-lightbox2-image.git && cd php-board-v15-lightbox2-image && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-board-v15-lightbox2-image-sqlite.git && cd php-board-v15-lightbox2-image-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 15】MVC 掲示板 : Lightbox2 で画像表示",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-board-v16-gd-small-image.git && cd php-board-v16-gd-small-image && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-board-v16-gd-small-image-sqlite.git && cd php-board-v16-gd-small-image-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 16】MVC 掲示板 : 画像を縮小してサムネイルとして使用する",
                 "auto": true,
                 "group": "🟠 PHP-1"
@@ -310,85 +310,85 @@
                 "group": "🟠 PHP-1"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v01-update.git && cd php-mtn-v01-update && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v01-update-sqlite.git && cd php-mtn-v01-update-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  1】: 表示して修正",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v02-update-model.git && cd php-mtn-v02-update-model && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v02-update-model-sqlite.git && cd php-mtn-v02-update-model-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  2】: 標準化開始",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v03-update-insert.git && cd php-mtn-v03-update-insert && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v03-update-insert-sqlite.git && cd php-mtn-v03-update-insert-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  3】: 新規登録を追加",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v04-communication.git && cd php-mtn-v04-communication && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v04-communication-sqlite.git && cd php-mtn-v04-communication-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  4】: 会話処理(2会話)",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v05-enter-control.git && cd php-mtn-v05-enter-control && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v05-enter-control-sqlite.git && cd php-mtn-v05-enter-control-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  5】: Enter キーで次のフィールドへ移動",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v06-combo-box.git && cd php-mtn-v06-combo-box && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v06-combo-box-sqlite.git && cd php-mtn-v06-combo-box-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  6】: コンボボックスの実装",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v07-html-validator.git && cd php-mtn-v07-html-validator && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v07-html-validator-sqlite.git && cd php-mtn-v07-html-validator-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  7】: HTML 要素の属性による入力制御",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v08-sql-adjustment.git && cd php-mtn-v08-sql-adjustment && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v08-sql-adjustment-sqlite.git && cd php-mtn-v08-sql-adjustment-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  8】: SQL の調整",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v09-type-date.git && cd php-mtn-v09-type-date && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v09-type-date-sqlite.git && cd php-mtn-v09-type-date-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver  9】: カレンダーコントロールの実装",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v10-check-entry.git && cd php-mtn-v10-check-entry && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v10-check-entry-sqlite.git && cd php-mtn-v10-check-entry-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver 10】: PHP 会話の標準的なエラー処理",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v11-edit-control.git && cd php-mtn-v11-edit-control && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v11-edit-control-sqlite.git && cd php-mtn-v11-edit-control-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver 11】: PHP 編集処理の標準化",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v12-iframe-ref1.git && cd php-mtn-v12-iframe-ref1 && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v12-iframe-ref1-sqlite.git && cd php-mtn-v12-iframe-ref1-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver 12】: PHP 管理者の IFRAME 問い合わせ参照",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v13-iframe-ref2.git && cd php-mtn-v13-iframe-ref2 && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v13-iframe-ref2-sqlite.git && cd php-mtn-v13-iframe-ref2-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver 13】: PHP 社員コードの IFRAME 問い合わせ参照",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-mtn-v14-pdf-print.git && cd php-mtn-v14-pdf-print && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-mtn-v14-pdf-print-sqlite.git && cd php-mtn-v14-pdf-print && rmdir .git /S /Q",
                 "name": "🟥 【マスタメンテ ver 14】: PHP 社員一覧印刷処理( TCPDF )",
                 "auto": true,
                 "group": "🟠 PHP-2-マスタメンテ"
@@ -412,61 +412,61 @@
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-v01-basic.git && cd php-req-v01-basic && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-v01-basic-sqlite.git && cd php-req-v01-basic-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  1】: PHP 単純 select",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-v02-sql-item-layout.git && cd php-req-v02-sql-item-layout && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-v02-sql-item-layout-sqlite.git && cd php-req-v02-sql-item-layout-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  2】: PHP SQL と CSS による表示方法の整備",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-v03-csv-download.git && cd php-req-v03-csv-download && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-v03-csv-download-sqlite.git && cd php-req-v03-csv-download-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  3】: PHP JavaScript によるテーブルデータの CSV ダウンロード",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-v04-table-scroll.git && cd php-req-v04-table-scroll && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-v04-table-scroll-sqlite.git && cd php-req-v04-table-scroll-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  4】: PHP CSS によるテーブル部分のスクロール",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-v05-row-update.git && cd php-req-v05-row-update && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-v05-row-update-sqlite.git && cd php-req-v05-row-update-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  5】: PHP INPUT 要素で行単位更新",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-v06-row-update-td-input.git && cd php-req-v06-row-update-td-input && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-v06-row-update-td-input-sqlite.git && cd php-req-v06-row-update-td-input-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  6】: PHP 動的な INPUT 要素で行単位更新",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-v07-row-update-checked.git && cd php-req-v07-row-update-checked && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-v07-row-update-checked-sqlite.git && cd php-req-v07-row-update-checked-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  7】: PHP チェックボックス行の更新",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-v08-row-update-selected.git && cd php-req-v08-row-update-selected && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-v08-row-update-selected-sqlite.git && cd php-req-v08-row-update-selected-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  8】: PHP 行転送先の更新",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-ajax-v01-table-scroll.git && cd php-req-ajax-v01-table-scroll && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-ajax-v01-table-scroll-sqlite.git && cd php-req-ajax-v01-table-scroll-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【ajax 問合せ ver  1】: CSS によるテーブル部分のスクロール",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-req-ajax-v02-row-update.git && cd php-req-ajax-v02-row-update && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/php-req-ajax-v02-row-update-sqlite.git && cd php-req-ajax-v02-row-update-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【ajax 問合せ ver  2】: INPUT 要素で行単位更新",
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
@@ -504,48 +504,6 @@
             {
                 "command": "git clone https://github.com/winofsql/php-v06-upload-drag-drop.git && cd php-v06-upload-drag-drop && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  6】: 複数ファイルドラッグ-ドロップで画像でバイナリ画像データを作成して ajax でアップロード",
-                "auto": true,
-                "group": "🟠 PHP-4"
-            },
-            {
-                "command": "start chrome https://www.php.net/manual/ja/function.mb-send-mail.php && exit",
-                "name": "───────────────────────────────【mb_send_mail】",
-                "auto": true,
-                "group": "🟠 PHP-4"
-            },
-            {
-                "command": "git clone https://github.com/winofsql/php-v01-mail-mysqli.git && cd php-v01-mail-mysqli && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  1】: MySQL 登録後 XAMPP 内 sendmail.exe で送信",
-                "auto": true,
-                "group": "🟠 PHP-4"
-            },
-            {
-                "command": "git clone https://github.com/winofsql/php-v02-mail-ajax.git && cd php-v02-mail-ajax && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  2】: MySQL 登録後 XAMPP 内 sendmail で ajax 送信",
-                "auto": true,
-                "group": "🟠 PHP-4"
-            },
-            {
-                "command": "git clone https://github.com/winofsql/php-v03-mail-ajax-attachment.git && cd php-v03-mail-ajax-attachment && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  3】: MySQL 登録後 XAMPP 内 sendmail で ajax ファイル添付",
-                "auto": true,
-                "group": "🟠 PHP-4"
-            },
-            {
-                "command": "git clone https://github.com/winofsql/php-v04-mail-ajax-jquery-ui.git && cd php-v04-mail-ajax-jquery-ui && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  4】: MySQL 登録後 XAMPP 内 sendmail で ajax ファイル添付( 日付コントロール2種類 )",
-                "auto": true,
-                "group": "🟠 PHP-4"
-            },
-            {
-                "command": "git clone https://github.com/winofsql/php-v05-mail-ajax-external-file.git && cd php-v05-mail-ajax-external-file && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  5】: MySQL 登録後 XAMPP 内 sendmail で ajax ファイル添付( 外部ファイル利用 )",
-                "auto": true,
-                "group": "🟠 PHP-4"
-            },
-            {
-                "command": "git clone https://github.com/winofsql/php-v06-mail-window-open-history.git && cd php-v06-mail-window-open-history && rmdir .git /S /Q",
-                "name": "🟥 【メール送信 ver  6】: MySQL 登録後 XAMPP 内 sendmail( window.open で送信履歴表示 )",
                 "auto": true,
                 "group": "🟠 PHP-4"
             },

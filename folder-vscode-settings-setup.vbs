@@ -21,6 +21,9 @@ end if
 if param = "3" then
 	settings = "https://github.com/winofsql/subject3/raw/main/workspace/.vscode/settings.json"
 end if
+if param = "4" then
+	settings = "https://github.com/winofsql/subject4/raw/main/workspace/.vscode/settings.json"
+end if
 
 Dim text
 

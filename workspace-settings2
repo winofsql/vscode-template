@@ -375,12 +375,6 @@
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
-                "command": "git clone https://github.com/winofsql/php-print-v01-gothic.git && cd php-print-v01-gothic && rmdir .git /S /Q",
-                "name": "🟥 【印刷 ver  1】: フォント変更・タイトルサイズ変更",
-                "auto": true,
-                "group": "🟠 PHP-2-マスタメンテ"
-            },
-            {
                 "command": "git clone https://github.com/winofsql/php-print-v01-gothic-sqlite.git && cd php-print-v01-gothic-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【印刷 ver  1】: フォント変更・タイトルサイズ変更",
                 "auto": true,

@@ -549,7 +549,7 @@
                 "group": "🟠 PHP-5"
             },
             {
-                "command": "git clone https://github.com/winofsql/js-jquery-ui-tabs-accordion.git && cd js-jquery-ui-dtabs-accordion && rmdir .git /S /Q",
+                "command": "git clone https://github.com/winofsql/js-jquery-ui-tabs-accordion.git && cd js-jquery-ui-tabs-accordion && rmdir .git /S /Q",
                 "name": "🟥 【jQuery UI Tabs & Accordion】",
                 "auto": true,
                 "group": "🟠 PHP-5"

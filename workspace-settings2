@@ -549,6 +549,18 @@
                 "group": "🟠 PHP-5"
             },
             {
+                "command": "git clone https://github.com/winofsql/js-jquery-ui-tabs-accordion .git && cd js-jquery-ui-dtabs-accordion ialog && rmdir .git /S /Q",
+                "name": "🟥 【jQuery UI Tabs & Accordion】",
+                "auto": true,
+                "group": "🟠 PHP-5"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-jquery-ui-spinner.git && cd js-jquery-ui-dialog-spinner && rmdir .git /S /Q",
+                "name": "🟥 【jQuery UI spinner 】",
+                "auto": true,
+                "group": "🟠 PHP-5"
+            },
+            {
                 "command": "%windir%\\syswow64\\odbcad32.exe && exit",
                 "name": "──────────────────────────────────【ODBC 32】",
                 "auto": true,

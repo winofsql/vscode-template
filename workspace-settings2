@@ -196,7 +196,7 @@
             },
             {
                 "command": "%windir%\\system32\\odbcad32.exe && exit",
-                "name": "──────────────────────────────────【ODBC 32】",
+                "name": "──────────────────────────────────【ODBC 64】",
                 "auto": true,
                 "group": "🟠 PHP-1"
             },
@@ -545,6 +545,12 @@
             {
                 "command": "git clone https://github.com/winofsql/js-jquery-ui-datepicker.git && cd js-jquery-ui-datepicker && rmdir .git /S /Q",
                 "name": "🟥 【jQuery UI Datepicker】: 1 ～ 7",
+                "auto": true,
+                "group": "🟠 PHP-5"
+            },
+            {
+                "command": "%windir%\\syswow64\\odbcad32.exe && exit",
+                "name": "──────────────────────────────────【ODBC 32】",
                 "auto": true,
                 "group": "🟠 PHP-5"
             },

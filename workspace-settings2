@@ -555,7 +555,7 @@
                 "group": "📥 ダウンロード"
             },
             {
-                "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 2 && exit",
+                "command": "cd ..\\ && git clone https://github.com/winofsql/sqlite3-csv.git && cd sqlite3-csv && rmdir .git /S /Q && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\workspace-build-download.vbs 4 && exit",
                 "name": "🟥 SQLite3 初期セット",
                 "auto": true,
                 "group": "📥 ダウンロード"

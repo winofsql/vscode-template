@@ -88,6 +88,9 @@ end if
 if param = "3" then
 	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/workspace-settings-java" & "?dummy=" & Timer
 end if
+if param = "4" then
+	ActionPath = "https://github.com/winofsql/vscode-template/raw/main/workspace-settings2" & "?dummy=" & Timer
+end if
 
 Call objSrvHTTP.Open("GET", ActionPath, False )
 objSrvHTTP.Send

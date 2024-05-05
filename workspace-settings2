@@ -446,7 +446,7 @@
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
-            {
+       {
                 "command": "git clone https://github.com/winofsql/php-v01-upload-one-file.git && cd php-v01-upload-one-file && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  1】: PHPノーマル１ファイルアップロード",
                 "auto": true,
@@ -489,62 +489,80 @@
                 "group": "🟠 PHP-4"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-download.git && cd php-download && rmdir .git /S /Q",
+                "name": "🟥 【PHP 側でファイルをダウンロードさせる処理】",
+                "auto": true,
+                "group": "🟠 PHP-4"
+            },
+            {
                 "command": "git clone https://github.com/winofsql/js-v01-load-text.git && cd js-v01-load-text && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  1】: テキストデータを読込み",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-5"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v02-save-text.git && cd js-v02-save-text && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  2】: テキストデータを保存",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-5"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v03-table-control.git && cd js-v03-table-control && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  3】: テーブル表示のコントロール",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-5"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v04-localstorage-diary.git && cd js-v04-localstorage-diary && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  4】: localStorage                ",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-5"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v05-clipboard.git && cd js-v05-clipboard && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  5】: クリップボード",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-5"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v06-speech-recognition.git && cd js-v06-speech-recognition && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  6】: 音声認識",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-5"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v07-balloon.git && cd js-v07-balloon && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  7】: バルーン",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-5"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v08-pie-chart.git && cd js-v08-pie-chart && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  8】: 円グラフ",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-5"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v09-line-chart.git && cd js-v09-line-chart && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  9】: 折れ線グラフ",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-5"
+            },
+            {
+                "command": "start chrome https://jqueryui.com/ && exit",
+                "name": "───────────────────────────────【jQuery UI】",
+                "auto": true,
+                "group": "🟠 PHP-5"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-jquery-ui-datepicker.git && cd js-jquery-ui-datepicker && rmdir .git /S /Q",
                 "name": "🟥 【jQuery UI Datepicker】: 1 ～ 7",
+                "auto": true,
+                "group": "🟠 PHP-5"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-jquery-ui-dialog.git && cd js-jquery-ui-dialog && rmdir .git /S /Q",
+                "name": "🟥 【jQuery UI Dialog】: 1 ～ 3",
                 "auto": true,
                 "group": "🟠 PHP-5"
             },
@@ -561,10 +579,16 @@
                 "group": "🟠 PHP-5"
             },
             {
-                "command": "%windir%\\syswow64\\odbcad32.exe && exit",
-                "name": "──────────────────────────────────【ODBC 32】",
+                "command": "git clone https://github.com/winofsql/js-form-check.git && cd js-form-check && rmdir .git /S /Q",
+                "name": "🟥 【FORM 入力チェック】",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-6"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-check-submit-button.git && cd js-check-submit-button && rmdir .git /S /Q",
+                "name": "🟥 【FORM 送信時、クリックしたボタンを判断する】",
+                "auto": true,
+                "group": "🟠 PHP-6"
             },
             {
                 "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && move MySQL.md action && move README.md action && Code lightbox.code-workspace && exit",

@@ -639,6 +639,36 @@
                 "group": "🟠 PHP-6 JavaScript"
             },
             {
+                "command": "git clone https://github.com/winofsql/js-zoom.git && cd js-zoom && rmdir .git /S /Q",
+                "name": "🟥 【コンテンツの Zoom】",
+                "auto": true,
+                "group": "🟠 PHP-6 JavaScript"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-blackout.git && cd js-blackout && rmdir .git /S /Q",
+                "name": "🟥 【クリックした要素以外を暗転】",
+                "auto": true,
+                "group": "🟠 PHP-6 JavaScript"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-box-circle-morphing.git && cd js-box-circle-morphing && rmdir .git /S /Q",
+                "name": "🟥 【四角形 <=> 円 のモーフィングアニメーション】",
+                "auto": true,
+                "group": "🟠 PHP-6 JavaScript"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-fullscreen.git && cd js-fullscreen && rmdir .git /S /Q",
+                "name": "🟥 【フルスクリーン API】",
+                "auto": true,
+                "group": "🟠 PHP-6 JavaScript"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/js-speech.git && cd js-speech && rmdir .git /S /Q",
+                "name": "🟥 【機械音声スピーチ】",
+                "auto": true,
+                "group": "🟠 PHP-6 JavaScript"
+            },
+            {
                 "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && move MySQL.md action && move README.md action && Code lightbox.code-workspace && exit",
                 "name": "🟥 販売管理リソース",
                 "auto": true,

@@ -27,7 +27,7 @@ If objFSO.FolderExists("..\" & repoName & "01") Then
 
         newRepoName = repoName &  Right( "0" & i, 2 )
     Loop
-	' ƒtƒHƒ‹ƒ_‚ğì¬‚·‚é
+	' Æ’tÆ’HÆ’â€¹Æ’_â€šÃ°ÂÃ¬ÂÂ¬â€šÂ·â€šÃ©
 	objFSO.CreateFolder("..\" & newRepoName)
 	
 	repoPath = objShell.CurrentDirectory
@@ -61,5 +61,6 @@ objShell.Run "cmd /c cscript C:\Users\%USERNAME%\AppData\Roaming\Code\User\scrip
 if param = "2" then
 
 	objShell.Run "cmd /c cscript C:\Users\%USERNAME%\AppData\Roaming\Code\User\script\download.vbs https://github.com/winofsql/resource-winofsql/raw/main/sqlite3 lightbox.sqlite3 bbs.sqlite3", 0, True
+	objShell.Run "cmd /c git clone  https://github.com/winofsql/tcpdf.git && cd tcpdf && rmdir .git /S /Q", 0, True
 
 end if

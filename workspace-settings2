@@ -186,109 +186,109 @@
                 "command": "mkdir php-mvc-sqlite-insert && cd php-mvc-sqlite-insert && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-mvc-sqlite-insert/raw/main connect.php control.php model.php setting.php view.php",
                 "name": "✅ PHP MVC テンプレートファイル",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "mkdir php-pdo-select-basic-sqlite && cd php-pdo-select-basic-sqlite && cscript C:\\Users\\%USERNAME%\\AppData\\Roaming\\Code\\User\\script\\download.vbs https://github.com/winofsql/php-pdo-select-basic-sqlite/raw/main README.md connect.php db-select-01-array.php db-select-02-heredoc.php setting.php",
                 "name": "✅ PHP PDO SELECT LOOP サンプル",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "%windir%\\system32\\odbcad32.exe && exit",
                 "name": "──────────────────────────────────【ODBC 64】",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v02-textfile.git && cd php-board-v02-textfile && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver  2】MVC 掲示板 : テキストファイル",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v03-iframe-textfile.git && cd php-board-v03-iframe-textfile && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver  3】MVC 掲示板 : IFRAME テキストファイル",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v04-iframe-textfile-final.git && cd php-board-v04-iframe-textfile-final && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver  4】MVC 掲示板 : IFRAME テキストファイル 標準化",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v05-iframe-json.git && cd php-board-v05-iframe-json && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver  5】MVC 掲示板 : IFRAME JSON",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v06-database-sqlite.git && cd php-board-v06-database-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver  6】MVC 掲示板 : IFRAME データベース( sqlite3 )",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v07-database-browser-check-sqlite.git && cd php-board-v07-database-browser-check-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver  7】MVC 掲示板 : IFRAME データベース( sqlite3 ) ブラウザチェック",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v08-database-update-sqlite.git && cd php-board-v08-database-update-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver  8】MVC 掲示板 : IFRAME データベース( sqlite3 ) データ修正",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v09-database-delete-sqlite.git && cd php-board-v09-database-delete-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver  9】MVC 掲示板 : IFRAME データベース( sqlite3 ) データ削除",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v10-js-data-sqlite.git && cd php-board-v10-js-data-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 10】MVC 掲示板 : localStorage と クリップボード利用",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v11-image-upload-sqlite.git && cd php-board-v11-image-upload-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 11】MVC 掲示板 : 画像アップロード(のみ)",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v12-image-database-sqlite.git && cd php-board-v12-image-database-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 12】MVC 掲示板 : 画像名をデータベースに登録",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v13-display-image-sqlite.git && cd php-board-v13-display-image-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 13】MVC 掲示板 : 画像を掲示板に表示",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v14-text-image-upload-sqlite.git && cd php-board-v14-text-image-upload-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 14】MVC 掲示板 : 新規投稿で画像をアップロード",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v15-lightbox2-image-sqlite.git && cd php-board-v15-lightbox2-image-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 15】MVC 掲示板 : Lightbox2 で画像表示",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-board-v16-gd-small-image-sqlite.git && cd php-board-v16-gd-small-image-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【掲示板 ver 16】MVC 掲示板 : 画像を縮小してサムネイルとして使用する",
                 "auto": true,
-                "group": "🟠 PHP-1"
+                "group": "🟠 PHP-1 掲示板"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-mtn-v01-update-sqlite.git && cd php-mtn-v01-update-sqlite && rmdir .git /S /Q",
@@ -462,181 +462,181 @@
                 "command": "git clone https://github.com/winofsql/php-v01-upload-one-file.git && cd php-v01-upload-one-file && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  1】: PHPノーマル１ファイルアップロード",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v02-upload-display-image.git && cd php-v02-upload-display-image && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  2】: 選択した画像の表示",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v03-upload-ajax-selected.git && cd php-v03-upload-ajax-selected && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  3】: JavaScript でバイナリ画像データを作成して ajax でアップロード",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v04-upload-webrtc-camera.git && cd php-v04-upload-webrtc-camera && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  4】: WebRTCでカメラ画像でバイナリ画像データを作成して ajax でアップロード",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v05-upload-multiple.git && cd php-v05-upload-multiple && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  5】: 複数一括ファイル選択で画像でバイナリ画像データを作成して ajax でアップロード",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-v06-upload-drag-drop.git && cd php-v06-upload-drag-drop && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  6】: 複数ファイルドラッグ-ドロップで画像でバイナリ画像データを作成して ajax でアップロード",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "start chrome https://cdnjs.com/ && exit",
                 "name": "───────────────────────────────【JavaScript : cdnjs】",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-download.git && cd php-download && rmdir .git /S /Q",
                 "name": "🟥 【PHP 側でファイルをダウンロードさせる処理】",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-zip-download.git && cd php-zip-download && rmdir .git /S /Q",
                 "name": "🟥 【PHP でファイルを zip でウンロードさせる処理】",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-gd-image-reduction.git && cd php-gd-image-reduction && rmdir .git /S /Q",
                 "name": "🟥 【GD で単純な画像処理( 縮小あり )】",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-sqlite3-easy-access.git && cd php-sqlite3-easy-access && rmdir .git /S /Q",
                 "name": "🟥 【PDO で簡単なデータアクセス】",
                 "auto": true,
-                "group": "🟠 PHP-4"
+                "group": "🟠 PHP-4 アップロード・その他"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v01-load-text.git && cd js-v01-load-text && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  1】: テキストデータを読込み",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v02-save-text.git && cd js-v02-save-text && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  2】: テキストデータを保存",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v03-table-control.git && cd js-v03-table-control && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  3】: テーブル表示のコントロール",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v04-localstorage-diary.git && cd js-v04-localstorage-diary && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  4】: localStorage                ",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v05-clipboard.git && cd js-v05-clipboard && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  5】: クリップボード",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v06-speech-recognition.git && cd js-v06-speech-recognition && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  6】: 音声認識",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v07-balloon.git && cd js-v07-balloon && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  7】: バルーン",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v08-pie-chart.git && cd js-v08-pie-chart && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  8】: 円グラフ",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-v09-line-chart.git && cd js-v09-line-chart && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  9】: 折れ線グラフ",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "start chrome https://jqueryui.com/ && exit",
                 "name": "───────────────────────────────【jQuery UI】",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-jquery-ui-datepicker.git && cd js-jquery-ui-datepicker && rmdir .git /S /Q",
                 "name": "🟥 【jQuery UI Datepicker】: 1 ～ 7",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-jquery-ui-dialog.git && cd js-jquery-ui-dialog && rmdir .git /S /Q",
                 "name": "🟥 【jQuery UI Dialog】: 1 ～ 3",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-jquery-ui-tabs-accordion.git && cd js-jquery-ui-tabs-accordion && rmdir .git /S /Q",
                 "name": "🟥 【jQuery UI Tabs & Accordion】",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-jquery-ui-spinner.git && cd js-jquery-ui-spinner && rmdir .git /S /Q",
                 "name": "🟥 【jQuery UI spinner 】",
                 "auto": true,
-                "group": "🟠 PHP-5"
+                "group": "🟠 PHP-5 JavaScript / jQuery UI"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-form-check.git && cd js-form-check && rmdir .git /S /Q",
                 "name": "🟥 【FORM 入力チェック】",
                 "auto": true,
-                "group": "🟠 PHP-6"
+                "group": "🟠 PHP-6 JavaScript"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-check-submit-button.git && cd js-check-submit-button && rmdir .git /S /Q",
                 "name": "🟥 【FORM 送信時、クリックしたボタンを判断する】",
                 "auto": true,
-                "group": "🟠 PHP-6"
+                "group": "🟠 PHP-6 JavaScript"
             },
             {
                 "command": "git clone https://github.com/winofsql/js-another-window-access.git && cd js-another-window-access && rmdir .git /S /Q",
                 "name": "🟥 【他のウインドウへのアクセス】: window.open, iframe",
                 "auto": true,
-                "group": "🟠 PHP-6"
+                "group": "🟠 PHP-6 JavaScript"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-image-gallery-lightbox2.git && cd php-image-gallery-lightbox2 && rmdir .git /S /Q",
                 "name": "🟥 【lightbox2 を使用したギャラリー ( 縮小画像なし )】",
                 "auto": true,
-                "group": "🟠 PHP-6"
+                "group": "🟠 PHP-6 JavaScript"
             },
             {
                 "command": "git clone https://github.com/winofsql/php-image-gallery-select.git && cd php-image-gallery-select && rmdir .git /S /Q",
                 "name": "🟥 【ギャラリー画像選択 ( Ajax 処理 )】",
                 "auto": true,
-                "group": "🟠 PHP-6"
+                "group": "🟠 PHP-6 JavaScript"
             },
             {
                 "command": "cd ..\\..\\ && start . &&  git clone https://github.com/winofsql/resource-winofsql.git && cd resource-winofsql && rmdir .git /S /Q && move MySQL.md action && move README.md action && Code lightbox.code-workspace && exit",

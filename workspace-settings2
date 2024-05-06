@@ -393,6 +393,18 @@
                 "group": "🟠 PHP-2-マスタメンテ"
             },
             {
+                "command": "git clone https://github.com/winofsql/php-pdf-fax-guide.git && cd php-pdf-fax-guide && rmdir .git /S /Q",
+                "name": "🟥 【印刷 ver  4】: FAX 送信案内 ( 単票 )",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
+                "command": "git clone https://github.com/winofsql/php-pdf-rirekisyo.git && cd php-pdf-rirekisyo && rmdir .git /S /Q",
+                "name": "🟥 【印刷 ver  5】: 履歴書概枠 : JSON データより作成 ( 単票 ) ",
+                "auto": true,
+                "group": "🟠 PHP-2-マスタメンテ"
+            },
+            {
                 "command": "git clone https://github.com/winofsql/php-req-v02-sql-item-layout-sqlite.git && cd php-req-v02-sql-item-layout-sqlite && rmdir .git /S /Q",
                 "name": "🟥 【問合せ ver  2】: PHP SQL と CSS による表示方法の整備",
                 "auto": true,

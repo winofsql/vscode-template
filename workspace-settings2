@@ -446,7 +446,7 @@
                 "auto": true,
                 "group": "🟠 PHP-3-問合せ"
             },
-       {
+            {
                 "command": "git clone https://github.com/winofsql/php-v01-upload-one-file.git && cd php-v01-upload-one-file && rmdir .git /S /Q",
                 "name": "🟥 【アップロード ver  1】: PHPノーマル１ファイルアップロード",
                 "auto": true,
@@ -511,7 +511,8 @@
                 "name": "🟥 【PDO で簡単なデータアクセス】",
                 "auto": true,
                 "group": "🟠 PHP-4"
-            },            {
+            },
+            {
                 "command": "git clone https://github.com/winofsql/js-v01-load-text.git && cd js-v01-load-text && rmdir .git /S /Q",
                 "name": "🟥 【JavaScript ver  1】: テキストデータを読込み",
                 "auto": true,
